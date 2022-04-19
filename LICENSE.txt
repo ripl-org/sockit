@@ -1,0 +1,54 @@
+Copyright 2022, Innovative Policy Lab (d/b/a Research Improving
+People's Lives), Providence, RI.
+
+                        All Rights Reserved
+
+Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose other than its incorporation into a
+commercial product is hereby granted without fee, provided that the
+above copyright notice appear in all copies and that both that
+copyright notice and this permission notice appear in supporting
+documentation, and that the name of Innovative Policy Lab not be used in
+advertising or publicity pertaining to distribution of the software
+without specific, written prior permission.
+
+This software includes summary statistics that were derived from Innovative
+Policy Lab's analysis of job posting data in the National Labor Exchange,
+accessed by agreement with the National Association of State Workforce
+Agencies ("NASWA"). Any derived data, aggregate data, job posting data
+resources, and research outputs are provided "as is." Innovative Policy Lab
+and NASWA make no warranties, express or implied, as to the work or products
+of work, including any express or implied warranties of non-infringement,
+ownership, merchantability, or fitness for a particular purpose of the data,
+research, or any invention or product.
+
+This software includes summary statistics that were derived from Innovative
+Policy Lab's use of the Standardized Occupation Coding for Computer-assisted
+Epidemiological Research (SOCcer) software from the National Cancer Institute
+("NCI"), U.S. Department of Health and Human Services. By policy of the NCI,
+all text within NCI products is free of copyright and may be reused without
+permission, as long as NCI is credited as the source. More information about
+SOCcer is available in the following publication:
+
+Russ DE, et al. 2016. Computer-based coding of free-text job descriptions to
+efficiently identify occupations in epidemiological studies. Occup. Environ.
+Med. 73(6): 417-424. https://doi.org/10.1136/oemed-2015-103152
+
+This software includes information from the O*NET 26.2 Database by the U.S.
+Department of Labor, Employment and Training Administration ("USDOL/ETA").
+Used under the CC BY 4.0 license. O*NET® is a trademark of USDOL/ETA. Innovative
+Policy Lab has modified some of this information. USDOL/ETA has not approved,
+endorsed, or tested these modifications. For more information on O*NET 26.2
+Database licensing, please see: https://www.onetcenter.org/license_db.html
+
+This software includes information from the 2018 SOC Direct Match Title File,
+published in the public domain by the U.S. Bureau of Labor Statistics. For more
+information, please see: https://www.bls.gov/soc/2018/home.htm 
+
+INNOVATIVE POLICY LAB DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR ANY
+PARTICULAR PURPOSE.  IN NO EVENT SHALL INNOVATIVE POLICY LAB BE LIABLE FOR
+ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
