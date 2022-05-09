@@ -23,7 +23,7 @@ def main():
     # Required arguments
     parser.add_argument("-i", "--input",
                         required=True,
-                        help="input CSV file containing the record ID and title fields")
+                        help="input CSV or JSON file containing the record ID and title fields")
 
     # Optional arguments
     parser.add_argument("-o", "--output",
@@ -49,7 +49,10 @@ def main():
 
     # Process the stream of input titles, and stream the output records.
     with open(args.input, "r") as fin:
-        reader = csv.DictReader(fin)
+        if args.input.endswith(".json"):
+            reader = json.load(fin)
+        else:
+            reader = csv.DictReader(fin)
         with open(args.output, "w") if args.output != "-" else sys.stdout as fout:
             for n, record in enumerate(reader, start=1):
                 # Validate input record
