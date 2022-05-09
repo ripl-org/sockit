@@ -1,0 +1,779 @@
+[
+  {
+    "id":1,
+    "title":"chief executive officer",
+    "SOC6":["11-1011"],
+    "SOC3":["111"],
+    "SOC2":["11"]
+  },
+  {
+    "id":2,
+    "title":"business development executive - professional services group",
+    "SOC6":["11-1021","11-2022","11-2033"],
+    "SOC3":["111","112"],
+    "SOC2":["11"]
+  },
+  {
+    "id":3,
+    "title":"geographic vice president, west region",
+    "SOC6":["11-1021","11-2022"],
+    "SOC3":["111","112"],
+    "SOC2":["11"]
+  },
+  {
+    "id":4,
+    "title":"digital media supervisor",
+    "SOC6":["11-2021","27-3099"],
+    "SOC3":["112","273"],
+    "SOC2":["11","27"]
+  },
+  {
+    "id":5,
+    "title":"director of marketing",
+    "SOC6":["11-2021"],
+    "SOC3":["112"],
+    "SOC2":["11"]
+  },
+  {
+    "id":6,
+    "title":"chief creative officer",
+    "SOC6":["11-2021"],
+    "SOC3":["112"],
+    "SOC2":["11"]
+  },
+  {
+    "id":7,
+    "title":"brand manager",
+    "SOC6":["11-2021"],
+    "SOC3":["112"],
+    "SOC2":["11"]
+  },
+  {
+    "id":8,
+    "title":"account manager",
+    "SOC6":["11-2022"],
+    "SOC3":["112"],
+    "SOC2":["11"]
+  },
+  {
+    "id":9,
+    "title":"regional sales manager",
+    "SOC6":["11-2022"],
+    "SOC3":["112"],
+    "SOC2":["11"]
+  },
+  {
+    "id":10,
+    "title":"technology lead",
+    "SOC6":["11-3021","15-1232"],
+    "SOC3":["113","151"],
+    "SOC2":["11","15"]
+  },
+  {
+    "id":11,
+    "title":"director of information technology",
+    "SOC6":["11-3021"],
+    "SOC3":["113"],
+    "SOC2":["11"]
+  },
+  {
+    "id":12,
+    "title":"ODM portfolio manager",
+    "SOC6":["11-3031"],
+    "SOC3":["113"],
+    "SOC2":["11"]
+  },
+  {
+    "id":13,
+    "title":"human resources manager",
+    "SOC6":["11-3121"],
+    "SOC3":["113"],
+    "SOC2":["11"]
+  },
+  {
+    "id":14,
+    "title":"guest service manager",
+    "SOC6":["11-9071","11-9072","11-9080","43-4081"],
+    "SOC3":["119","434"],
+    "SOC2":["11","43"]
+  },
+  {
+    "id":15,
+    "title":"principal energy consultant",
+    "SOC6":["13-1082","13-1111","13-1119"],
+    "SOC3":["131"],
+    "SOC2":["13"]
+  },
+  {
+    "id":16,
+    "title":"senior project analyst",
+    "SOC6":["13-1082"],
+    "SOC3":["131"],
+    "SOC2":["13"]
+  },
+  {
+    "id":17,
+    "title":"business analyst",
+    "SOC6":["13-1111"],
+    "SOC3":["131"],
+    "SOC2":["13"]
+  },
+  {
+    "id":18,
+    "title":"business analyst II",
+    "SOC6":["13-1111"],
+    "SOC3":["131"],
+    "SOC2":["13"]
+  },
+  {
+    "id":19,
+    "title":"develompent associate",
+    "SOC6":["13-1131"],
+    "SOC3":["131"],
+    "SOC2":["13"]
+  },
+  {
+    "id":20,
+    "title":"benefits consultant",
+    "SOC6":["13-1141"],
+    "SOC3":["131"],
+    "SOC2":["13"]
+  },
+  {
+    "id":21,
+    "title":"principal analyst - fp&a",
+    "SOC6":["13-2051"],
+    "SOC3":["132"],
+    "SOC2":["13"]
+  },
+  {
+    "id":22,
+    "title":"licensed bail bond agent",
+    "SOC6":["13-2099"],
+    "SOC3":["132"],
+    "SOC2":["13"]
+  },
+  {
+    "id":23,
+    "title":"nonprofit IT consultant",
+    "SOC6":["15-1231","15-1232","11-3021"],
+    "SOC3":["151","113"],
+    "SOC2":["11","15"]
+  },
+  {
+    "id":24,
+    "title":"help desk technician",
+    "SOC6":["15-1232"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":25,
+    "title":"software developer",
+    "SOC6":["15-1232"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":26,
+    "title":"unix system administrator",
+    "SOC6":["15-1244"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":27,
+    "title":"development test engineer",
+    "SOC6":["15-1251'","15-1252","15-1253"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":28,
+    "title":"full stack developer",
+    "SOC6":["15-1252"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":29,
+    "title":"senior software engineer",
+    "SOC6":["15-1252"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":30,
+    "title":"application architect",
+    "SOC6":["15-1252"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":31,
+    "title":"web application developer",
+    "SOC6":["15-1254"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":32,
+    "title":"quality assurance analyst",
+    "SOC6":["15-1256"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":33,
+    "title":"consultant engineer",
+    "SOC6":["17-2011","17-2021","17-2031","17-2041","17-2051","17-2061","17-2071","17-2072","17-2081","17-2111","17-2112","17-2121","17-2131","17-2141","17-2151","17-2161","17-2171","17-2199"],
+    "SOC3":["172"],
+    "SOC2":["17"]
+  },
+  {
+    "id":34,
+    "title":"industrial hygienist",
+    "SOC6":["17-2111"],
+    "SOC3":["172"],
+    "SOC2":["17"]
+  },
+  {
+    "id":35,
+    "title":"graduate student researcher",
+    "SOC6":["19-1011","19-1012","19-1013","19-1021","19-1022","19-1023","19-1029","19-1031","19-1032","19-1041","19-1042","19-1099","19-2011","19-2011","19-2012","19-2021","19-2021","19-2031","19-2032","19-2041","19-2042","19-2043","19-2099","19-3011","19-3022","19-3041","19-3091","19-3092","19-3093","19-3094","19-3099"],
+    "SOC3":["191","192","193"],
+    "SOC2":["19"]
+  },
+  {
+    "id":36,
+    "title":"visiting research scientist",
+    "SOC6":["19-1011","19-1012","19-1013","19-1021","19-1022","19-1023","19-1029","19-1031","19-1032","19-1041","19-1042","19-1099","19-2011","19-2011","19-2012","19-2021","19-2021","19-2031","19-2032","19-2041","19-2042","19-2043","19-2099","19-3011","19-3022","19-3041","19-3091","19-3092","19-3093","19-3094","19-3099"],
+    "SOC3":["191","192","193"],
+    "SOC2":["19"]
+  },
+  {
+    "id":37,
+    "title":"school psychologist",
+    "SOC6":["19-3034"],
+    "SOC3":["193"],
+    "SOC2":["19"]
+  },
+  {
+    "id":38,
+    "title":"mental health clinician",
+    "SOC6":["21-1011","21-1013","21-1014","19-3033"],
+    "SOC3":["211","193"],
+    "SOC2":["21','19"]
+  },
+  {
+    "id":39,
+    "title":"case manager",
+    "SOC6":["21-1021","21-1022","21-1023","21-1029","21-1015","43-4061"],
+    "SOC3":["211","434"],
+    "SOC2":["21","43"]
+  },
+  {
+    "id":40,
+    "title":"probation counselor",
+    "SOC6":["21-1092"],
+    "SOC3":["211"],
+    "SOC2":["21"]
+  },
+  {
+    "id":41,
+    "title":"commercial title officer",
+    "SOC6":["23-2093"],
+    "SOC3":["232"],
+    "SOC2":["23"]
+  },
+  {
+    "id":42,
+    "title":"contracts administrator",
+    "SOC6":["13-1023","11-3061"],
+    "SOC3":["113","131"],
+    "SOC2":["11","13"]
+  },
+  {
+    "id":43,
+    "title":"assistant professor",
+    "SOC6":["25-1011","25-1021","25-1022","25-1031","25-1032","25-1041","25-1042","25-1043","25-1051","25-1052","25-1053","25-1054","25-1061","25-1062","25-1063","25-1064","25-1065","25-1066","25-1067","25-1067","25-1069","25-1071","25-1072","25-1081","25-1082","25-1111","25-1112","25-1113","25-1121","25-1122","25-1123","25-1124","25-1125","25-1126","25-1192","25-1193","25-1194","25-1199"],
+    "SOC3":["251"],
+    "SOC2":["25"]
+  },
+  {
+    "id":44,
+    "title":"registered music together teacher",
+    "SOC6":["25-1121","25-3021","25-3099"],
+    "SOC3":["251","253"],
+    "SOC2":["25"]
+  },
+  {
+    "id":45,
+    "title":"teacher",
+    "SOC6":["25-2011","25-2012","25-2021","25-2022","25-2023","25-2031","25-2032","25-2051","25-2055","25-2056","25-2057","25-2058","25-2059","25-3011","25-3021","25-3031","25-3041","25-3099"],
+    "SOC3":["252","253"],
+    "SOC2":["25"]
+  },
+  {
+    "id":46,
+    "title":"1st grade teacher",
+    "SOC6":["25-2021"],
+    "SOC3":["252"],
+    "SOC2":["25"]
+  },
+  {
+    "id":47,
+    "title":"behavior specialist",
+    "SOC6":["25-2051","25-2055","25-2056","25-2057","25-2058","25-2059"],
+    "SOC3":["252"],
+    "SOC2":["25"]
+  },
+  {
+    "id":48,
+    "title":"learning specialist",
+    "SOC6":["25-2051","25-2055","25-2056","25-2057","25-2058","25-2059"],
+    "SOC3":["252"],
+    "SOC2":["25"]
+  },
+  {
+    "id":49,
+    "title":"instructor",
+    "SOC6":["25-3011","25-3021","25-3041","25-3099"],
+    "SOC3":["253"],
+    "SOC2":["25"]
+  },
+  {
+    "id":50,
+    "title":"paraprofessional",
+    "SOC6":["25-9043"],
+    "SOC3":["259"],
+    "SOC2":["25"]
+  },
+  {
+    "id":51,
+    "title":"graphic designer",
+    "SOC6":["27-1024"],
+    "SOC3":["271"],
+    "SOC2":["27"]
+  },
+  {
+    "id":52,
+    "title":"education reporter",
+    "SOC6":["27-3023"],
+    "SOC3":["273"],
+    "SOC2":["27"]
+  },
+  {
+    "id":53,
+    "title":"public affairs officer",
+    "SOC6":["27-3031"],
+    "SOC3":["273"],
+    "SOC2":["27"]
+  },
+  {
+    "id":54,
+    "title":"contributing photographer",
+    "SOC6":["27-4041"],
+    "SOC3":["274"],
+    "SOC2":["27"]
+  },
+  {
+    "id":55,
+    "title":"registered dietitian nutritionist",
+    "SOC6":["29-1031"],
+    "SOC3":["291"],
+    "SOC2":["29"]
+  },
+  {
+    "id":56,
+    "title":"staff nurse",
+    "SOC6":["29-1141"],
+    "SOC3":["291"],
+    "SOC2":["29"]
+  },
+  {
+    "id":57,
+    "title":"nurse case manager",
+    "SOC6":["29-1141"],
+    "SOC3":["291"],
+    "SOC2":["29"]
+  },
+  {
+    "id":58,
+    "title":"advance practice nurse",
+    "SOC6":["29-1141"],
+    "SOC3":["291"],
+    "SOC2":["29"]
+  },
+  {
+    "id":59,
+    "title":"rn",
+    "SOC6":["29-1141"],
+    "SOC3":["291"],
+    "SOC2":["29"]
+  },
+  {
+    "id":60,
+    "title":"oncology nurse",
+    "SOC6":["29-1141"],
+    "SOC3":["291"],
+    "SOC2":["29"]
+  },
+  {
+    "id":61,
+    "title":"lab tech",
+    "SOC6":["29-2011","29-2012","29-2031","29-2032","29-2033","29-2034","29-2035","29-2036"],
+    "SOC3":["292"],
+    "SOC2":["29"]
+  },
+  {
+    "id":62,
+    "title":"registered dental hygienist",
+    "SOC6":["29-2021"],
+    "SOC3":["292"],
+    "SOC2":["29"]
+  },
+  {
+    "id":63,
+    "title":"mri technologist",
+    "SOC6":["29-2035"],
+    "SOC3":["292"],
+    "SOC2":["29"]
+  },
+  {
+    "id":64,
+    "title":"patient advocate",
+    "SOC6":["29-2099"],
+    "SOC3":["292"],
+    "SOC2":["29"]
+  },
+  {
+    "id":65,
+    "title":"cna",
+    "SOC6":["31-1131"],
+    "SOC3":["311"],
+    "SOC2":["31"]
+  },
+  {
+    "id":66,
+    "title":"rehabilitation aide",
+    "SOC6":["31-2022"],
+    "SOC3":["312"],
+    "SOC2":["31"]
+  },
+  {
+    "id":67,
+    "title":"medical assistant",
+    "SOC6":["31-9092"],
+    "SOC3":["312"],
+    "SOC2":["31"]
+  },
+  {
+    "id":68,
+    "title":"events security",
+    "SOC6":["33-9032"],
+    "SOC3":["339"],
+    "SOC2":["33"]
+  },
+  {
+    "id":69,
+    "title":"juvenile corrections officer",
+    "SOC6":["33-3012"],
+    "SOC3":["333"],
+    "SOC2":["33"]
+  },
+  {
+    "id":70,
+    "title":"grill cook",
+    "SOC6":["35-2011","35-2012","35-2014","35-2019","35-2021"],
+    "SOC3":["352"],
+    "SOC2":["35"]
+  },
+  {
+    "id":71,
+    "title":"poolside bar grill server",
+    "SOC6":["35-3011","35-3031","35-3041"],
+    "SOC3":["353"],
+    "SOC2":["35"]
+  },
+  {
+    "id":72,
+    "title":"bartender",
+    "SOC6":["35-3011"],
+    "SOC3":["351"],
+    "SOC2":["35"]
+  },
+  {
+    "id":73,
+    "title":"sandwich artist",
+    "SOC6":["35-3023"],
+    "SOC3":["353"],
+    "SOC2":["35"]
+  },
+  {
+    "id":74,
+    "title":"food runner",
+    "SOC6":["35-3031"],
+    "SOC3":["351"],
+    "SOC2":["35"]
+  },
+  {
+    "id":75,
+    "title":"memory care dining server",
+    "SOC6":["35-3041"],
+    "SOC3":["353"],
+    "SOC2":["35"]
+  },
+  {
+    "id":76,
+    "title":"housekeeping manager",
+    "SOC6":["37-1011"],
+    "SOC3":["371"],
+    "SOC2":["37"]
+  },
+  {
+    "id":77,
+    "title":"ground crew member",
+    "SOC6":["37-3011","37-3019"],
+    "SOC3":["373"],
+    "SOC2":["37"]
+  },
+  {
+    "id":78,
+    "title":"assistant salon manager",
+    "SOC6":["39-1022"],
+    "SOC3":["392"],
+    "SOC2":["39"]
+  },
+  {
+    "id":79,
+    "title":"child  care provider",
+    "SOC6":["39-9011"],
+    "SOC3":["399"],
+    "SOC2":["39"]
+  },
+  {
+    "id":80,
+    "title":"zumba fitness instructor",
+    "SOC6":["39-9031"],
+    "SOC3":["399"],
+    "SOC2":["39"]
+  },
+  {
+    "id":81,
+    "title":"store supervisor",
+    "SOC6":["41-1011"],
+    "SOC3":["411"],
+    "SOC2":["41"]
+  },
+  {
+    "id":82,
+    "title":"sales floor associate",
+    "SOC6":["41-2031"],
+    "SOC3":["412"],
+    "SOC2":["41"]
+  },
+  {
+    "id":83,
+    "title":"seasonal sales associate",
+    "SOC6":["41-2031"],
+    "SOC3":["412"],
+    "SOC2":["41"]
+  },
+  {
+    "id":84,
+    "title":"walmart associate",
+    "SOC6":["41-2031"],
+    "SOC3":["412"],
+    "SOC2":["41"]
+  },
+  {
+    "id":85,
+    "title":"sales representative",
+    "SOC6":["41-3011","41-3021","41-3031","41-3091","41-4011","41-4012"],
+    "SOC3":["413"],
+    "SOC2":["41"]
+  },
+  {
+    "id":86,
+    "title":"new jersey\/new york sales rep",
+    "SOC6":["41-3011","41-3021","41-3031","43-3091","41-4011","41-4012"],
+    "SOC3":["413","414"],
+    "SOC2":["41"]
+  },
+  {
+    "id":87,
+    "title":"leasing professional",
+    "SOC6":["41-9022","11-9141"],
+    "SOC3":["419","119"],
+    "SOC2":["11","41"]
+  },
+  {
+    "id":88,
+    "title":"accounts payable clerk",
+    "SOC6":["43-3031"],
+    "SOC3":["433"],
+    "SOC2":["43"]
+  },
+  {
+    "id":89,
+    "title":"head teller",
+    "SOC6":["43-3071"],
+    "SOC3":["433"],
+    "SOC2":["43"]
+  },
+  {
+    "id":90,
+    "title":"customer service rep",
+    "SOC6":["43-4051"],
+    "SOC3":["434"],
+    "SOC2":["43"]
+  },
+  {
+    "id":91,
+    "title":"inventory clerk",
+    "SOC6":["43-5071"],
+    "SOC3":["435"],
+    "SOC2":["43"]
+  },
+  {
+    "id":92,
+    "title":"administrative assistant",
+    "SOC6":["43-6011","43-6012","43-6013","43-6014"],
+    "SOC3":["436"],
+    "SOC2":["43"]
+  },
+  {
+    "id":93,
+    "title":"personal assistant",
+    "SOC6":["43-6011","43-6014"],
+    "SOC3":["436"],
+    "SOC2":["43"]
+  },
+  {
+    "id":94,
+    "title":"medical biller",
+    "SOC6":["43-6013","29-2072","43-3021"],
+    "SOC3":["433","436","292"],
+    "SOC2":["43","29"]
+  },
+  {
+    "id":95,
+    "title":"supervisor - billing department - medicare",
+    "SOC6":["43-6013","43-3021","43-1011"],
+    "SOC3":["436","433","431"],
+    "SOC2":["43"]
+  },
+  {
+    "id":96,
+    "title":"intake coordinator",
+    "SOC6":["43-6013"],
+    "SOC3":["436"],
+    "SOC2":["43"]
+  },
+  {
+    "id":97,
+    "title":"office manager",
+    "SOC6":["43-9061","43-1011"],
+    "SOC3":["439"],
+    "SOC2":["43"]
+  },
+  {
+    "id":98,
+    "title":"flooring specialist",
+    "SOC6":["47-1011","47-2042","47-2043"],
+    "SOC3":["471","472"],
+    "SOC2":["47"]
+  },
+  {
+    "id":99,
+    "title":"electrician apprentice",
+    "SOC6":["47-2111","47-3013"],
+    "SOC3":["472","473"],
+    "SOC2":["47"]
+  },
+  {
+    "id":100,
+    "title":"body shop technician",
+    "SOC6":["49-3021"],
+    "SOC3":["493"],
+    "SOC2":["49"]
+  },
+  {
+    "id":101,
+    "title":"hvac service technician",
+    "SOC6":["49-9021"],
+    "SOC3":["499"],
+    "SOC2":["49"]
+  },
+  {
+    "id":102,
+    "title":"project foreman",
+    "SOC6":["51-1011"],
+    "SOC3":["511"],
+    "SOC2":["51"]
+  },
+  {
+    "id":103,
+    "title":"freelance jewelry designer",
+    "SOC6":["51-9071","27-1012","27-1019","27-1029"],
+    "SOC3":["271","519"],
+    "SOC2":["27","51"]
+  },
+  {
+    "id":104,
+    "title":"cdl truck driver",
+    "SOC6":["53-3032"],
+    "SOC3":["533"],
+    "SOC2":["53"]
+  },
+  {
+    "id":105,
+    "title":"driver for lyft",
+    "SOC6":["53-3054"],
+    "SOC3":["533"],
+    "SOC2":["53"]
+  },
+  {
+    "id":106,
+    "title":"warehouse associate",
+    "SOC6":["53-7062","53-7064","53-7065"],
+    "SOC3":["537"],
+    "SOC2":["53"]
+  },
+  {
+    "id":107,
+    "title":"overnight stocker",
+    "SOC6":["53-7065"],
+    "SOC3":["537"],
+    "SOC2":["53"]
+  },
+  {
+    "id":108,
+    "title":"assistant director",
+    "SOC6":[],
+    "SOC3":[],
+    "SOC2":[]
+  },
+  {
+    "id":109,
+    "title":"assistant manager",
+    "SOC6":[],
+    "SOC3":[],
+    "SOC2":[]
+  },
+  {
+    "id":110,
+    "title":"field technician",
+    "SOC6":[],
+    "SOC3":[],
+    "SOC2":[]
+  },
+  {
+    "id":111,
+    "title":"board of directors",
+    "SOC6":[],
+    "SOC3":[],
+    "SOC2":[]
+  }
+]
