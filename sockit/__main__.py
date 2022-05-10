@@ -72,7 +72,7 @@ def main():
                 # Search
                 clean_title = sockit.clean(title)
                 socs = sockit.search(clean_title)
-                norm = 1.0 / sum(socs.values())
+                norm = 1.0 / sum(socs.values()) if socs else 0
                 # Write output record
                 json.dump(
                     {
