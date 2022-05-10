@@ -35,7 +35,7 @@ def _aggregate(old, new):
 # Regular expressions for title cleaning
 re_paren = re.compile(r"\([^()]*\)")
 re_punct = re.compile(r"[\-+/]")
-re_alpha = re.compile(r"[^A-Za-z ]*")
+re_alpha = re.compile(r"[^A-Za-z0-9 ]*")
 
 def clean(title):
     """
@@ -43,7 +43,7 @@ def clean(title):
     and return lowercase alpha-numeric characters and spaces.
     """
     # Remove text after hyphen
-    title = title.split("-")[0].strip()
+    title = title.split(" - ")[0].strip()
     return re_alpha.sub("", re_punct.sub(" ", re_paren.sub("", title))).strip().lower()
 
 def get_wordtrie():
