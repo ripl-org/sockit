@@ -93,6 +93,21 @@ def search(title):
     debug("found matches:", nodes)
     return probs
 
+def sort(probs):
+    """
+    Sort search results by descending probability and
+    add SOC titles. Return a list of dicts.
+    """
+    norm = 1.0 / sum(probs.values()) if probs else 0
+    return [
+        {
+            "soc": soc,
+            "prob": norm*probs[soc],
+            "title": get_soc_title(soc)
+        }
+        for soc in sorted(probs, key=probs.get, reverse=True)
+    ]
+
 def batch_search(titles):
     """
     Search an iterator of (cleaned) job titles against

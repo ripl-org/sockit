@@ -71,22 +71,14 @@ def main():
                     sys.exit(-1)
                 # Search
                 clean_title = sockit.clean(title)
-                socs = sockit.search(clean_title)
-                norm = 1.0 / sum(socs.values()) if socs else 0
+                socs = sockit.sort(sockit.search(clean_title))
                 # Write output record
                 json.dump(
                     {
                         "record_id": record_id,
                         "title": title,
                         "clean_title": clean_title,
-                        "socs": [
-                            {
-                                "soc": soc,
-                                "prob": norm*socs[soc],
-                                "title": sockit.get_soc_title(soc)
-                            }
-                            for soc in sorted(socs, key=socs.get, reverse=True)
-                        ]
+                        "socs": socs
                     },
                     fout
                 )
