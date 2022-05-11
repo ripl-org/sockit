@@ -14,6 +14,10 @@ from wordtrie import WordTrie
 
 __version__ = resources.read_text(__name__, "VERSION").strip()
 
+### Internal data and functions ###
+
+_data = {}
+
 def _aggregate(old, new):
     """
     Aggregate two dictionaries of SOC/value items.
@@ -26,44 +30,44 @@ def _aggregate(old, new):
             value[soc] = old[soc]
     return value
 
+### Exported data and functions ###
+
 # Regular expressions for title cleaning
-re_paren    = re.compile(r"\([^()]*\)")
-re_punct    = re.compile(r"[\-+/]")
-re_alphanum = re.compile(r"[^A-Za-z0-9 ]*")
+re_paren = re.compile(r"\([^()]*\)")
+re_punct = re.compile(r"[\-+/]")
+re_alpha = re.compile(r"[^A-Za-z0-9 ]*")
 
 def clean(title):
     """
     Remove text in parentheses, convert some puncuation to spaces,
     and return lowercase alpha-numeric characters and spaces.
     """
-    return re_alphanum.sub("", re_punct.sub(" ", re_paren.sub("", title))).strip().lower()
-
-_wordtrie = None
+    # Remove text after hyphen
+    title = title.split(" - ")[0].strip()
+    return re_alpha.sub("", re_punct.sub(" ", re_paren.sub("", title))).strip().lower()
 
 def get_wordtrie():
     """
     Lazy-load the WordTrie prefix tree from package data.
     """
-    global _wordtrie
-    if _wordtrie is None:
+    global _data
+    if "wordtrie" not in _data:
         Log(__name__, "get_wordtrie").info("loading prefix tree")
-        _wordtrie = WordTrie().from_json(
+        _data["wordtrie"] = WordTrie().from_json(
             resource_filename(__name__, "data/wordtrie.json")
         )
-    return _wordtrie
-
-_soc_titles = None
+    return _data["wordtrie"]
 
 def get_soc_title(soc):
     """
-    Retrieve the title for a SOC code.
+    Lazy-load SOC titles and lookup the title for a SOC code.
     """
-    global _soc_titles
-    if _soc_titles is None:
+    global _data
+    if "soc_titles" not in _data:
         Log(__name__, "get_soc_title").info("loading SOC titles")
         with open(resource_filename(__name__, "data/soc_titles.json")) as f:
-            _soc_titles = json.load(f)
-    return _soc_titles.get(soc)
+            _data["soc_titles"] = json.load(f)
+    return _data["soc_titles"].get(soc)
 
 def search(title):
     """
@@ -88,6 +92,21 @@ def search(title):
             probs = _aggregate(probs, result[1])
     debug("found matches:", nodes)
     return probs
+
+def sort(probs):
+    """
+    Sort search results by descending probability and
+    add SOC titles. Return a list of dicts.
+    """
+    norm = 1.0 / sum(probs.values()) if probs else 0
+    return [
+        {
+            "soc": soc,
+            "prob": norm*probs[soc],
+            "title": get_soc_title(soc)
+        }
+        for soc in sorted(probs, key=probs.get, reverse=True)
+    ]
 
 def batch_search(titles):
     """

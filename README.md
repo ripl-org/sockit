@@ -6,7 +6,7 @@ Requires Python 3.8 or later.
 
 To install from PyPI using **pip**:
 
-    pip install censuscoding
+    pip install sockit
 
 To install a **development version** from the current directory:
 
