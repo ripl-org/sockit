@@ -102,14 +102,12 @@ def search(title,node_match_weight,noun_match_weight):
         if result_length > max_length:
             nodes = [" ".join(result[0])]
             counts = score(nodes, node_match_weight, noun_match_weight, counts=result[1])
-            # counts = result[1]
             counts = result[1]
         elif result_length == max_length:
             # If the length is the same as the longest result,
             # aggregate the results.
             nodes.append(" ".join(result[0]))
             score_adjusted_counts = score(nodes, node_match_weight, noun_match_weight, counts=result[1])
-            # counts = _aggregate(counts, result[1])
             counts = _aggregate(counts,score_adjusted_counts)
     debug("found matches:", nodes)
     return counts
