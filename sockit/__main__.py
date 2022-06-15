@@ -60,7 +60,7 @@ def main():
         default=[0,1],
         type=float,
         nargs=2,
-        help="assign confidence score to title [default: [1,2]]",
+        help="weight likely SOCs by title matches to nodes and nouns [default: [1,2]]",
     )
 
     args = parser.parse_args()

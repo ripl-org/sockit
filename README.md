@@ -18,7 +18,7 @@ There is a single command line script included, `sockit`, that processes existin
 
     sockit -h
 
-    usage: sockit [-h] [-v] [-q] [-d] -i INPUT [-o OUTPUT] [--record_id RECORD_ID] [--title TITLE]
+    usage: sockit [-h] [-v] [-q] [-d] -i INPUT [-o OUTPUT] [--record_id RECORD_ID] [--title TITLE] [--score SCORE SCORE]
 
     Sockit: assign probabilistic Standard Occupational Classification (SOC) codes to free-text job titles https://github.com/ripl-org/sockit
 
@@ -34,6 +34,7 @@ There is a single command line script included, `sockit`, that processes existin
       --record_id RECORD_ID
                             field name corresponding to the record ID [default: 1-based index]
       --title TITLE         field name corresponding to the title [default: 'title']
+      --score SCORE SCORE   weight likely SOCs by matches to nodes and nouns [default: 1 2]
 
 Alternatively, you can load the `sockit` package in a python script and process titles one at a time with the `search()` method:
 
