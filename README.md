@@ -40,7 +40,8 @@ Alternatively, you can load the `sockit` package in a python script and process 
 
     import sockit
     clean_title = sockit.clean(title)
-    result = sockit.search(clean_title)
+    counts = sockit.search(clean_title, node_match_weight=0, noun_match_weight=1)
+    socs = sockit.sort(counts)
 
 ## License
 
