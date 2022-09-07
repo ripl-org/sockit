@@ -76,6 +76,18 @@ def clean(title):
     return title
 
 
+def get_abbreviations():
+    """
+    Lazy-load the abbreviations dictionary from package data.
+    """
+    global _data
+    if "abbreviations" not in _data:
+        Log(__name__, "get_abbreviations").info("loading abbreviations dictionary")
+        with open(resource_filename(__name__, "data/abbreviations.json")) as f:
+            _data["abbreviations"] = json.load(f)
+    return _data["abbreviations"]
+
+
 def get_acronyms():
     """
     Lazy-load the acronyms dictionary from package data.
@@ -119,14 +131,17 @@ def search(title):
     for matching titles and assign SOC probabilities.
     """
     debug = Log(__name__, "search").debug
+    abbreviations = get_abbreviations()
     acronyms = get_acronyms()
     counts = {}
     nodes = []
     words = title.split()[::-1]
-    for word in words:
+    for i, word in enumerate(words):
         if word in acronyms:
             debug("found exact acronym match:", word)
             return {acronyms[word]: 1}
+        if word in abbreviations:
+            words[i] = abbreviations[word]
     for result in get_wordtrie().search(words, return_nodes=True):
         counts = _aggregate(counts, result[1])
         nodes.append(" ".join(result[0]))
