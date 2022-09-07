@@ -14,10 +14,10 @@ from wordtrie import WordTrie
 
 __version__ = resources.read_text(__name__, "VERSION").strip()
 
+
 ### Internal data and functions ###
 
 _data = {}
-
 
 def _aggregate(old, new):
     """
@@ -35,18 +35,45 @@ def _aggregate(old, new):
 ### Exported data and functions ###
 
 # Regular expressions for title cleaning
-re_paren = re.compile(r"\([^()]*\)")
-re_punct = re.compile(r"[\-+/]")
-re_alpha = re.compile(r"[^A-Za-z0-9 ]*")
+re_tokenize = re.compile(r"[^a-zA-Z\d\s\,\&]")
+re_alpha = re.compile(r"[^A-Za-z]")
+stopwords = frozenset(["pt", "nd", "st", "sr", "jr", "i", "ii", "iii"])
 
 def clean(title):
     """
-    Remove text in parentheses, convert some puncuation to spaces,
-    and return lowercase alpha-numeric characters and spaces.
+    Remove extraneous text from the title and convert to lowercase
+    alphabetical characters without puncuation.
+    Reorder around prepositional phrases so that the principal
+    noun ends the title, e.g.:
+    "Director of Reseach" to "research director"
+    "Teacher for Special Needs" to "special needs teacher"
+    "Assistant to the CEO" to "the ceo assistant"
     """
-    # Remove text after hyphen
-    title = title.split(" - ")[0].strip()
-    return re_alpha.sub("", re_punct.sub(" ", re_paren.sub("", title))).strip().lower()
+    # Split on anything that's not a letter, comma or &
+    # Grab the first token
+    tokens = re_tokenize.split(title)
+            
+    # If there's only one word before the split, grab one more token
+    if len(tokens[0].split()) == 1:
+        title = " ".join(tokens[:2])
+    else:
+        title = tokens[0]
+            
+    # Get rid of any non alpha characters
+    title = re_alpha.sub(" ", title).lower()
+            
+    # Remove common misleading words like 'pt'
+    title = " ".join([word for word in title.split() if word not in stopwords])
+            
+    # Reorder prepositional phrases
+    suffix, _, prefix = title.partition(" or ")
+    title = f"{prefix} {suffix}".strip()
+    suffix, _, prefix = title.partition(" for ")
+    title = f"{prefix} {suffix}".strip()
+    suffix, _, prefix = title.partition(" to ")
+    title = f"{prefix} {suffix}".strip()
+
+    return title
 
 
 def get_wordtrie():
@@ -74,64 +101,19 @@ def get_soc_title(soc):
     return _data["soc_titles"].get(soc)
 
 
-def get_noun_list():
-    """
-    Lazy-load noun list for matching score.
-    """
-    global _data
-    if "noun_list" not in _data:
-        Log(__name__, "get_noun_list").info("loading noun list")
-        with open(resource_filename(__name__, "data/noun_list.txt")) as f:
-            _data["noun_list"] = f.read()
-    return _data["noun_list"]
-
-
-def search(title,node_match_weight,noun_match_weight):
+def search(title):
     """
     Search the (cleaned) job title against the trie
     for matching titles and assign SOC probabilities.
     """
     debug = Log(__name__, "search").debug
-    nodes = []
     counts = {}
-    for result in get_wordtrie().search(title, return_nodes=True):
-        # Keep results that are at least as long as the
-        # longest result.
-        max_length = 0 if not nodes else nodes[0].count(" ") + 1
-        result_length = len(result[0])
-        if result_length > max_length:
-            nodes = [" ".join(result[0])]
-            counts = score(nodes, node_match_weight, noun_match_weight, counts=result[1])
-            counts = result[1]
-        elif result_length == max_length:
-            # If the length is the same as the longest result,
-            # aggregate the results.
-            nodes.append(" ".join(result[0]))
-            score_adjusted_counts = score(nodes, node_match_weight, noun_match_weight, counts=result[1])
-            counts = _aggregate(counts,score_adjusted_counts)
+    nodes = []
+    for result in get_wordtrie().search(title.split()[::-1], return_nodes=True):
+        counts = _aggregate(counts, result[1])
+        nodes.append(" ".join(result[0]))
     debug("found matches:", nodes)
     return counts
-
-
-# noun_list = frozenset(map(str.strip, open("./sockit/data/noun_list.txt")))
-# nodes = ["first", "shift", "data", "engineer"]
-
-def score(nodes, node_match_weight, noun_match_weight, counts):
-    """
-    Score each node for whether it is in the
-    noun list or not.
-    """
-    score = 0
-    for word in nodes:
-        if word in get_noun_list():
-            score += noun_match_weight
-        else:
-            score += node_match_weight
-    
-    score_adjusted_counts = dict()
-    for key,value in counts.items():
-        score_adjusted_counts[key] = value*score
-    return score_adjusted_counts
 
 
 def sort(counts):

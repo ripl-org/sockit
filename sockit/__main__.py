@@ -55,13 +55,6 @@ def main():
         default="title",
         help="field name corresponding to the title [default: 'title']",
     )
-    parser.add_argument(
-        "--score",
-        default=[0,1],
-        type=float,
-        nargs=2,
-        help="weight likely SOCs by title matches to nodes and nouns [default: [1,2]]",
-    )
 
     args = parser.parse_args()
 
@@ -101,7 +94,7 @@ def main():
                 
                 # Search
                 clean_title = sockit.clean(title)
-                counts = sockit.search(clean_title,node_match_weight=args.score[0], noun_match_weight=args.score[1])
+                counts = sockit.search(clean_title)
                 socs = sockit.sort(counts)
                 # Write output record
                 json.dump(
