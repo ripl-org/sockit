@@ -76,6 +76,18 @@ def clean(title):
     return title
 
 
+def get_acronyms():
+    """
+    Lazy-load the acronyms dictionary from package data.
+    """
+    global _data
+    if "acronyms" not in _data:
+        Log(__name__, "get_acronyms").info("loading acronyms dictionary")
+        with open(resource_filename(__name__, "data/acronyms.json")) as f:
+            _data["acronyms"] = json.load(f)
+    return _data["acronyms"]
+
+
 def get_wordtrie():
     """
     Lazy-load the WordTrie prefix tree from package data.
@@ -107,9 +119,15 @@ def search(title):
     for matching titles and assign SOC probabilities.
     """
     debug = Log(__name__, "search").debug
+    acronyms = get_acronyms()
     counts = {}
     nodes = []
-    for result in get_wordtrie().search(title.split()[::-1], return_nodes=True):
+    words = title.split()[::-1]
+    for word in words:
+        if word in acronyms:
+            debug("found exact acronym match:", word)
+            return {acronyms[word]: 1}
+    for result in get_wordtrie().search(words, return_nodes=True):
         counts = _aggregate(counts, result[1])
         nodes.append(" ".join(result[0]))
     debug("found matches:", nodes)
