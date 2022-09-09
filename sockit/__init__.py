@@ -35,7 +35,7 @@ def _aggregate(old, new):
 ### Exported data and functions ###
 
 # Regular expressions for title cleaning
-re_tokenize = re.compile(r"[^a-zA-Z\d\s\,\&]")
+re_tokenize = re.compile(r"[^a-zA-Z\d\s\,\&/]")
 re_alpha = re.compile(r"[^A-Za-z]")
 stopwords = frozenset(["pt", "nd", "st", "sr", "jr", "i", "ii", "iii"])
 
@@ -66,7 +66,7 @@ def clean(title):
     title = " ".join([word for word in title.split() if word not in stopwords])
             
     # Reorder prepositional phrases
-    suffix, _, prefix = title.partition(" or ")
+    suffix, _, prefix = title.partition(" of ")
     title = f"{prefix} {suffix}".strip()
     suffix, _, prefix = title.partition(" for ")
     title = f"{prefix} {suffix}".strip()
@@ -98,6 +98,19 @@ def get_acronyms():
         with open(resource_filename(__name__, "data/acronyms.json")) as f:
             _data["acronyms"] = json.load(f)
     return _data["acronyms"]
+
+
+def get_managers():
+    """
+    Lazy-load the managers dictionary from package data.
+    """
+    global _data
+    if "managers" not in _data:
+        Log(__name__, "get_managers").info("loading managers dictionary")
+        _data["managers"] = WordTrie().from_json(
+            resource_filename(__name__, "data/managers.json")
+        )
+    return _data["managers"]
 
 
 def get_wordtrie():
@@ -133,8 +146,6 @@ def search(title):
     debug = Log(__name__, "search").debug
     abbreviations = get_abbreviations()
     acronyms = get_acronyms()
-    counts = {}
-    nodes = []
     words = title.split()[::-1]
     for i, word in enumerate(words):
         if word in acronyms:
@@ -142,11 +153,14 @@ def search(title):
             return {acronyms[word]: 1}
         if word in abbreviations:
             words[i] = abbreviations[word]
+    # Try manager titles first
+    for result in get_managers().search(words, return_nodes=True):
+        debug("found exact manager title match:", " ".join(result[0]))
+        return result[1]
     for result in get_wordtrie().search(words, return_nodes=True):
-        counts = _aggregate(counts, result[1])
-        nodes.append(" ".join(result[0]))
-    debug("found matches:", nodes)
-    return counts
+        debug("found title match:", " ".join(result[0]))
+        return result[1]
+    return {}
 
 
 def sort(counts):
