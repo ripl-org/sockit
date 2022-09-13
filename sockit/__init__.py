@@ -38,6 +38,7 @@ def _aggregate(old, new):
 re_tokenize = re.compile(r"[^a-zA-Z\d\s\,\&/]")
 re_alpha = re.compile(r"[^A-Za-z]")
 stopwords = frozenset(["pt", "nd", "st", "sr", "jr", "i", "ii", "iii"])
+levels = frozenset(['senior', 'associate', 'assistant', 'principal', 'lead'])
 
 def clean(title):
     """
@@ -72,6 +73,11 @@ def clean(title):
     title = f"{prefix} {suffix}".strip()
     suffix, _, prefix = title.partition(" to ")
     title = f"{prefix} {suffix}".strip()
+
+    # Get rid of levels
+    if len(title.split()) > 1:
+        if any(item in title.split()[:-1] for item in levels):
+            title = " ".join([word for word in title.split()[:-1] if word not in levels] + [title.split()[-1]])
 
     return title
 
