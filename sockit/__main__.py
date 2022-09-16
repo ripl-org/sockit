@@ -65,7 +65,7 @@ def main():
     else:
         logging.basicConfig(level=logging.INFO)
 
-    log = sockit.Log(__name__, "main")
+    log = sockit.log.Log(__name__, "main")
 
     # Process the stream of input titles, and stream the output records.
     with open(args.input, "r") as fin:
@@ -93,9 +93,9 @@ def main():
                     sys.exit(-1)
                 
                 # Search
-                clean_title = sockit.clean(title)
-                counts = sockit.search(clean_title)
-                socs = sockit.sort(counts)
+                clean_title = sockit.title.clean(title)
+                counts = sockit.title.search(clean_title)
+                socs = sockit.title.sort(counts)
                 # Write output record
                 json.dump(
                     {
