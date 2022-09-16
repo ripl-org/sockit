@@ -112,24 +112,24 @@ def get_managers():
     """
     global _data
     if "managers" not in _data:
-        Log(__name__, "get_managers").info("loading managers dictionary")
+        Log(__name__, "get_managers").info("loading managers prefix tree")
         _data["managers"] = WordTrie().from_json(
-            resource_filename(__name__, "data/managers.json")
+            resource_filename(__name__, "data/managers.trie")
         )
     return _data["managers"]
 
 
-def get_wordtrie():
+def get_titles():
     """
     Lazy-load the WordTrie prefix tree from package data.
     """
     global _data
-    if "wordtrie" not in _data:
-        Log(__name__, "get_wordtrie").info("loading prefix tree")
-        _data["wordtrie"] = WordTrie().from_json(
-            resource_filename(__name__, "data/wordtrie.json")
+    if "titles" not in _data:
+        Log(__name__, "get_wordtrie").info("loading titles prefix tree")
+        _data["titles"] = WordTrie().from_json(
+            resource_filename(__name__, "data/titles.trie")
         )
-    return _data["wordtrie"]
+    return _data["titles"]
 
 
 def get_soc_title(soc):
@@ -163,7 +163,7 @@ def search(title):
     for result in get_managers().search(words, return_nodes=True):
         debug("found exact manager title match:", " ".join(result[0]))
         return result[1]
-    for result in get_wordtrie().search(words, return_nodes=True):
+    for result in get_titles().search(words, return_nodes=True):
         debug("found title match:", " ".join(result[0]))
         return result[1]
     return {}
