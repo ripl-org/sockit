@@ -108,26 +108,26 @@ def get_acronyms():
 
 def get_managers():
     """
-    Lazy-load the managers dictionary from package data.
+    Lazy-load the managers prefix tree from package data.
     """
     global _data
     if "managers" not in _data:
         Log(__name__, "get_managers").info("loading managers prefix tree")
         _data["managers"] = WordTrie().from_json(
-            resource_filename(__name__, "data/managers.trie")
+            resource_filename(__name__, "data/managers_trie.json")
         )
     return _data["managers"]
 
 
 def get_titles():
     """
-    Lazy-load the WordTrie prefix tree from package data.
+    Lazy-load the titles prefix tree from package data.
     """
     global _data
     if "titles" not in _data:
         Log(__name__, "get_wordtrie").info("loading titles prefix tree")
         _data["titles"] = WordTrie().from_json(
-            resource_filename(__name__, "data/titles.trie")
+            resource_filename(__name__, "data/titles_trie.json")
         )
     return _data["titles"]
 
