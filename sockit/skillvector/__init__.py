@@ -7,11 +7,14 @@ TOPIC_SKILL_VEC = create_skill_topic_vector()
 
 class SkillVector:
     #MAGIC FUNCTIONS
-    def __init__(self, skill_dict = {}, skill_list = []):
-        self.skill_counter = skill_dict
+    def __init__(self, skill_dictionary = {}, skill_list = []):
+        self.skill_counter = {}
         if len(skill_list) >= 1:
             for skill in skill_list:
-                self += skill
+                self += skill 
+        else:
+            self.skill_counter = skill_dictionary
+        
 
     def __repr__(self):
         return str(self.skill_counter)

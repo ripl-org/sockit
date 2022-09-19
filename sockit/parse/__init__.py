@@ -243,8 +243,7 @@ def parse_skills(experience_lines, skill_lines):
         line = line.replace(".", "")
         skills += SOC_TRIES['skills'].search(line)
 
-    sv = SkillVector(skill_list = skills)
-    return {"Skills": skills, 'SkillVector' : sv}
+    return {"Skills": skills}
 
 
 def parse_resume(filename, extension):
@@ -270,6 +269,8 @@ def parse_resume(filename, extension):
             segments.get("skills", [])
         ))
 
+    sv = SkillVector(skill_dictionary = {}, skill_list = matches['Skills'])
+    matches['SkillVector'] = sv
     return matches
 
 
@@ -300,6 +301,6 @@ def parse_job_posting(filename, extension):
                     results['skills'][skill] = 0
                 results['skills'][skill] += 1
     results['nonskills'] = list(sorted(set(results['nonskills'])))
-    sv = SkillVector(skill_dict = results['skills'])
+    sv = SkillVector(skill_dictionary = results['skills'], skill_list = [])
     results['SkillVector'] = sv
     return results

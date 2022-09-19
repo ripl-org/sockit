@@ -8,30 +8,68 @@ import sockit.parse
 import sockit.title
 import sys
 
+def infer_extension(filename):
+    extensions = {
+        '.html' : 'html',
+        '.htm' : 'html',
+        '.docx' : 'docx',
+        '.txt' : 'txt',
+        '.pdf' : 'pdf'
+    }
+    for ext in list(extensions.keys()):
+        if filename.endswith(ext):
+            return extensions[ext]
+    log.error(f'{filename} does not have an appropriate file extension.')
+    
+
 def perform_resume_comparison(args, log):
     with open(args.output, 'w') if args.output != '-' else sys.stdout as fout:
-        json.dump(
-            sockit.compare.compare_resume_and_description(
-                args.resume,
-                args.resume_ext,
-                args.desc,
-                args.desc_ext,
-                args.distance
-            ),
-            fout
-        )
+        resume_paths = args.resume.split(',')
+        if args.desc != None:
+            desc_paths = args.desc.split(',')
+            for desc in desc_paths:
+                for resume in resume_paths:
+                    parsed_contents = sockit.compare.compare_resume_and_description(
+                        resume, 
+                        infer_extension(resume),
+                        desc,
+                        infer_extension(desc),
+                        args.distance
+                    )
+                    json.dump(parsed_contents,fout)
+                    fout.write('\n')
 
-def parse_resume(args, log):
-    parsed_resume = sockit.parse.parse_resume(args.file,args.ext)
-    del parsed_resume['SkillVector']
-    with open(args.output, 'w') if args.output != '-' else sys.stdout as fout:
-        json.dump(parsed_resume,fout)
 
-def parse_job_description(args, log):
-    parsed_job_desc = sockit.parse.parse_job_posting(args.file, args.ext)
-    del parsed_job_desc['SkillVector']
+        if args.soc != None:
+            soc_list = args.soc.split(',')
+            for soc in soc_list:
+                for resume in resume_paths:
+                    parsed_contents = sockit.compare.compare_resume_and_soc(
+                        resume,
+                        infer_extension(resume),
+                        soc,
+                        args.distance
+                    )
+                    json.dump(parsed_contents,fout)
+                    fout.write('\n')
+
+
+
+def parse_files(args, log):
+    file_paths = args.file.split(',')
     with open(args.output, 'w') if args.output != '-' else sys.stdout as fout:
-        json.dump(parsed_job_desc, fout)
+        for file_path in file_paths:
+            if args.type == 'resume':
+                parsed_contents = sockit.parse.parse_resume(
+                    file_path, infer_extension(file_path)
+                )
+            else:
+                parsed_contents = sockit.parse.parse_job_posting(
+                    file_path, infer_extension(file_path)
+                )
+            del parsed_contents['SkillVector']
+            json.dump(parsed_contents, fout)
+            fout.write('\n')
 
 
 def find_soc_codes(args, log):
@@ -81,8 +119,7 @@ def find_soc_codes(args, log):
 
 mapping_functions = {
     'compare' : perform_resume_comparison,
-    'parse_resume' : parse_resume,
-    'parse_posting' : parse_job_description,
+    'parse' : parse_files,
     'title' : find_soc_codes
 }
 
@@ -112,6 +149,7 @@ def main():
 
     subparsers = parser.add_subparsers()
 
+    #CODE FOR TITLE SUBPARSER
     title = subparsers.add_parser("title")
     title.set_defaults(action="title")
 
@@ -140,13 +178,57 @@ def main():
         help="field name corresponding to the title [default: 'title']",
     )
 
-    parser.add_argument("--resume")
-    parser.add_argument("--resume_ext")
-    parser.add_argument("--desc")
-    parser.add_argument("--desc_ext")
-    parser.add_argument("--distance", default = "manhattan")
-    parser.add_argument("--file")
-    parser.add_argument("--ext")
+    #CODE FOR COMPARE SUBPARSER
+    compare = subparsers.add_parser("compare")
+    compare.set_defaults(action = "compare")
+
+    compare.add_argument(
+        "--resume",
+        help = "file path or list of file paths to resumes delimited by comma"
+    )
+    compare.add_argument(
+        "--desc",
+        help = "file path or list of file paths to job descriptions delimited by comma"
+    )
+    compare.add_argument(
+        "--soc",
+        help = "six digit SOC code or list of six digit SOC codes delimited by comma"
+    )
+
+    compare.add_argument(
+        "--distance",
+        default = "manhattan",
+        help = "Distance function for comparing resumes with descriptions or SOC codes"
+    )
+    # Optional arguments
+    compare.add_argument(
+        "-o",
+        "--output",
+        default="-",
+        help="output file (default: stdout) containing a JSON record per line: {'record_id': ..., 'title': ..., 'clean_title': ..., 'socs': [{'soc': ..., 'prob': ..., 'desc': ...}, ...]}",
+    )
+
+    #CODE FOR PARSE SUBPARSER
+    parse = subparsers.add_parser("parse")
+    parse.set_defaults(action = "parse")
+
+    parse.add_argument(
+        "--file",
+        help = "The file path or list of file paths you want to parse, delimited by commas"
+    )
+
+    parse.add_argument(
+        "--type",
+        default = "resume",
+        help = "The type of file you want to parse [resume|job]"
+    )
+    # Optional arguments
+    parse.add_argument(
+        "-o",
+        "--output",
+        default="-",
+        help="output file (default: stdout) containing a JSON record per line: {'record_id': ..., 'title': ..., 'clean_title': ..., 'socs': [{'soc': ..., 'prob': ..., 'desc': ...}, ...]}",
+    )
 
     args = parser.parse_args()
 
