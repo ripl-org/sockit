@@ -34,6 +34,18 @@ re_alpha = re.compile(r"[^A-Za-z]")
 stopwords = frozenset(["pt", "nd", "st", "sr", "jr", "i", "ii", "iii"])
 levels = frozenset(['senior', 'associate', 'assistant', 'principal', 'lead'])
 
+
+def top_soc(title: str) -> str:
+    """
+    Returns SOC code for top matching SOC for a job `title`.
+    Returns None if no matches are found.
+    """
+    res: list = sort(search(clean(title)))
+    if not res:
+        return None
+    return res[0]['soc']
+
+
 def clean(title):
     """
     Remove extraneous text from the title and convert to lowercase
