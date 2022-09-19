@@ -24,34 +24,29 @@ def infer_extension(filename):
 
 def perform_resume_comparison(args, log):
     with open(args.output, 'w') if args.output != '-' else sys.stdout as fout:
-        resume_paths = args.resume.split(',')
-        if args.desc != None:
-            desc_paths = args.desc.split(',')
-            for desc in desc_paths:
-                for resume in resume_paths:
-                    parsed_contents = sockit.compare.compare_resume_and_description(
-                        resume, 
-                        infer_extension(resume),
-                        desc,
-                        infer_extension(desc),
-                        args.distance
-                    )
-                    json.dump(parsed_contents,fout)
-                    fout.write('\n')
+        for desc in args.desc:
+            for resume in args.resume:
+                parsed_contents = sockit.compare.compare_resume_and_description(
+                    resume, 
+                    infer_extension(resume),
+                    desc,
+                    infer_extension(desc),
+                    args.distance
+                )
+                json.dump(parsed_contents,fout)
+                fout.write('\n')
 
 
-        if args.soc != None:
-            soc_list = args.soc.split(',')
-            for soc in soc_list:
-                for resume in resume_paths:
-                    parsed_contents = sockit.compare.compare_resume_and_soc(
-                        resume,
-                        infer_extension(resume),
-                        soc,
-                        args.distance
-                    )
-                    json.dump(parsed_contents,fout)
-                    fout.write('\n')
+        for soc in args.soc:
+            for resume in args.resume:
+                parsed_contents = sockit.compare.compare_resume_and_soc(
+                    resume,
+                    infer_extension(resume),
+                    soc,
+                    args.distance
+                )
+                json.dump(parsed_contents,fout)
+                fout.write('\n')
 
 
 
@@ -184,15 +179,21 @@ def main():
 
     compare.add_argument(
         "--resume",
-        help = "file path or list of file paths to resumes delimited by comma"
+        help = "file path or list of file paths to resumes",
+        default = [],
+        nargs = "*"
     )
     compare.add_argument(
         "--desc",
-        help = "file path or list of file paths to job descriptions delimited by comma"
+        help = "file path or list of file paths to job descriptions",
+        default = [],
+        nargs = "*"
     )
     compare.add_argument(
         "--soc",
-        help = "six digit SOC code or list of six digit SOC codes delimited by comma"
+        help = "six digit SOC code or list of six digit SOC codes",
+        default = [],
+        nargs = "*"
     )
 
     compare.add_argument(
@@ -214,7 +215,9 @@ def main():
 
     parse.add_argument(
         "--file",
-        help = "The file path or list of file paths you want to parse, delimited by commas"
+        help = "The file path or list of file paths you want to parse",
+        default = [],
+        nargs = "*"
     )
 
     parse.add_argument(
