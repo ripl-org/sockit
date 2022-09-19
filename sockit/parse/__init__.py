@@ -6,8 +6,8 @@ from itertools import chain
 #THIRD PARTY LIBRARIES
 import chardet
 import docx2txt
+from html2text import HTML2Text
 from PyPDF2 import PdfReader
-from bs4 import BeautifulSoup
 
 from sockit.asciitrans import *
 from sockit.data import *
@@ -16,6 +16,14 @@ from sockit.skillvector import SkillVector
 
 MIN_YEAR = 1940
 MAX_YEAR = int(time.strftime("%Y"))
+
+HTML_PARSER = HTML2Text()
+HTML_PARSER.ignore_links = True
+HTML_PARSER.ignore_anchors = True
+HTML_PARSER.ignore_images = True
+HTML_PARSER.ignore_emphasis = True
+HTML_PARSER.ignore_tables = True
+
 
 def split_sentences(text):
     """
@@ -77,10 +85,10 @@ def pdf_bytes(filename):
 
 def html_bytes(filename):
     """
-    Extract a byte string from an HTML document using BeautifulSoup
+    Extract a byte string from an HTML document using html2text
     """
     text = open(filename).read()
-    return bytes(BeautifulSoup(text,'html.parser').text,'utf-8')
+    return bytes(HTML_PARSER.handle(text), "utf-8")
 
 
 def extract(filename, extension):
