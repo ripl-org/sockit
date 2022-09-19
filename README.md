@@ -8,7 +8,7 @@ It is developed by [Research Improving People's Lives](https://www.ripl.org)
 * [Career Compass RI](https://recommendations.backtoworkri.com)
 
 You can test out sockit (without installing it) using a web-hosted version at
-[](https://research.ripl.org/#/sockit).
+[https://research.ripl.org/#/sockit](https://research.ripl.org/#/sockit).
 
 ## Installation
 
@@ -23,7 +23,7 @@ repository:
 
     pip install -e .
 
-## Functionality
+## Features
 
 ### Inferring SOC codes from job titles
 
@@ -45,16 +45,32 @@ searching for SOC code frequencies, and sorting and formatting the results:
     >>> socs = search(title)
     >>> socs
     {'414012': 9}
-    >>> sort(socs)
+    >>> print(json.dumps(sort(socs), indent=2))
     [
-      {'soc': '414012', 'prob': 1.0, 'title': 'Wholesales and Manufacturing Sales Representative (Non-Technical Products)'}
+      {
+        "soc": "414012",
+        "prob": 1.0,
+        "title": "Wholesales and Manufacturing Sales Representative (Non-Technical Products)"
+      }
     ]
-
-    >>> from sockit.title import clean, search, sort
-    >>> sort(search(clean("Banana Stand Attendant at Bluth's Original Frozen Banana Stand, Part-time")))
+    >>> title = clean("Banana Stand Attendant at Bluth's Original Frozen Banana Stand, Part-time")
+    >>> title
+    'banana stand attendant at bluth'
+    >>> socs = search(title)
+    >>> socs
+    {'393091': 2, '353023': 68}
+    >>> print(json.dumps(sort(socs), indent=2))
     [
-      {'soc': '353023', 'prob': 0.9714285714285714, 'title': 'Fast Food or Counter Worker'},
-      {'soc': '393091', 'prob': 0.02857142857142857, 'title': 'Amusement/Recreation Attendant'}
+      {
+        "soc": "353023",
+        "prob": 0.9714285714285714,
+        "title": "Fast Food or Counter Worker"
+      },
+      {
+        "soc": "393091",
+        "prob": 0.02857142857142857,
+        "title": "Amusement/Recreation Attendant"
+      }
     ]
 
 #### Batch processing via the command line
@@ -64,7 +80,7 @@ and outputs processed results with a JSON object per input record:
 
     $ sockit title -h
     usage: sockit title [-h] [-i INPUT] [-o OUTPUT] [--record_id RECORD_ID] [--title TITLE]
-
+     
     options:
       -h, --help            show this help message and exit
       -i INPUT, --input INPUT
@@ -112,7 +128,6 @@ record ID and job title fields:
 ### Parsing job postings and resumes
 
 ### Comparing job postings, resumes and SOC codes
-
 
 ## License
 
