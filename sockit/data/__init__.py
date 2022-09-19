@@ -1,9 +1,9 @@
-from importlib import resources
-import json 
-from wordtrie import WordTrie
-import numpy as np
 import csv
+import json 
+import numpy as np
+from importlib import resources
 from sockit.log import Log
+from wordtrie import WordTrie
 
 DATA_MODULE = 'sockit.data'
 
@@ -123,4 +123,4 @@ def get_soc_title(soc):
         Log(__name__, "load_soc_titles").info("loading soc titles")
         with resources.open_text(DATA_MODULE, 'soc_titles.json') as f:
             DATA['soc_titles'] = json.load(f)
-    return DATA['soc_titles']
+    return DATA['soc_titles'][soc]

@@ -39,7 +39,7 @@
     "#": "Accuracy"
   },
   "acting": {
-    "#": "Acting "
+    "#": "Acting"
   },
   "action": {
     "oriented": {
@@ -80,7 +80,7 @@
       "#": "Administration"
     },
     "assistance": {
-      "#": "Administration "
+      "#": "Administration"
     }
   },
   "assisting": {
@@ -107,16 +107,19 @@
       "suite": {
         "#": "Adobe Creative Suite"
       }
-    },
-    "photoshop": {
-      "#": "Adobe Photoshop"
     }
   },
+  "illustrator": {
+    "#": "Adobe Creative Suite"
+  },
   "indesign": {
-    "#": "Adobe InDesign"
+    "#": "Adobe Creative Suite"
+  },
+  "photoshop": {
+    "#": "Adobe Creative Suite"
   },
   "adolescent": {
-    "#": "Adolescents "
+    "#": "Adolescents"
   },
   "adult": {
     "education": {
@@ -152,7 +155,7 @@
     }
   },
   "scrum": {
-    "#": "Agile Methodologies "
+    "#": "Agile Methodologies"
   },
   "aircraft": {
     "#": "Air Transportation"
@@ -206,9 +209,6 @@
   "mac": {
     "#": "Apple Technologies"
   },
-  "asp": {
-    "#": "Application Service Provider"
-  },
   "arcgis": {
     "#": "ArcGIS"
   },
@@ -217,7 +217,7 @@
   },
   "architectural": {
     "design": {
-      "#": "Architectural Design"
+      "#": "Architecture"
     }
   },
   "architecture": {
@@ -227,7 +227,7 @@
     "#": "Architecture"
   },
   "art": {
-    "#": "Art"
+    "#": "Artistic"
   },
   "articulation": {
     "#": "Articulation"
@@ -290,29 +290,6 @@
   },
   "banking": {
     "#": "Banking"
-  },
-  "commercial": {
-    "banking": {
-      "#": "Banking"
-    },
-    "drivers": {
-      "license": {
-        "#": "Commercial Driver's License"
-      }
-    },
-    "driver": {
-      "license": {
-        "#": "Commercial Driver's License"
-      }
-    },
-    "lending": {
-      "#": "Commercial Lending"
-    },
-    "real": {
-      "estate": {
-        "#": "Commercial Real Estate"
-      }
-    }
   },
   "barber": {
     "#": "Barber"
@@ -390,6 +367,9 @@
       "#": "Budgeting"
     }
   },
+  "budgets": {
+    "#": "Budgeting"
+  },
   "budgeting": {
     "#": "Budgeting"
   },
@@ -453,9 +433,6 @@
     },
     "media": {
       "#": "Social Media"
-    },
-    "medium": {
-      "#": "Social Media"
     }
   },
   "b2b": {
@@ -491,6 +468,9 @@
   "cash": {
     "management": {
       "#": "Cash Management"
+    },
+    "register": {
+      "#": "Cash Register Operation"
     },
     "flow": {
       "#": "Finance"
@@ -539,9 +519,6 @@
   "cleanliness": {
     "#": "Cleanliness"
   },
-  "scheduling": {
-    "#": "Clerical"
-  },
   "filing": {
     "#": "Clerical"
   },
@@ -554,12 +531,7 @@
     }
   },
   "receptionist": {
-    "duties": {
-      "#": "Clerical"
-    },
-    "duty": {
-      "#": "Clerical"
-    }
+    "#": "Clerical"
   },
   "client": {
     "confidentiality": {
@@ -590,6 +562,11 @@
       "#": "Clinical Trials"
     }
   },
+  "the": {
+    "cloud": {
+      "#": "Cloud Computing"
+    }
+  },
   "cloud": {
     "computing": {
       "#": "Cloud Computing"
@@ -601,14 +578,44 @@
   "cbt": {
     "#": "Cognitive Behavioral Therapy (CBT)"
   },
+  "cognitive": {
+    "behavioral": {
+      "therapy": {
+        "#": "Cognitive Behavioral Therapy (CBT)"
+      }
+    }
+  },
   "cognos": {
     "#": "Cognos Analytics"
   },
   "collection": {
     "#": "Collections"
   },
+  "collections": {
+    "#": "Collections"
+  },
   "cdl": {
     "#": "Commercial Driver's License"
+  },
+  "commercial": {
+    "drivers": {
+      "license": {
+        "#": "Commercial Driver's License"
+      }
+    },
+    "driver": {
+      "license": {
+        "#": "Commercial Driver's License"
+      }
+    },
+    "lending": {
+      "#": "Commercial Lending"
+    },
+    "real": {
+      "estate": {
+        "#": "Commercial Real Estate"
+      }
+    }
   },
   "communication": {
     "#": "Communication",
@@ -661,6 +668,9 @@
     "science": {
       "#": "Computer Science"
     },
+    "networking": {
+      "#": "Networking"
+    },
     "#": "Digital Literacy",
     "proficiency": {
       "#": "Digital Literacy"
@@ -681,8 +691,22 @@
   "cad": {
     "#": "Computer-Aided Design (CAD)"
   },
+  "network": {
+    "administration": {
+      "#": "Computer Networking"
+    },
+    "design": {
+      "#": "Computer Networking"
+    },
+    "security": {
+      "#": "Information Security"
+    }
+  },
+  "tcpip": {
+    "#": "Computer Networking"
+  },
   "router": {
-    "#": "Computers"
+    "#": "Computer Networking"
   },
   "self": {
     "confident": {
@@ -691,13 +715,22 @@
     "sufficiency": {
       "#": "Self Sufficiency"
     },
+    "sufficient": {
+      "#": "Self Sufficiency"
+    },
     "motivation": {
+      "#": "Self-Starter"
+    },
+    "motivated": {
       "#": "Self-Starter"
     },
     "starter": {
       "#": "Self-Starter"
     },
     "discipline": {
+      "#": "Self-Starter"
+    },
+    "disciplined": {
       "#": "Self-Starter"
     }
   },
@@ -719,6 +752,9 @@
     "feedback": {
       "#": "Constructive Feedback"
     }
+  },
+  "consult": {
+    "#": "Consulting"
   },
   "consulting": {
     "#": "Consulting"
@@ -763,16 +799,40 @@
   "cooking": {
     "#": "Cooking"
   },
+  "coordinate": {
+    "#": "Coordination"
+  },
+  "coordinated": {
+    "#": "Coordination"
+  },
   "coordination": {
     "#": "Coordination"
   },
   "coordinating": {
     "#": "Coordination"
   },
+  "copyeditor": {
+    "#": "Copy Editing"
+  },
   "copy": {
+    "editor": {
+      "#": "Copy Editing"
+    },
+    "edit": {
+      "#": "Copy Editing"
+    },
     "editing": {
       "#": "Copy Editing"
     }
+  },
+  "copyedit": {
+    "#": "Copy Editing"
+  },
+  "copyediting": {
+    "#": "Copy Editing"
+  },
+  "copywriter": {
+    "#": "Copywriting"
   },
   "copywriting": {
     "#": "Copywriting"
@@ -799,7 +859,7 @@
   },
   "cpr": {
     "certified": {
-      "#": "CPR Certified "
+      "#": "CPR Certified"
     }
   },
   "creative": {
@@ -857,7 +917,7 @@
   },
   "deductive": {
     "reasoning": {
-      "#": "Critical Thinking "
+      "#": "Critical Thinking"
     }
   },
   "curiosity": {
@@ -934,6 +994,9 @@
   "visualization": {
     "#": "Data Visualization"
   },
+  "etl": {
+    "#": "Data Warehousing"
+  },
   "database": {
     "administration": {
       "#": "Database Administration"
@@ -958,6 +1021,9 @@
     "driving": {
       "#": "Defensive Driving"
     }
+  },
+  "dentist": {
+    "#": "Dentistry"
   },
   "dentistry": {
     "#": "Dentistry"
@@ -997,9 +1063,6 @@
     "#": "Digital File Management"
   },
   "microsoft": {
-    "sharepoint": {
-      "#": "Digital File Management"
-    },
     "office": {
       "#": "Digital Literacy"
     },
@@ -1009,29 +1072,20 @@
     "access": {
       "#": "Microsoft Access"
     },
-    "excel": {
-      "#": "Microsoft Excel"
-    },
-    "word": {
-      "#": "Microsoft Office"
-    },
-    "powerpoint": {
-      "#": "Microsoft PowerPoint"
-    },
     "project": {
-      "#": "Microsoft Project"
+      "#": "Project Management"
     },
     "sql": {
       "server": {
         "#": "Microsoft SQL Server"
       }
     },
-    "visio": {
-      "#": "Microsoft Visio"
+    "teams": {
+      "#": "Video Conferencing"
+    },
+    "word": {
+      "#": "Word Processing"
     }
-  },
-  "outlook": {
-    "#": "Digital Literacy"
   },
   "digital": {
     "marketing": {
@@ -1053,6 +1107,9 @@
   "online": {
     "marketing": {
       "#": "Digital Marketing"
+    },
+    "research": {
+      "#": "Online Research"
     }
   },
   "diplomacy": {
@@ -1069,12 +1126,6 @@
       "care": {
         "#": "Direct Patient Care"
       }
-    },
-    "sales": {
-      "#": "Sales"
-    },
-    "sale": {
-      "#": "Sales"
     }
   },
   "disaster": {
@@ -1101,6 +1152,9 @@
       "#": "Documentation"
     }
   },
+  "illustrating": {
+    "#": "Drawing"
+  },
   "drawing": {
     "#": "Drawing"
   },
@@ -1121,6 +1175,9 @@
     "#": "Eclipse"
   },
   "economics": {
+    "#": "Economics"
+  },
+  "economist": {
     "#": "Economics"
   },
   "editing": {
@@ -1161,6 +1218,17 @@
   "electronic": {
     "medical": {
       "record": {
+        "#": "Electronic Health Records (EHR)"
+      },
+      "records": {
+        "#": "Electronic Health Records (EHR)"
+      }
+    },
+    "health": {
+      "record": {
+        "#": "Electronic Health Records (EHR)"
+      },
+      "records": {
         "#": "Electronic Health Records (EHR)"
       }
     }
@@ -1254,38 +1322,13 @@
   "enforcement": {
     "#": "Enforcement"
   },
+  "engineer": {
+    "#": "Engineering"
+  },
   "engineering": {
     "#": "Engineering",
     "management": {
       "#": "Engineering Management"
-    }
-  },
-  "engineer": {
-    "#": "Engineering"
-  },
-  "systems": {
-    "engineering": {
-      "#": "Engineering"
-    },
-    "analysis": {
-      "#": "Systems Analysis"
-    }
-  },
-  "system": {
-    "engineering": {
-      "#": "Engineering"
-    },
-    "administration": {
-      "#": "System Administration"
-    },
-    "analysis": {
-      "#": "Systems Analysis"
-    }
-  },
-  "english": {
-    "#": "English Language",
-    "language": {
-      "#": "English Language"
     }
   },
   "enterprise": {
@@ -1359,9 +1402,6 @@
       "#": "External Customers"
     }
   },
-  "etl": {
-    "#": "Extract, Transform, and Load (ETL)"
-  },
   "facebook": {
     "#": "Facebook"
   },
@@ -1386,13 +1426,23 @@
   "fashion": {
     "#": "Fashion"
   },
+  "fast": {
+    "learner": {
+      "#": "Fast Learner"
+    }
+  },
   "learning": {
     "agility": {
       "#": "Fast Learner"
     }
   },
-  "fha": {
-    "#": "Federal Housing Administration (FHA)"
+  "quick": {
+    "learner": {
+      "#": "Fast Learner"
+    },
+    "study": {
+      "#": "Fast Learner"
+    }
   },
   "film": {
     "#": "Film"
@@ -1479,6 +1529,9 @@
       "#": "Food Safety"
     },
     "#": "Food Service",
+    "server": {
+      "#": "Food Service"
+    },
     "service": {
       "#": "Food Service"
     },
@@ -1494,9 +1547,6 @@
       "#": "Restaurant Management"
     }
   },
-  "server": {
-    "#": "Food Service"
-  },
   "forecasting": {
     "#": "Forecasting"
   },
@@ -1508,9 +1558,6 @@
   "forklift": {
     "#": "Forklift"
   },
-  "french": {
-    "#": "French Language"
-  },
   "friendliness": {
     "#": "Friendliness"
   },
@@ -1520,17 +1567,50 @@
   "gaap": {
     "#": "Generally Accepted Accounting Principles (GAAP)"
   },
+  "generally": {
+    "accepted": {
+      "accounting": {
+        "principles": {
+          "#": "Generally Accepted Accounting Principles (GAAP)"
+        }
+      }
+    }
+  },
   "geography": {
     "#": "Geography"
   },
   "protractor": {
-    "#": "Geometry "
+    "#": "Geometry"
   },
   "git": {
     "#": "Git"
   },
+  "gitlab": {
+    "#": "Git"
+  },
+  "github": {
+    "#": "Git"
+  },
   "gps": {
     "#": "Global Position Systems (GPS)"
+  },
+  "global": {
+    "position": {
+      "systems": {
+        "#": "Global Position Systems (GPS)"
+      },
+      "system": {
+        "#": "Global Position Systems (GPS)"
+      }
+    },
+    "positioning": {
+      "systems": {
+        "#": "Global Position Systems (GPS)"
+      },
+      "system": {
+        "#": "Global Position Systems (GPS)"
+      }
+    }
   },
   "goal": {
     "oriented": {
@@ -1543,6 +1623,21 @@
   "gmp": {
     "#": "Good Manufacturing Practice (GMP)"
   },
+  "good": {
+    "manufacturing": {
+      "practices": {
+        "#": "Good Manufacturing Practice (GMP)"
+      },
+      "practice": {
+        "#": "Good Manufacturing Practice (GMP)"
+      }
+    },
+    "driving": {
+      "record": {
+        "#": "Valid Driver's License"
+      }
+    }
+  },
   "google": {
     "analytics": {
       "#": "Google Analytics"
@@ -1552,8 +1647,11 @@
     "#": "Governance"
   },
   "government": {
-    "#": "Government ",
+    "#": "Government",
     "contracting": {
+      "#": "Government Procurement"
+    },
+    "procurement": {
       "#": "Government Procurement"
     }
   },
@@ -1561,7 +1659,6 @@
     "#": "Grammar"
   },
   "grant": {
-    "#": "Grant",
     "writing": {
       "#": "Grant Writing"
     }
@@ -1569,8 +1666,10 @@
   "graphic": {
     "design": {
       "#": "Graphic Design"
-    },
-    "#": "Graphics"
+    }
+  },
+  "graphics": {
+    "#": "Graphic Design"
   },
   "group": {
     "therapy": {
@@ -1606,11 +1705,6 @@
   "hardware": {
     "#": "Hardware"
   },
-  "hawaiian": {
-    "language": {
-      "#": "Hawaiian Language"
-    }
-  },
   "healing": {
     "#": "Healing"
   },
@@ -1620,6 +1714,15 @@
     },
     "insurance": {
       "#": "Health Insurance"
+    }
+  },
+  "healthcare": {
+    "#": "Healthcare",
+    "consulting": {
+      "#": "Healthcare Consulting"
+    },
+    "management": {
+      "#": "Healthcare Management"
     }
   },
   "hospital": {
@@ -1659,14 +1762,6 @@
       "#": "Patient Education"
     }
   },
-  "healthcare": {
-    "consulting": {
-      "#": "Healthcare Consulting"
-    },
-    "management": {
-      "#": "Healthcare Management"
-    }
-  },
   "help": {
     "desk": {
       "support": {
@@ -1703,9 +1798,6 @@
   },
   "hospitality": {
     "#": "Hospitality",
-    "industry": {
-      "#": "Hospitality"
-    },
     "management": {
       "#": "Hospitality Management"
     }
@@ -1713,14 +1805,17 @@
   "resort": {
     "#": "Hospitality"
   },
-  "html5": {
-    "#": "HTLM5"
-  },
   "html": {
+    "#": "HTML"
+  },
+  "html5": {
     "#": "HTML"
   },
   "hris": {
     "#": "Human Resource Information System (HRIS)"
+  },
+  "hr": {
+    "#": "Human Resources"
   },
   "human": {
     "resources": {
@@ -1738,9 +1833,6 @@
   },
   "ideation": {
     "#": "Ideation"
-  },
-  "illustrator": {
-    "#": "Illustrator"
   },
   "imagination": {
     "#": "Imagination"
@@ -1788,17 +1880,6 @@
   "firewall": {
     "#": "Information Security"
   },
-  "network": {
-    "security": {
-      "#": "Information Security"
-    },
-    "administration": {
-      "#": "Network Administration"
-    },
-    "design": {
-      "#": "Network Design"
-    }
-  },
   "itil": {
     "#": "Information Technology"
   },
@@ -1814,9 +1895,6 @@
     },
     "computer": {
       "#": "Information Technology"
-    },
-    "integrity": {
-      "#": "Integrity"
     },
     "development": {
       "#": "Personal Development"
@@ -1868,7 +1946,15 @@
   "integrity": {
     "#": "Integrity"
   },
-  "ip": {
+  "intellectual": {
+    "property": {
+      "#": "Intellectual Property"
+    }
+  },
+  "patent": {
+    "#": "Intellectual Property"
+  },
+  "patents": {
     "#": "Intellectual Property"
   },
   "intelligence": {
@@ -1933,13 +2019,7 @@
     "#": "Intuit QuickBooks"
   },
   "inventory": {
-    "#": "Inventory",
-    "management": {
-      "#": "Inventory"
-    },
-    "control": {
-      "#": "Inventory Control"
-    }
+    "#": "Inventory"
   },
   "investigation": {
     "#": "Investigative"
@@ -1947,11 +2027,14 @@
   "investigative": {
     "#": "Investigative"
   },
+  "investing": {
+    "#": "Investing"
+  },
   "investor": {
     "#": "Investing"
   },
   "investment": {
-    "#": "Investment Management"
+    "#": "Investing"
   },
   "invoicing": {
     "#": "Invoicing"
@@ -1962,17 +2045,12 @@
     },
     "service": {
       "management": {
-        "#": "IT Service Management"
+        "#": "IT Management"
       }
     }
   },
   "jsp": {
     "#": "Jakarta Server Pages"
-  },
-  "japanese": {
-    "language": {
-      "#": "Japanese Language"
-    }
   },
   "java": {
     "#": "Java"
@@ -2005,6 +2083,12 @@
     "#": "Laboratory"
   },
   "land": {
+    "survey": {
+      "#": "Land Surveying"
+    },
+    "surveying": {
+      "#": "Land Surveying"
+    },
     "surveyor": {
       "#": "Land Surveying"
     }
@@ -2014,6 +2098,9 @@
     "enforcement": {
       "#": "Law Enforcement"
     }
+  },
+  "litigation": {
+    "#": "Law"
   },
   "trial": {
     "#": "Law"
@@ -2044,6 +2131,9 @@
     }
   },
   "lease": {
+    "#": "Leasing"
+  },
+  "leasing": {
     "#": "Leasing"
   },
   "legal": {
@@ -2080,14 +2170,11 @@
   },
   "listening": {
     "skills": {
-      "#": "Listening "
+      "#": "Listening"
     },
     "skill": {
-      "#": "Listening "
+      "#": "Listening"
     }
-  },
-  "litigation": {
-    "#": "Litigation"
   },
   "loading": {
     "and": {
@@ -2103,10 +2190,7 @@
     }
   },
   "logistics": {
-    "#": "Logistics",
-    "management": {
-      "#": "Logistics Management"
-    }
+    "#": "Logistics"
   },
   "loss": {
     "prevention": {
@@ -2123,12 +2207,7 @@
     "#": "Systems"
   },
   "maintenance": {
-    "#": "Maintenance",
-    "and": {
-      "repair": {
-        "#": "Maintenance & Repairs"
-      }
-    }
+    "#": "Maintenance"
   },
   "managed": {
     "care": {
@@ -2160,6 +2239,9 @@
   },
   "market": {
     "analysis": {
+      "#": "Market Analysis"
+    },
+    "analytics": {
       "#": "Market Analysis"
     },
     "planning": {
@@ -2209,7 +2291,7 @@
     "#": "Measuring"
   },
   "mechanic": {
-    "#": "Mechanic"
+    "#": "Mechanical"
   },
   "mechanical": {
     "#": "Mechanical",
@@ -2222,11 +2304,6 @@
   },
   "media": {
     "relations": {
-      "#": "Media Relations"
-    }
-  },
-  "medium": {
-    "relation": {
       "#": "Media Relations"
     }
   },
@@ -2244,12 +2321,31 @@
       "#": "Medication Administration"
     }
   },
-  "meet": {
+  "meets": {
     "deadlines": {
-      "#": "Meet Deadlines"
+      "#": "Meets Deadlines"
     },
     "deadline": {
-      "#": "Meet Deadlines"
+      "#": "Meets Deadlines"
+    }
+  },
+  "meet": {
+    "deadlines": {
+      "#": "Meets Deadlines"
+    },
+    "deadline": {
+      "#": "Meets Deadlines"
+    }
+  },
+  "time": {
+    "constraints": {
+      "#": "Meets Deadlines"
+    },
+    "constraint": {
+      "#": "Meets Deadlines"
+    },
+    "management": {
+      "#": "Time Management"
     }
   },
   "meeting": {
@@ -2258,6 +2354,9 @@
     }
   },
   "memory": {
+    "#": "Memorization"
+  },
+  "memorization": {
     "#": "Memorization"
   },
   "recall": {
@@ -2270,9 +2369,12 @@
         "#": "Mental Health Counseling"
       },
       "counselor": {
-        "#": "Mental Health Counseling "
+        "#": "Mental Health Counseling"
       }
     }
+  },
+  "mentor": {
+    "#": "Mentoring"
   },
   "mentoring": {
     "#": "Mentoring"
@@ -2300,6 +2402,29 @@
   "powerpoint": {
     "#": "Microsoft PowerPoint"
   },
+  "windows": {
+    "server": {
+      "#": "Microsoft Windows"
+    },
+    "7": {
+      "#": "Microsoft Windows"
+    },
+    "8": {
+      "#": "Microsoft Windows"
+    },
+    "10": {
+      "#": "Microsoft Windows"
+    },
+    "11": {
+      "#": "Microsoft Windows"
+    },
+    "nt": {
+      "#": "Microsoft Windows"
+    },
+    "xp": {
+      "#": "Microsoft Windows"
+    }
+  },
   "visio": {
     "#": "Microsoft Visio"
   },
@@ -2311,25 +2436,14 @@
       "#": "Visual Merchandising"
     },
     "studio": {
-      "#": "Visual Studio"
+      "#": "Microsoft Visual Studio"
     }
   },
   "microstation": {
     "#": "MicroStation"
   },
   "military": {
-    "training": {
-      "#": "Military"
-    },
-    "experience": {
-      "#": "Military "
-    },
-    "operations": {
-      "#": "Military "
-    },
-    "operation": {
-      "#": "Military "
-    }
+    "#": "Military"
   },
   "mobile": {
     "applications": {
@@ -2356,14 +2470,15 @@
     }
   },
   "motivating": {
-    "#": "Motivational"
+    "#": "Motivating"
   },
   "motivational": {
+    "#": "Motivating",
     "skills": {
-      "#": "Motivational"
+      "#": "Motivating"
     },
     "skill": {
-      "#": "Motivational"
+      "#": "Motivating"
     },
     "interviewing": {
       "#": "Motivational Interviewing"
@@ -2416,12 +2531,12 @@
   },
   "needs": {
     "assessment": {
-      "#": "Needs Assessments"
+      "#": "Needs Assessment"
     }
   },
   "need": {
     "assessment": {
-      "#": "Needs Assessments"
+      "#": "Needs Assessment"
     }
   },
   "negotiation": {
@@ -2430,14 +2545,11 @@
   "negotiating": {
     "#": "Negotiation"
   },
-  "networking": {
-    "#": "Networking"
-  },
   "newsletter": {
     "#": "Newsletter Production"
   },
   "nonprofit": {
-    "#": "Non-profit"
+    "#": "Nonprofit"
   },
   "nonverbal": {
     "communication": {
@@ -2446,9 +2558,7 @@
   },
   "nuclear": {
     "medicine": {
-      "technologist": {
-        "#": "Nuclear Medicine Technology"
-      }
+      "#": "Nuclear Medicine"
     }
   },
   "nursing": {
@@ -2478,7 +2588,10 @@
   "object": {
     "oriented": {
       "design": {
-        "#": "Object Oriented Design"
+        "#": "Object Oriented Programming"
+      },
+      "programming": {
+        "#": "Object Oriented Programming"
       }
     }
   },
@@ -2495,15 +2608,15 @@
       "#": "Office Management"
     }
   },
-  "petroleum": {
-    "#": "Oil and Gas"
-  },
   "oil": {
     "and": {
       "gas": {
-        "#": "Oil And Gas"
+        "#": "Oil and Gas"
       }
     }
+  },
+  "petroleum": {
+    "#": "Oil and Gas"
   },
   "onboarding": {
     "#": "Onboarding"
@@ -2550,43 +2663,43 @@
   },
   "dispensing": {
     "optician": {
-      "#": "Optician Dispensing "
+      "#": "Optician Dispensing"
+    }
+  },
+  "optician": {
+    "dispensing": {
+      "#": "Optician Dispensing"
     }
   },
   "optometrist": {
     "#": "Optometry"
   },
   "oracle": {
-    "#": "Oracle",
-    "business": {
-      "intelligence": {
-        "#": "Oracle Business Intelligence"
-      }
-    }
+    "#": "Oracle"
   },
   "organizing": {
     "#": "Organization Skills"
   },
   "organization": {
     "skills": {
-      "#": "Organization Skills "
+      "#": "Organization Skills"
     },
     "skill": {
-      "#": "Organization Skills "
+      "#": "Organization Skills"
     }
   },
   "organizational": {
-    "development": {
-      "#": "Organizational Development"
-    },
-    "effectiveness": {
-      "#": "Organizational Effectiveness"
-    },
     "skills": {
       "#": "Organizational Skills"
     },
     "skill": {
       "#": "Organizational Skills"
+    },
+    "development": {
+      "#": "Organizational Development"
+    },
+    "effectiveness": {
+      "#": "Organizational Effectiveness"
     }
   },
   "originality": {
@@ -2616,6 +2729,11 @@
   "pediatrics": {
     "#": "Pediatric Care"
   },
+  "personnel": {
+    "management": {
+      "#": "Personnel Management"
+    }
+  },
   "performance": {
     "management": {
       "#": "Performance Management"
@@ -2629,16 +2747,17 @@
   "perl": {
     "#": "Perl"
   },
+  "persistance": {
+    "#": "Persistence"
+  },
+  "persistence": {
+    "#": "Persistence"
+  },
   "tenacity": {
     "#": "Persistence"
   },
   "pda": {
     "#": "Personal Digital Assistant"
-  },
-  "personnel": {
-    "management": {
-      "#": "Personnel Management"
-    }
   },
   "persuasion": {
     "#": "Persuasion"
@@ -2648,15 +2767,16 @@
       "#": "Pest Control"
     }
   },
+  "pharmaceuticals": {
+    "#": "Pharmaceuticals"
+  },
   "pharmaceutical": {
+    "#": "Pharmaceuticals",
     "sales": {
       "#": "Pharmaceutical Sales"
     },
     "sale": {
       "#": "Pharmaceutical Sales"
-    },
-    "industry": {
-      "#": "Pharmaceuticals"
     }
   },
   "pharmacy": {
@@ -2676,9 +2796,6 @@
   },
   "photography": {
     "#": "Photography"
-  },
-  "photoshop": {
-    "#": "Photoshop"
   },
   "php": {
     "#": "PHP: Hypertext Preprocessor"
@@ -2730,14 +2847,17 @@
     "activity": {
       "#": "Physical Ability"
     },
+    "ability": {
+      "#": "Physical Ability"
+    },
     "fitness": {
       "#": "Physical Fitness"
     },
     "therapist": {
-      "#": "Physical Therapy",
-      "assistant": {
-        "#": "Physical Therapy"
-      }
+      "#": "Physical Therapy"
+    },
+    "therapy": {
+      "#": "Physical Therapy"
     },
     "security": {
       "#": "Protective Services"
@@ -2763,7 +2883,15 @@
       "#": "Physician Assistance"
     }
   },
+  "physicians": {
+    "assistant": {
+      "#": "Physician Assistance"
+    }
+  },
   "physic": {
+    "#": "Physics"
+  },
+  "physics": {
     "#": "Physics"
   },
   "planning": {
@@ -2773,6 +2901,9 @@
     "#": "Planning"
   },
   "plumber": {
+    "#": "Plumbing"
+  },
+  "plumbing": {
     "#": "Plumbing"
   },
   "policy": {
@@ -2786,6 +2917,13 @@
   "pcr": {
     "#": "Polymerase Chain Reaction"
   },
+  "polymerase": {
+    "chain": {
+      "reaction": {
+        "#": "Polymerase Chain Reaction"
+      }
+    }
+  },
   "portfolio": {
     "management": {
       "#": "Portfolio Management"
@@ -2793,6 +2931,12 @@
   },
   "positivity": {
     "#": "Positivity"
+  },
+  "presales": {
+    "#": "Pre Sales"
+  },
+  "presale": {
+    "#": "Pre Sales"
   },
   "pre": {
     "sales": {
@@ -2822,8 +2966,23 @@
   "scanner": {
     "#": "Printing"
   },
+  "scanning": {
+    "#": "Printing"
+  },
   "printer": {
     "#": "Printing"
+  },
+  "printing": {
+    "#": "Printing"
+  },
+  "prioritize": {
+    "#": "Prioritization"
+  },
+  "prioritized": {
+    "#": "Prioritization"
+  },
+  "prioritizing": {
+    "#": "Prioritization"
   },
   "prioritization": {
     "#": "Prioritization"
@@ -2859,6 +3018,9 @@
     "#": "Procurement"
   },
   "buyer": {
+    "#": "Procurement"
+  },
+  "buying": {
     "#": "Procurement"
   },
   "product": {
@@ -2907,7 +3069,14 @@
     }
   },
   "plc": {
-    "#": "Programmable Logic Controller"
+    "#": "Programmable Logic Controller (PLC)"
+  },
+  "programmable": {
+    "logic": {
+      "controller": {
+        "#": "Programmable Logic Controller (PLC)"
+      }
+    }
   },
   "programming": {
     "#": "Programming"
@@ -2959,8 +3128,12 @@
   "proofreading": {
     "#": "Proofreading"
   },
+  "proof": {
+    "reading": {
+      "#": "Proofreading"
+    }
+  },
   "property": {
-    "#": "Property Management",
     "management": {
       "#": "Property Management"
     }
@@ -2985,6 +3158,9 @@
     "protection": {
       "#": "Protective Services"
     }
+  },
+  "weapon": {
+    "#": "Protective Services"
   },
   "psychology": {
     "#": "Psychology"
@@ -3030,6 +3206,14 @@
   "po": {
     "#": "Purchase Orders"
   },
+  "purchase": {
+    "orders": {
+      "#": "Purchase Orders"
+    },
+    "order": {
+      "#": "Purchase Orders"
+    }
+  },
   "python": {
     "#": "Python"
   },
@@ -3051,7 +3235,7 @@
     }
   },
   "qa": {
-    "#": "Quality Assurance "
+    "#": "Quality Assurance"
   },
   "radio": {
     "#": "Radio"
@@ -3060,9 +3244,7 @@
     "#": "Radiography"
   },
   "rapport": {
-    "building": {
-      "#": "Rapport Building"
-    }
+    "#": "Rapport Building"
   },
   "reading": {
     "comprehension": {
@@ -3073,6 +3255,12 @@
     "estate": {
       "#": "Real Estate",
       "salesperson": {
+        "#": "Real Estate Sales"
+      },
+      "sales": {
+        "#": "Real Estate Sales"
+      },
+      "sale": {
         "#": "Real Estate Sales"
       },
       "transactions": {
@@ -3088,6 +3276,9 @@
   },
   "recognition": {
     "#": "Recognition"
+  },
+  "recruiter": {
+    "#": "Recruiting"
   },
   "recruiting": {
     "#": "Recruiting"
@@ -3123,13 +3314,22 @@
   "repair": {
     "#": "Repairs"
   },
+  "repairs": {
+    "#": "Repairs"
+  },
   "repairing": {
     "#": "Repairs"
+  },
+  "repetition": {
+    "#": "Repetitive Tasks"
   },
   "report": {
     "writing": {
       "#": "Report Writing"
     }
+  },
+  "reporter": {
+    "#": "Reporting"
   },
   "reporting": {
     "#": "Reporting"
@@ -3161,6 +3361,9 @@
       "#": "Resource Management"
     }
   },
+  "resourceful": {
+    "#": "Resourceful"
+  },
   "resourcefulness": {
     "#": "Resourceful"
   },
@@ -3174,14 +3377,11 @@
   },
   "retail": {
     "#": "Retail",
-    "sales": {
-      "#": "Retail"
-    },
-    "sale": {
-      "#": "Retail"
-    },
     "banking": {
       "#": "Retail Banking"
+    },
+    "management": {
+      "#": "Retail Management"
     }
   },
   "apparel": {
@@ -3217,7 +3417,7 @@
   "safety": {
     "#": "Safety",
     "goggles": {
-      "#": "Safety"
+      "#": "Safety Equipment"
     },
     "equipment": {
       "#": "Safety Equipment"
@@ -3232,6 +3432,27 @@
       "#": "Sales Operations"
     },
     "presentation": {
+      "#": "Sales Pitches"
+    },
+    "process": {
+      "#": "Sales Process"
+    }
+  },
+  "sales": {
+    "#": "Sales",
+    "management": {
+      "#": "Sales Management"
+    },
+    "operations": {
+      "#": "Sales Operations"
+    },
+    "presentations": {
+      "#": "Sales Pitches"
+    },
+    "pitches": {
+      "#": "Sales Pitches"
+    },
+    "pitch": {
       "#": "Sales Pitches"
     },
     "process": {
@@ -3257,22 +3478,17 @@
   },
   "cold": {
     "calling": {
-      "#": "Sales Calls"
+      "#": "Sales"
+    },
+    "call": {
+      "#": "Sales"
     }
   },
-  "sales": {
-    "management": {
-      "#": "Sales Management"
-    },
-    "operations": {
-      "#": "Sales Operations"
-    },
-    "presentations": {
-      "#": "Sales Pitches"
-    },
-    "process": {
-      "#": "Sales Process"
-    }
+  "coldcalling": {
+    "#": "Sales"
+  },
+  "coldcall": {
+    "#": "Sales"
   },
   "salesforce": {
     "#": "Salesforce"
@@ -3281,7 +3497,7 @@
     "#": "Sanitation"
   },
   "sap": {
-    "#": "Sap"
+    "#": "SAP"
   },
   "sarbanes": {
     "oxley": {
@@ -3305,6 +3521,18 @@
   "calendaring": {
     "#": "Scheduling"
   },
+  "schedule": {
+    "#": "Scheduling"
+  },
+  "scheduled": {
+    "#": "Scheduling"
+  },
+  "scheduler": {
+    "#": "Scheduling"
+  },
+  "scheduling": {
+    "#": "Scheduling"
+  },
   "science": {
     "#": "Science"
   },
@@ -3314,11 +3542,20 @@
   "sem": {
     "#": "Search Engine Marketing (SEM)"
   },
+  "search": {
+    "engine": {
+      "marketing": {
+        "#": "Search Engine Marketing (SEM)"
+      },
+      "optimization": {
+        "#": "Search Engine Optimization (SEO)"
+      }
+    }
+  },
   "seo": {
     "#": "Search Engine Optimization (SEO)"
   },
   "security": {
-    "#": "Security",
     "clearance": {
       "#": "Security Clearance"
     },
@@ -3338,9 +3575,6 @@
       "#": "Security Policies"
     }
   },
-  "weapon": {
-    "#": "Security"
-  },
   "service": {
     "orientation": {
       "#": "Service Orientation"
@@ -3350,6 +3584,12 @@
     "#": "Service-Oriented Architecture (SOA)"
   },
   "shell": {
+    "script": {
+      "#": "Shell Scripting"
+    },
+    "scripts": {
+      "#": "Shell Scripting"
+    },
     "scripting": {
       "#": "Shell Scripting"
     }
@@ -3380,12 +3620,6 @@
         "#": "Social Media Marketing"
       }
     },
-    "medium": {
-      "#": "Social Media",
-      "marketing": {
-        "#": "Social Media Marketing"
-      }
-    },
     "networking": {
       "#": "Social Networking"
     },
@@ -3400,6 +3634,9 @@
     },
     "skill": {
       "#": "Social Skills"
+    },
+    "work": {
+      "#": "Social Work"
     },
     "worker": {
       "#": "Social Work"
@@ -3416,6 +3653,12 @@
     "design": {
       "#": "Software Design"
     },
+    "designer": {
+      "#": "Software Design"
+    },
+    "developer": {
+      "#": "Software Development"
+    },
     "development": {
       "#": "Software Development"
     },
@@ -3425,12 +3668,20 @@
     "engineering": {
       "#": "Software Engineering"
     },
+    "engineer": {
+      "#": "Software Engineering"
+    },
     "installation": {
       "#": "Software Installation"
     },
     "quality": {
-      "assurance": {
-        "#": "Software Quality Assurance"
+      "#": "Software Quality Assurance"
+    },
+    "as": {
+      "a": {
+        "service": {
+          "#": "Software-as-a-Services (SaaS)"
+        }
       }
     }
   },
@@ -3444,6 +3695,9 @@
     "#": "SolidWorks"
   },
   "solutions": {
+    "architecture": {
+      "#": "Solution Architecture"
+    },
     "focused": {
       "#": "Solutions Focused"
     }
@@ -3455,9 +3709,6 @@
     "planning": {
       "#": "Space Planning"
     }
-  },
-  "spanish": {
-    "#": "Spanish"
   },
   "speaking": {
     "#": "Speaking"
@@ -3485,33 +3736,48 @@
     }
   },
   "staffing": {
-    "services": {
-      "#": "Staffing"
-    },
-    "service": {
-      "#": "Staffing"
-    }
+    "#": "Staffing"
   },
   "sop": {
     "#": "Standard Operating Procedure"
   },
+  "standard": {
+    "operating": {
+      "procedure": {
+        "#": "Standard Operating Procedure"
+      }
+    }
+  },
   "start": {
     "ups": {
       "#": "Startups"
+    },
+    "up": {
+      "#": "Startups"
     }
   },
-  "strategic": {
-    "planning": {
-      "#": "Strategic Planning"
-    },
-    "thinking": {
-      "#": "Strategic Thinking"
-    }
+  "startups": {
+    "#": "Startups"
+  },
+  "startup": {
+    "#": "Startups"
   },
   "tactic": {
-    "#": "Strategic Planning"
+    "#": "Strategy"
+  },
+  "tactics": {
+    "#": "Strategy"
+  },
+  "tactical": {
+    "#": "Strategy"
   },
   "strategy": {
+    "#": "Strategy"
+  },
+  "strategies": {
+    "#": "Strategy"
+  },
+  "strategic": {
     "#": "Strategy"
   },
   "stress": {
@@ -3533,20 +3799,18 @@
   "supervision": {
     "#": "Supervision"
   },
+  "supervise": {
+    "#": "Supervision"
+  },
+  "supervised": {
+    "#": "Supervision"
+  },
   "supervisory": {
-    "skills": {
-      "#": "Supervision"
-    },
-    "skill": {
-      "#": "Supervision"
-    }
+    "#": "Supervision"
   },
   "supply": {
     "chain": {
-      "#": "Supply Chain",
-      "management": {
-        "#": "Supply Chain Management"
-      }
+      "#": "Supply Chain"
     }
   },
   "surgery": {
@@ -3558,8 +3822,33 @@
   "sustainability": {
     "#": "Sustainability"
   },
+  "swim": {
+    "#": "Swimming"
+  },
+  "swimmer": {
+    "#": "Swimming"
+  },
   "swimming": {
     "#": "Swimming"
+  },
+  "system": {
+    "administration": {
+      "#": "System Administration"
+    },
+    "administrator": {
+      "#": "System Administration"
+    },
+    "analysis": {
+      "#": "Systems Analysis"
+    }
+  },
+  "systems": {
+    "administration": {
+      "#": "System Administration"
+    },
+    "analysis": {
+      "#": "Systems Analysis"
+    }
   },
   "tableau": {
     "#": "Tableau"
@@ -3581,7 +3870,21 @@
     "preparation": {
       "#": "Tax Preparation"
     },
-    "#": "Taxes"
+    "preparer": {
+      "#": "Tax Preparation"
+    }
+  },
+  "educator": {
+    "#": "Teaching"
+  },
+  "lecturer": {
+    "#": "Teaching"
+  },
+  "teach": {
+    "#": "Teaching"
+  },
+  "teacher": {
+    "#": "Teaching"
   },
   "teaching": {
     "#": "Teaching"
@@ -3615,8 +3918,19 @@
   "collaboration": {
     "#": "Teamwork"
   },
+  "collaborated": {
+    "#": "Teamwork"
+  },
+  "collaborator": {
+    "#": "Teamwork"
+  },
   "cooperation": {
     "#": "Teamwork"
+  },
+  "worked": {
+    "together": {
+      "#": "Teamwork"
+    }
   },
   "technical": {
     "acumen": {
@@ -3672,17 +3986,6 @@
   "therapist": {
     "#": "Therapy"
   },
-  "time": {
-    "management": {
-      "#": "Time Management"
-    },
-    "constraints": {
-      "#": "Working in time constraints"
-    },
-    "constraint": {
-      "#": "Working in time constraints"
-    }
-  },
   "trade": {
     "shows": {
       "#": "Trade Shows"
@@ -3698,7 +4001,13 @@
       }
     }
   },
+  "transcribed": {
+    "#": "Transcription"
+  },
   "transcribing": {
+    "#": "Transcription"
+  },
+  "transcription": {
     "#": "Transcription"
   },
   "translation": {
@@ -3725,6 +4034,12 @@
       }
     }
   },
+  "tutor": {
+    "#": "Tutoring"
+  },
+  "tutored": {
+    "#": "Tutoring"
+  },
   "tutoring": {
     "#": "Tutoring"
   },
@@ -3742,17 +4057,13 @@
   },
   "user": {
     "acceptance": {
-      "testing": {
-        "#": "User Acceptance Testing"
-      }
+      "#": "User Acceptance Testing"
     },
     "experience": {
       "#": "User Experience"
     },
     "interface": {
-      "design": {
-        "#": "User Interface Design"
-      }
+      "#": "User Interface Design"
     }
   },
   "valid": {
@@ -3767,12 +4078,11 @@
       }
     }
   },
-  "good": {
-    "driving": {
-      "record": {
-        "#": "Valid Driver's License"
-      }
-    }
+  "validate": {
+    "#": "Validation"
+  },
+  "validated": {
+    "#": "Validation"
   },
   "validation": {
     "#": "Validation"
@@ -3785,23 +4095,31 @@
       "#": "Value Engineering"
     }
   },
-  "vendor": {
-    "#": "Vendor Management",
-    "management": {
-      "#": "Vendor Management"
+  "variance": {
+    "analysis": {
+      "#": "Variance Analysis"
     }
+  },
+  "vendor": {
+    "#": "Vendor Management"
   },
   "verbal": {
     "communication": {
-      "skills": {
-        "#": "Verbal Communication"
-      },
-      "skill": {
-        "#": "Verbal Communication"
-      }
+      "#": "Verbal Communication"
+    }
+  },
+  "verbally": {
+    "communicate": {
+      "#": "Verbal Communication"
+    },
+    "communicated": {
+      "#": "Verbal Communication"
     }
   },
   "oral": {
+    "communication": {
+      "#": "Verbal Communication"
+    },
     "expression": {
       "#": "Verbal Communication"
     }
@@ -3809,18 +4127,14 @@
   "veterinarian": {
     "#": "Veterinarian"
   },
-  "variance": {
-    "analysis": {
-      "#": "Veterinary Services"
-    }
-  },
   "veterinary": {
-    "technician": {
-      "#": "Veterinary Technician"
-    }
+    "#": "Veterinarian"
   },
   "video": {
-    "#": "Video"
+    "#": "Video",
+    "conferencing": {
+      "#": "Video Conferencing"
+    }
   },
   "skype": {
     "#": "Video Conferencing"
@@ -3886,6 +4200,12 @@
     "application": {
       "#": "Web Applications"
     },
+    "app": {
+      "#": "Web Applications"
+    },
+    "apps": {
+      "#": "Web Applications"
+    },
     "content": {
       "#": "Web Content"
     },
@@ -3893,6 +4213,9 @@
       "#": "Web Design"
     },
     "development": {
+      "#": "Web Development"
+    },
+    "developer": {
       "#": "Web Development"
     },
     "services": {
@@ -3915,23 +4238,25 @@
     "to": {
       "learn": {
         "#": "Willingness to Learn"
+      },
+      "try": {
+        "#": "Willingness to Learn"
       }
     }
   },
-  "windows": {
-    "server": {
-      "#": "Windows Server"
-    },
-    "xp": {
-      "#": "Windows XP"
+  "willing": {
+    "to": {
+      "learn": {
+        "#": "Willingness to Learn"
+      },
+      "try": {
+        "#": "Willingness to Learn"
+      }
     }
   },
-  "window": {
-    "server": {
-      "#": "Windows Server"
-    },
-    "xp": {
-      "#": "Windows XP"
+  "wifi": {
+    "networking": {
+      "#": "Wireless Networking"
     }
   },
   "wireless": {
@@ -3940,13 +4265,12 @@
     }
   },
   "word": {
-    "#": "Word Processing",
     "processing": {
       "#": "Word Processing"
     }
   },
   "wordperfect": {
-    "#": "WordPerfect"
+    "#": "Word Processing"
   },
   "wordpress": {
     "#": "WordPress"
@@ -3982,14 +4306,14 @@
   },
   "written": {
     "english": {
-      "#": "Writing "
+      "#": "Writing"
     },
     "communication": {
       "#": "Written Communication"
     }
   },
   "drafting": {
-    "#": "Writing "
+    "#": "Writing"
   },
   "xml": {
     "#": "XML"
