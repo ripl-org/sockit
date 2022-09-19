@@ -61,8 +61,7 @@ def load_word_trie(name):
 def load_data(name):
     global DATA
     data_mapping = {
-        'headers' : 'resume_headers.json',
-        'soc_titles' : 'soc6_titles.json'
+        'headers' : 'resume_headers.json'
     }
     if name not in DATA:
         with open(resources.path(DATA_MODULE, data_mapping[name])) as file:

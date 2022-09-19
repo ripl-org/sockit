@@ -192,7 +192,6 @@ def parse_experience(lines):
     Parse the experience section for job titles and date ranges.
     """
     load_word_trie('socs')
-    load_data('soc_titles')
 
     matches = []
     for line in lines:
@@ -219,7 +218,7 @@ def parse_experience(lines):
         if match["socs"]:
             result["socs"] = sum([x[1] for x in match["socs"]], start=[])
             result["raw_titles"] = [" ".join(x[0]) for x in match["socs"]]
-            result["titles"] = [DATA['soc_titles'][soc] for soc in result["socs"]]
+            result["titles"] = [get_soc_title(soc) for soc in result["socs"]]
         if match["years"]:
             result["years"] = match["years"]
         if match["dates"]:

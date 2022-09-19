@@ -1,6 +1,6 @@
 """
 Sockit is a natural-language processing toolkit for modeling structured
 occupation information and Standard Occupational Classification (SOC) codes
-in unstructured job titles, job postings, and resumes.
+in unstructured text from job titles, job postings, and resumes.
 """
 __version__ = "0.2.0"
