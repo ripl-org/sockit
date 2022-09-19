@@ -110,32 +110,36 @@ def main():
         help="show all logging messages, including debugging output",
     )
 
+    subparsers = parser.add_subparsers()
+
+    title = subparsers.add_parser("title")
+    title.set_defaults(action="title")
+
     # Required arguments
-    parser.add_argument(
+    title.add_argument(
         "-i",
         "--input",
         help="input CSV or JSON file containing the record ID and title fields",
     )
 
     # Optional arguments
-    parser.add_argument(
+    title.add_argument(
         "-o",
         "--output",
         default="-",
         help="output file (default: stdout) containing a JSON record per line: {'record_id': ..., 'title': ..., 'clean_title': ..., 'socs': [{'soc': ..., 'prob': ..., 'desc': ...}, ...]}",
     )
-    parser.add_argument(
+    title.add_argument(
         "--record_id",
         default=None,
         help="field name corresponding to the record ID [default: 1-based index]",
     )
-    parser.add_argument(
+    title.add_argument(
         "--title",
         default="title",
         help="field name corresponding to the title [default: 'title']",
     )
 
-    parser.add_argument("--action", required = True)
     parser.add_argument("--resume")
     parser.add_argument("--resume_ext")
     parser.add_argument("--desc")
