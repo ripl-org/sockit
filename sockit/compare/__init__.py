@@ -28,8 +28,17 @@ def compare_resume_and_description(
     desc_topic_vec = parsed_desc['SkillVector'].scale_to_topic_models().reshape(1,50)
 
     if distance == 'euclidean':
-        return spatial.distance.euclidean(resume_topic_vec, desc_topic_vec)
+        distance_calc = spatial.distance.euclidean(resume_topic_vec, desc_topic_vec)
     if distance == 'manhattan':
-        return spatial.distance.cityblock(resume_topic_vec, desc_topic_vec)
+        distance_calc = spatial.distance.cityblock(resume_topic_vec, desc_topic_vec)
     if distance == 'cosine':
-        return spatial.distance.cosine(resume_topic_vec, desc_topic_vec)
+        distance_calc = spatial.distance.cosine(resume_topic_vec, desc_topic_vec)
+
+    del parsed_resume['SkillVector']
+    del parsed_desc['SkillVector']
+
+    return {
+        'distance' : distance_calc,
+        'resume' : parsed_resume,
+        'job_description' : parsed_desc
+    }

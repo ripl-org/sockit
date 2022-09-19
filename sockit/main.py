@@ -2,36 +2,33 @@ import argparse
 import csv
 import logging
 import json
-import sockit.log
-import sockit.compare
-import sockit.parse
-import sockit.title
+import sockit
 import sys
 
 def perform_resume_comparison(args):
-    with open(args.output, 'w') if args.output != '-' else sys.stdout as fout:
-        json.dump(
-            sockit.compare.compare_resume_and_description(
-                args.resume,
-                args.resume_ext,
-                args.desc,
-                args.desc_ext,
-                args.distance
-            ),
-            fout
+    json.dump(
+        sockit.compare.compare_resume_and_description(
+            args.resume,
+            args.resume_ext,
+            args.desc,
+            args.desc_ext,
+            args.distance
         )
+    )
 
 def parse_resume(args):
     parsed_resume = sockit.parse.parse_resume(args.file,args.ext)
     del parsed_resume['SkillVector']
-    with open(args.output, 'w') if args.output != '-' else sys.stdout as fout:
-        json.dump(parsed_resume,fout)
+    json.dump(
+        parsed_resume
+    )
 
 def parse_job_description(args):
     parsed_job_desc = sockit.parse.parse_job_posting(args.file, args.ext)
     del parsed_job_desc['SkillVector']
-    with open(args.output, 'w') if args.output != '-' else sys.stdout as fout:
-        json.dump(parsed_job_desc, fout)
+    json.dump(
+        parsed_job_desc
+    )
 
 
 def find_soc_codes(args):
@@ -154,10 +151,3 @@ def main():
         logging.basicConfig(level=logging.INFO)
 
     log = sockit.log.Log(__name__, "main")
-    if args.action in mapping_functions:
-        mapping_functions[args.action](args)
-    else:
-        log.error(f"{args.action} is an invalid action")
-
-if __name__ == "__main__":
-    main()
