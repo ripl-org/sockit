@@ -308,5 +308,5 @@ def parse_job_posting(filename, extension):
     sv = SkillVector(skill_dictionary = results['Skills'], skill_list = [])
     results['SkillVector'] = sv
     # Find closest SOC
-    results["Occupations"] = [{"soc": soc, "soc_title": get_soc_title(soc)} for soc in sv.rank_socs()[:10]]
+    results["Occupations"] = sv.rank_socs(n=10)
     return results
