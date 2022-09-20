@@ -1,9 +1,22 @@
 import csv
 import json
+import os
 import sys
 
 test_file = sys.argv[1]
 result_files = sys.argv[2:]
+
+titles = json.load(
+    open(
+        os.path.join(
+            os.path.abspath(os.path.dirname(sys.argv[0])),
+            "..",
+            "sockit",
+            "data",
+            "soc_titles.json"
+        )
+    )
+)
 
 tests = json.load(open(test_file))
 results = [
@@ -15,10 +28,10 @@ results = [
     for records in results
 ]
 
-fields = ["Clean Title", "Top SOC6", "Probability", "SOC6 Match", "SOC3 Match", "SOC2 Match"]
+fields = ["Clean Title", "Top SOC6", "Probability", "SOC6 Match", "SOC3 Match", "SOC2 Match", "Top Title", "SOC6 Titles"]
 result_names = [chr(i+65) for i in range(len(results))]
 
-writer = csv.writer(sys.stdout)
+writer = csv.writer(sys.stdout, lineterminator="\n")
 writer.writerow(
     ["id", "title"] +
     sum(
@@ -26,6 +39,8 @@ writer.writerow(
         start=[]
     )
 )
+
+matches = {name: 0 for name in result_names}
 
 for test in tests:
     row = [test["id"], test["title"]]
@@ -43,11 +58,21 @@ for test in tests:
     # SOC6 Match
     for name in result_names:
         soc = top[name].get("soc", "")
-        row.append(f"{soc[:2]}-{soc[2:]}" in test["SOC6"])
+        match = f"{soc[:2]}-{soc[2:]}" in test["SOC6"]
+        row.append(match)
+        matches[name] += int(match)
     # SOC3 Match
     for name in result_names:
         row.append(top[name].get("soc", "")[:3] in test["SOC3"])
     # SOC2 Match
     for name in result_names:
         row.append(top[name].get("soc", "")[:2] in test["SOC2"])
+    # Top Title
+    for name in result_names:
+        row.append(titles.get(top[name].get("soc", ""), "unknown"))
+    # SOC6 Titles
+    row.append("|".join(titles.get(soc.replace("-", ""), "unknown") for soc in test["SOC6"]))
     writer.writerow(row)
+
+print("SOC6 matches by results file:", file=sys.stderr)
+print(matches, file=sys.stderr)

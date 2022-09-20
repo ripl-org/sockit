@@ -1,0 +1,4326 @@
+{
+  "academic": {
+    "advising": {
+      "#": "Academic Advising"
+    }
+  },
+  "account": {
+    "management": {
+      "#": "Account Management"
+    },
+    "reconciliation": {
+      "#": "Account Reconciliation"
+    },
+    "receivable": {
+      "#": "Accounting"
+    },
+    "payable": {
+      "#": "Accounts Payable"
+    }
+  },
+  "accountability": {
+    "#": "Accountability"
+  },
+  "accounting": {
+    "#": "Accounting"
+  },
+  "accounts": {
+    "receivable": {
+      "#": "Accounting"
+    },
+    "payable": {
+      "#": "Accounts Payable"
+    }
+  },
+  "accurate": {
+    "#": "Accuracy"
+  },
+  "exact": {
+    "#": "Accuracy"
+  },
+  "acting": {
+    "#": "Acting"
+  },
+  "action": {
+    "oriented": {
+      "#": "Action-Oriented"
+    }
+  },
+  "active": {
+    "directory": {
+      "#": "Active Directory"
+    },
+    "listening": {
+      "#": "Active Listening"
+    }
+  },
+  "acute": {
+    "care": {
+      "#": "Acute Care"
+    }
+  },
+  "adaptability": {
+    "#": "Adaptability"
+  },
+  "administration": {
+    "#": "Administration"
+  },
+  "administrative": {
+    "#": "Administration",
+    "skills": {
+      "#": "Administration"
+    },
+    "skill": {
+      "#": "Administration"
+    },
+    "functions": {
+      "#": "Administration"
+    },
+    "function": {
+      "#": "Administration"
+    },
+    "assistance": {
+      "#": "Administration"
+    }
+  },
+  "assisting": {
+    "#": "Administration"
+  },
+  "front": {
+    "office": {
+      "#": "Administration"
+    }
+  },
+  "agenda": {
+    "#": "Administration"
+  },
+  "phone": {
+    "etiquette": {
+      "#": "Administration"
+    }
+  },
+  "adobe": {
+    "acrobat": {
+      "#": "Adobe Acrobat"
+    },
+    "creative": {
+      "suite": {
+        "#": "Adobe Creative Suite"
+      }
+    }
+  },
+  "illustrator": {
+    "#": "Adobe Creative Suite"
+  },
+  "indesign": {
+    "#": "Adobe Creative Suite"
+  },
+  "photoshop": {
+    "#": "Adobe Creative Suite"
+  },
+  "adolescent": {
+    "#": "Adolescents"
+  },
+  "adult": {
+    "education": {
+      "#": "Adult Education"
+    }
+  },
+  "advertising": {
+    "#": "Advertising"
+  },
+  "advice": {
+    "#": "Advising"
+  },
+  "advising": {
+    "#": "Advising"
+  },
+  "advocacy": {
+    "#": "Advocacy"
+  },
+  "aerospace": {
+    "#": "Aerospace"
+  },
+  "agile": {
+    "methodologies": {
+      "#": "Agile Methodologies"
+    },
+    "methodology": {
+      "#": "Agile Methodologies"
+    },
+    "project": {
+      "management": {
+        "#": "Agile Project Management"
+      }
+    }
+  },
+  "scrum": {
+    "#": "Agile Methodologies"
+  },
+  "aircraft": {
+    "#": "Air Transportation"
+  },
+  "airline": {
+    "#": "Air Transportation"
+  },
+  "aviation": {
+    "#": "Air Transportation"
+  },
+  "ajax": {
+    "#": "Ajax"
+  },
+  "driven": {
+    "personality": {
+      "#": "Ambition"
+    }
+  },
+  "analysis": {
+    "#": "Analysis"
+  },
+  "analyzing": {
+    "#": "Analysis"
+  },
+  "analytics": {
+    "#": "Analysis"
+  },
+  "analytical": {
+    "skills": {
+      "#": "Analysis"
+    },
+    "skill": {
+      "#": "Analysis"
+    },
+    "thinking": {
+      "#": "Analytical Thinking"
+    }
+  },
+  "android": {
+    "#": "Android"
+  },
+  "angularjs": {
+    "#": "AngularJS"
+  },
+  "anthropology": {
+    "#": "Anthropology"
+  },
+  "appeal": {
+    "#": "Appeal"
+  },
+  "mac": {
+    "#": "Apple Technologies"
+  },
+  "arcgis": {
+    "#": "ArcGIS"
+  },
+  "archeology": {
+    "#": "Archeology"
+  },
+  "architectural": {
+    "design": {
+      "#": "Architecture"
+    }
+  },
+  "architecture": {
+    "#": "Architecture"
+  },
+  "architect": {
+    "#": "Architecture"
+  },
+  "art": {
+    "#": "Artistic"
+  },
+  "articulation": {
+    "#": "Articulation"
+  },
+  "artistic": {
+    "#": "Artistic"
+  },
+  "asset": {
+    "management": {
+      "#": "Asset Management"
+    }
+  },
+  "athletic": {
+    "trainer": {
+      "#": "Athletic Trainer"
+    }
+  },
+  "microphone": {
+    "#": "Audio"
+  },
+  "auditing": {
+    "#": "Auditing"
+  },
+  "internal": {
+    "audit": {
+      "#": "Auditing"
+    },
+    "communications": {
+      "#": "Internal Communications"
+    },
+    "communication": {
+      "#": "Internal Communications"
+    },
+    "controls": {
+      "#": "Internal Controls"
+    },
+    "control": {
+      "#": "Internal Controls"
+    }
+  },
+  "autocad": {
+    "#": "AutoCAD"
+  },
+  "aed": {
+    "#": "Automated External Defibrillator (AED)"
+  },
+  "cardiopulmonary": {
+    "resuscitation": {
+      "#": "Automated External Defibrillator (AED)"
+    }
+  },
+  "automation": {
+    "#": "Automation"
+  },
+  "aws": {
+    "#": "AWS"
+  },
+  "balance": {
+    "#": "Balance"
+  },
+  "banking": {
+    "#": "Banking"
+  },
+  "barber": {
+    "#": "Barber"
+  },
+  "barcode": {
+    "scanners": {
+      "#": "Barcode Scanners"
+    },
+    "scanner": {
+      "#": "Barcode Scanners"
+    }
+  },
+  "behavior": {
+    "analyst": {
+      "#": "Behavioral Analysis"
+    }
+  },
+  "behavioral": {
+    "health": {
+      "#": "Behavioral Health"
+    }
+  },
+  "benefits": {
+    "administration": {
+      "#": "Benefits Administration"
+    }
+  },
+  "benefit": {
+    "administration": {
+      "#": "Benefits Administration"
+    }
+  },
+  "biochemistry": {
+    "#": "Biochemistry"
+  },
+  "biology": {
+    "#": "Biology"
+  },
+  "biotechnology": {
+    "#": "Biotechnology"
+  },
+  "blogging": {
+    "#": "Blogging"
+  },
+  "body": {
+    "language": {
+      "#": "Body Language"
+    }
+  },
+  "bookkeeping": {
+    "#": "Bookkeeping"
+  },
+  "brand": {
+    "development": {
+      "#": "Brand Development"
+    },
+    "management": {
+      "#": "Brand Management"
+    }
+  },
+  "breathing": {
+    "apparatus": {
+      "#": "Breathing Apparatus"
+    }
+  },
+  "broadcast": {
+    "#": "Broadcast"
+  },
+  "brochure": {
+    "#": "Brochure"
+  },
+  "budget": {
+    "#": "Budgeting",
+    "management": {
+      "#": "Budgeting"
+    }
+  },
+  "budgets": {
+    "#": "Budgeting"
+  },
+  "budgeting": {
+    "#": "Budgeting"
+  },
+  "bank": {
+    "reconciliation": {
+      "#": "Budgeting and Finance"
+    }
+  },
+  "profit": {
+    "#": "Business"
+  },
+  "business": {
+    "acumen": {
+      "#": "Business Acumen"
+    },
+    "savvy": {
+      "#": "Business Acumen"
+    },
+    "administration": {
+      "#": "Business Administration"
+    },
+    "analysis": {
+      "#": "Business Analysis"
+    },
+    "development": {
+      "#": "Business Development"
+    },
+    "ethics": {
+      "#": "Business Ethics"
+    },
+    "ethic": {
+      "#": "Business Ethics"
+    },
+    "intelligence": {
+      "#": "Business Intelligence"
+    },
+    "planning": {
+      "#": "Business Planning"
+    },
+    "process": {
+      "#": "Business Process",
+      "improvement": {
+        "#": "Business Process Improvement"
+      }
+    },
+    "services": {
+      "#": "Business Services"
+    },
+    "service": {
+      "#": "Business Services"
+    },
+    "strategy": {
+      "#": "Business Strategy"
+    }
+  },
+  "new": {
+    "business": {
+      "development": {
+        "#": "Business Development"
+      }
+    },
+    "media": {
+      "#": "Social Media"
+    }
+  },
+  "b2b": {
+    "#": "Business-to-Business (B2B)"
+  },
+  "caliper": {
+    "#": "Caliper Measurement"
+  },
+  "call": {
+    "centers": {
+      "#": "Call Centers"
+    },
+    "center": {
+      "#": "Call Centers"
+    }
+  },
+  "cardiology": {
+    "#": "Cardiology"
+  },
+  "career": {
+    "development": {
+      "#": "Career Development"
+    }
+  },
+  "caring": {
+    "#": "Caregiving"
+  },
+  "case": {
+    "management": {
+      "#": "Case Management"
+    }
+  },
+  "cash": {
+    "management": {
+      "#": "Cash Management"
+    },
+    "register": {
+      "#": "Cash Register Operation"
+    },
+    "flow": {
+      "#": "Finance"
+    }
+  },
+  "cashiering": {
+    "#": "Cash Register Operation"
+  },
+  "catering": {
+    "#": "Catering"
+  },
+  "cpa": {
+    "#": "Certified Public Accountant"
+  },
+  "certified": {
+    "public": {
+      "accountant": {
+        "#": "Certified Public Accountant"
+      }
+    }
+  },
+  "change": {
+    "management": {
+      "#": "Change Management"
+    }
+  },
+  "chemistry": {
+    "#": "Chemistry"
+  },
+  "child": {
+    "development": {
+      "#": "Child Development"
+    }
+  },
+  "childcare": {
+    "#": "Childcare"
+  },
+  "chiropractor": {
+    "#": "Chiropractor"
+  },
+  "civil": {
+    "engineering": {
+      "#": "Civil Engineering"
+    }
+  },
+  "cleanliness": {
+    "#": "Cleanliness"
+  },
+  "filing": {
+    "#": "Clerical"
+  },
+  "typing": {
+    "#": "Clerical"
+  },
+  "record": {
+    "keeping": {
+      "#": "Clerical"
+    }
+  },
+  "receptionist": {
+    "#": "Clerical"
+  },
+  "client": {
+    "confidentiality": {
+      "#": "Client Confidentiality"
+    }
+  },
+  "clinical": {
+    "laboratory": {
+      "technician": {
+        "#": "Clinical Laboratory Technology"
+      },
+      "technologist": {
+        "#": "Clinical Laboratory Technology"
+      }
+    },
+    "research": {
+      "#": "Clinical Research"
+    },
+    "social": {
+      "worker": {
+        "#": "Clinical Social Work"
+      }
+    },
+    "trials": {
+      "#": "Clinical Trials"
+    },
+    "trial": {
+      "#": "Clinical Trials"
+    }
+  },
+  "the": {
+    "cloud": {
+      "#": "Cloud Computing"
+    }
+  },
+  "cloud": {
+    "computing": {
+      "#": "Cloud Computing"
+    }
+  },
+  "coaching": {
+    "#": "Coaching"
+  },
+  "cbt": {
+    "#": "Cognitive Behavioral Therapy (CBT)"
+  },
+  "cognitive": {
+    "behavioral": {
+      "therapy": {
+        "#": "Cognitive Behavioral Therapy (CBT)"
+      }
+    }
+  },
+  "cognos": {
+    "#": "Cognos Analytics"
+  },
+  "collection": {
+    "#": "Collections"
+  },
+  "collections": {
+    "#": "Collections"
+  },
+  "cdl": {
+    "#": "Commercial Driver's License"
+  },
+  "commercial": {
+    "drivers": {
+      "license": {
+        "#": "Commercial Driver's License"
+      }
+    },
+    "driver": {
+      "license": {
+        "#": "Commercial Driver's License"
+      }
+    },
+    "lending": {
+      "#": "Commercial Lending"
+    },
+    "real": {
+      "estate": {
+        "#": "Commercial Real Estate"
+      }
+    }
+  },
+  "communication": {
+    "#": "Communication",
+    "skills": {
+      "#": "Communication"
+    },
+    "skill": {
+      "#": "Communication"
+    }
+  },
+  "communicating": {
+    "#": "Communication"
+  },
+  "community": {
+    "development": {
+      "#": "Community Development"
+    },
+    "outreach": {
+      "#": "Community Outreach"
+    }
+  },
+  "compassion": {
+    "#": "Compassion"
+  },
+  "empathy": {
+    "#": "Compassion"
+  },
+  "competitive": {
+    "analysis": {
+      "#": "Competitive Analysis"
+    }
+  },
+  "complex": {
+    "problem": {
+      "solving": {
+        "#": "Complex Problem Solving"
+      }
+    }
+  },
+  "composure": {
+    "#": "Composure"
+  },
+  "computer": {
+    "hardware": {
+      "#": "Computer Hardware"
+    },
+    "literacy": {
+      "#": "Computer Literacy"
+    },
+    "science": {
+      "#": "Computer Science"
+    },
+    "networking": {
+      "#": "Networking"
+    },
+    "#": "Digital Literacy",
+    "proficiency": {
+      "#": "Digital Literacy"
+    },
+    "security": {
+      "#": "Information Security"
+    }
+  },
+  "cs": {
+    "#": "Computer Science"
+  },
+  "c": {
+    "#": "Computer Science"
+  },
+  "algorithm": {
+    "#": "Computer Science"
+  },
+  "cad": {
+    "#": "Computer-Aided Design (CAD)"
+  },
+  "network": {
+    "administration": {
+      "#": "Computer Networking"
+    },
+    "design": {
+      "#": "Computer Networking"
+    },
+    "security": {
+      "#": "Information Security"
+    }
+  },
+  "tcpip": {
+    "#": "Computer Networking"
+  },
+  "router": {
+    "#": "Computer Networking"
+  },
+  "self": {
+    "confident": {
+      "#": "Confidence"
+    },
+    "sufficiency": {
+      "#": "Self Sufficiency"
+    },
+    "sufficient": {
+      "#": "Self Sufficiency"
+    },
+    "motivation": {
+      "#": "Self-Starter"
+    },
+    "motivated": {
+      "#": "Self-Starter"
+    },
+    "starter": {
+      "#": "Self-Starter"
+    },
+    "discipline": {
+      "#": "Self-Starter"
+    },
+    "disciplined": {
+      "#": "Self-Starter"
+    }
+  },
+  "conflict": {
+    "resolution": {
+      "#": "Conflict Resolution"
+    }
+  },
+  "construction": {
+    "#": "Construction",
+    "management": {
+      "#": "Construction Management"
+    },
+    "safety": {
+      "#": "Construction Safety"
+    }
+  },
+  "constructive": {
+    "feedback": {
+      "#": "Constructive Feedback"
+    }
+  },
+  "consult": {
+    "#": "Consulting"
+  },
+  "consulting": {
+    "#": "Consulting"
+  },
+  "consultation": {
+    "#": "Consulting"
+  },
+  "consumer": {
+    "lending": {
+      "#": "Consumer Lending"
+    }
+  },
+  "content": {
+    "management": {
+      "#": "Content Management"
+    },
+    "strategy": {
+      "#": "Content Strategy"
+    }
+  },
+  "continuous": {
+    "improvement": {
+      "#": "Continuous Improvement"
+    }
+  },
+  "contract": {
+    "negotiation": {
+      "#": "Contract Negotiation"
+    },
+    "management": {
+      "#": "Procurement"
+    }
+  },
+  "contractual": {
+    "agreements": {
+      "#": "Contractual Agreements"
+    },
+    "agreement": {
+      "#": "Contractual Agreements"
+    }
+  },
+  "cooking": {
+    "#": "Cooking"
+  },
+  "coordinate": {
+    "#": "Coordination"
+  },
+  "coordinated": {
+    "#": "Coordination"
+  },
+  "coordination": {
+    "#": "Coordination"
+  },
+  "coordinating": {
+    "#": "Coordination"
+  },
+  "copyeditor": {
+    "#": "Copy Editing"
+  },
+  "copy": {
+    "editor": {
+      "#": "Copy Editing"
+    },
+    "edit": {
+      "#": "Copy Editing"
+    },
+    "editing": {
+      "#": "Copy Editing"
+    }
+  },
+  "copyedit": {
+    "#": "Copy Editing"
+  },
+  "copyediting": {
+    "#": "Copy Editing"
+  },
+  "copywriter": {
+    "#": "Copywriting"
+  },
+  "copywriting": {
+    "#": "Copywriting"
+  },
+  "corporate": {
+    "communications": {
+      "#": "Corporate Communications"
+    },
+    "communication": {
+      "#": "Corporate Communications"
+    },
+    "finance": {
+      "#": "Corporate Finance"
+    }
+  },
+  "counseling": {
+    "#": "Counseling",
+    "psychology": {
+      "#": "Mental Health Counseling"
+    }
+  },
+  "counterterrorism": {
+    "#": "Counterterrorism"
+  },
+  "cpr": {
+    "certified": {
+      "#": "CPR Certified"
+    }
+  },
+  "creative": {
+    "direction": {
+      "#": "Creative Direction"
+    },
+    "problem": {
+      "solving": {
+        "#": "Creative Problem Solving"
+      }
+    },
+    "thinking": {
+      "#": "Creative Thinking"
+    },
+    "writing": {
+      "#": "Creative Writing"
+    }
+  },
+  "creativity": {
+    "#": "Creativity"
+  },
+  "credit": {
+    "analysis": {
+      "#": "Credit Analysis"
+    }
+  },
+  "criminal": {
+    "justice": {
+      "#": "Criminal Justice"
+    }
+  },
+  "crisis": {
+    "intervention": {
+      "#": "Crisis Intervention"
+    },
+    "management": {
+      "#": "Crisis Management"
+    }
+  },
+  "critical": {
+    "care": {
+      "#": "Critical Care"
+    },
+    "thinking": {
+      "#": "Critical Thinking"
+    }
+  },
+  "questioning": {
+    "skills": {
+      "#": "Critical Thinking"
+    },
+    "skill": {
+      "#": "Critical Thinking"
+    }
+  },
+  "deductive": {
+    "reasoning": {
+      "#": "Critical Thinking"
+    }
+  },
+  "curiosity": {
+    "#": "Curiosity"
+  },
+  "curriculum": {
+    "design": {
+      "#": "Curriculum Design"
+    },
+    "development": {
+      "#": "Curriculum Development"
+    }
+  },
+  "customer": {
+    "experience": {
+      "#": "Customer Experience"
+    },
+    "relations": {
+      "#": "Customer Relations"
+    },
+    "relation": {
+      "#": "Customer Relations"
+    },
+    "relationship": {
+      "management": {
+        "#": "Customer Relationship Management"
+      }
+    },
+    "retention": {
+      "#": "Customer Retention"
+    },
+    "satisfaction": {
+      "#": "Customer Satisfaction"
+    },
+    "service": {
+      "#": "Customer Service"
+    },
+    "support": {
+      "#": "Customer Support"
+    }
+  },
+  "crm": {
+    "#": "Customer Relationship Management"
+  },
+  "data": {
+    "analysis": {
+      "#": "Data Analysis"
+    },
+    "entry": {
+      "#": "Data Entry"
+    },
+    "input": {
+      "#": "Data Entry"
+    },
+    "management": {
+      "#": "Data Management"
+    },
+    "mining": {
+      "#": "Data Mining"
+    },
+    "modeling": {
+      "#": "Data Modeling"
+    },
+    "reporting": {
+      "#": "Data Reporting"
+    },
+    "warehousing": {
+      "#": "Data Warehousing"
+    },
+    "center": {
+      "#": "Information Technology"
+    }
+  },
+  "visualization": {
+    "#": "Data Visualization"
+  },
+  "etl": {
+    "#": "Data Warehousing"
+  },
+  "database": {
+    "administration": {
+      "#": "Database Administration"
+    },
+    "design": {
+      "#": "Database Design"
+    },
+    "#": "Databases"
+  },
+  "decision": {
+    "making": {
+      "#": "Decision Making"
+    }
+  },
+  "decisiveness": {
+    "#": "Decisiveness"
+  },
+  "defense": {
+    "#": "Defense"
+  },
+  "defensive": {
+    "driving": {
+      "#": "Defensive Driving"
+    }
+  },
+  "dentist": {
+    "#": "Dentistry"
+  },
+  "dentistry": {
+    "#": "Dentistry"
+  },
+  "depth": {
+    "perception": {
+      "#": "Depth Perception"
+    }
+  },
+  "design": {
+    "#": "Design"
+  },
+  "aesthetic": {
+    "#": "Design Aesthetics"
+  },
+  "detail": {
+    "oriented": {
+      "#": "Detail-Oriented"
+    }
+  },
+  "attention": {
+    "to": {
+      "detail": {
+        "#": "Detail-Oriented"
+      }
+    }
+  },
+  "diagnostic": {
+    "skills": {
+      "#": "Diagnostic Skills"
+    },
+    "skill": {
+      "#": "Diagnostic Skills"
+    }
+  },
+  "sharepoint": {
+    "#": "Digital File Management"
+  },
+  "microsoft": {
+    "office": {
+      "#": "Digital Literacy"
+    },
+    "outlook": {
+      "#": "Digital Literacy"
+    },
+    "access": {
+      "#": "Microsoft Access"
+    },
+    "project": {
+      "#": "Project Management"
+    },
+    "sql": {
+      "server": {
+        "#": "Microsoft SQL Server"
+      }
+    },
+    "teams": {
+      "#": "Video Conferencing"
+    },
+    "word": {
+      "#": "Word Processing"
+    }
+  },
+  "digital": {
+    "marketing": {
+      "#": "Digital Marketing"
+    },
+    "media": {
+      "#": "Digital Media"
+    },
+    "medium": {
+      "#": "Digital Media"
+    },
+    "photography": {
+      "#": "Digital Photography"
+    },
+    "strategy": {
+      "#": "Digital Strategy"
+    }
+  },
+  "online": {
+    "marketing": {
+      "#": "Digital Marketing"
+    },
+    "research": {
+      "#": "Online Research"
+    }
+  },
+  "diplomacy": {
+    "#": "Diplomacy"
+  },
+  "direct": {
+    "mail": {
+      "#": "Direct Mail Marketing"
+    },
+    "marketing": {
+      "#": "Direct Marketing"
+    },
+    "patient": {
+      "care": {
+        "#": "Direct Patient Care"
+      }
+    }
+  },
+  "disaster": {
+    "recovery": {
+      "#": "Disaster Recovery"
+    }
+  },
+  "diversity": {
+    "awareness": {
+      "#": "Diversity Awareness"
+    }
+  },
+  "documentation": {
+    "#": "Documentation"
+  },
+  "documenting": {
+    "#": "Documentation"
+  },
+  "journal": {
+    "entries": {
+      "#": "Documentation"
+    },
+    "entry": {
+      "#": "Documentation"
+    }
+  },
+  "illustrating": {
+    "#": "Drawing"
+  },
+  "drawing": {
+    "#": "Drawing"
+  },
+  "driving": {
+    "results": {
+      "#": "Driving Results"
+    },
+    "result": {
+      "#": "Driving Results"
+    }
+  },
+  "due": {
+    "diligence": {
+      "#": "Due Diligence"
+    }
+  },
+  "eclipse": {
+    "#": "Eclipse"
+  },
+  "economics": {
+    "#": "Economics"
+  },
+  "economist": {
+    "#": "Economics"
+  },
+  "editing": {
+    "#": "Editing"
+  },
+  "editorial": {
+    "#": "Editorial Writing"
+  },
+  "educational": {
+    "technology": {
+      "#": "Educational Technology"
+    }
+  },
+  "working": {
+    "quickly": {
+      "#": "Efficiency"
+    }
+  },
+  "elearning": {
+    "#": "e-learning"
+  },
+  "wire": {
+    "strippers": {
+      "#": "Electrical"
+    },
+    "stripper": {
+      "#": "Electrical"
+    }
+  },
+  "electrical": {
+    "engineering": {
+      "#": "Electrical Engineering"
+    }
+  },
+  "electrician": {
+    "#": "Electrician"
+  },
+  "electronic": {
+    "medical": {
+      "record": {
+        "#": "Electronic Health Records (EHR)"
+      },
+      "records": {
+        "#": "Electronic Health Records (EHR)"
+      }
+    },
+    "health": {
+      "record": {
+        "#": "Electronic Health Records (EHR)"
+      },
+      "records": {
+        "#": "Electronic Health Records (EHR)"
+      }
+    }
+  },
+  "emr": {
+    "#": "Electronic Health Records (EHR)"
+  },
+  "ehr": {
+    "#": "Electronic Health Records (EHR)"
+  },
+  "electronics": {
+    "#": "Electronics"
+  },
+  "elementary": {
+    "education": {
+      "#": "Elementary Education"
+    },
+    "mathematics": {
+      "#": "Elementary Mathematics"
+    }
+  },
+  "email": {
+    "marketing": {
+      "#": "e-mail Marketing"
+    }
+  },
+  "embedded": {
+    "systems": {
+      "#": "Embedded Systems"
+    },
+    "system": {
+      "#": "Embedded Systems"
+    }
+  },
+  "emergency": {
+    "management": {
+      "#": "Emergency Management"
+    },
+    "medical": {
+      "technician": {
+        "#": "Emergency Medical Technician"
+      }
+    },
+    "medicine": {
+      "#": "Emergency Medicine"
+    },
+    "procedures": {
+      "#": "Emergency Procedures"
+    },
+    "procedure": {
+      "#": "Emergency Procedures"
+    },
+    "services": {
+      "#": "Emergency Services"
+    },
+    "service": {
+      "#": "Emergency Services"
+    }
+  },
+  "employee": {
+    "benefits": {
+      "#": "Employee Benefits Administration"
+    },
+    "benefit": {
+      "#": "Employee Benefits Administration"
+    },
+    "engagement": {
+      "#": "Employee Engagement"
+    },
+    "relations": {
+      "#": "Employee Relations"
+    },
+    "relation": {
+      "#": "Employee Relations"
+    },
+    "training": {
+      "#": "Employee Training"
+    }
+  },
+  "employment": {
+    "law": {
+      "#": "Employment Law"
+    }
+  },
+  "energy": {
+    "#": "Energetic"
+  },
+  "energetic": {
+    "#": "Energetic"
+  },
+  "enforcement": {
+    "#": "Enforcement"
+  },
+  "engineer": {
+    "#": "Engineering"
+  },
+  "engineering": {
+    "#": "Engineering",
+    "management": {
+      "#": "Engineering Management"
+    }
+  },
+  "enterprise": {
+    "architecture": {
+      "#": "Enterprise Architecture"
+    },
+    "software": {
+      "#": "Enterprise Software"
+    }
+  },
+  "erp": {
+    "#": "Enterprise Resource Planning"
+  },
+  "enthusiasm": {
+    "#": "Enthusiasm"
+  },
+  "environmental": {
+    "compliance": {
+      "#": "Environmental Compliance"
+    },
+    "science": {
+      "#": "Environmental Science"
+    }
+  },
+  "equipment": {
+    "maintenance": {
+      "#": "Equipment Maintenance"
+    },
+    "selection": {
+      "#": "Equipment Selection"
+    }
+  },
+  "estimating": {
+    "#": "Estimating"
+  },
+  "ethical": {
+    "conduct": {
+      "#": "Ethical Conduct"
+    },
+    "principles": {
+      "#": "Ethics"
+    },
+    "principle": {
+      "#": "Ethics"
+    }
+  },
+  "evaluating": {
+    "#": "Evaluating"
+  },
+  "banquet": {
+    "#": "Event Management"
+  },
+  "event": {
+    "management": {
+      "#": "Event Management"
+    },
+    "planning": {
+      "#": "Event Planning"
+    }
+  },
+  "executive": {
+    "management": {
+      "#": "Executive Management"
+    }
+  },
+  "external": {
+    "customers": {
+      "#": "External Customers"
+    },
+    "customer": {
+      "#": "External Customers"
+    }
+  },
+  "facebook": {
+    "#": "Facebook"
+  },
+  "facilities": {
+    "management": {
+      "#": "Facilities Management"
+    }
+  },
+  "facility": {
+    "management": {
+      "#": "Facilities Management"
+    }
+  },
+  "family": {
+    "therapist": {
+      "#": "Family Therapy"
+    },
+    "therapy": {
+      "#": "Family Therapy"
+    }
+  },
+  "fashion": {
+    "#": "Fashion"
+  },
+  "fast": {
+    "learner": {
+      "#": "Fast Learner"
+    }
+  },
+  "learning": {
+    "agility": {
+      "#": "Fast Learner"
+    }
+  },
+  "quick": {
+    "learner": {
+      "#": "Fast Learner"
+    },
+    "study": {
+      "#": "Fast Learner"
+    }
+  },
+  "film": {
+    "#": "Film"
+  },
+  "finance": {
+    "#": "Finance"
+  },
+  "pl": {
+    "#": "Finance"
+  },
+  "general": {
+    "ledger": {
+      "#": "Finance"
+    }
+  },
+  "equity": {
+    "#": "Finance"
+  },
+  "financial": {
+    "accounting": {
+      "#": "Financial Accounting"
+    },
+    "acumen": {
+      "#": "Financial Acumen"
+    },
+    "analysis": {
+      "#": "Financial Analysis"
+    },
+    "literacy": {
+      "#": "Financial Literacy"
+    },
+    "management": {
+      "#": "Financial Management"
+    },
+    "modeling": {
+      "#": "Financial Modeling"
+    },
+    "planning": {
+      "#": "Financial Planning"
+    },
+    "reporting": {
+      "#": "Financial Reporting"
+    },
+    "risk": {
+      "#": "Financial Risk"
+    },
+    "services": {
+      "#": "Financial Services"
+    },
+    "service": {
+      "#": "Financial Services"
+    },
+    "statements": {
+      "#": "Financial Statements"
+    },
+    "statement": {
+      "#": "Financial Statements"
+    }
+  },
+  "fine": {
+    "art": {
+      "#": "Fine Arts"
+    },
+    "arts": {
+      "#": "Fine Arts"
+    }
+  },
+  "first": {
+    "aid": {
+      "#": "First Aid"
+    }
+  },
+  "fitness": {
+    "#": "Fitness"
+  },
+  "flexibility": {
+    "#": "Flexibility"
+  },
+  "food": {
+    "production": {
+      "#": "Food Production"
+    },
+    "safety": {
+      "#": "Food Safety"
+    },
+    "#": "Food Service",
+    "server": {
+      "#": "Food Service"
+    },
+    "service": {
+      "#": "Food Service"
+    },
+    "and": {
+      "beverage": {
+        "#": "Food Service"
+      }
+    }
+  },
+  "restaurant": {
+    "#": "Food Service",
+    "management": {
+      "#": "Restaurant Management"
+    }
+  },
+  "forecasting": {
+    "#": "Forecasting"
+  },
+  "foreign": {
+    "language": {
+      "#": "Foreign Language"
+    }
+  },
+  "forklift": {
+    "#": "Forklift"
+  },
+  "friendliness": {
+    "#": "Friendliness"
+  },
+  "fundraising": {
+    "#": "Fundraising"
+  },
+  "gaap": {
+    "#": "Generally Accepted Accounting Principles (GAAP)"
+  },
+  "generally": {
+    "accepted": {
+      "accounting": {
+        "principles": {
+          "#": "Generally Accepted Accounting Principles (GAAP)"
+        }
+      }
+    }
+  },
+  "geography": {
+    "#": "Geography"
+  },
+  "protractor": {
+    "#": "Geometry"
+  },
+  "git": {
+    "#": "Git"
+  },
+  "gitlab": {
+    "#": "Git"
+  },
+  "github": {
+    "#": "Git"
+  },
+  "gps": {
+    "#": "Global Position Systems (GPS)"
+  },
+  "global": {
+    "position": {
+      "systems": {
+        "#": "Global Position Systems (GPS)"
+      },
+      "system": {
+        "#": "Global Position Systems (GPS)"
+      }
+    },
+    "positioning": {
+      "systems": {
+        "#": "Global Position Systems (GPS)"
+      },
+      "system": {
+        "#": "Global Position Systems (GPS)"
+      }
+    }
+  },
+  "goal": {
+    "oriented": {
+      "#": "Goal Oriented"
+    },
+    "setting": {
+      "#": "Goal Setting"
+    }
+  },
+  "gmp": {
+    "#": "Good Manufacturing Practice (GMP)"
+  },
+  "good": {
+    "manufacturing": {
+      "practices": {
+        "#": "Good Manufacturing Practice (GMP)"
+      },
+      "practice": {
+        "#": "Good Manufacturing Practice (GMP)"
+      }
+    },
+    "driving": {
+      "record": {
+        "#": "Valid Driver's License"
+      }
+    }
+  },
+  "google": {
+    "analytics": {
+      "#": "Google Analytics"
+    }
+  },
+  "governance": {
+    "#": "Governance"
+  },
+  "government": {
+    "#": "Government",
+    "contracting": {
+      "#": "Government Procurement"
+    },
+    "procurement": {
+      "#": "Government Procurement"
+    }
+  },
+  "grammar": {
+    "#": "Grammar"
+  },
+  "grant": {
+    "writing": {
+      "#": "Grant Writing"
+    }
+  },
+  "graphic": {
+    "design": {
+      "#": "Graphic Design"
+    }
+  },
+  "graphics": {
+    "#": "Graphic Design"
+  },
+  "group": {
+    "therapy": {
+      "#": "Group Therapy"
+    }
+  },
+  "saw": {
+    "#": "Hand Tools"
+  },
+  "hand": {
+    "tools": {
+      "#": "Hand Tools"
+    },
+    "tool": {
+      "#": "Hand Tools"
+    },
+    "trucks": {
+      "#": "Hand Truck Operations"
+    },
+    "truck": {
+      "#": "Hand Truck Operations"
+    }
+  },
+  "wrench": {
+    "#": "Hand Tools"
+  },
+  "hammer": {
+    "#": "Hand Tools"
+  },
+  "plier": {
+    "#": "Hand Tools"
+  },
+  "hardware": {
+    "#": "Hardware"
+  },
+  "healing": {
+    "#": "Healing"
+  },
+  "health": {
+    "education": {
+      "#": "Health Education"
+    },
+    "insurance": {
+      "#": "Health Insurance"
+    }
+  },
+  "healthcare": {
+    "#": "Healthcare",
+    "consulting": {
+      "#": "Healthcare Consulting"
+    },
+    "management": {
+      "#": "Healthcare Management"
+    }
+  },
+  "hospital": {
+    "#": "Healthcare"
+  },
+  "medicine": {
+    "#": "Healthcare"
+  },
+  "medical": {
+    "terminology": {
+      "#": "Healthcare"
+    },
+    "records": {
+      "#": "Healthcare Administration"
+    },
+    "record": {
+      "#": "Healthcare Administration"
+    },
+    "billing": {
+      "#": "Medical Billing"
+    },
+    "devices": {
+      "#": "Medical Devices"
+    },
+    "device": {
+      "#": "Medical Devices"
+    },
+    "education": {
+      "#": "Medical Education"
+    }
+  },
+  "patient": {
+    "safety": {
+      "#": "Healthcare"
+    },
+    "education": {
+      "#": "Patient Education"
+    }
+  },
+  "help": {
+    "desk": {
+      "support": {
+        "#": "Help Desk Support"
+      }
+    }
+  },
+  "higher": {
+    "education": {
+      "#": "Higher Education"
+    }
+  },
+  "hipaa": {
+    "#": "HIPAA Compliance"
+  },
+  "history": {
+    "#": "History"
+  },
+  "home": {
+    "care": {
+      "#": "Home Care"
+    }
+  },
+  "homeland": {
+    "security": {
+      "#": "Homeland Security"
+    }
+  },
+  "hotel": {
+    "#": "Hospitality",
+    "management": {
+      "#": "Hotel Management"
+    }
+  },
+  "hospitality": {
+    "#": "Hospitality",
+    "management": {
+      "#": "Hospitality Management"
+    }
+  },
+  "resort": {
+    "#": "Hospitality"
+  },
+  "html": {
+    "#": "HTML"
+  },
+  "html5": {
+    "#": "HTML"
+  },
+  "hris": {
+    "#": "Human Resource Information System (HRIS)"
+  },
+  "hr": {
+    "#": "Human Resources"
+  },
+  "human": {
+    "resources": {
+      "#": "Human Resources"
+    },
+    "resource": {
+      "#": "Human Resources"
+    }
+  },
+  "hrms": {
+    "#": "Human Resources Management System (HRMS)"
+  },
+  "humility": {
+    "#": "Humility"
+  },
+  "ideation": {
+    "#": "Ideation"
+  },
+  "imagination": {
+    "#": "Imagination"
+  },
+  "impact": {
+    "#": "Impact"
+  },
+  "incident": {
+    "reporting": {
+      "#": "Incident Reporting"
+    }
+  },
+  "independence": {
+    "#": "Independence"
+  },
+  "influencing": {
+    "#": "Influencing",
+    "skills": {
+      "#": "Influencing"
+    },
+    "skill": {
+      "#": "Influencing"
+    }
+  },
+  "informatics": {
+    "#": "Informatics"
+  },
+  "information": {
+    "gathering": {
+      "#": "Information Gathering"
+    },
+    "organization": {
+      "#": "Information Organization"
+    },
+    "security": {
+      "#": "Information Security"
+    },
+    "technology": {
+      "#": "Information Technology"
+    },
+    "assurance": {
+      "#": "Quality Assurance"
+    }
+  },
+  "firewall": {
+    "#": "Information Security"
+  },
+  "itil": {
+    "#": "Information Technology"
+  },
+  "vpn": {
+    "#": "Information Technology"
+  },
+  "dns": {
+    "#": "Information Technology"
+  },
+  "personal": {
+    "computers": {
+      "#": "Information Technology"
+    },
+    "computer": {
+      "#": "Information Technology"
+    },
+    "development": {
+      "#": "Personal Development"
+    }
+  },
+  "ingenuity": {
+    "#": "Ingenuity"
+  },
+  "initiative": {
+    "#": "Initiative"
+  },
+  "innovation": {
+    "#": "Innovative"
+  },
+  "visionary": {
+    "#": "Innovative"
+  },
+  "inpatient": {
+    "#": "Inpatient Care"
+  },
+  "inspection": {
+    "#": "Inspection"
+  },
+  "installation": {
+    "#": "Installation"
+  },
+  "instructing": {
+    "#": "Instructing"
+  },
+  "instructional": {
+    "design": {
+      "#": "Instructional Design"
+    }
+  },
+  "claim": {
+    "#": "Insurance"
+  },
+  "insurance": {
+    "#": "Insurance"
+  },
+  "integrated": {
+    "marketing": {
+      "#": "Integrated Marketing"
+    }
+  },
+  "integration": {
+    "#": "Integration"
+  },
+  "integrity": {
+    "#": "Integrity"
+  },
+  "intellectual": {
+    "property": {
+      "#": "Intellectual Property"
+    }
+  },
+  "patent": {
+    "#": "Intellectual Property"
+  },
+  "patents": {
+    "#": "Intellectual Property"
+  },
+  "intelligence": {
+    "analysis": {
+      "#": "Intelligence Analysis"
+    }
+  },
+  "interior": {
+    "design": {
+      "#": "Interior Design"
+    }
+  },
+  "international": {
+    "relations": {
+      "#": "International Relations"
+    },
+    "relation": {
+      "#": "International Relations"
+    }
+  },
+  "interpersonal": {
+    "communication": {
+      "#": "Interpersonal Communication"
+    },
+    "skills": {
+      "#": "Interpersonal Communication"
+    },
+    "skill": {
+      "#": "Interpersonal Communication"
+    },
+    "communications": {
+      "#": "Interpersonal Communication"
+    },
+    "relationship": {
+      "#": "Interpersonal Relationship"
+    }
+  },
+  "people": {
+    "skills": {
+      "#": "Interpersonal Skills"
+    },
+    "skill": {
+      "#": "Interpersonal Skills"
+    },
+    "management": {
+      "#": "People Management"
+    }
+  },
+  "interpreting": {
+    "#": "Interpreting"
+  },
+  "intervention": {
+    "#": "Intervention"
+  },
+  "interview": {
+    "#": "Interviewing"
+  },
+  "interviewing": {
+    "#": "Interviewing"
+  },
+  "quickbooks": {
+    "#": "Intuit QuickBooks"
+  },
+  "inventory": {
+    "#": "Inventory"
+  },
+  "investigation": {
+    "#": "Investigative"
+  },
+  "investigative": {
+    "#": "Investigative"
+  },
+  "investing": {
+    "#": "Investing"
+  },
+  "investor": {
+    "#": "Investing"
+  },
+  "investment": {
+    "#": "Investing"
+  },
+  "invoicing": {
+    "#": "Invoicing"
+  },
+  "it": {
+    "management": {
+      "#": "IT Management"
+    },
+    "service": {
+      "management": {
+        "#": "IT Management"
+      }
+    }
+  },
+  "jsp": {
+    "#": "Jakarta Server Pages"
+  },
+  "java": {
+    "#": "Java"
+  },
+  "javascript": {
+    "#": "JavaScript"
+  },
+  "jira": {
+    "#": "JIRA"
+  },
+  "journalism": {
+    "#": "Journalism"
+  },
+  "jquery": {
+    "#": "jQuery"
+  },
+  "judgment": {
+    "#": "Judgement"
+  },
+  "judging": {
+    "#": "Judging"
+  },
+  "k12": {
+    "#": "K-12 Education"
+  },
+  "knife": {
+    "#": "Knife Skills"
+  },
+  "laboratory": {
+    "#": "Laboratory"
+  },
+  "land": {
+    "survey": {
+      "#": "Land Surveying"
+    },
+    "surveying": {
+      "#": "Land Surveying"
+    },
+    "surveyor": {
+      "#": "Land Surveying"
+    }
+  },
+  "law": {
+    "#": "Law",
+    "enforcement": {
+      "#": "Law Enforcement"
+    }
+  },
+  "litigation": {
+    "#": "Law"
+  },
+  "trial": {
+    "#": "Law"
+  },
+  "attorney": {
+    "#": "Law"
+  },
+  "court": {
+    "#": "Law"
+  },
+  "police": {
+    "#": "Law Enforcement"
+  },
+  "lead": {
+    "generation": {
+      "#": "Lead Generation"
+    }
+  },
+  "leadership": {
+    "#": "Leadership",
+    "development": {
+      "#": "Leadership Development"
+    }
+  },
+  "lean": {
+    "manufacturing": {
+      "#": "Lean Manufacturing"
+    }
+  },
+  "lease": {
+    "#": "Leasing"
+  },
+  "leasing": {
+    "#": "Leasing"
+  },
+  "legal": {
+    "research": {
+      "#": "Legal Research"
+    },
+    "writing": {
+      "#": "Legal Writing"
+    }
+  },
+  "lesson": {
+    "planning": {
+      "#": "Lesson Planning"
+    }
+  },
+  "liability": {
+    "#": "Liability Management"
+  },
+  "practical": {
+    "nurse": {
+      "#": "Licensed Practical Nurse (LPN)"
+    }
+  },
+  "life": {
+    "sciences": {
+      "#": "Life Sciences"
+    },
+    "science": {
+      "#": "Life Sciences"
+    }
+  },
+  "linux": {
+    "#": "Linux"
+  },
+  "listening": {
+    "skills": {
+      "#": "Listening"
+    },
+    "skill": {
+      "#": "Listening"
+    }
+  },
+  "loading": {
+    "and": {
+      "unloading": {
+        "#": "Loading and Unloading"
+      }
+    }
+  },
+  "loan": {
+    "#": "Loan Administration",
+    "origination": {
+      "#": "Loan Origination"
+    }
+  },
+  "logistics": {
+    "#": "Logistics"
+  },
+  "loss": {
+    "prevention": {
+      "#": "Loss Prevention"
+    }
+  },
+  "luxury": {
+    "#": "Luxury"
+  },
+  "machine": {
+    "learning": {
+      "#": "Machine Learning"
+    },
+    "#": "Systems"
+  },
+  "maintenance": {
+    "#": "Maintenance"
+  },
+  "managed": {
+    "care": {
+      "#": "Managed Care"
+    },
+    "services": {
+      "#": "Managed Services"
+    },
+    "service": {
+      "#": "Managed Services"
+    }
+  },
+  "management": {
+    "#": "Management",
+    "consulting": {
+      "#": "Management Consulting"
+    },
+    "of": {
+      "personnel": {
+        "#": "People Management"
+      }
+    }
+  },
+  "directing": {
+    "#": "Management"
+  },
+  "manufacturing": {
+    "#": "Manufacturing"
+  },
+  "market": {
+    "analysis": {
+      "#": "Market Analysis"
+    },
+    "analytics": {
+      "#": "Market Analysis"
+    },
+    "planning": {
+      "#": "Market Planning"
+    },
+    "research": {
+      "#": "Market Research"
+    }
+  },
+  "marketing": {
+    "#": "Marketing",
+    "communications": {
+      "#": "Marketing"
+    },
+    "communication": {
+      "#": "Marketing"
+    },
+    "management": {
+      "#": "Marketing Management"
+    },
+    "strategy": {
+      "#": "Marketing Strategy"
+    }
+  },
+  "massage": {
+    "therapist": {
+      "#": "Massage Therapy"
+    }
+  },
+  "material": {
+    "management": {
+      "#": "Material Management"
+    }
+  },
+  "mathematics": {
+    "#": "Mathematics"
+  },
+  "basic": {
+    "math": {
+      "#": "Mathematics"
+    }
+  },
+  "matlab": {
+    "#": "MATLAB"
+  },
+  "measuring": {
+    "#": "Measuring"
+  },
+  "mechanic": {
+    "#": "Mechanical"
+  },
+  "mechanical": {
+    "#": "Mechanical",
+    "aptitude": {
+      "#": "Mechanical Aptitude"
+    },
+    "engineering": {
+      "#": "Mechanical Engineering"
+    }
+  },
+  "media": {
+    "relations": {
+      "#": "Media Relations"
+    }
+  },
+  "mediation": {
+    "#": "Mediation"
+  },
+  "medicaid": {
+    "#": "Medicaid Administration"
+  },
+  "medicare": {
+    "#": "Medicare Administration"
+  },
+  "medication": {
+    "administration": {
+      "#": "Medication Administration"
+    }
+  },
+  "meets": {
+    "deadlines": {
+      "#": "Meets Deadlines"
+    },
+    "deadline": {
+      "#": "Meets Deadlines"
+    }
+  },
+  "meet": {
+    "deadlines": {
+      "#": "Meets Deadlines"
+    },
+    "deadline": {
+      "#": "Meets Deadlines"
+    }
+  },
+  "time": {
+    "constraints": {
+      "#": "Meets Deadlines"
+    },
+    "constraint": {
+      "#": "Meets Deadlines"
+    },
+    "management": {
+      "#": "Time Management"
+    }
+  },
+  "meeting": {
+    "planning": {
+      "#": "Meeting Planning"
+    }
+  },
+  "memory": {
+    "#": "Memorization"
+  },
+  "memorization": {
+    "#": "Memorization"
+  },
+  "recall": {
+    "#": "Memorization"
+  },
+  "mental": {
+    "health": {
+      "#": "Mental Health",
+      "counseling": {
+        "#": "Mental Health Counseling"
+      },
+      "counselor": {
+        "#": "Mental Health Counseling"
+      }
+    }
+  },
+  "mentor": {
+    "#": "Mentoring"
+  },
+  "mentoring": {
+    "#": "Mentoring"
+  },
+  "guiding": {
+    "#": "Mentoring"
+  },
+  "mentorship": {
+    "#": "Mentoring"
+  },
+  "menu": {
+    "development": {
+      "#": "Menu Development"
+    }
+  },
+  "merchandising": {
+    "#": "Merchandising"
+  },
+  "micrometer": {
+    "#": "Micrometer"
+  },
+  "excel": {
+    "#": "Microsoft Excel"
+  },
+  "powerpoint": {
+    "#": "Microsoft PowerPoint"
+  },
+  "windows": {
+    "server": {
+      "#": "Microsoft Windows"
+    },
+    "7": {
+      "#": "Microsoft Windows"
+    },
+    "8": {
+      "#": "Microsoft Windows"
+    },
+    "10": {
+      "#": "Microsoft Windows"
+    },
+    "11": {
+      "#": "Microsoft Windows"
+    },
+    "nt": {
+      "#": "Microsoft Windows"
+    },
+    "xp": {
+      "#": "Microsoft Windows"
+    }
+  },
+  "visio": {
+    "#": "Microsoft Visio"
+  },
+  "visual": {
+    "basic": {
+      "#": "Microsoft Visual Basic"
+    },
+    "merchandising": {
+      "#": "Visual Merchandising"
+    },
+    "studio": {
+      "#": "Microsoft Visual Studio"
+    }
+  },
+  "microstation": {
+    "#": "MicroStation"
+  },
+  "military": {
+    "#": "Military"
+  },
+  "mobile": {
+    "applications": {
+      "#": "Mobile Applications"
+    },
+    "application": {
+      "#": "Mobile Applications"
+    }
+  },
+  "molecular": {
+    "biology": {
+      "#": "Molecular Biology"
+    }
+  },
+  "monitoring": {
+    "#": "Monitoring"
+  },
+  "mortgage": {
+    "banking": {
+      "#": "Mortgage Banking"
+    },
+    "lending": {
+      "#": "Mortgage Lending"
+    }
+  },
+  "motivating": {
+    "#": "Motivating"
+  },
+  "motivational": {
+    "#": "Motivating",
+    "skills": {
+      "#": "Motivating"
+    },
+    "skill": {
+      "#": "Motivating"
+    },
+    "interviewing": {
+      "#": "Motivational Interviewing"
+    }
+  },
+  "multimedia": {
+    "#": "Multimedia"
+  },
+  "multi": {
+    "tasking": {
+      "#": "Multi-Tasking"
+    }
+  },
+  "multitasking": {
+    "#": "Multi-Tasking"
+  },
+  "music": {
+    "#": "Music"
+  },
+  "mysql": {
+    "#": "MySQL"
+  },
+  "dod": {
+    "#": "National Security"
+  },
+  "department": {
+    "of": {
+      "defense": {
+        "#": "National Security"
+      }
+    }
+  },
+  "national": {
+    "security": {
+      "#": "National Security"
+    }
+  },
+  "top": {
+    "secret": {
+      "#": "National Security"
+    }
+  },
+  "natural": {
+    "sciences": {
+      "#": "Natural Sciences"
+    },
+    "science": {
+      "#": "Natural Sciences"
+    }
+  },
+  "needs": {
+    "assessment": {
+      "#": "Needs Assessment"
+    }
+  },
+  "need": {
+    "assessment": {
+      "#": "Needs Assessment"
+    }
+  },
+  "negotiation": {
+    "#": "Negotiation"
+  },
+  "negotiating": {
+    "#": "Negotiation"
+  },
+  "newsletter": {
+    "#": "Newsletter Production"
+  },
+  "nonprofit": {
+    "#": "Nonprofit"
+  },
+  "nonverbal": {
+    "communication": {
+      "#": "Nonverbal Communication"
+    }
+  },
+  "nuclear": {
+    "medicine": {
+      "#": "Nuclear Medicine"
+    }
+  },
+  "nursing": {
+    "#": "Nursing",
+    "home": {
+      "administrator": {
+        "#": "Nursing Home Administration"
+      }
+    }
+  },
+  "rn": {
+    "#": "Nursing"
+  },
+  "registered": {
+    "nurse": {
+      "#": "Nursing"
+    }
+  },
+  "nurse": {
+    "aide": {
+      "#": "Nursing Aide"
+    }
+  },
+  "nutrition": {
+    "#": "Nutrition"
+  },
+  "object": {
+    "oriented": {
+      "design": {
+        "#": "Object Oriented Programming"
+      },
+      "programming": {
+        "#": "Object Oriented Programming"
+      }
+    }
+  },
+  "occupational": {
+    "therapist": {
+      "#": "Occupational Therapy"
+    }
+  },
+  "office": {
+    "administration": {
+      "#": "Office Administration"
+    },
+    "management": {
+      "#": "Office Management"
+    }
+  },
+  "oil": {
+    "and": {
+      "gas": {
+        "#": "Oil and Gas"
+      }
+    }
+  },
+  "petroleum": {
+    "#": "Oil and Gas"
+  },
+  "onboarding": {
+    "#": "Onboarding"
+  },
+  "oncology": {
+    "#": "Oncology"
+  },
+  "internet": {
+    "research": {
+      "#": "Online Research"
+    }
+  },
+  "operating": {
+    "equipment": {
+      "#": "Operating Equipment"
+    },
+    "systems": {
+      "#": "Operating Systems"
+    },
+    "system": {
+      "#": "Operating Systems"
+    }
+  },
+  "operational": {
+    "planning": {
+      "#": "Operational Planning"
+    }
+  },
+  "operations": {
+    "management": {
+      "#": "Operations Management"
+    },
+    "monitoring": {
+      "#": "Operations Monitoring"
+    }
+  },
+  "operation": {
+    "management": {
+      "#": "Operations Management"
+    },
+    "monitoring": {
+      "#": "Operations Monitoring"
+    }
+  },
+  "dispensing": {
+    "optician": {
+      "#": "Optician Dispensing"
+    }
+  },
+  "optician": {
+    "dispensing": {
+      "#": "Optician Dispensing"
+    }
+  },
+  "optometrist": {
+    "#": "Optometry"
+  },
+  "oracle": {
+    "#": "Oracle"
+  },
+  "organizing": {
+    "#": "Organization Skills"
+  },
+  "organization": {
+    "skills": {
+      "#": "Organization Skills"
+    },
+    "skill": {
+      "#": "Organization Skills"
+    }
+  },
+  "organizational": {
+    "skills": {
+      "#": "Organizational Skills"
+    },
+    "skill": {
+      "#": "Organizational Skills"
+    },
+    "development": {
+      "#": "Organizational Development"
+    },
+    "effectiveness": {
+      "#": "Organizational Effectiveness"
+    }
+  },
+  "originality": {
+    "#": "Originality"
+  },
+  "outsourcing": {
+    "#": "Outsourcing"
+  },
+  "ownership": {
+    "#": "Ownership"
+  },
+  "packaging": {
+    "#": "Packaging"
+  },
+  "painting": {
+    "#": "Painting"
+  },
+  "paramedic": {
+    "#": "Paramedics"
+  },
+  "patience": {
+    "#": "Patience"
+  },
+  "payroll": {
+    "#": "Payroll"
+  },
+  "pediatrics": {
+    "#": "Pediatric Care"
+  },
+  "personnel": {
+    "management": {
+      "#": "Personnel Management"
+    }
+  },
+  "performance": {
+    "management": {
+      "#": "Performance Management"
+    }
+  },
+  "peripheral": {
+    "vision": {
+      "#": "Peripheral Vision"
+    }
+  },
+  "perl": {
+    "#": "Perl"
+  },
+  "persistance": {
+    "#": "Persistence"
+  },
+  "persistence": {
+    "#": "Persistence"
+  },
+  "tenacity": {
+    "#": "Persistence"
+  },
+  "pda": {
+    "#": "Personal Digital Assistant"
+  },
+  "persuasion": {
+    "#": "Persuasion"
+  },
+  "pest": {
+    "control": {
+      "#": "Pest Control"
+    }
+  },
+  "pharmaceuticals": {
+    "#": "Pharmaceuticals"
+  },
+  "pharmaceutical": {
+    "#": "Pharmaceuticals",
+    "sales": {
+      "#": "Pharmaceutical Sales"
+    },
+    "sale": {
+      "#": "Pharmaceutical Sales"
+    }
+  },
+  "pharmacy": {
+    "#": "Pharmacy"
+  },
+  "pharmacist": {
+    "#": "Pharmacy"
+  },
+  "philosophy": {
+    "#": "Philosophy"
+  },
+  "phlebotomy": {
+    "#": "Phlebotomy"
+  },
+  "camera": {
+    "#": "Photography"
+  },
+  "photography": {
+    "#": "Photography"
+  },
+  "php": {
+    "#": "PHP: Hypertext Preprocessor"
+  },
+  "standing": {
+    "#": "Physical Ability"
+  },
+  "walking": {
+    "#": "Physical Ability"
+  },
+  "ladder": {
+    "#": "Physical Ability"
+  },
+  "bending": {
+    "#": "Physical Ability"
+  },
+  "sitting": {
+    "#": "Physical Ability"
+  },
+  "running": {
+    "#": "Physical Ability"
+  },
+  "dexterity": {
+    "#": "Physical Ability"
+  },
+  "kneeling": {
+    "#": "Physical Ability"
+  },
+  "repetitive": {
+    "motion": {
+      "#": "Physical Ability"
+    },
+    "tasks": {
+      "#": "Repetitive Tasks"
+    },
+    "task": {
+      "#": "Repetitive Tasks"
+    }
+  },
+  "manual": {
+    "dexterity": {
+      "#": "Physical Ability"
+    }
+  },
+  "stooping": {
+    "#": "Physical Ability"
+  },
+  "physical": {
+    "activity": {
+      "#": "Physical Ability"
+    },
+    "ability": {
+      "#": "Physical Ability"
+    },
+    "fitness": {
+      "#": "Physical Fitness"
+    },
+    "therapist": {
+      "#": "Physical Therapy"
+    },
+    "therapy": {
+      "#": "Physical Therapy"
+    },
+    "security": {
+      "#": "Protective Services"
+    }
+  },
+  "crouching": {
+    "#": "Physical Ability"
+  },
+  "crawling": {
+    "#": "Physical Ability"
+  },
+  "pole": {
+    "#": "Physical Ability"
+  },
+  "finger": {
+    "dexterity": {
+      "#": "Physical Ability"
+    }
+  },
+  "physician": {
+    "#": "Physician",
+    "assistant": {
+      "#": "Physician Assistance"
+    }
+  },
+  "physicians": {
+    "assistant": {
+      "#": "Physician Assistance"
+    }
+  },
+  "physic": {
+    "#": "Physics"
+  },
+  "physics": {
+    "#": "Physics"
+  },
+  "planning": {
+    "#": "Planning"
+  },
+  "checklist": {
+    "#": "Planning"
+  },
+  "plumber": {
+    "#": "Plumbing"
+  },
+  "plumbing": {
+    "#": "Plumbing"
+  },
+  "policy": {
+    "analysis": {
+      "#": "Policy Analysis"
+    }
+  },
+  "politics": {
+    "#": "Politics"
+  },
+  "pcr": {
+    "#": "Polymerase Chain Reaction"
+  },
+  "polymerase": {
+    "chain": {
+      "reaction": {
+        "#": "Polymerase Chain Reaction"
+      }
+    }
+  },
+  "portfolio": {
+    "management": {
+      "#": "Portfolio Management"
+    }
+  },
+  "positivity": {
+    "#": "Positivity"
+  },
+  "presales": {
+    "#": "Pre Sales"
+  },
+  "presale": {
+    "#": "Pre Sales"
+  },
+  "pre": {
+    "sales": {
+      "#": "Pre Sales"
+    },
+    "sale": {
+      "#": "Pre Sales"
+    }
+  },
+  "preparedness": {
+    "#": "Preparedness"
+  },
+  "presentation": {
+    "#": "Presentation"
+  },
+  "press": {
+    "releases": {
+      "#": "Press Release Writing"
+    },
+    "release": {
+      "#": "Press Release Writing"
+    }
+  },
+  "pricing": {
+    "#": "Pricing"
+  },
+  "scanner": {
+    "#": "Printing"
+  },
+  "scanning": {
+    "#": "Printing"
+  },
+  "printer": {
+    "#": "Printing"
+  },
+  "printing": {
+    "#": "Printing"
+  },
+  "prioritize": {
+    "#": "Prioritization"
+  },
+  "prioritized": {
+    "#": "Prioritization"
+  },
+  "prioritizing": {
+    "#": "Prioritization"
+  },
+  "prioritization": {
+    "#": "Prioritization"
+  },
+  "problem": {
+    "solving": {
+      "#": "Problem Solving"
+    }
+  },
+  "procedure": {
+    "development": {
+      "#": "Procedure Development"
+    }
+  },
+  "process": {
+    "engineering": {
+      "#": "Process Engineering"
+    },
+    "improvement": {
+      "#": "Process Improvement"
+    }
+  },
+  "processing": {
+    "#": "Processing"
+  },
+  "procurement": {
+    "#": "Procurement"
+  },
+  "purchasing": {
+    "#": "Procurement"
+  },
+  "sourcing": {
+    "#": "Procurement"
+  },
+  "buyer": {
+    "#": "Procurement"
+  },
+  "buying": {
+    "#": "Procurement"
+  },
+  "product": {
+    "design": {
+      "#": "Product Design"
+    },
+    "development": {
+      "#": "Product Development"
+    },
+    "launch": {
+      "#": "Product Launch"
+    },
+    "management": {
+      "#": "Product Management"
+    },
+    "marketing": {
+      "#": "Product Marketing"
+    }
+  },
+  "production": {
+    "#": "Production"
+  },
+  "professional": {
+    "networking": {
+      "#": "Professional Networking"
+    },
+    "services": {
+      "#": "Professional Services"
+    },
+    "service": {
+      "#": "Professional Services"
+    }
+  },
+  "professionalism": {
+    "#": "Professionalism"
+  },
+  "program": {
+    "development": {
+      "#": "Program Development"
+    },
+    "evaluation": {
+      "#": "Program Evaluation"
+    },
+    "management": {
+      "#": "Program Management"
+    }
+  },
+  "plc": {
+    "#": "Programmable Logic Controller (PLC)"
+  },
+  "programmable": {
+    "logic": {
+      "controller": {
+        "#": "Programmable Logic Controller (PLC)"
+      }
+    }
+  },
+  "programming": {
+    "#": "Programming"
+  },
+  "project": {
+    "coordination": {
+      "#": "Project Coordination"
+    },
+    "design": {
+      "#": "Project Design"
+    },
+    "engineering": {
+      "#": "Project Engineering"
+    },
+    "management": {
+      "#": "Project Management"
+    },
+    "planning": {
+      "#": "Project Planning"
+    },
+    "portfolio": {
+      "management": {
+        "#": "Project Portfolio Management"
+      }
+    }
+  },
+  "pmp": {
+    "#": "Project Management"
+  },
+  "ms": {
+    "project": {
+      "#": "Project Management"
+    }
+  },
+  "m": {
+    "project": {
+      "#": "Project Management"
+    }
+  },
+  "pmo": {
+    "#": "Project Management Office (PMO)"
+  },
+  "timeline": {
+    "#": "Project Planning"
+  },
+  "projector": {
+    "#": "Projector"
+  },
+  "proofreading": {
+    "#": "Proofreading"
+  },
+  "proof": {
+    "reading": {
+      "#": "Proofreading"
+    }
+  },
+  "property": {
+    "management": {
+      "#": "Property Management"
+    }
+  },
+  "proposal": {
+    "writing": {
+      "#": "Proposal Writing"
+    }
+  },
+  "protective": {
+    "equipment": {
+      "#": "Protective Equipment"
+    }
+  },
+  "guard": {
+    "#": "Protective Services"
+  },
+  "firearm": {
+    "#": "Protective Services"
+  },
+  "force": {
+    "protection": {
+      "#": "Protective Services"
+    }
+  },
+  "weapon": {
+    "#": "Protective Services"
+  },
+  "psychology": {
+    "#": "Psychology"
+  },
+  "psychologist": {
+    "#": "Psychology"
+  },
+  "psychotherapy": {
+    "#": "Psychotherapy"
+  },
+  "public": {
+    "health": {
+      "#": "Public Health"
+    },
+    "policy": {
+      "#": "Public Policy"
+    },
+    "relations": {
+      "#": "Public Relations"
+    },
+    "relation": {
+      "#": "Public Relations"
+    },
+    "safety": {
+      "#": "Public Safety"
+    },
+    "speaking": {
+      "#": "Public Speaking"
+    }
+  },
+  "magazine": {
+    "#": "Publishing"
+  },
+  "publication": {
+    "#": "Publishing"
+  },
+  "publishing": {
+    "#": "Publishing"
+  },
+  "punctuality": {
+    "#": "Punctuality"
+  },
+  "po": {
+    "#": "Purchase Orders"
+  },
+  "purchase": {
+    "orders": {
+      "#": "Purchase Orders"
+    },
+    "order": {
+      "#": "Purchase Orders"
+    }
+  },
+  "python": {
+    "#": "Python"
+  },
+  "qlikview": {
+    "#": "QlikView"
+  },
+  "quality": {
+    "assurance": {
+      "#": "Quality Assurance"
+    },
+    "management": {
+      "#": "Quality Assurance"
+    },
+    "control": {
+      "#": "Quality Control"
+    },
+    "driven": {
+      "#": "Quality Driven"
+    }
+  },
+  "qa": {
+    "#": "Quality Assurance"
+  },
+  "radio": {
+    "#": "Radio"
+  },
+  "radiographer": {
+    "#": "Radiography"
+  },
+  "rapport": {
+    "#": "Rapport Building"
+  },
+  "reading": {
+    "comprehension": {
+      "#": "Reading Comprehension"
+    }
+  },
+  "real": {
+    "estate": {
+      "#": "Real Estate",
+      "salesperson": {
+        "#": "Real Estate Sales"
+      },
+      "sales": {
+        "#": "Real Estate Sales"
+      },
+      "sale": {
+        "#": "Real Estate Sales"
+      },
+      "transactions": {
+        "#": "Real Estate Transactions"
+      },
+      "transaction": {
+        "#": "Real Estate Transactions"
+      }
+    }
+  },
+  "receptive": {
+    "#": "Receptive"
+  },
+  "recognition": {
+    "#": "Recognition"
+  },
+  "recruiter": {
+    "#": "Recruiting"
+  },
+  "recruiting": {
+    "#": "Recruiting"
+  },
+  "linkedin": {
+    "#": "Recruiting"
+  },
+  "rehabilitation": {
+    "#": "Rehabilitation"
+  },
+  "relationship": {
+    "building": {
+      "#": "Relationship Development"
+    },
+    "management": {
+      "#": "Relationship Management"
+    }
+  },
+  "reliability": {
+    "#": "Reliability"
+  },
+  "dependability": {
+    "#": "Reliability"
+  },
+  "renewable": {
+    "energy": {
+      "#": "Renewable Energy"
+    }
+  },
+  "renovation": {
+    "#": "Renovation"
+  },
+  "repair": {
+    "#": "Repairs"
+  },
+  "repairs": {
+    "#": "Repairs"
+  },
+  "repairing": {
+    "#": "Repairs"
+  },
+  "repetition": {
+    "#": "Repetitive Tasks"
+  },
+  "report": {
+    "writing": {
+      "#": "Report Writing"
+    }
+  },
+  "reporter": {
+    "#": "Reporting"
+  },
+  "reporting": {
+    "#": "Reporting"
+  },
+  "requirements": {
+    "analysis": {
+      "#": "Requirements Analysis"
+    },
+    "gathering": {
+      "#": "Requirements Gathering"
+    }
+  },
+  "requirement": {
+    "analysis": {
+      "#": "Requirements Analysis"
+    },
+    "gathering": {
+      "#": "Requirements Gathering"
+    }
+  },
+  "research": {
+    "#": "Research"
+  },
+  "resilience": {
+    "#": "Resilience"
+  },
+  "resource": {
+    "management": {
+      "#": "Resource Management"
+    }
+  },
+  "resourceful": {
+    "#": "Resourceful"
+  },
+  "resourcefulness": {
+    "#": "Resourceful"
+  },
+  "respirator": {
+    "#": "Respiratory Therapy"
+  },
+  "respiratory": {
+    "therapist": {
+      "#": "Respiratory Therapy"
+    }
+  },
+  "retail": {
+    "#": "Retail",
+    "banking": {
+      "#": "Retail Banking"
+    },
+    "management": {
+      "#": "Retail Management"
+    }
+  },
+  "apparel": {
+    "#": "Retail"
+  },
+  "store": {
+    "management": {
+      "#": "Retail Management"
+    },
+    "operations": {
+      "#": "Retail Management"
+    },
+    "operation": {
+      "#": "Retail Management"
+    }
+  },
+  "revenue": {
+    "analysis": {
+      "#": "Revenue Analysis"
+    }
+  },
+  "revit": {
+    "#": "Revit"
+  },
+  "risk": {
+    "assessment": {
+      "#": "Risk Assessment"
+    },
+    "management": {
+      "#": "Risk Management"
+    }
+  },
+  "safety": {
+    "#": "Safety",
+    "goggles": {
+      "#": "Safety Equipment"
+    },
+    "equipment": {
+      "#": "Safety Equipment"
+    }
+  },
+  "sale": {
+    "#": "Sales",
+    "management": {
+      "#": "Sales Management"
+    },
+    "operation": {
+      "#": "Sales Operations"
+    },
+    "presentation": {
+      "#": "Sales Pitches"
+    },
+    "process": {
+      "#": "Sales Process"
+    }
+  },
+  "sales": {
+    "#": "Sales",
+    "management": {
+      "#": "Sales Management"
+    },
+    "operations": {
+      "#": "Sales Operations"
+    },
+    "presentations": {
+      "#": "Sales Pitches"
+    },
+    "pitches": {
+      "#": "Sales Pitches"
+    },
+    "pitch": {
+      "#": "Sales Pitches"
+    },
+    "process": {
+      "#": "Sales Process"
+    }
+  },
+  "selling": {
+    "#": "Sales"
+  },
+  "solution": {
+    "selling": {
+      "#": "Sales"
+    },
+    "architecture": {
+      "#": "Solution Architecture"
+    },
+    "focused": {
+      "#": "Solutions Focused"
+    }
+  },
+  "seller": {
+    "#": "Sales"
+  },
+  "cold": {
+    "calling": {
+      "#": "Sales"
+    },
+    "call": {
+      "#": "Sales"
+    }
+  },
+  "coldcalling": {
+    "#": "Sales"
+  },
+  "coldcall": {
+    "#": "Sales"
+  },
+  "salesforce": {
+    "#": "Salesforce"
+  },
+  "sanitation": {
+    "#": "Sanitation"
+  },
+  "sap": {
+    "#": "SAP"
+  },
+  "sarbanes": {
+    "oxley": {
+      "act": {
+        "#": "Sarbanes Oxley Act"
+      }
+    }
+  },
+  "scada": {
+    "#": "Scada"
+  },
+  "scaffold": {
+    "#": "Scaffolding"
+  },
+  "scaffolding": {
+    "#": "Scaffolding"
+  },
+  "reservation": {
+    "#": "Scheduling"
+  },
+  "calendaring": {
+    "#": "Scheduling"
+  },
+  "schedule": {
+    "#": "Scheduling"
+  },
+  "scheduled": {
+    "#": "Scheduling"
+  },
+  "scheduler": {
+    "#": "Scheduling"
+  },
+  "scheduling": {
+    "#": "Scheduling"
+  },
+  "science": {
+    "#": "Science"
+  },
+  "screening": {
+    "#": "Screening"
+  },
+  "sem": {
+    "#": "Search Engine Marketing (SEM)"
+  },
+  "search": {
+    "engine": {
+      "marketing": {
+        "#": "Search Engine Marketing (SEM)"
+      },
+      "optimization": {
+        "#": "Search Engine Optimization (SEO)"
+      }
+    }
+  },
+  "seo": {
+    "#": "Search Engine Optimization (SEO)"
+  },
+  "security": {
+    "clearance": {
+      "#": "Security Clearance"
+    },
+    "management": {
+      "#": "Security Management"
+    },
+    "operations": {
+      "#": "Security Operations"
+    },
+    "operation": {
+      "#": "Security Operations"
+    },
+    "policies": {
+      "#": "Security Policies"
+    },
+    "policy": {
+      "#": "Security Policies"
+    }
+  },
+  "service": {
+    "orientation": {
+      "#": "Service Orientation"
+    }
+  },
+  "soa": {
+    "#": "Service-Oriented Architecture (SOA)"
+  },
+  "shell": {
+    "script": {
+      "#": "Shell Scripting"
+    },
+    "scripts": {
+      "#": "Shell Scripting"
+    },
+    "scripting": {
+      "#": "Shell Scripting"
+    }
+  },
+  "shipping": {
+    "#": "Shipping"
+  },
+  "six": {
+    "sigma": {
+      "#": "Six Sigma"
+    }
+  },
+  "sketchup": {
+    "#": "SketchUp"
+  },
+  "small": {
+    "business": {
+      "#": "Small Business Operations"
+    }
+  },
+  "twitter": {
+    "#": "Social Media"
+  },
+  "social": {
+    "media": {
+      "#": "Social Media",
+      "marketing": {
+        "#": "Social Media Marketing"
+      }
+    },
+    "networking": {
+      "#": "Social Networking"
+    },
+    "services": {
+      "#": "Social Services"
+    },
+    "service": {
+      "#": "Social Services"
+    },
+    "skills": {
+      "#": "Social Skills"
+    },
+    "skill": {
+      "#": "Social Skills"
+    },
+    "work": {
+      "#": "Social Work"
+    },
+    "worker": {
+      "#": "Social Work"
+    }
+  },
+  "socialization": {
+    "#": "Socialization"
+  },
+  "sociology": {
+    "#": "Sociology"
+  },
+  "software": {
+    "#": "Software",
+    "design": {
+      "#": "Software Design"
+    },
+    "designer": {
+      "#": "Software Design"
+    },
+    "developer": {
+      "#": "Software Development"
+    },
+    "development": {
+      "#": "Software Development"
+    },
+    "documentation": {
+      "#": "Software Documentation"
+    },
+    "engineering": {
+      "#": "Software Engineering"
+    },
+    "engineer": {
+      "#": "Software Engineering"
+    },
+    "installation": {
+      "#": "Software Installation"
+    },
+    "quality": {
+      "#": "Software Quality Assurance"
+    },
+    "as": {
+      "a": {
+        "service": {
+          "#": "Software-as-a-Services (SaaS)"
+        }
+      }
+    }
+  },
+  "saas": {
+    "#": "Software-as-a-Services (SaaS)"
+  },
+  "soldering": {
+    "#": "Soldering"
+  },
+  "solidworks": {
+    "#": "SolidWorks"
+  },
+  "solutions": {
+    "architecture": {
+      "#": "Solution Architecture"
+    },
+    "focused": {
+      "#": "Solutions Focused"
+    }
+  },
+  "sorting": {
+    "#": "Sorting"
+  },
+  "space": {
+    "planning": {
+      "#": "Space Planning"
+    }
+  },
+  "speaking": {
+    "#": "Speaking"
+  },
+  "special": {
+    "education": {
+      "#": "Special Education"
+    }
+  },
+  "sport": {
+    "#": "Sport"
+  },
+  "spreadsheet": {
+    "#": "Spreadsheets"
+  },
+  "spss": {
+    "#": "SPSS"
+  },
+  "sql": {
+    "#": "SQL"
+  },
+  "staff": {
+    "development": {
+      "#": "Staff Development"
+    }
+  },
+  "staffing": {
+    "#": "Staffing"
+  },
+  "sop": {
+    "#": "Standard Operating Procedure"
+  },
+  "standard": {
+    "operating": {
+      "procedure": {
+        "#": "Standard Operating Procedure"
+      }
+    }
+  },
+  "start": {
+    "ups": {
+      "#": "Startups"
+    },
+    "up": {
+      "#": "Startups"
+    }
+  },
+  "startups": {
+    "#": "Startups"
+  },
+  "startup": {
+    "#": "Startups"
+  },
+  "tactic": {
+    "#": "Strategy"
+  },
+  "tactics": {
+    "#": "Strategy"
+  },
+  "tactical": {
+    "#": "Strategy"
+  },
+  "strategy": {
+    "#": "Strategy"
+  },
+  "strategies": {
+    "#": "Strategy"
+  },
+  "strategic": {
+    "#": "Strategy"
+  },
+  "stress": {
+    "management": {
+      "#": "Stress Management"
+    }
+  },
+  "styling": {
+    "#": "Styling"
+  },
+  "submittals": {
+    "#": "Submittals"
+  },
+  "succession": {
+    "planning": {
+      "#": "Succession Planning"
+    }
+  },
+  "supervision": {
+    "#": "Supervision"
+  },
+  "supervise": {
+    "#": "Supervision"
+  },
+  "supervised": {
+    "#": "Supervision"
+  },
+  "supervisory": {
+    "#": "Supervision"
+  },
+  "supply": {
+    "chain": {
+      "#": "Supply Chain"
+    }
+  },
+  "surgery": {
+    "#": "Surgery"
+  },
+  "surveillance": {
+    "#": "Surveillance"
+  },
+  "sustainability": {
+    "#": "Sustainability"
+  },
+  "swim": {
+    "#": "Swimming"
+  },
+  "swimmer": {
+    "#": "Swimming"
+  },
+  "swimming": {
+    "#": "Swimming"
+  },
+  "system": {
+    "administration": {
+      "#": "System Administration"
+    },
+    "administrator": {
+      "#": "System Administration"
+    },
+    "analysis": {
+      "#": "Systems Analysis"
+    }
+  },
+  "systems": {
+    "administration": {
+      "#": "System Administration"
+    },
+    "analysis": {
+      "#": "Systems Analysis"
+    }
+  },
+  "tableau": {
+    "#": "Tableau"
+  },
+  "talent": {
+    "acquisition": {
+      "#": "Talent Acquisition"
+    },
+    "management": {
+      "#": "Talent Management"
+    }
+  },
+  "task": {
+    "planning": {
+      "#": "Task Planning"
+    }
+  },
+  "tax": {
+    "preparation": {
+      "#": "Tax Preparation"
+    },
+    "preparer": {
+      "#": "Tax Preparation"
+    }
+  },
+  "educator": {
+    "#": "Teaching"
+  },
+  "lecturer": {
+    "#": "Teaching"
+  },
+  "teach": {
+    "#": "Teaching"
+  },
+  "teacher": {
+    "#": "Teaching"
+  },
+  "teaching": {
+    "#": "Teaching"
+  },
+  "classroom": {
+    "#": "Teaching"
+  },
+  "team": {
+    "building": {
+      "#": "Team Building"
+    },
+    "effectiveness": {
+      "#": "Team Effectiveness"
+    },
+    "leadership": {
+      "#": "Team Leadership"
+    },
+    "management": {
+      "#": "Team Management"
+    },
+    "oriented": {
+      "#": "Teamwork"
+    },
+    "work": {
+      "#": "Teamwork"
+    }
+  },
+  "teamwork": {
+    "#": "Teamwork"
+  },
+  "collaboration": {
+    "#": "Teamwork"
+  },
+  "collaborated": {
+    "#": "Teamwork"
+  },
+  "collaborator": {
+    "#": "Teamwork"
+  },
+  "cooperation": {
+    "#": "Teamwork"
+  },
+  "worked": {
+    "together": {
+      "#": "Teamwork"
+    }
+  },
+  "technical": {
+    "acumen": {
+      "#": "Technical Acumen"
+    },
+    "recruiting": {
+      "#": "Technical Recruiting"
+    },
+    "support": {
+      "#": "Technical Support"
+    },
+    "writing": {
+      "#": "Technical Writing"
+    }
+  },
+  "technology": {
+    "design": {
+      "#": "Technology Design"
+    }
+  },
+  "telecommunication": {
+    "#": "Telecommunications"
+  },
+  "television": {
+    "#": "Television"
+  },
+  "tv": {
+    "#": "Television"
+  },
+  "teradata": {
+    "#": "Teradata"
+  },
+  "test": {
+    "automation": {
+      "#": "Test Automation"
+    },
+    "planning": {
+      "#": "Test Planning"
+    }
+  },
+  "testing": {
+    "#": "Testing"
+  },
+  "theatre": {
+    "#": "Theatre"
+  },
+  "theology": {
+    "#": "Theology"
+  },
+  "therapy": {
+    "#": "Therapy"
+  },
+  "therapist": {
+    "#": "Therapy"
+  },
+  "trade": {
+    "shows": {
+      "#": "Trade Shows"
+    },
+    "show": {
+      "#": "Trade Shows"
+    }
+  },
+  "training": {
+    "and": {
+      "development": {
+        "#": "Training and Development"
+      }
+    }
+  },
+  "transcribed": {
+    "#": "Transcription"
+  },
+  "transcribing": {
+    "#": "Transcription"
+  },
+  "transcription": {
+    "#": "Transcription"
+  },
+  "translation": {
+    "#": "Translation"
+  },
+  "transportation": {
+    "#": "Transportation"
+  },
+  "treatment": {
+    "#": "Treatment"
+  },
+  "trend": {
+    "analysis": {
+      "#": "Trend Analysis"
+    }
+  },
+  "troubleshooting": {
+    "#": "Troubleshooting"
+  },
+  "root": {
+    "cause": {
+      "analysis": {
+        "#": "Troubleshooting"
+      }
+    }
+  },
+  "tutor": {
+    "#": "Tutoring"
+  },
+  "tutored": {
+    "#": "Tutoring"
+  },
+  "tutoring": {
+    "#": "Tutoring"
+  },
+  "typography": {
+    "#": "Typography"
+  },
+  "underwriting": {
+    "#": "Underwriting"
+  },
+  "unix": {
+    "#": "Unix"
+  },
+  "unpacking": {
+    "#": "Unpacking"
+  },
+  "user": {
+    "acceptance": {
+      "#": "User Acceptance Testing"
+    },
+    "experience": {
+      "#": "User Experience"
+    },
+    "interface": {
+      "#": "User Interface Design"
+    }
+  },
+  "valid": {
+    "drivers": {
+      "license": {
+        "#": "Valid Driver's License"
+      }
+    },
+    "driver": {
+      "license": {
+        "#": "Valid Driver's License"
+      }
+    }
+  },
+  "validate": {
+    "#": "Validation"
+  },
+  "validated": {
+    "#": "Validation"
+  },
+  "validation": {
+    "#": "Validation"
+  },
+  "valuation": {
+    "#": "Valuation"
+  },
+  "value": {
+    "engineering": {
+      "#": "Value Engineering"
+    }
+  },
+  "variance": {
+    "analysis": {
+      "#": "Variance Analysis"
+    }
+  },
+  "vendor": {
+    "#": "Vendor Management"
+  },
+  "verbal": {
+    "communication": {
+      "#": "Verbal Communication"
+    }
+  },
+  "verbally": {
+    "communicate": {
+      "#": "Verbal Communication"
+    },
+    "communicated": {
+      "#": "Verbal Communication"
+    }
+  },
+  "oral": {
+    "communication": {
+      "#": "Verbal Communication"
+    },
+    "expression": {
+      "#": "Verbal Communication"
+    }
+  },
+  "veterinarian": {
+    "#": "Veterinarian"
+  },
+  "veterinary": {
+    "#": "Veterinarian"
+  },
+  "video": {
+    "#": "Video",
+    "conferencing": {
+      "#": "Video Conferencing"
+    }
+  },
+  "skype": {
+    "#": "Video Conferencing"
+  },
+  "virtual": {
+    "teams": {
+      "#": "Virtual Teams"
+    },
+    "team": {
+      "#": "Virtual Teams"
+    }
+  },
+  "virtualization": {
+    "#": "Virtualization"
+  },
+  "vital": {
+    "signs": {
+      "#": "Vital Signs"
+    },
+    "sign": {
+      "#": "Vital Signs"
+    }
+  },
+  "vmware": {
+    "#": "VMware"
+  },
+  "voice": {
+    "recording": {
+      "#": "Voice Recording"
+    },
+    "over": {
+      "ip": {
+        "#": "Voice-over-Internet Protocol (VOIP)"
+      },
+      "internet": {
+        "#": "Voice-over-Internet Protocol (VOIP)"
+      }
+    }
+  },
+  "voip": {
+    "#": "Voice-over-Internet Protocol (VOIP)"
+  },
+  "warehousing": {
+    "#": "Warehousing"
+  },
+  "wastewater": {
+    "treatment": {
+      "#": "Wastewater Treatment"
+    }
+  },
+  "water": {
+    "survival": {
+      "#": "Water Survival"
+    }
+  },
+  "web": {
+    "analytics": {
+      "#": "Web Analytics"
+    },
+    "applications": {
+      "#": "Web Applications"
+    },
+    "application": {
+      "#": "Web Applications"
+    },
+    "app": {
+      "#": "Web Applications"
+    },
+    "apps": {
+      "#": "Web Applications"
+    },
+    "content": {
+      "#": "Web Content"
+    },
+    "design": {
+      "#": "Web Design"
+    },
+    "development": {
+      "#": "Web Development"
+    },
+    "developer": {
+      "#": "Web Development"
+    },
+    "services": {
+      "#": "Web Services"
+    },
+    "service": {
+      "#": "Web Services"
+    }
+  },
+  "welding": {
+    "#": "Welding"
+  },
+  "wellness": {
+    "#": "Wellness",
+    "coaching": {
+      "#": "Wellness Coaching"
+    }
+  },
+  "willingness": {
+    "to": {
+      "learn": {
+        "#": "Willingness to Learn"
+      },
+      "try": {
+        "#": "Willingness to Learn"
+      }
+    }
+  },
+  "willing": {
+    "to": {
+      "learn": {
+        "#": "Willingness to Learn"
+      },
+      "try": {
+        "#": "Willingness to Learn"
+      }
+    }
+  },
+  "wifi": {
+    "networking": {
+      "#": "Wireless Networking"
+    }
+  },
+  "wireless": {
+    "networking": {
+      "#": "Wireless Networking"
+    }
+  },
+  "word": {
+    "processing": {
+      "#": "Word Processing"
+    }
+  },
+  "wordperfect": {
+    "#": "Word Processing"
+  },
+  "wordpress": {
+    "#": "WordPress"
+  },
+  "work": {
+    "ethic": {
+      "#": "Work Ethic"
+    }
+  },
+  "workers": {
+    "compensation": {
+      "#": "Workers Compensation"
+    }
+  },
+  "worker": {
+    "compensation": {
+      "#": "Workers Compensation"
+    }
+  },
+  "workforce": {
+    "planning": {
+      "#": "Workforce Planning"
+    }
+  },
+  "writing": {
+    "#": "Writing"
+  },
+  "memo": {
+    "#": "Writing"
+  },
+  "typewriter": {
+    "#": "Writing"
+  },
+  "written": {
+    "english": {
+      "#": "Writing"
+    },
+    "communication": {
+      "#": "Written Communication"
+    }
+  },
+  "drafting": {
+    "#": "Writing"
+  },
+  "xml": {
+    "#": "XML"
+  },
+  "youth": {
+    "development": {
+      "#": "Youth Development"
+    }
+  }
+}
