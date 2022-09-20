@@ -132,6 +132,547 @@ record ID and job title fields:
 
 ### Parsing job postings and resumes
 
+The `sockit parse` command parses skills and other relevant occupational
+information from job postings or resumes.
+
+#### Job postings
+
+Job postings are parsed by line and lines that contain non-skill information
+such as benefits or EEO language are surpressed, while all remaining lines
+are scanned with a prefix tree for skill keywords. The resulting skills
+vector is used to determine the SOC codes of the closest 10 occupations.
+The `test` directory contains three sample job postings (in a variety of
+input formats) that illustrate this, shown below.
+
+##### Job posting example #1: teacher
+
+    $ sockit parse --type job --input test/job/teacher.txt
+    INFO:sockit.data:get_soc: loading SOC codes
+    INFO:sockit.data:load_soc_titles: loading soc titles
+    {
+      "NonSkills": [
+        "Benefits",
+        "Dental Insurance",
+        "EEO",
+        "Family Leave",
+        "PTO",
+        "Retirement"
+      ],
+      "Skills": {
+        "Elementary Education": 1,
+        "Teaching": 9,
+        "Budgeting": 1,
+        "Management": 1,
+        "Strategy": 1,
+        "Planning": 2,
+        "Organization Skills": 1,
+        "Rapport Building": 1,
+        "Communication": 2,
+        "Verbal Communication": 1,
+        "Flexibility": 1,
+        "Leadership": 1,
+        "Recruiting": 1,
+        "Memorization": 1
+      },
+      "Occupations": [
+        {
+          "soc": "252012",
+          "soc_title": "Kindergarten Teacher",
+          "z_score": 6.1340739033104175
+        },
+        {
+          "soc": "252021",
+          "soc_title": "Elementary School Teacher",
+          "z_score": 6.123124685454242
+        },
+        {
+          "soc": "253099",
+          "soc_title": "Teacher/Instructor",
+          "z_score": 5.930223278432139
+        },
+        {
+          "soc": "253031",
+          "soc_title": "Substitute Teacher",
+          "z_score": 5.930223278432139
+        },
+        {
+          "soc": "252011",
+          "soc_title": "Preschool Teacher",
+          "z_score": 5.8361803617909755
+        },
+        {
+          "soc": "252022",
+          "soc_title": "Middle School Teacher",
+          "z_score": 5.690205772683181
+        },
+        {
+          "soc": "252023",
+          "soc_title": "Career/Technical Middle School Teacher",
+          "z_score": 5.489350883088146
+        },
+        {
+          "soc": "252058",
+          "soc_title": "Special Education Teacher (Secondary School)",
+          "z_score": 5.230804954926826
+        },
+        {
+          "soc": "252031",
+          "soc_title": "Secondary School Teacher",
+          "z_score": 5.225045938796079
+        },
+        {
+          "soc": "252057",
+          "soc_title": "Special Education Teacher (Middle School)",
+          "z_score": 4.916999315432507
+        }
+      ]
+    }
+
+##### Job posting example #2: production supervisor
+
+    $ sockit parse --type job --input test/job/supervisor.html
+    INFO:sockit.data:get_soc: loading SOC codes
+    INFO:sockit.data:load_soc_titles: loading soc titles
+    {
+      "NonSkills": [],
+      "Skills": {
+        "Production": 7,
+        "Supervision": 2,
+        "Communication": 1,
+        "Manufacturing": 2,
+        "Leadership": 2,
+        "Safety": 3,
+        "Scheduling": 1,
+        "Impact": 1,
+        "Performance Management": 1,
+        "Coaching": 1,
+        "Continuous Improvement": 1,
+        "Management": 1,
+        "Problem Solving": 1,
+        "Digital Literacy": 1,
+        "Engineering": 2,
+        "Innovative": 1
+      },
+      "Occupations": [
+        {
+          "soc": "514021",
+          "soc_title": "Extruding and Drawing Machine Operator",
+          "z_score": 4.01253858216756
+        },
+        {
+          "soc": "519011",
+          "soc_title": "Chemical Equipment Operator",
+          "z_score": 3.917867944983724
+        },
+        {
+          "soc": "519196",
+          "soc_title": "Paper Goods Machine Operator",
+          "z_score": 3.639472527698138
+        },
+        {
+          "soc": "513091",
+          "soc_title": "Food Roasting, Baking, and Drying Machine Operator",
+          "z_score": 3.61731607643985
+        },
+        {
+          "soc": "516031",
+          "soc_title": "Sewing Machine Operator",
+          "z_score": 3.5641886213590275
+        },
+        {
+          "soc": "516062",
+          "soc_title": "Textile Cutting Machine Operator",
+          "z_score": 3.546025880661149
+        },
+        {
+          "soc": "514022",
+          "soc_title": "Forging Machine Operator",
+          "z_score": 3.4569922320604425
+        },
+        {
+          "soc": "514072",
+          "soc_title": "Molding, Coremaking, and Casting Machine Operator",
+          "z_score": 3.3011492419708905
+        },
+        {
+          "soc": "519191",
+          "soc_title": "Adhesive Bonding Machine Operator",
+          "z_score": 3.282434975425132
+        },
+        {
+          "soc": "519161",
+          "soc_title": "Computer Numerically Controlled Tool Operator",
+          "z_score": 3.276427835476489
+        }
+      ]
+    }
+
+##### Job posting example #3: paralegal
+
+    $ sockit parse --type job --input test/job/paralegal.pdf
+    INFO:sockit.data:get_soc: loading SOC codes
+    INFO:sockit.data:load_soc_titles: loading soc titles
+    {
+      "NonSkills": [
+        "401(k)",
+        "Benefits",
+        "Dental Insurance",
+        "Family Leave",
+        "Health Insurance",
+        "Retirement",
+        "Vision Insurance"
+      ],
+      "Skills": {
+        "Law": 8,
+        "Supervision": 1,
+        "Communication": 1,
+        "Work Ethic": 1,
+        "Initiative": 1,
+        "Accuracy": 1,
+        "Digital Literacy": 2,
+        "Microsoft Excel": 1,
+        "Management": 1,
+        "Software": 1,
+        "Scheduling": 2,
+        "Insurance": 1
+      },
+      "Occupations": [
+        {
+          "soc": "231012",
+          "soc_title": "Judicial Law Clerk",
+          "z_score": 14.074118595454268
+        },
+        {
+          "soc": "231023",
+          "soc_title": "Judge/Magistrate Judge/Magistrate",
+          "z_score": 10.874543405453768
+        },
+        {
+          "soc": "231011",
+          "soc_title": "Lawyer",
+          "z_score": 9.76905319807106
+        },
+        {
+          "soc": "333011",
+          "soc_title": "Bailiff",
+          "z_score": 9.501943897149564
+        },
+        {
+          "soc": "273092",
+          "soc_title": "Court Reporter or Simultaneous Captioner",
+          "z_score": 8.483960747022026
+        },
+        {
+          "soc": "436012",
+          "soc_title": "Legal Secretary or Administrative Assistant",
+          "z_score": 7.036503182579855
+        },
+        {
+          "soc": "232011",
+          "soc_title": "Paralegal or Legal Assistant",
+          "z_score": 5.852005777147664
+        },
+        {
+          "soc": "434031",
+          "soc_title": "Court/Municipal/License Clerk",
+          "z_score": 5.172055060522774
+        },
+        {
+          "soc": "211092",
+          "soc_title": "Probation Officer or Correctional Treatment Specialist",
+          "z_score": 3.913295887771758
+        },
+        {
+          "soc": "231021",
+          "soc_title": "Administrative Law Judge/Adjudicator/Hearing Officer",
+          "z_score": 3.8467094391681456
+        }
+      ]
+    }
+
+#### Resumes
+
+Resumes are segmented into groups of lines that occur after predefined
+section headers, which come from a manually curated list in
+`sockit/data/resume_headers.json`. Zipcodes are parsed from 5-digit
+numbers in the contact section; post-secondary school names, degree
+types, and fields of study are parsed from the education section;
+skill keywords, job titles, SOC codes, month/year ranges, and total
+years of experience are parsed from the experience section; and
+skill keywords are parsed from the skills section. The ordering
+of the parsed skill keywords is retained in the results, since it
+may contain information about recency or importance of skills.
+
+The `test` directory contains three sample resumes (in a variety of
+input formats) that illustrate this, shown below, which also
+correspond to the job posting examples from above.
+
+##### Resume example #1: teacher
+
+    $ sockit parse --type resume --input test/resume/teacher.txt
+    INFO:sockit.data:load_soc_titles: loading soc titles
+    {
+      "Zipcode": [],
+      "Education": [
+        {
+          "degree": 17,
+          "school": "Rutgers University-New Brunswick",
+          "years": [
+            2015
+          ],
+          "fields_of_study": "Reading|360116"
+        },
+        {
+          "degree": 16,
+          "school": "Rutgers University-New Brunswick",
+          "years": [
+            2013
+          ],
+          "fields_of_study": "Curriculum and Instruction|130301"
+        }
+      ],
+      "Experience": [
+        {
+          "socs": [
+            "252021"
+          ],
+          "raw_titles": [
+            "elementary teacher"
+          ],
+          "titles": [
+            "Elementary School Teacher"
+          ],
+          "years": [
+            2015,
+            2017
+          ],
+          "dates": [
+            "2015-07",
+            "2017-07"
+          ],
+          "current": false
+        },
+        {
+          "socs": [
+            "252021"
+          ],
+          "raw_titles": [
+            "elementary teacher"
+          ],
+          "titles": [
+            "Elementary School Teacher"
+          ],
+          "years": [
+            2017,
+            2019
+          ],
+          "dates": [
+            "2017-08",
+            "2019-09"
+          ],
+          "current": false
+        }
+      ],
+      "Skills": [
+        "Teaching",
+        "Teaching",
+        "Strategy",
+        "Teaching",
+        "Teaching",
+        "Teamwork",
+        "Accuracy",
+        "Teaching",
+        "Teaching",
+        "Supervision"
+      ]
+    }
+
+##### Resume example #2: production supervisor
+
+    $ sockit parse --type resume --input test/resume/supervisor.pdf
+    INFO:sockit.data:load_soc_titles: loading soc titles
+    {
+      "Zipcode": [],
+      "Education": [],
+      "Experience": [
+        {
+          "socs": [
+            "331011",
+            "331012",
+            "391013",
+            "411011"
+          ],
+          "raw_titles": [
+            "shift supervisor"
+          ],
+          "titles": [
+            "Supervisor of Correctional Officers",
+            "Supervisor of Police and Detectives",
+            "Supervisor of Gambling Services Worker",
+            "Supervisor of Retail Sales Worker"
+          ],
+          "years": [
+            2009,
+            2012
+          ],
+          "dates": [
+            "2009-06",
+            "2012-09"
+          ],
+          "current": false
+        },
+        {
+          "socs": [
+            "511011"
+          ],
+          "raw_titles": [
+            "production supervisor"
+          ],
+          "titles": [
+            "Supervisor of Production and Operating Workers"
+          ],
+          "years": [
+            2013
+          ],
+          "dates": [
+            "2013-03"
+          ],
+          "current": true
+        }
+      ],
+      "Skills": [
+        "Production",
+        "Supervision",
+        "Safety",
+        "Quality Assurance",
+        "Teamwork",
+        "Human Resources",
+        "Employee Relations",
+        "Evaluating",
+        "Onboarding",
+        "Leadership",
+        "Supply Chain",
+        "Management",
+        "Decision Making",
+        "Problem Solving",
+        "Budgeting",
+        "Active Listening"
+      ]
+    }
+
+##### Resume example #3: paralegal
+
+    $ sockit parse --type resume --input test/resume/paralegal.docx
+    INFO:sockit.data:load_soc_titles: loading soc titles
+    {
+      "Zipcode": [
+        "07928"
+      ],
+      "Education": [
+        {
+          "degree": 14,
+          "school": "Essex County College",
+          "years": [],
+          "fields_of_study": []
+        }
+      ],
+      "Experience": [
+        {
+          "socs": [
+            "232011"
+          ],
+          "raw_titles": [
+            "paralegal"
+          ],
+          "titles": [
+            "Paralegal or Legal Assistant"
+          ],
+          "years": [
+            2009
+          ],
+          "dates": [],
+          "current": true
+        },
+        {
+          "socs": [
+            "111021",
+            "431011"
+          ],
+          "raw_titles": [
+            "office manager"
+          ],
+          "titles": [
+            "Operations Manager",
+            "Supervisor of Office and Administrative Support Workers"
+          ],
+          "years": [
+            2016
+          ],
+          "dates": [],
+          "current": false
+        },
+        {
+          "socs": [
+            "232011"
+          ],
+          "raw_titles": [
+            "paralegal"
+          ],
+          "titles": [
+            "Paralegal or Legal Assistant"
+          ],
+          "years": [
+            2007,
+            2009
+          ],
+          "dates": [],
+          "current": true
+        },
+        {
+          "socs": [
+            "436014",
+            "436014"
+          ],
+          "raw_titles": [
+            "secretary",
+            "administrative assistant"
+          ],
+          "titles": [
+            "Secretary or Administrative Assistant",
+            "Secretary or Administrative Assistant"
+          ],
+          "years": [
+            2000,
+            2007
+          ],
+          "dates": [],
+          "current": false
+        }
+      ],
+      "Skills": [
+        "Law",
+        "Law",
+        "Administration",
+        "Law",
+        "Human Resources",
+        "Scheduling",
+        "Writing",
+        "Clerical",
+        "Law",
+        "Invoicing",
+        "Teamwork",
+        "Collections",
+        "Law",
+        "Law",
+        "Law",
+        "Law",
+        "Management",
+        "Law",
+        "Prioritization",
+        "Administration"
+      ]
+    }
+
 ### Comparing job postings, resumes and SOC codes
 
 ## License

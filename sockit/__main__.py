@@ -33,7 +33,7 @@ def perform_resume_comparison(args, log):
                     infer_extension(job),
                     args.distance
                 )
-                json.dump(parsed_contents,fout)
+                json.dump(parsed_contents, fout, indent=2)
                 fout.write('\n')
 
             for soc in args.soc:
@@ -43,7 +43,7 @@ def perform_resume_comparison(args, log):
                     soc,
                     args.distance
                 )
-                json.dump(parsed_contents,fout)
+                json.dump(parsed_contents, fout, indent=2)
                 fout.write('\n')
 
         for job in args.job:
@@ -54,7 +54,7 @@ def perform_resume_comparison(args, log):
                     soc,
                     args.distance
                 )
-                json.dump(parsed_contents,fout)
+                json.dump(parsed_contents, fout, indent=2)
                 fout.write('\n')
 
 
@@ -70,7 +70,7 @@ def parse_files(args, log):
                     file_path, infer_extension(file_path)
                 )
             del parsed_contents['SkillVector']
-            json.dump(parsed_contents, fout)
+            json.dump(parsed_contents, fout, indent=2)
             fout.write('\n')
 
 
