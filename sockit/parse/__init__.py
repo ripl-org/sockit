@@ -150,7 +150,7 @@ def parse_contact(lines):
     for line in lines:
         zipcodes += re_zipcode.findall(line)
     return {
-        "Zipcodes": zipcodes
+        "Zipcode": zipcodes
     }
 
 
@@ -250,7 +250,6 @@ def parse_skills(experience_lines, skill_lines):
     for line in chain(experience_lines, skill_lines):
         line = line.replace(".", "")
         skills += SOC_TRIES['skills'].search(line)
-
     return {"Skills": skills}
 
 
@@ -277,7 +276,7 @@ def parse_resume(filename, extension):
             segments.get("skills", [])
         ))
 
-    sv = SkillVector(skill_dictionary = {}, skill_list = matches['Skills'])
+    sv = SkillVector(skill_dictionary={}, skill_list=matches.get("Skills", []))
     matches['SkillVector'] = sv
     return matches
 

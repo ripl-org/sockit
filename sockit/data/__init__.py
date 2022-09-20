@@ -47,15 +47,14 @@ def create_idf_vector():
     return np.array(DATA['idf_vector'])
 
 
-def create_skill_topic_vector():
+def create_topic_skill_matrix():
     global DATA
-    if 'skill_topic' not in DATA:
+    if 'topic_skill' not in DATA:
         Log(__name__, "get_skill_topic_matrix").info("loading skill topic matrix")
         with resources.path(DATA_MODULE, 'topic_skill_matrix.txt') as file:
-            topic_skill = np.loadtxt(file)  * 1e-6
-            topic_skill = topic_skill.reshape(50,775)
-            DATA['skill_topic'] = topic_skill
-    return DATA['skill_topic']
+            DATA['topic_skill'] = np.loadtxt(file) * 1e-6
+            print(DATA['topic_skill'].shape)
+    return DATA['topic_skill']
 
 
 def load_word_trie(name):

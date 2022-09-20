@@ -2,8 +2,8 @@ import numpy as np
 from sockit.data import *
 
 MAPPING = create_mapping()
-IDF_VECTOR = create_idf_vector()
-TOPIC_SKILL_VEC = create_skill_topic_vector()
+IDF = create_idf_vector()
+TOPIC_SKILL = create_topic_skill_matrix()
 
 class SkillVector:
     #MAGIC FUNCTIONS
@@ -101,9 +101,8 @@ class SkillVector:
 
     def to_weighted_vector(self):
         x = self.to_array()
-        return np.multiply(x, IDF_VECTOR)
-
+        return np.multiply(x, IDF) / x.sum()
 
     def scale_to_topic_models(self):
-    	x = self.to_weighted_vector().reshape(775,1)
-    	return np.matmul(TOPIC_SKILL_VEC, x)
+        x = self.to_weighted_vector()
+        return TOPIC_SKILL.dot(x)

@@ -20,25 +20,23 @@ def infer_extension(filename):
         if filename.endswith(ext):
             return extensions[ext]
     log.error(f'{filename} does not have an appropriate file extension.')
-    
+
 
 def perform_resume_comparison(args, log):
     with open(args.output, 'w') if args.output != '-' else sys.stdout as fout:
-        for desc in args.desc:
-            for resume in args.resume:
+        for resume in args.resume:
+            for job in args.job:
                 parsed_contents = sockit.compare.compare_resume_and_description(
                     resume, 
                     infer_extension(resume),
-                    desc,
-                    infer_extension(desc),
+                    job,
+                    infer_extension(job),
                     args.distance
                 )
                 json.dump(parsed_contents,fout)
                 fout.write('\n')
 
-
-        for soc in args.soc:
-            for resume in args.resume:
+            for soc in args.soc:
                 parsed_contents = sockit.compare.compare_resume_and_soc(
                     resume,
                     infer_extension(resume),
@@ -48,12 +46,21 @@ def perform_resume_comparison(args, log):
                 json.dump(parsed_contents,fout)
                 fout.write('\n')
 
+        for job in args.job:
+            for soc in args.soc:
+                parsed_contents = sockit.compare.compare_job_and_soc(
+                    job,
+                    infer_extension(job),
+                    soc,
+                    args.distance
+                )
+                json.dump(parsed_contents,fout)
+                fout.write('\n')
 
 
 def parse_files(args, log):
-    file_paths = args.file.split(',')
     with open(args.output, 'w') if args.output != '-' else sys.stdout as fout:
-        for file_path in file_paths:
+        for file_path in args.input:
             if args.type == 'resume':
                 parsed_contents = sockit.parse.parse_resume(
                     file_path, infer_extension(file_path)
@@ -152,7 +159,7 @@ def main():
     title.add_argument(
         "-i",
         "--input",
-        help="input CSV or JSON file containing the record ID and title fields",
+        help="input CSV or JSON file containing the record ID and title fields"
     )
 
     # Optional arguments
@@ -179,19 +186,19 @@ def main():
 
     compare.add_argument(
         "--resume",
-        help = "file path or list of file paths to resumes",
+        help = "resumes",
         default = [],
         nargs = "*"
     )
     compare.add_argument(
-        "--desc",
-        help = "file path or list of file paths to job descriptions",
+        "--job",
+        help = "job descriptions",
         default = [],
         nargs = "*"
     )
     compare.add_argument(
         "--soc",
-        help = "six digit SOC code or list of six digit SOC codes",
+        help = "six digit SOC codes",
         default = [],
         nargs = "*"
     )
@@ -199,38 +206,39 @@ def main():
     compare.add_argument(
         "--distance",
         default = "manhattan",
-        help = "Distance function for comparing resumes with descriptions or SOC codes"
+        help = "distance metric ['euclidean', 'cosine', default: 'manhattan']"
     )
     # Optional arguments
     compare.add_argument(
         "-o",
         "--output",
         default="-",
-        help="output file (default: stdout) containing a JSON record per line: {'record_id': ..., 'title': ..., 'clean_title': ..., 'socs': [{'soc': ..., 'prob': ..., 'desc': ...}, ...]}",
+        help="output file (default: stdout) containing a JSON record per line",
     )
 
     #CODE FOR PARSE SUBPARSER
     parse = subparsers.add_parser("parse")
     parse.set_defaults(action = "parse")
 
+    # Required arguments
     parse.add_argument(
-        "--file",
-        help = "The file path or list of file paths you want to parse",
-        default = [],
-        nargs = "*"
+        "-i",
+        "--input",
+        help = "input HTML, PDF, DOCX, or TXT files to parse",
+        nargs="+"
+    )
+    parse.add_argument(
+        "-t",
+        "--type",
+        help="type of description to parse ['resume', 'job']"
     )
 
-    parse.add_argument(
-        "--type",
-        default = "resume",
-        help = "The type of file you want to parse [resume|job]"
-    )
     # Optional arguments
     parse.add_argument(
         "-o",
         "--output",
         default="-",
-        help="output file (default: stdout) containing a JSON record per line: {'record_id': ..., 'title': ..., 'clean_title': ..., 'socs': [{'soc': ..., 'prob': ..., 'desc': ...}, ...]}",
+        help="output file (default: stdout) containing a JSON record per line",
     )
 
     args = parser.parse_args()

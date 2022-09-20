@@ -31,13 +31,15 @@ Sockit includes an empirical model of the associations between job titles and
 SOC codes, based on analysis of over 40 million job postings in the National
 Labor Exchange. An efficient prefix tree structure matches cleaned titles to
 this model and returns the empirical frequencies of associated SOC codes,
-which can be converted to empirical probabilities.
+which can be converted to probabilities.
 
 #### Python API
 
 The `sockit.title` module provides functions for cleaning job titles,
-searching for SOC code frequencies, and sorting and formatting the results:
+searching for SOC code frequencies, and sorting and formatting the results
+with probabilities:
 
+    >>> import json
     >>> from sockit.title import clean, search, sort
     >>> title = clean("Paper Products Sales Rep - Dunder Mifflin - Scranton, PA - Onsite (Ask for Dwight)")
     >>> title
@@ -75,8 +77,8 @@ searching for SOC code frequencies, and sorting and formatting the results:
 
 #### Batch processing via the command line
 
-The `sockit title` command accepts an input file as a CSV file or JSON file
-and outputs processed results with a JSON object per input record:
+The `sockit title` command accepts an input CSV file or JSON file and outputs
+processed results with a JSON object per input record:
 
     $ sockit title -h
     usage: sockit title [-h] [-i INPUT] [-o OUTPUT] [--record_id RECORD_ID] [--title TITLE]
