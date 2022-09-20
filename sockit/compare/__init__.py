@@ -22,14 +22,11 @@ def compare_resume_and_description(
     parsed_desc = parse_job_posting(description_filepath, description_ext)
 
     resume_topic_vec = parsed_resume['SkillVector'].scale_to_topic_models()
-    print(resume_topic_vec)
     desc_topic_vec = parsed_desc['SkillVector'].scale_to_topic_models()
-    print(desc_topic_vec)
 
     if distance == 'euclidean':
         distance_calc = spatial.distance.euclidean(resume_topic_vec, desc_topic_vec)
     elif distance == 'manhattan':
-        print(resume_topic_vec - desc_topic_vec)
         distance_calc = spatial.distance.cityblock(resume_topic_vec, desc_topic_vec)
     elif distance == 'cosine':
         distance_calc = spatial.distance.cosine(resume_topic_vec, desc_topic_vec)

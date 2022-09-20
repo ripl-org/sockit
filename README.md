@@ -25,9 +25,25 @@ repository:
 
     pip install -e .
 
-## Features
+## License
 
-### Inferring SOC codes from job titles
+Sockit is freely available for non-commercial use under the license provided in
+[LICENSE.txt](https://github.com/ripl-org/sockit/blob/main/LICENSE.txt).
+Please contact [connect@ripl.org](mailto:connect@ripl.org) to inquire about
+commercial use.
+
+## Contributors
+
+* Marcelle Goggins
+* Ethan Ho
+* Nile Dixon
+* [Mark Howison](https://mark.howison.org)
+* Joe Long
+* Karen Shen
+
+## Documentation and examples
+
+### Underlying data
 
 Sockit includes an empirical model of the associations between job titles and
 SOC codes, based on analysis of over 40 million U.S. job postings in the
@@ -36,7 +52,23 @@ from the years 2019 and 2021. An efficient prefix tree structure matches
 cleaned titles to this model and returns the empirical frequencies of
 associated SOC codes, which can be converted to probabilities.
 
-#### Python API
+Sockit also includes a manually curated list of 775 skill keywords, available
+in `sockit/data/skills.csv`. These skill keywords have been counted in the
+NLx Research Hub job descriptons to create a sparse job-skill association
+matrix. The jobs are then assigned probabilistic SOC codes using the method
+above, retaining codes with proability >= 10%. These SOC code probabilities are
+used in a weighted average across jobs to aggregate the job-skill matrix to a
+SOC-skill matrix. We then perform topic modeling, a natural-language processing
+technique that reduces the dimensionality of the skill space to a lower-
+dimension "topic" space of 50 skill topics (or skill clusters). This
+reduction is computed by first performing a Term Frequency/Inverse Document
+Frequecy (TF-IDF) transformation on the SOC-skill matrix, then factoring that
+matrix using Non-negative Matrix Factorization (NMF) into a product of
+SOC-topic and topic-skill matrices. These matrices are packaged in
+`sockit/data/soc_topic_matrix.txt` and `sockit/data/topic_skill_matrix.txt`
+and enable distance calculatons in the 50-dimensional skill topic space.
+
+### Matching job titles to SOC codes
 
 The `sockit.title` module provides functions for cleaning job titles,
 searching for SOC code frequencies, and sorting and formatting the results
@@ -77,8 +109,6 @@ with probabilities:
         "title": "Amusement/Recreation Attendant"
       }
     ]
-
-#### Batch processing via the command line
 
 The `sockit title` command accepts an input CSV file or JSON file and outputs
 processed results with a JSON object per input record:
@@ -140,7 +170,9 @@ information from job postings or resumes.
 Job postings are parsed by line and lines that contain non-skill information
 such as benefits or EEO language are surpressed, while all remaining lines
 are scanned with a prefix tree for skill keywords. The resulting skills
-vector is used to determine the SOC codes of the closest 10 occupations.
+vector is used to determine the SOC codes of the closest 10 occupations
+in skill topic space.
+
 The `test` directory contains three sample job postings (in a variety of
 input formats) that illustrate this, shown below.
 
@@ -675,18 +707,363 @@ correspond to the job posting examples from above.
 
 ### Comparing job postings, resumes and SOC codes
 
-## License
+The `sockit compare` command performs pairwise distance comparisons in skill
+topic space between any combination of job postings, resumes, and SOC codes.
+Manhattan distance is calculated by default, but Euclidean and cosine distance
+are also supported.
 
-Sockit is freely available for non-commercial use under the license provided in
-[LICENSE.txt](https://github.com/ripl-org/sockit/blob/main/LICENSE.txt).
-Please contact [connect@ripl.org](mailto:connect@ripl.org) to inquire about
-commercial use.
+As an example, consider the comparison of the teacher job posting to both the
+teacher resume and paralegal resume from above. The teacher job and teacher
+resume are closer (distance of 252.17) than the teacher job and paralegal
+resume (distance of 435.46).
 
-## Contributors
-
-* Marcelle Goggins
-* Ethan Ho
-* Nile Dixon
-* [Mark Howison](https://mark.howison.org)
-* Joe Long
-* Karen Shen
+    $ sockit compare --job test/job/teacher.txt --resume test/resume/teacher.txt test/resume/paralegal.docx
+    INFO:sockit.data:load_soc_titles: loading soc titles
+    INFO:sockit.data:get_soc: loading SOC codes
+    {
+      "comparison_type": "resume_job",
+      "distance": 252.16941746646668,
+      "resume": {
+        "Zipcode": [],
+        "Education": [
+          {
+            "degree": 17,
+            "school": "Rutgers University-New Brunswick",
+            "years": [
+              2015
+            ],
+            "fields_of_study": "Reading|360116"
+          },
+          {
+            "degree": 16,
+            "school": "Rutgers University-New Brunswick",
+            "years": [
+              2013
+            ],
+            "fields_of_study": "Curriculum and Instruction|130301"
+          }
+        ],
+        "Experience": [
+          {
+            "socs": [
+              "252021"
+            ],
+            "raw_titles": [
+              "elementary teacher"
+            ],
+            "titles": [
+              "Elementary School Teacher"
+            ],
+            "years": [
+              2015,
+              2017
+            ],
+            "dates": [
+              "2015-07",
+              "2017-07"
+            ],
+            "current": false
+          },
+          {
+            "socs": [
+              "252021"
+            ],
+            "raw_titles": [
+              "elementary teacher"
+            ],
+            "titles": [
+              "Elementary School Teacher"
+            ],
+            "years": [
+              2017,
+              2019
+            ],
+            "dates": [
+              "2017-08",
+              "2019-09"
+            ],
+            "current": false
+          }
+        ],
+        "Skills": [
+          "Teaching",
+          "Teaching",
+          "Strategy",
+          "Teaching",
+          "Teaching",
+          "Teamwork",
+          "Accuracy",
+          "Teaching",
+          "Teaching",
+          "Supervision"
+        ]
+      },
+      "job": {
+        "NonSkills": [
+          "Benefits",
+          "Dental Insurance",
+          "EEO",
+          "Family Leave",
+          "PTO",
+          "Retirement"
+        ],
+        "Skills": {
+          "Elementary Education": 1,
+          "Teaching": 9,
+          "Budgeting": 1,
+          "Management": 1,
+          "Strategy": 1,
+          "Planning": 2,
+          "Organization Skills": 1,
+          "Rapport Building": 1,
+          "Communication": 2,
+          "Verbal Communication": 1,
+          "Flexibility": 1,
+          "Leadership": 1,
+          "Recruiting": 1,
+          "Memorization": 1
+        },
+        "Occupations": [
+          {
+            "soc": "252012",
+            "soc_title": "Kindergarten Teacher",
+            "z_score": 6.1340739033104175
+          },
+          {
+            "soc": "252021",
+            "soc_title": "Elementary School Teacher",
+            "z_score": 6.123124685454242
+          },
+          {
+            "soc": "253099",
+            "soc_title": "Teacher/Instructor",
+            "z_score": 5.930223278432139
+          },
+          {
+            "soc": "253031",
+            "soc_title": "Substitute Teacher",
+            "z_score": 5.930223278432139
+          },
+          {
+            "soc": "252011",
+            "soc_title": "Preschool Teacher",
+            "z_score": 5.8361803617909755
+          },
+          {
+            "soc": "252022",
+            "soc_title": "Middle School Teacher",
+            "z_score": 5.690205772683181
+          },
+          {
+            "soc": "252023",
+            "soc_title": "Career/Technical Middle School Teacher",
+            "z_score": 5.489350883088146
+          },
+          {
+            "soc": "252058",
+            "soc_title": "Special Education Teacher (Secondary School)",
+            "z_score": 5.230804954926826
+          },
+          {
+            "soc": "252031",
+            "soc_title": "Secondary School Teacher",
+            "z_score": 5.225045938796079
+          },
+          {
+            "soc": "252057",
+            "soc_title": "Special Education Teacher (Middle School)",
+            "z_score": 4.916999315432507
+          }
+        ]
+      }
+    }
+    {
+      "comparison_type": "resume_job",
+      "distance": 435.4611550476834,
+      "resume": {
+        "Zipcode": [
+          "07928"
+        ],
+        "Education": [
+          {
+            "degree": 14,
+            "school": "Essex County College",
+            "years": [],
+            "fields_of_study": []
+          }
+        ],
+        "Experience": [
+          {
+            "socs": [
+              "232011"
+            ],
+            "raw_titles": [
+              "paralegal"
+            ],
+            "titles": [
+              "Paralegal or Legal Assistant"
+            ],
+            "years": [
+              2009
+            ],
+            "dates": [],
+            "current": true
+          },
+          {
+            "socs": [
+              "111021",
+              "431011"
+            ],
+            "raw_titles": [
+              "office manager"
+            ],
+            "titles": [
+              "Operations Manager",
+              "Supervisor of Office and Administrative Support Workers"
+            ],
+            "years": [
+              2016
+            ],
+            "dates": [],
+            "current": false
+          },
+          {
+            "socs": [
+              "232011"
+            ],
+            "raw_titles": [
+              "paralegal"
+            ],
+            "titles": [
+              "Paralegal or Legal Assistant"
+            ],
+            "years": [
+              2007,
+              2009
+            ],
+            "dates": [],
+            "current": true
+          },
+          {
+            "socs": [
+              "436014",
+              "436014"
+            ],
+            "raw_titles": [
+              "secretary",
+              "administrative assistant"
+            ],
+            "titles": [
+              "Secretary or Administrative Assistant",
+              "Secretary or Administrative Assistant"
+            ],
+            "years": [
+              2000,
+              2007
+            ],
+            "dates": [],
+            "current": false
+          }
+        ],
+        "Skills": [
+          "Law",
+          "Law",
+          "Administration",
+          "Law",
+          "Human Resources",
+          "Scheduling",
+          "Writing",
+          "Clerical",
+          "Law",
+          "Invoicing",
+          "Teamwork",
+          "Collections",
+          "Law",
+          "Law",
+          "Law",
+          "Law",
+          "Management",
+          "Law",
+          "Prioritization",
+          "Administration"
+        ]
+      },
+      "job": {
+        "NonSkills": [
+          "Benefits",
+          "Dental Insurance",
+          "EEO",
+          "Family Leave",
+          "PTO",
+          "Retirement"
+        ],
+        "Skills": {
+          "Elementary Education": 1,
+          "Teaching": 9,
+          "Budgeting": 1,
+          "Management": 1,
+          "Strategy": 1,
+          "Planning": 2,
+          "Organization Skills": 1,
+          "Rapport Building": 1,
+          "Communication": 2,
+          "Verbal Communication": 1,
+          "Flexibility": 1,
+          "Leadership": 1,
+          "Recruiting": 1,
+          "Memorization": 1
+        },
+        "Occupations": [
+          {
+            "soc": "252012",
+            "soc_title": "Kindergarten Teacher",
+            "z_score": 6.1340739033104175
+          },
+          {
+            "soc": "252021",
+            "soc_title": "Elementary School Teacher",
+            "z_score": 6.123124685454242
+          },
+          {
+            "soc": "253099",
+            "soc_title": "Teacher/Instructor",
+            "z_score": 5.930223278432139
+          },
+          {
+            "soc": "253031",
+            "soc_title": "Substitute Teacher",
+            "z_score": 5.930223278432139
+          },
+          {
+            "soc": "252011",
+            "soc_title": "Preschool Teacher",
+            "z_score": 5.8361803617909755
+          },
+          {
+            "soc": "252022",
+            "soc_title": "Middle School Teacher",
+            "z_score": 5.690205772683181
+          },
+          {
+            "soc": "252023",
+            "soc_title": "Career/Technical Middle School Teacher",
+            "z_score": 5.489350883088146
+          },
+          {
+            "soc": "252058",
+            "soc_title": "Special Education Teacher (Secondary School)",
+            "z_score": 5.230804954926826
+          },
+          {
+            "soc": "252031",
+            "soc_title": "Secondary School Teacher",
+            "z_score": 5.225045938796079
+          },
+          {
+            "soc": "252057",
+            "soc_title": "Special Education Teacher (Middle School)",
+            "z_score": 4.916999315432507
+          }
+        ]
+      }
+    }
