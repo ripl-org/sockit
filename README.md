@@ -1,3 +1,5 @@
+![Sockit](https://github.com/ripl-org/sockit/blob/main/sockit.png)
+
 *Sockit* is a self-contained toolkit for assigning probabilistic Standard Occupational Classification (SOC) codes to free-text job titles. It is developed by [Research Improving People's Lives (RIPL)](https://www.ripl.org).
 
 ## Installation
