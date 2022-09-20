@@ -16,7 +16,7 @@ You can test out sockit (without installing it) using a web-hosted version at
 
 Requires Python 3.8 or later.
 
-To install the latest **production version** from PyPI using **pip**:
+To install the latest **release version** from PyPI using **pip**:
 
     pip install sockit
 
@@ -55,18 +55,20 @@ associated SOC codes, which can be converted to probabilities.
 Sockit also includes a manually curated list of 775 skill keywords, available
 in `sockit/data/skills.csv`. These skill keywords have been counted in the
 NLx Research Hub job descriptons to create a sparse job-skill association
-matrix. The jobs are then assigned probabilistic SOC codes using the method
-above, retaining codes with proability >= 10%. These SOC code probabilities are
-used in a weighted average across jobs to aggregate the job-skill matrix to a
-SOC-skill matrix. We then perform topic modeling, a natural-language processing
+matrix. Next, we perform topic modeling, a natural-language processing
 technique that reduces the dimensionality of the skill space to a lower-
 dimension "topic" space of 50 skill topics (or skill clusters). This
 reduction is computed by first performing a Term Frequency/Inverse Document
-Frequecy (TF-IDF) transformation on the SOC-skill matrix, then factoring that
+Frequecy (TF-IDF) transformation on the job-skill matrix, then factoring that
 matrix using Non-negative Matrix Factorization (NMF) into a product of
-SOC-topic and topic-skill matrices. These matrices are packaged in
-`sockit/data/soc_topic_matrix.txt` and `sockit/data/topic_skill_matrix.txt`
-and enable distance calculatons in the 50-dimensional skill topic space.
+job-topic and topic-skill matrices. The jobs are then assigned probabilistic
+SOC codes using the method above, retaining codes with proability >= 10%. These
+SOC code probabilities are used in a weighted average across jobs to aggregate
+the job-topic matrix to a SOC-topic matrix. As a result, the high-dimensional
+job-skill matrix is reduced to a product of SOC-topic and topic-skill matrices,
+in `sockit/data/soc_topic_matrix.txt` and `sockit/data/topic_skill_matrix.txt`,
+that enable distance calculatons between occupations and skills in the
+50-dimensional skill-topic space.
 
 ### Matching job titles to SOC codes
 
