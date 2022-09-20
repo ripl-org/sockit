@@ -3,6 +3,7 @@ from sockit.data import *
 
 MAPPING = create_mapping()
 IDF = create_idf_vector()
+SOC_TOPIC = create_soc_topic_matrix()
 TOPIC_SKILL = create_topic_skill_matrix()
 
 class SkillVector:
@@ -106,3 +107,9 @@ class SkillVector:
     def scale_to_topic_models(self):
         x = self.to_weighted_vector()
         return TOPIC_SKILL.dot(x)
+
+    def rank_socs(self):
+        x = self.scale_to_topic_models()
+        #w = SOC_TOPIC.dot(x)
+        #z = (w - w.mean()) / w.std()
+        return list(reversed([get_soc(i) for i in np.argsort(SOC_TOPIC.dot(x))]))

@@ -47,13 +47,21 @@ def create_idf_vector():
     return np.array(DATA['idf_vector'])
 
 
+def create_soc_topic_matrix():
+    global DATA
+    if 'soc_topic' not in DATA:
+        Log(__name__, "get_soc_topic_matrix").info("loading soc topic matrix")
+        with resources.path(DATA_MODULE, 'soc_topic_matrix.txt') as file:
+            DATA['soc_topic'] = np.loadtxt(file) * 1e-6
+    return DATA['soc_topic']
+
+
 def create_topic_skill_matrix():
     global DATA
     if 'topic_skill' not in DATA:
-        Log(__name__, "get_skill_topic_matrix").info("loading skill topic matrix")
+        Log(__name__, "get_skill_topic_matrix").info("loading topic skill matrix")
         with resources.path(DATA_MODULE, 'topic_skill_matrix.txt') as file:
             DATA['topic_skill'] = np.loadtxt(file) * 1e-6
-            print(DATA['topic_skill'].shape)
     return DATA['topic_skill']
 
 
@@ -129,6 +137,18 @@ def get_titles():
         with resources.path(DATA_MODULE, 'titles_trie.json') as f:
             DATA['titles'] = WordTrie().from_json(f)
     return DATA['titles']
+
+
+def get_soc(i):
+    """
+    Get the SOC code associated with index i in the SOC/topic matrix.
+    """
+    global DATA
+    if "socs" not in DATA:
+        Log(__name__, "get_soc").info("loading SOC codes")
+        with resources.open_text(DATA_MODULE, 'socs.csv') as f:
+            DATA["socs"] = [row["soc"] for row in csv.DictReader(f)]
+    return DATA["socs"][i]
 
 
 def get_soc_title(soc):

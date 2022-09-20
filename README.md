@@ -30,10 +30,11 @@ repository:
 ### Inferring SOC codes from job titles
 
 Sockit includes an empirical model of the associations between job titles and
-SOC codes, based on analysis of over 40 million job postings in the National
-Labor Exchange. An efficient prefix tree structure matches cleaned titles to
-this model and returns the empirical frequencies of associated SOC codes,
-which can be converted to probabilities.
+SOC codes, based on analysis of over 40 million U.S. job postings in the
+National Labor Exchange (NLx) [Research Hub](https://nlxresearchhub.org/)
+from the years 2019 and 2021. An efficient prefix tree structure matches
+cleaned titles to this model and returns the empirical frequencies of
+associated SOC codes, which can be converted to probabilities.
 
 #### Python API
 

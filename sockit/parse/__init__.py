@@ -288,9 +288,8 @@ def parse_job_posting(filename, extension):
     load_word_trie('nonskills')
     load_word_trie('skills')
     results = {
-        'nonskills' : [],
-        'skills' : {},
-        'salary_numbers' : []
+        'NonSkills': [],
+        'Skills': {}
     }
 
     lines = extract(filename, extension)
@@ -301,13 +300,13 @@ def parse_job_posting(filename, extension):
         line = clean(line.strip())
         nonskills = SOC_TRIES['nonskills'].search(line)
         if nonskills:
-            results['nonskills'] += nonskills
+            results['NonSkills'] += nonskills
         else:
             for skill in SOC_TRIES['skills'].search(line):
-                if skill not in results['skills']:
-                    results['skills'][skill] = 0
-                results['skills'][skill] += 1
-    results['nonskills'] = list(sorted(set(results['nonskills'])))
-    sv = SkillVector(skill_dictionary = results['skills'], skill_list = [])
+                results["Skills"][skill] = results["Skills"].get(skill, 0) + 1
+    results['NonSkills'] = list(sorted(set(results['NonSkills'])))
+    sv = SkillVector(skill_dictionary = results['Skills'], skill_list = [])
     results['SkillVector'] = sv
+    # Find closest SOC
+    results["Occupations"] = [{"soc": soc, "soc_title": get_soc_title(soc)} for soc in sv.rank_socs()[:10]]
     return results
