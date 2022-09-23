@@ -80,15 +80,15 @@ def pdf_bytes(filename):
     num_pages = len(reader.pages)
     return bytes(' '.join([
         reader.pages[x].extract_text() for x in range(num_pages)
-    ]), 'utf-8')
+    ]), "utf8")
 
 
 def html_bytes(filename):
     """
     Extract a byte string from an HTML document using html2text
     """
-    text = open(filename).read()
-    return bytes(HTML_PARSER.handle(text), "utf-8")
+    text = open(filename, "rb").read()
+    return bytes(HTML_PARSER.handle(decode_ascii(text)), "utf8")
 
 
 def extract(filename, extension):
