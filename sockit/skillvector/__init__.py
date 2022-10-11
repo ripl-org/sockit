@@ -108,8 +108,11 @@ class SkillVector:
         x = self.to_weighted_vector()
         return TOPIC_SKILL.dot(x)
 
-    def rank_socs(self):
+    def rank_socs(self, n=1):
         x = self.scale_to_topic_models()
-        #w = SOC_TOPIC.dot(x)
-        #z = (w - w.mean()) / w.std()
-        return list(reversed([get_soc(i) for i in np.argsort(SOC_TOPIC.dot(x))]))
+        w = SOC_TOPIC.dot(x)
+        z = (w - w.mean()) / w.std()
+        return [
+            {"soc": get_soc(i), "soc_title": get_soc_title(get_soc(i)), "z_score": z[i]}
+            for i in np.argsort(SOC_TOPIC.dot(x))[::-1][:n]
+        ]

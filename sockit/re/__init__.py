@@ -4,6 +4,7 @@ import re
 re_punct      = re.compile(r"[\-+/|]")
 re_alpha      = re.compile(r"[^a-z \.]+")
 re_alphanum   = re.compile(r"[^a-z0-9 \.]+")
+re_newline    = re.compile(r"([A-Za-z0-9]{2})\. ")
 re_zipcode    = re.compile(r"(?:^|\D)(\d{5}(?:-\d{4})?)(?:\D|$)")
 re_year       = re.compile(r"(?:^|\D)(\d{4})(?:\D|$)")
 re_date_range = re.compile(r"|".join((

@@ -1,0 +1,2088 @@
+Element ID	IWA ID	DWA ID	DWA Title
+4.A.1.a.1	4.A.1.a.1.I01	4.A.1.a.1.I01.D01	Review art or design materials.
+4.A.1.a.1	4.A.1.a.1.I01	4.A.1.a.1.I01.D02	Study details of musical compositions.
+4.A.1.a.1	4.A.1.a.1.I01	4.A.1.a.1.I01.D03	Review production information to determine costume or makeup requirements.
+4.A.1.a.1	4.A.1.a.1.I01	4.A.1.a.1.I01.D04	Study scripts to determine project requirements.
+4.A.1.a.1	4.A.1.a.1.I01	4.A.1.a.1.I01.D05	Review audio or video recordings.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D01	Read materials to determine needed actions.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D02	Read maps to determine routes.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D03	Review customer information.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D04	Read work orders or other instructions to determine product specifications or materials requirements.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D05	Read technical information needed to perform maintenance or repairs.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D06	Study blueprints or other instructions to determine equipment setup requirements.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D07	Read documents to gather technical information.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D08	Review technical documents to plan work.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D09	Review blueprints or specifications to determine work requirements.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D10	Review work orders or schedules to determine operations or procedures.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D11	Review blueprints or other instructions to determine operational methods or sequences.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D12	Evaluate reports or designs to determine work needs.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D13	Read work orders or descriptions of problems to determine repairs or modifications needed.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D14	Interpret blueprints, specifications, or diagrams to inform installation, development or operation activities.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D15	Review details of technical drawings or specifications.
+4.A.1.a.1	4.A.1.a.1.I02	4.A.1.a.1.I02.D16	Read work orders to determine material or setup requirements.
+4.A.1.a.1	4.A.1.a.1.I03	4.A.1.a.1.I03.D01	Collect evidence for legal proceedings.
+4.A.1.a.1	4.A.1.a.1.I03	4.A.1.a.1.I03.D02	Examine crime scenes to obtain evidence.
+4.A.1.a.1	4.A.1.a.1.I03	4.A.1.a.1.I03.D03	Investigate crimes committed within organizations.
+4.A.1.a.1	4.A.1.a.1.I03	4.A.1.a.1.I03.D04	Investigate legal issues.
+4.A.1.a.1	4.A.1.a.1.I03	4.A.1.a.1.I03.D05	Examine records or other types of data to investigate criminal activities.
+4.A.1.a.1	4.A.1.a.1.I03	4.A.1.a.1.I03.D06	Conduct hearings to investigate legal issues.
+4.A.1.a.1	4.A.1.a.1.I03	4.A.1.a.1.I03.D07	Investigate illegal or suspicious activities.
+4.A.1.a.1	4.A.1.a.1.I04	4.A.1.a.1.I04.D01	Obtain property information.
+4.A.1.a.1	4.A.1.a.1.I04	4.A.1.a.1.I04.D02	Use databases to locate investigation details or other information.
+4.A.1.a.1	4.A.1.a.1.I04	4.A.1.a.1.I04.D03	Search information sources to find specific data.
+4.A.1.a.1	4.A.1.a.1.I04	4.A.1.a.1.I04.D04	Gather financial records.
+4.A.1.a.1	4.A.1.a.1.I04	4.A.1.a.1.I04.D05	Retrieve information from electronic sources.
+4.A.1.a.1	4.A.1.a.1.I04	4.A.1.a.1.I04.D06	Gather information in order to provide services to clients.
+4.A.1.a.1	4.A.1.a.1.I04	4.A.1.a.1.I04.D07	Search files, databases or reference materials to obtain needed information.
+4.A.1.a.1	4.A.1.a.1.I04	4.A.1.a.1.I04.D08	Collect archival data.
+4.A.1.a.1	4.A.1.a.1.I05	4.A.1.a.1.I05.D01	Evaluate information related to legal matters in public or personal records.
+4.A.1.a.1	4.A.1.a.1.I05	4.A.1.a.1.I05.D02	Research relevant legal materials to aid decision making.
+4.A.1.a.1	4.A.1.a.1.I06	4.A.1.a.1.I06.D01	Gather organizational performance information.
+4.A.1.a.1	4.A.1.a.1.I06	4.A.1.a.1.I06.D02	Gather information about work conditions or locations.
+4.A.1.a.1	4.A.1.a.1.I06	4.A.1.a.1.I06.D03	Gather physical survey data.
+4.A.1.a.1	4.A.1.a.1.I06	4.A.1.a.1.I06.D04	Collect data about project sites.
+4.A.1.a.1	4.A.1.a.1.I07	4.A.1.a.1.I07.D01	Obtain information about goods or services.
+4.A.1.a.1	4.A.1.a.1.I08	4.A.1.a.1.I08.D01	Research hydrologic features or processes.
+4.A.1.a.1	4.A.1.a.1.I08	4.A.1.a.1.I08.D02	Research geological features or processes.
+4.A.1.a.1	4.A.1.a.1.I08	4.A.1.a.1.I08.D03	Conduct climatological research.
+4.A.1.a.1	4.A.1.a.1.I09	4.A.1.a.1.I09.D01	Conduct surveys in organizations.
+4.A.1.a.1	4.A.1.a.1.I09	4.A.1.a.1.I09.D02	Research industrial processes or operations.
+4.A.1.a.1	4.A.1.a.1.I09	4.A.1.a.1.I09.D03	Conduct scientific research of organizational behavior or processes.
+4.A.1.a.1	4.A.1.a.1.I10	4.A.1.a.1.I10.D01	Research impacts of environmental conservation initiatives.
+4.A.1.a.1	4.A.1.a.1.I10	4.A.1.a.1.I10.D02	Research issues related to the environment or sustainable business practices.
+4.A.1.a.1	4.A.1.a.1.I10	4.A.1.a.1.I10.D03	Investigate the environmental impact of projects.
+4.A.1.a.1	4.A.1.a.1.I10	4.A.1.a.1.I10.D04	Monitor environmental impacts of production or development activities.
+4.A.1.a.1	4.A.1.a.1.I10	4.A.1.a.1.I10.D05	Research environmental impact of industrial or development activities.
+4.A.1.a.1	4.A.1.a.1.I10	4.A.1.a.1.I10.D06	Identify environmental concerns.
+4.A.1.a.1	4.A.1.a.1.I10	4.A.1.a.1.I10.D07	Evaluate environmental impact of operational or development activities.
+4.A.1.a.1	4.A.1.a.1.I11	4.A.1.a.1.I11.D01	Gather information for news stories.
+4.A.1.a.1	4.A.1.a.1.I12	4.A.1.a.1.I12.D01	Gather medical information from patient histories.
+4.A.1.a.1	4.A.1.a.1.I12	4.A.1.a.1.I12.D02	Collect medical information from patients, family members, or other medical professionals.
+4.A.1.a.1	4.A.1.a.1.I12	4.A.1.a.1.I12.D03	Collect information from people through observation, interviews, or surveys.
+4.A.1.a.1	4.A.1.a.1.I12	4.A.1.a.1.I12.D04	Collect information about clients.
+4.A.1.a.1	4.A.1.a.1.I13	4.A.1.a.1.I13.D01	Research livestock management methods.
+4.A.1.a.1	4.A.1.a.1.I13	4.A.1.a.1.I13.D02	Research crop management methods.
+4.A.1.a.1	4.A.1.a.1.I13	4.A.1.a.1.I13.D03	Research sustainable agricultural processes or practices.
+4.A.1.a.1	4.A.1.a.1.I14	4.A.1.a.1.I14.D01	Conduct market research.
+4.A.1.a.1	4.A.1.a.1.I14	4.A.1.a.1.I14.D02	Gather customer or product information to determine customer needs.
+4.A.1.a.1	4.A.1.a.1.I14	4.A.1.a.1.I14.D03	Obtain personal or financial information about customers or applicants.
+4.A.1.a.1	4.A.1.a.1.I14	4.A.1.a.1.I14.D04	Conduct opinion surveys or needs assessments.
+4.A.1.a.1	4.A.1.a.1.I14	4.A.1.a.1.I14.D05	Collect data about customer needs.
+4.A.1.a.1	4.A.1.a.1.I15	4.A.1.a.1.I15.D01	Observe individuals' activities to gather information or compile evidence.
+4.A.1.a.1	4.A.1.a.1.I15	4.A.1.a.1.I15.D02	Investigate personal characteristics or activities of individuals.
+4.A.1.a.1	4.A.1.a.1.I16	4.A.1.a.1.I16.D01	Research genetic characteristics or expression.
+4.A.1.a.1	4.A.1.a.1.I16	4.A.1.a.1.I16.D02	Research diseases or parasites.
+4.A.1.a.1	4.A.1.a.1.I16	4.A.1.a.1.I16.D03	Conduct research of processes in natural or industrial ecosystems.
+4.A.1.a.1	4.A.1.a.1.I16	4.A.1.a.1.I16.D04	Research microbiological or chemical processes or structures.
+4.A.1.a.1	4.A.1.a.1.I16	4.A.1.a.1.I16.D05	Classify organisms based on their characteristics or behavior.
+4.A.1.a.1	4.A.1.a.1.I16	4.A.1.a.1.I16.D06	Examine characteristics or behavior of living organisms.
+4.A.1.a.1	4.A.1.a.1.I17	4.A.1.a.1.I17.D01	Obtain documentation to authorize activities.
+4.A.1.a.1	4.A.1.a.1.I17	4.A.1.a.1.I17.D02	Obtain copyrights or other legal permissions.
+4.A.1.a.1	4.A.1.a.1.I17	4.A.1.a.1.I17.D03	Obtain written authorization to perform activities.
+4.A.1.a.1	4.A.1.a.1.I18	4.A.1.a.1.I18.D01	Conduct anthropological or archaeological research.
+4.A.1.a.1	4.A.1.a.1.I18	4.A.1.a.1.I18.D02	Conduct historical research.
+4.A.1.a.1	4.A.1.a.1.I18	4.A.1.a.1.I18.D03	Conduct research on social issues.
+4.A.1.a.1	4.A.1.a.1.I19	4.A.1.a.1.I19.D01	Conduct research to increase knowledge about medical issues.
+4.A.1.a.1	4.A.1.a.1.I19	4.A.1.a.1.I19.D02	Collect information about community health needs.
+4.A.1.a.1	4.A.1.a.1.I20	4.A.1.a.1.I20.D01	Research engineering aspects of biological or chemical processes.
+4.A.1.a.1	4.A.1.a.1.I20	4.A.1.a.1.I20.D02	Research engineering applications of emerging technologies.
+4.A.1.a.1	4.A.1.a.1.I20	4.A.1.a.1.I20.D03	Research design or application of green technologies.
+4.A.1.a.1	4.A.1.a.1.I20	4.A.1.a.1.I20.D04	Conduct research to gain information about products or processes.
+4.A.1.a.1	4.A.1.a.1.I20	4.A.1.a.1.I20.D05	Research advanced engineering designs or applications.
+4.A.1.a.1	4.A.1.a.1.I20	4.A.1.a.1.I20.D06	Research energy production, use, or conservation.
+4.A.1.a.1	4.A.1.a.1.I20	4.A.1.a.1.I20.D07	Research human performance or health factors related to engineering or design activities.
+4.A.1.a.1	4.A.1.a.1.I20	4.A.1.a.1.I20.D08	Research new technologies.
+4.A.1.a.1	4.A.1.a.1.I20	4.A.1.a.1.I20.D09	Research product safety.
+4.A.1.a.1	4.A.1.a.1.I20	4.A.1.a.1.I20.D10	Research methods to improve food products.
+4.A.1.a.1	4.A.1.a.1.I21	4.A.1.a.1.I21.D01	Investigate accidents to determine causes.
+4.A.1.a.1	4.A.1.a.1.I21	4.A.1.a.1.I21.D02	Examine debris to obtain information about causes of fires.
+4.A.1.a.1	4.A.1.a.1.I21	4.A.1.a.1.I21.D03	Investigate transportation incidents, violations, or complaints.
+4.A.1.a.1	4.A.1.a.1.I21	4.A.1.a.1.I21.D04	Investigate industrial or transportation accidents.
+4.A.1.a.1	4.A.1.a.1.I22	4.A.1.a.1.I22.D01	Investigate system, equipment, or product failures.
+4.A.1.a.1	4.A.1.a.1.I22	4.A.1.a.1.I22.D02	Investigate work related complaints to determine corrective actions.
+4.A.1.a.1	4.A.1.a.1.I22	4.A.1.a.1.I22.D03	Investigate safety of work environment.
+4.A.1.a.1	4.A.1.a.1.I23	4.A.1.a.1.I23.D01	Interview employees, customers, or others to collect information.
+4.A.1.a.1	4.A.1.a.1.I23	4.A.1.a.1.I23.D02	Interview others for news or entertainment purposes.
+4.A.1.a.1	4.A.1.a.1.I23	4.A.1.a.1.I23.D03	Interview clients to gather financial information.
+4.A.1.a.1	4.A.1.a.1.I23	4.A.1.a.1.I23.D04	Interview people to obtain information about actions or status of individuals.
+4.A.1.a.1	4.A.1.a.1.I23	4.A.1.a.1.I23.D05	Interview people to gather information about criminal activities.
+4.A.1.a.1	4.A.1.a.1.I23	4.A.1.a.1.I23.D06	Interview patients to gather medical information.
+4.A.1.a.1	4.A.1.a.1.I23	4.A.1.a.1.I23.D07	Interview claimants to get information related to legal proceedings.
+4.A.1.a.1	4.A.1.a.1.I23	4.A.1.a.1.I23.D08	Interview clients to gather information about their backgrounds, needs, or progress.
+4.A.1.a.1	4.A.1.a.1.I23	4.A.1.a.1.I23.D09	Interview witnesses, suspects, or claimants.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D01	Monitor broadcasting operations to ensure proper functioning.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D02	Monitor medical equipment to ensure proper functioning.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D03	Monitor engine operation or functioning.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D04	Monitor lubrication of equipment or workpieces.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D05	Monitor equipment operation to ensure proper functioning.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D06	Observe equipment in operation to detect potential problems.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D07	Watch operating equipment to detect malfunctions.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D08	Monitor green energy equipment, systems, or facilities.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D09	Assess equipment functioning.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D10	Monitor equipment operation to ensure that products are not flawed.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D11	Monitor instruments to ensure proper production conditions.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D12	Monitor video displays of medical equipment to ensure proper functioning.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D13	Monitor equipment gauges or displays to ensure proper operation.
+4.A.1.a.2	4.A.1.a.2.I01	4.A.1.a.2.I01.D14	Monitor equipment fluid levels.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D01	Monitor industrial energy consumption or management.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D02	Monitor facilities or operational systems.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D03	Monitor operational quality or safety.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D04	Monitor extraction operations.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D05	Monitor organizational procedures to ensure proper functioning.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D06	Monitor construction operations.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D07	Monitor vehicle movement or location.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D08	Monitor recreational facility operations.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D09	Inspect operational processes.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D10	Track goods or materials.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D11	Monitor food services operations to ensure procedures are followed.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D12	Monitor loading processes to ensure they are performed properly.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D13	Monitor biofuel production operations.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D14	Inspect cargo to ensure it is properly loaded or secured.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D15	Monitor the productivity or efficiency of industrial operations.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D16	Monitor operational procedures in technical environments to ensure conformance to standards.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D17	Inspect operations of green energy facilities.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D18	Monitor conditions at energy-producing landfills.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D19	Monitor the handling of hazardous materials or medical wastes.
+4.A.1.a.2	4.A.1.a.2.I02	4.A.1.a.2.I02.D20	Monitor organizational processes.
+4.A.1.a.2	4.A.1.a.2.I03	4.A.1.a.2.I03.D01	Monitor financial information.
+4.A.1.a.2	4.A.1.a.2.I03	4.A.1.a.2.I03.D02	Monitor financial activities.
+4.A.1.a.2	4.A.1.a.2.I03	4.A.1.a.2.I03.D03	Monitor sales activities.
+4.A.1.a.2	4.A.1.a.2.I03	4.A.1.a.2.I03.D04	Monitor flow of cash or other resources.
+4.A.1.a.2	4.A.1.a.2.I03	4.A.1.a.2.I03.D05	Monitor financial indicators.
+4.A.1.a.2	4.A.1.a.2.I03	4.A.1.a.2.I03.D06	Monitor business indicators.
+4.A.1.a.2	4.A.1.a.2.I04	4.A.1.a.2.I04.D01	Monitor traffic signals.
+4.A.1.a.2	4.A.1.a.2.I04	4.A.1.a.2.I04.D02	Time vehicle speed or traffic-control equipment operation.
+4.A.1.a.2	4.A.1.a.2.I05	4.A.1.a.2.I05.D01	Monitor patient progress or responses to treatments.
+4.A.1.a.2	4.A.1.a.2.I05	4.A.1.a.2.I05.D02	Monitor clients to evaluate treatment progress.
+4.A.1.a.2	4.A.1.a.2.I05	4.A.1.a.2.I05.D03	Monitor patients following surgeries or other treatments.
+4.A.1.a.2	4.A.1.a.2.I05	4.A.1.a.2.I05.D04	Monitor animal behavior or condition.
+4.A.1.a.2	4.A.1.a.2.I05	4.A.1.a.2.I05.D05	Monitor health or behavior of people or animals.
+4.A.1.a.2	4.A.1.a.2.I05	4.A.1.a.2.I05.D06	Monitor patients to detect health problems.
+4.A.1.a.2	4.A.1.a.2.I05	4.A.1.a.2.I05.D07	Monitor patient conditions during treatments, procedures, or activities.
+4.A.1.a.2	4.A.1.a.2.I05	4.A.1.a.2.I05.D08	Monitor nutrition related activities of individuals or groups.
+4.A.1.a.2	4.A.1.a.2.I06	4.A.1.a.2.I06.D01	Monitor performance of organizational members or partners.
+4.A.1.a.2	4.A.1.a.2.I06	4.A.1.a.2.I06.D02	Monitor patron activities to identify problems or potential problems.
+4.A.1.a.2	4.A.1.a.2.I06	4.A.1.a.2.I06.D03	Monitor student performance.
+4.A.1.a.2	4.A.1.a.2.I06	4.A.1.a.2.I06.D04	Supervise school or student activities.
+4.A.1.a.2	4.A.1.a.2.I06	4.A.1.a.2.I06.D05	Enforce rules or policies governing student behavior.
+4.A.1.a.2	4.A.1.a.2.I06	4.A.1.a.2.I06.D06	Monitor activities of individuals to ensure safety or compliance with rules.
+4.A.1.a.2	4.A.1.a.2.I06	4.A.1.a.2.I06.D07	Monitor student behavior, social development, or health.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D01	Monitor environment to ensure safety.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D02	Monitor access or flow of people to prevent problems.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D03	Monitor building premises to ensure occupant or visitor safety.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D04	Locate suspicious objects or vehicles.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D05	Patrol properties to maintain safety.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D06	Monitor work areas to provide security.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D07	Maintain surveillance of individuals or establishments.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D08	Monitor alarm systems.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D09	Monitor work areas or procedures to ensure compliance with safety procedures.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D10	Locate fires or fire danger areas.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D11	Monitor surroundings to detect potential hazards.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D12	Patrol natural areas to ensure safety or enforce regulations.
+4.A.1.a.2	4.A.1.a.2.I07	4.A.1.a.2.I07.D13	Monitor work environment to ensure safety or adherence to specifications.
+4.A.1.a.2	4.A.1.a.2.I08	4.A.1.a.2.I08.D01	Monitor market conditions or trends.
+4.A.1.a.2	4.A.1.a.2.I08	4.A.1.a.2.I08.D02	Monitor current trends.
+4.A.1.a.2	4.A.1.a.2.I08	4.A.1.a.2.I08.D03	Monitor external affairs or events affecting business operations.
+4.A.1.a.2	4.A.1.a.2.I08	4.A.1.a.2.I08.D04	Monitor external factors impacting operations.
+4.A.1.a.2	4.A.1.a.2.I09	4.A.1.a.2.I09.D01	Inspect landscaping to determine treatment needs.
+4.A.1.a.2	4.A.1.a.2.I09	4.A.1.a.2.I09.D02	Monitor environmental conditions to detect hazards.
+4.A.1.a.2	4.A.1.a.2.I09	4.A.1.a.2.I09.D03	Measure environmental characteristics.
+4.A.1.a.2	4.A.1.a.2.I09	4.A.1.a.2.I09.D04	Monitor activities affecting environmental quality.
+4.A.1.a.2	4.A.1.a.2.I09	4.A.1.a.2.I09.D05	Assess characteristics of fires.
+4.A.1.a.2	4.A.1.a.2.I09	4.A.1.a.2.I09.D06	Inspect condition of natural environments.
+4.A.1.a.2	4.A.1.a.2.I10	4.A.1.a.2.I10.D01	Monitor the security of digital information.
+4.A.1.a.2	4.A.1.a.2.I10	4.A.1.a.2.I10.D02	Monitor the performance of computer networks.
+4.A.1.a.2	4.A.1.a.2.I10	4.A.1.a.2.I10.D03	Monitor computer system performance to ensure proper operation.
+4.A.1.a.2	4.A.1.a.2.I11	4.A.1.a.2.I11.D01	Identify actions needed to bring properties or facilities into compliance with regulations.
+4.A.1.a.2	4.A.1.a.2.I11	4.A.1.a.2.I11.D02	Inspect products or operations to ensure that standards are met.
+4.A.1.a.2	4.A.1.a.2.I11	4.A.1.a.2.I11.D03	Monitor operations to ensure compliance with safety or security policies or regulations.
+4.A.1.a.2	4.A.1.a.2.I11	4.A.1.a.2.I11.D04	Monitor organizational compliance with regulations.
+4.A.1.a.2	4.A.1.a.2.I11	4.A.1.a.2.I11.D05	Verify that medical activities or operations meet standards.
+4.A.1.a.2	4.A.1.a.2.I11	4.A.1.a.2.I11.D06	Monitor processes for compliance with standards.
+4.A.1.a.2	4.A.1.a.2.I11	4.A.1.a.2.I11.D07	Evaluate personnel practices to ensure adherence to regulations.
+4.A.1.a.2	4.A.1.a.2.I11	4.A.1.a.2.I11.D08	Monitor operational activities to ensure compliance with regulations or standard operating procedures.
+4.A.1.a.2	4.A.1.a.2.I11	4.A.1.a.2.I11.D09	Evaluate construction projects to determine compliance with external standards or regulations.
+4.A.1.a.2	4.A.1.a.2.I11	4.A.1.a.2.I11.D10	Determine operational compliance with regulations or standards.
+4.A.1.a.2	4.A.1.a.2.I11	4.A.1.a.2.I11.D11	Monitor medical facility activities to ensure adherence to standards or regulations.
+4.A.1.b.1	4.A.1.b.1.I01	4.A.1.b.1.I01.D01	Apply identification labels or tags.
+4.A.1.b.1	4.A.1.b.1.I01	4.A.1.b.1.I01.D02	Mark agricultural or forestry products for identification.
+4.A.1.b.1	4.A.1.b.1.I01	4.A.1.b.1.I01.D03	Mark materials or objects for identification.
+4.A.1.b.1	4.A.1.b.1.I01	4.A.1.b.1.I01.D04	Mark products, workpieces, or equipment with identifying information.
+4.A.1.b.1	4.A.1.b.1.I01	4.A.1.b.1.I01.D05	Label production materials.
+4.A.1.b.1	4.A.1.b.1.I01	4.A.1.b.1.I01.D06	Attach identification information to products, items or containers.
+4.A.1.b.1	4.A.1.b.1.I02	4.A.1.b.1.I02.D01	Identify opportunities for green initiatives.
+4.A.1.b.1	4.A.1.b.1.I02	4.A.1.b.1.I02.D02	Identify potential customers.
+4.A.1.b.1	4.A.1.b.1.I02	4.A.1.b.1.I02.D03	Identify investment opportunities or strategies.
+4.A.1.b.1	4.A.1.b.1.I02	4.A.1.b.1.I02.D04	Identify strategic business investment opportunities.
+4.A.1.b.1	4.A.1.b.1.I02	4.A.1.b.1.I02.D05	Identify new applications for existing technologies.
+4.A.1.b.1	4.A.1.b.1.I02	4.A.1.b.1.I02.D06	Identify opportunities to improve operational efficiency.
+4.A.1.b.1	4.A.1.b.1.I02	4.A.1.b.1.I02.D07	Identify sustainable business practices.
+4.A.1.b.1	4.A.1.b.1.I02	4.A.1.b.1.I02.D08	Identify job or employment opportunities.
+4.A.1.b.2	4.A.1.b.2.I01	4.A.1.b.2.I01.D01	Test patient heart or lung functioning.
+4.A.1.b.2	4.A.1.b.2.I01	4.A.1.b.2.I01.D02	Administer screening tests to determine abilities or treatment needs.
+4.A.1.b.2	4.A.1.b.2.I01	4.A.1.b.2.I01.D03	Test patient hearing.
+4.A.1.b.2	4.A.1.b.2.I01	4.A.1.b.2.I01.D04	Test patient vision.
+4.A.1.b.2	4.A.1.b.2.I01	4.A.1.b.2.I01.D05	Conduct diagnostic tests to determine patient health.
+4.A.1.b.2	4.A.1.b.2.I01	4.A.1.b.2.I01.D06	Administer drug screening tests.
+4.A.1.b.2	4.A.1.b.2.I01	4.A.1.b.2.I01.D07	Test patient nervous system functioning.
+4.A.1.b.2	4.A.1.b.2.I01	4.A.1.b.2.I01.D08	Test biological specimens to gather information about patient conditions.
+4.A.1.b.2	4.A.1.b.2.I02	4.A.1.b.2.I02.D01	Test green technologies or processes.
+4.A.1.b.2	4.A.1.b.2.I02	4.A.1.b.2.I02.D02	Test green technology installations to verify performance.
+4.A.1.b.2	4.A.1.b.2.I03	4.A.1.b.2.I03.D01	Test materials, solutions, or samples.
+4.A.1.b.2	4.A.1.b.2.I03	4.A.1.b.2.I03.D02	Test products for functionality or quality.
+4.A.1.b.2	4.A.1.b.2.I03	4.A.1.b.2.I03.D03	Analyze test results.
+4.A.1.b.2	4.A.1.b.2.I03	4.A.1.b.2.I03.D04	Test characteristics of materials or structures.
+4.A.1.b.2	4.A.1.b.2.I03	4.A.1.b.2.I03.D05	Test chemical or physical characteristics of materials or products.
+4.A.1.b.2	4.A.1.b.2.I03	4.A.1.b.2.I03.D06	Test fluids to identify contamination or other problems.
+4.A.1.b.2	4.A.1.b.2.I03	4.A.1.b.2.I03.D07	Test quality of materials or finished products.
+4.A.1.b.2	4.A.1.b.2.I04	4.A.1.b.2.I04.D01	Inspect motor vehicles.
+4.A.1.b.2	4.A.1.b.2.I04	4.A.1.b.2.I04.D02	Inspect mechanical components of vehicles to identify problems.
+4.A.1.b.2	4.A.1.b.2.I04	4.A.1.b.2.I04.D03	Inspect vehicles to determine overall condition.
+4.A.1.b.2	4.A.1.b.2.I04	4.A.1.b.2.I04.D04	Inspect locomotives or other railroad equipment.
+4.A.1.b.2	4.A.1.b.2.I04	4.A.1.b.2.I04.D05	Inspect aircraft or aircraft components.
+4.A.1.b.2	4.A.1.b.2.I04	4.A.1.b.2.I04.D06	Inspect structural components of vehicles to identify problems.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D01	Inspect work sites to determine condition or necessary repairs.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D02	Inspect work sites to identify potential environmental or safety hazards.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D03	Inspect facilities, equipment or supplies to ensure conformance to standards.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D04	Inspect cargo areas for cleanliness or condition.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D05	Inspect work environments to ensure safety.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D06	Monitor cargo area conditions.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D07	Inspect facilities.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D08	Inspect facilities or equipment to ensure specifications are met.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D09	Inspect areas for compliance with sanitation standards.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D10	Inspect facilities to ensure compliance with fire regulations.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D11	Inspect facilities to ensure compliance with safety, quality, or service standards.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D12	Inspect facilities or sites to determine if they meet specifications or standards.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D13	Inspect facilities to ensure compliance with security or safety regulations.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D14	Inspect facilities for cleanliness.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D15	Inspect condition or functioning of facilities or equipment.
+4.A.1.b.2	4.A.1.b.2.I05	4.A.1.b.2.I05.D16	Inspect buildings or grounds to determine condition.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D01	Verify alignment of structures or equipment.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D02	Inspect timing devices.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D03	Inspect finishes of workpieces or finished products.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D04	Count finished products or workpieces.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D05	Inspect metal, plastic, or composite products.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D06	Inspect work to ensure standards are met.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D07	Inspect textile products.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D08	Inspect finished products to locate flaws.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D09	Evaluate projects to determine compliance with technical specifications.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D10	Inspect medical or dental assistive devices.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D11	Inspect items for damage or defects.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D12	Check quality of foods or supplies.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D13	Inspect food products.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D14	Inspect sets or exhibits.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D15	Inspect completed work to ensure proper functioning.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D16	Inspected printed materials or other images to verify quality.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D17	Inspect completed work to ensure proper installation.
+4.A.1.b.2	4.A.1.b.2.I06	4.A.1.b.2.I06.D18	Inspect installed components or assemblies.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D01	Inspect equipment or tools to be used in construction or excavation.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D02	Inspect safety equipment to ensure proper functioning.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D03	Inspect systems to determine if they are operating properly.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D04	Inspect equipment or facilities to determine condition or maintenance needs.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D05	Inspect telecommunications equipment to identify problems.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D06	Inspect equipment to locate or identify electrical problems.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D07	Inspect material-moving equipment to detect problems.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D08	Inspect electrical or electronic systems for defects.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D09	Conduct validation tests of equipment or processes.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D10	Inspect gas systems or components to identify leaks or other potential hazards.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D11	Inspect equipment or systems.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D12	Inspect plumbing systems or fixtures.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D13	Locate equipment or materials in need of repair or replacement.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D14	Inspect equipment to ensure safety or proper functioning.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D15	Inspect production equipment.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D16	Inspect industrial or commercial equipment to ensure proper operation.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D17	Inspect sustainable energy production facilities or equipment.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D18	Inspect equipment to ensure proper functioning.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D19	Inspect communications or broadcasting equipment.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D20	Inspect mechanical equipment to locate damage, defects, or wear.
+4.A.1.b.2	4.A.1.b.2.I07	4.A.1.b.2.I07.D21	Examine medical instruments or equipment to ensure proper operation.
+4.A.1.b.2	4.A.1.b.2.I08	4.A.1.b.2.I08.D01	Test computer hardware performance.
+4.A.1.b.2	4.A.1.b.2.I08	4.A.1.b.2.I08.D02	Test computer system operations to ensure proper functioning.
+4.A.1.b.2	4.A.1.b.2.I08	4.A.1.b.2.I08.D03	Test software performance.
+4.A.1.b.2	4.A.1.b.2.I09	4.A.1.b.2.I09.D01	Check physical condition of people or animals.
+4.A.1.b.2	4.A.1.b.2.I09	4.A.1.b.2.I09.D02	Examine animals to detect illness, injury or other problems.
+4.A.1.b.2	4.A.1.b.2.I09	4.A.1.b.2.I09.D03	Examine patients to assess general physical condition.
+4.A.1.b.2	4.A.1.b.2.I09	4.A.1.b.2.I09.D04	Examine mouth, teeth, gums, or related facial structures.
+4.A.1.b.2	4.A.1.b.2.I09	4.A.1.b.2.I09.D05	Measure the physical or physiological attributes of patients.
+4.A.1.b.2	4.A.1.b.2.I10	4.A.1.b.2.I10.D01	Compare physical characteristics of materials or products to specifications or standards.
+4.A.1.b.2	4.A.1.b.2.I10	4.A.1.b.2.I10.D02	Inspect lumber or raw woodstock.
+4.A.1.b.2	4.A.1.b.2.I10	4.A.1.b.2.I10.D03	Inspect shipments to ensure correct order fulfillment.
+4.A.1.b.2	4.A.1.b.2.I10	4.A.1.b.2.I10.D04	Inspect garments for defects, damage, or stains.
+4.A.1.b.2	4.A.1.b.2.I10	4.A.1.b.2.I10.D05	Inspect cargo to identify potential hazards.
+4.A.1.b.2	4.A.1.b.2.I10	4.A.1.b.2.I10.D06	Evaluate characteristics of archival or historical objects.
+4.A.1.b.2	4.A.1.b.2.I10	4.A.1.b.2.I10.D07	Examine condition of property or products.
+4.A.1.b.2	4.A.1.b.2.I10	4.A.1.b.2.I10.D08	Inspect materials or equipment to determine need for repair or replacement.
+4.A.1.b.2	4.A.1.b.2.I10	4.A.1.b.2.I10.D09	Examine physical characteristics of gemstones or precious metals.
+4.A.1.b.2	4.A.1.b.2.I10	4.A.1.b.2.I10.D10	Examine physical characteristics of natural stone or stone products.
+4.A.1.b.2	4.A.1.b.2.I11	4.A.1.b.2.I11.D01	Test air quality at work sites.
+4.A.1.b.2	4.A.1.b.2.I11	4.A.1.b.2.I11.D02	Test facilities for environmental hazards.
+4.A.1.b.2	4.A.1.b.2.I12	4.A.1.b.2.I12.D01	Test communications equipment to ensure proper functioning.
+4.A.1.b.2	4.A.1.b.2.I12	4.A.1.b.2.I12.D02	Test performance of electrical, electronic, mechanical, or integrated systems or equipment.
+4.A.1.b.2	4.A.1.b.2.I12	4.A.1.b.2.I12.D03	Test electrical equipment or systems to ensure proper functioning.
+4.A.1.b.2	4.A.1.b.2.I12	4.A.1.b.2.I12.D04	Test performance of aircraft equipment.
+4.A.1.b.2	4.A.1.b.2.I12	4.A.1.b.2.I12.D05	Test mechanical equipment to ensure proper functioning.
+4.A.1.b.2	4.A.1.b.2.I12	4.A.1.b.2.I12.D06	Measure equipment outputs.
+4.A.1.b.2	4.A.1.b.2.I12	4.A.1.b.2.I12.D07	Test mechanical systems to ensure proper functioning.
+4.A.1.b.2	4.A.1.b.2.I12	4.A.1.b.2.I12.D08	Conduct test runs of production equipment.
+4.A.1.b.2	4.A.1.b.2.I12	4.A.1.b.2.I12.D09	Test electrical circuits or components for proper functioning.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D01	Measure materials to mark reference points, cutting lines, or other indicators.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D02	Calculate dimensions of workpieces, products, or equipment.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D03	Measure physical or chemical properties of materials or objects.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D04	Measure product or material dimensions.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D05	Measure radiation levels.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D06	Measure distances or dimensions.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D07	Measure physical characteristics of forestry or agricultural products.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D08	Calculate weights, volumes or other characteristics of materials.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D09	Measure ingredients.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D10	Measure ingredients or substances to be used in production processes.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D11	Weigh finished products.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D12	Measure dimensions of completed products or workpieces to verify conformance to specifications.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D13	Weigh parcels to determine shipping costs.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D14	Weigh materials to ensure compliance with specifications.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D15	Measure stock or liquid levels in sustainable fuel production systems.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D16	Measure materials or objects for installation or assembly.
+4.A.1.b.3	4.A.1.b.3.I01	4.A.1.b.3.I01.D17	Measure the level or depth of water or other liquids.
+4.A.1.b.3	4.A.1.b.3.I02	4.A.1.b.3.I02.D01	Estimate time or monetary resources needed to complete projects.
+4.A.1.b.3	4.A.1.b.3.I02	4.A.1.b.3.I02.D02	Estimate construction project costs.
+4.A.1.b.3	4.A.1.b.3.I02	4.A.1.b.3.I02.D03	Estimate maintenance service requirements or costs.
+4.A.1.b.3	4.A.1.b.3.I02	4.A.1.b.3.I02.D04	Estimate operational costs.
+4.A.1.b.3	4.A.1.b.3.I02	4.A.1.b.3.I02.D05	Estimate green project costs.
+4.A.1.b.3	4.A.1.b.3.I02	4.A.1.b.3.I02.D06	Estimate costs for projects or productions.
+4.A.1.b.3	4.A.1.b.3.I02	4.A.1.b.3.I02.D07	Estimate costs for labor or materials.
+4.A.1.b.3	4.A.1.b.3.I03	4.A.1.b.3.I03.D01	Calculate financial data.
+4.A.1.b.3	4.A.1.b.3.I03	4.A.1.b.3.I03.D02	Compute gaming wins and losses.
+4.A.1.b.3	4.A.1.b.3.I03	4.A.1.b.3.I03.D03	Calculate tax information.
+4.A.1.b.3	4.A.1.b.3.I03	4.A.1.b.3.I03.D04	Compute debt repayment schedules.
+4.A.1.b.3	4.A.1.b.3.I04	4.A.1.b.3.I04.D01	Survey land or properties.
+4.A.1.b.3	4.A.1.b.3.I04	4.A.1.b.3.I04.D02	Measure work site dimensions.
+4.A.1.b.3	4.A.1.b.3.I04	4.A.1.b.3.I04.D03	Calculate geographic positions from survey data.
+4.A.1.b.3	4.A.1.b.3.I04	4.A.1.b.3.I04.D04	Survey land or bodies of water to measure or determine features.
+4.A.1.b.3	4.A.1.b.3.I04	4.A.1.b.3.I04.D05	Assess locations for potential green technology installations.
+4.A.1.b.3	4.A.1.b.3.I05	4.A.1.b.3.I05.D01	Measure clients to ensure proper product fit.
+4.A.2.a.1	4.A.2.a.1.I01	4.A.2.a.1.I01.D01	Evaluate potential problems in home or work environments of clients.
+4.A.2.a.1	4.A.2.a.1.I01	4.A.2.a.1.I01.D02	Assess patient work, living, or social environments.
+4.A.2.a.1	4.A.2.a.1.I01	4.A.2.a.1.I01.D03	Evaluate characteristics of individuals to determine needs or eligibility.
+4.A.2.a.1	4.A.2.a.1.I01	4.A.2.a.1.I01.D04	Assess individual or community needs for educational or social services.
+4.A.2.a.1	4.A.2.a.1.I02	4.A.2.a.1.I02.D01	Evaluate program effectiveness.
+4.A.2.a.1	4.A.2.a.1.I02	4.A.2.a.1.I02.D02	Evaluate the effectiveness of counseling or educational programs.
+4.A.2.a.1	4.A.2.a.1.I02	4.A.2.a.1.I02.D03	Measure effectiveness of business strategies or practices.
+4.A.2.a.1	4.A.2.a.1.I02	4.A.2.a.1.I02.D04	Evaluate effectiveness of personnel policies or practices.
+4.A.2.a.1	4.A.2.a.1.I02	4.A.2.a.1.I02.D05	Evaluate effectiveness of educational programs.
+4.A.2.a.1	4.A.2.a.1.I02	4.A.2.a.1.I02.D06	Evaluate training programs, instructors, or materials.
+4.A.2.a.1	4.A.2.a.1.I02	4.A.2.a.1.I02.D07	Evaluate civic projects or public policies.
+4.A.2.a.1	4.A.2.a.1.I03	4.A.2.a.1.I03.D01	Assess educational needs of students.
+4.A.2.a.1	4.A.2.a.1.I03	4.A.2.a.1.I03.D02	Administer tests to assess educational needs or progress.
+4.A.2.a.1	4.A.2.a.1.I03	4.A.2.a.1.I03.D03	Prepare tests.
+4.A.2.a.1	4.A.2.a.1.I03	4.A.2.a.1.I03.D04	Evaluate student work.
+4.A.2.a.1	4.A.2.a.1.I04	4.A.2.a.1.I04.D01	Evaluate performance of educational staff.
+4.A.2.a.1	4.A.2.a.1.I04	4.A.2.a.1.I04.D02	Evaluate current or prospective maintenance employees.
+4.A.2.a.1	4.A.2.a.1.I04	4.A.2.a.1.I04.D03	Evaluate skills of athletes or performers.
+4.A.2.a.1	4.A.2.a.1.I04	4.A.2.a.1.I04.D04	Evaluate employee performance.
+4.A.2.a.1	4.A.2.a.1.I04	4.A.2.a.1.I04.D05	Evaluate capabilities or training needs.
+4.A.2.a.1	4.A.2.a.1.I04	4.A.2.a.1.I04.D06	Evaluate performance of applicants, trainees, or employees.
+4.A.2.a.1	4.A.2.a.1.I05	4.A.2.a.1.I05.D01	Evaluate log quality.
+4.A.2.a.1	4.A.2.a.1.I05	4.A.2.a.1.I05.D02	Evaluate quality of plants or crops.
+4.A.2.a.1	4.A.2.a.1.I05	4.A.2.a.1.I05.D03	Evaluate quality of materials or products.
+4.A.2.a.1	4.A.2.a.1.I05	4.A.2.a.1.I05.D04	Evaluate quality of food ingredients or prepared foods.
+4.A.2.a.1	4.A.2.a.1.I06	4.A.2.a.1.I06.D01	Assess physical conditions of patients to aid in diagnosis or treatment.
+4.A.2.a.1	4.A.2.a.1.I06	4.A.2.a.1.I06.D02	Evaluate patient functioning, capabilities, or health.
+4.A.2.a.1	4.A.2.a.1.I06	4.A.2.a.1.I06.D03	Evaluate patient outcomes to determine effectiveness of treatments.
+4.A.2.a.1	4.A.2.a.1.I06	4.A.2.a.1.I06.D04	Evaluate treatment options to guide medical decisions.
+4.A.2.a.1	4.A.2.a.1.I06	4.A.2.a.1.I06.D05	Assess skin or hair conditions.
+4.A.2.a.1	4.A.2.a.1.I07	4.A.2.a.1.I07.D01	Assess the cost effectiveness of products, projects, or services.
+4.A.2.a.1	4.A.2.a.1.I07	4.A.2.a.1.I07.D02	Evaluate new technologies or methods.
+4.A.2.a.1	4.A.2.a.1.I07	4.A.2.a.1.I07.D03	Evaluate potential of products, technologies, or resources.
+4.A.2.a.1	4.A.2.a.1.I07	4.A.2.a.1.I07.D04	Evaluate the characteristics of green technologies.
+4.A.2.a.1	4.A.2.a.1.I07	4.A.2.a.1.I07.D05	Assess product or process usefulness.
+4.A.2.a.1	4.A.2.a.1.I07	4.A.2.a.1.I07.D06	Assess database performance.
+4.A.2.a.1	4.A.2.a.1.I07	4.A.2.a.1.I07.D07	Evaluate characteristics of equipment or systems.
+4.A.2.a.1	4.A.2.a.1.I07	4.A.2.a.1.I07.D08	Evaluate utility of software or hardware technologies.
+4.A.2.a.1	4.A.2.a.1.I07	4.A.2.a.1.I07.D09	Evaluate characteristics of products.
+4.A.2.a.1	4.A.2.a.1.I08	4.A.2.a.1.I08.D01	Evaluate scholarly materials.
+4.A.2.a.1	4.A.2.a.1.I09	4.A.2.a.1.I09.D01	Evaluate condition of properties.
+4.A.2.a.1	4.A.2.a.1.I09	4.A.2.a.1.I09.D02	Assess financial status of clients.
+4.A.2.a.1	4.A.2.a.1.I09	4.A.2.a.1.I09.D03	Appraise property values.
+4.A.2.a.1	4.A.2.a.1.I10	4.A.2.a.1.I10.D01	Evaluate project designs to determine adequacy or feasibility.
+4.A.2.a.1	4.A.2.a.1.I10	4.A.2.a.1.I10.D02	Analyze data to determine project feasibility.
+4.A.2.a.2	4.A.2.a.2.I01	4.A.2.a.2.I01.D01	Verify accuracy of records.
+4.A.2.a.2	4.A.2.a.2.I01	4.A.2.a.2.I01.D02	Verify information or specifications.
+4.A.2.a.2	4.A.2.a.2.I01	4.A.2.a.2.I01.D03	Verify customer credit information.
+4.A.2.a.2	4.A.2.a.2.I01	4.A.2.a.2.I01.D04	Review accuracy of sales or other transactions.
+4.A.2.a.2	4.A.2.a.2.I01	4.A.2.a.2.I01.D05	Verify accuracy of financial information.
+4.A.2.a.2	4.A.2.a.2.I01	4.A.2.a.2.I01.D06	Evaluate data quality.
+4.A.2.a.2	4.A.2.a.2.I01	4.A.2.a.2.I01.D07	Verify accuracy of data.
+4.A.2.a.2	4.A.2.a.2.I01	4.A.2.a.2.I01.D08	Check data for recording errors.
+4.A.2.a.2	4.A.2.a.2.I01	4.A.2.a.2.I01.D09	Verify accuracy of financial or transactional data.
+4.A.2.a.2	4.A.2.a.2.I01	4.A.2.a.2.I01.D10	Verify mathematical calculations.
+4.A.2.a.2	4.A.2.a.2.I01	4.A.2.a.2.I01.D11	Check quality of diagnostic images.
+4.A.2.a.2	4.A.2.a.2.I02	4.A.2.a.2.I02.D01	Sort mail.
+4.A.2.a.2	4.A.2.a.2.I02	4.A.2.a.2.I02.D02	Sort materials or objects for processing or transport.
+4.A.2.a.2	4.A.2.a.2.I02	4.A.2.a.2.I02.D03	Sort recyclable materials.
+4.A.2.a.2	4.A.2.a.2.I02	4.A.2.a.2.I02.D04	Sort forestry or agricultural materials.
+4.A.2.a.2	4.A.2.a.2.I02	4.A.2.a.2.I02.D05	Sort materials or products for processing, storing, shipping, or grading.
+4.A.2.a.2	4.A.2.a.2.I02	4.A.2.a.2.I02.D06	Sort materials or products.
+4.A.2.a.2	4.A.2.a.2.I03	4.A.2.a.2.I03.D01	Compile operational data.
+4.A.2.a.2	4.A.2.a.2.I03	4.A.2.a.2.I03.D02	Compile technical information or documentation.
+4.A.2.a.2	4.A.2.a.2.I03	4.A.2.a.2.I03.D03	Compile data or documentation.
+4.A.2.a.2	4.A.2.a.2.I03	4.A.2.a.2.I03.D04	Compile specialized bibliographies or lists of materials.
+4.A.2.a.2	4.A.2.a.2.I03	4.A.2.a.2.I03.D05	Compile environmental or climatological data.
+4.A.2.a.2	4.A.2.a.2.I03	4.A.2.a.2.I03.D06	Compile geographic or related data.
+4.A.2.a.2	4.A.2.a.2.I04	4.A.2.a.2.I04.D01	Reconcile records of sales or other financial transactions.
+4.A.2.a.2	4.A.2.a.2.I04	4.A.2.a.2.I04.D02	Balance receipts.
+4.A.2.a.2	4.A.2.a.2.I04	4.A.2.a.2.I04.D03	Prepare cash for deposit or disbursement.
+4.A.2.a.2	4.A.2.a.2.I05	4.A.2.a.2.I05.D01	Examine personal documentation to ensure that it is valid.
+4.A.2.a.2	4.A.2.a.2.I05	4.A.2.a.2.I05.D02	Verify employee information.
+4.A.2.a.2	4.A.2.a.2.I05	4.A.2.a.2.I05.D03	Verify application data to determine program eligibility.
+4.A.2.a.2	4.A.2.a.2.I05	4.A.2.a.2.I05.D04	Verify accuracy of patient information.
+4.A.2.a.2	4.A.2.a.2.I05	4.A.2.a.2.I05.D05	Verify patron or staff credentials.
+4.A.2.a.3	4.A.2.a.3.I01	4.A.2.a.3.I01.D01	Examine marketing materials to ensure compliance with policies or regulations.
+4.A.2.a.3	4.A.2.a.3.I01	4.A.2.a.3.I01.D02	Examine documents to verify adherence to requirements.
+4.A.2.a.3	4.A.2.a.3.I01	4.A.2.a.3.I01.D03	Examine product information to ensure compliance with regulations.
+4.A.2.a.3	4.A.2.a.3.I01	4.A.2.a.3.I01.D04	Review documents or materials for compliance with policies or regulations.
+4.A.2.a.3	4.A.2.a.3.I01	4.A.2.a.3.I01.D05	Review license or permit applications.
+4.A.2.a.3	4.A.2.a.3.I01	4.A.2.a.3.I01.D06	Verify shipping documentation.
+4.A.2.a.3	4.A.2.a.3.I01	4.A.2.a.3.I01.D07	Review environmental permits, plans, or reports.
+4.A.2.a.3	4.A.2.a.3.I01	4.A.2.a.3.I01.D08	Proofread documents, records, or other files to ensure accuracy.
+4.A.2.a.3	4.A.2.a.3.I01	4.A.2.a.3.I01.D09	Review plans or proposals for environmental conservation.
+4.A.2.a.3	4.A.2.a.3.I02	4.A.2.a.3.I02.D01	Assess compliance with environmental laws.
+4.A.2.a.3	4.A.2.a.3.I02	4.A.2.a.3.I02.D02	Evaluate green operations or programs for compliance with standards or regulations.
+4.A.2.a.3	4.A.2.a.3.I02	4.A.2.a.3.I02.D03	Conduct environmental audits.
+4.A.2.a.3	4.A.2.a.3.I02	4.A.2.a.3.I02.D04	Evaluate plans or specifications to determine technological or environmental implications.
+4.A.2.a.3	4.A.2.a.3.I03	4.A.2.a.3.I03.D01	Conduct financial or regulatory audits.
+4.A.2.a.3	4.A.2.a.3.I03	4.A.2.a.3.I03.D02	Examine financial records.
+4.A.2.a.3	4.A.2.a.3.I03	4.A.2.a.3.I03.D03	Examine financial records or processes.
+4.A.2.a.3	4.A.2.a.3.I03	4.A.2.a.3.I03.D04	Review customer insurance information.
+4.A.2.a.3	4.A.2.a.3.I03	4.A.2.a.3.I03.D05	Examine financial records to ensure compliance with policies or regulations.
+4.A.2.a.3	4.A.2.a.3.I04	4.A.2.a.3.I04.D01	Protect patients or staff members using safety equipment.
+4.A.2.a.3	4.A.2.a.3.I04	4.A.2.a.3.I04.D02	Follow protocols or regulations for healthcare activities.
+4.A.2.a.4	4.A.2.a.4.I01	4.A.2.a.4.I01.D01	Locate natural resources using geospatial or other environmental data.
+4.A.2.a.4	4.A.2.a.4.I01	4.A.2.a.4.I01.D02	Determine geographic coordinates.
+4.A.2.a.4	4.A.2.a.4.I01	4.A.2.a.4.I01.D03	Analyze geological samples.
+4.A.2.a.4	4.A.2.a.4.I01	4.A.2.a.4.I01.D04	Analyze environmental data.
+4.A.2.a.4	4.A.2.a.4.I01	4.A.2.a.4.I01.D05	Analyze geological or geographical data.
+4.A.2.a.4	4.A.2.a.4.I01	4.A.2.a.4.I01.D06	Analyze Geographic Information Systems (GIS) data for use in green applications.
+4.A.2.a.4	4.A.2.a.4.I01	4.A.2.a.4.I01.D07	Analyze physical, survey, or geographic data.
+4.A.2.a.4	4.A.2.a.4.I02	4.A.2.a.4.I02.D01	Estimate demand for products or services.
+4.A.2.a.4	4.A.2.a.4.I02	4.A.2.a.4.I02.D02	Analyze industry trends.
+4.A.2.a.4	4.A.2.a.4.I02	4.A.2.a.4.I02.D03	Forecast economic, political, or social trends.
+4.A.2.a.4	4.A.2.a.4.I02	4.A.2.a.4.I02.D04	Analyze market conditions or trends.
+4.A.2.a.4	4.A.2.a.4.I02	4.A.2.a.4.I02.D05	Analyze website or related online data to track trends or usage.
+4.A.2.a.4	4.A.2.a.4.I02	4.A.2.a.4.I02.D06	Analyze market or customer related data.
+4.A.2.a.4	4.A.2.a.4.I02	4.A.2.a.4.I02.D07	Analyze consumer trends.
+4.A.2.a.4	4.A.2.a.4.I02	4.A.2.a.4.I02.D08	Analyze market research data.
+4.A.2.a.4	4.A.2.a.4.I03	4.A.2.a.4.I03.D01	Assess risks to business operations.
+4.A.2.a.4	4.A.2.a.4.I03	4.A.2.a.4.I03.D02	Analyze risks related to investments in green technology.
+4.A.2.a.4	4.A.2.a.4.I03	4.A.2.a.4.I03.D03	Analyze risks to minimize losses or damages.
+4.A.2.a.4	4.A.2.a.4.I04	4.A.2.a.4.I04.D01	Apply mathematical principles or statistical approaches to solve problems in scientific or applied fields.
+4.A.2.a.4	4.A.2.a.4.I04	4.A.2.a.4.I04.D02	Analyze data to identify trends or relationships among variables.
+4.A.2.a.4	4.A.2.a.4.I05	4.A.2.a.4.I05.D01	Evaluate technical data to determine effect on designs or plans.
+4.A.2.a.4	4.A.2.a.4.I05	4.A.2.a.4.I05.D02	Analyze design requirements for computer or electronics systems.
+4.A.2.a.4	4.A.2.a.4.I05	4.A.2.a.4.I05.D03	Evaluate designs or specifications to ensure quality.
+4.A.2.a.4	4.A.2.a.4.I05	4.A.2.a.4.I05.D04	Analyze green technology design requirements.
+4.A.2.a.4	4.A.2.a.4.I05	4.A.2.a.4.I05.D05	Analyze project data to determine specifications or requirements.
+4.A.2.a.4	4.A.2.a.4.I05	4.A.2.a.4.I05.D06	Analyze design or requirements information for mechanical equipment or systems.
+4.A.2.a.4	4.A.2.a.4.I05	4.A.2.a.4.I05.D07	Evaluate environmental or sustainability projects.
+4.A.2.a.4	4.A.2.a.4.I05	4.A.2.a.4.I05.D08	Analyze costs and benefits of proposed designs or projects.
+4.A.2.a.4	4.A.2.a.4.I06	4.A.2.a.4.I06.D01	Analyze health-related data.
+4.A.2.a.4	4.A.2.a.4.I06	4.A.2.a.4.I06.D02	Analyze patient data to determine patient needs or treatment goals.
+4.A.2.a.4	4.A.2.a.4.I06	4.A.2.a.4.I06.D03	Analyze test data or images to inform diagnosis or treatment.
+4.A.2.a.4	4.A.2.a.4.I06	4.A.2.a.4.I06.D04	Analyze medical data to determine cause of death.
+4.A.2.a.4	4.A.2.a.4.I06	4.A.2.a.4.I06.D05	Calculate numerical data for medical activities.
+4.A.2.a.4	4.A.2.a.4.I06	4.A.2.a.4.I06.D06	Analyze quantitative data to determine effectiveness of treatments or therapies.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D01	Calculate data to inform organizational operations.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D02	Analyze operational or research data.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D03	Analyze operational data to evaluate operations, processes or products.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D04	Evaluate energy production data.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D05	Interpret research or operational data.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D06	Model operational processes.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D07	Analyze logistics processes.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D08	Analyze forecasting data to improve business decisions.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D09	Analyze data to assess operational or project effectiveness.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D10	Analyze jobs using observation, survey, or interview techniques.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D11	Analyze data to inform personnel decisions.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D12	Analyze data to inform operational decisions or activities.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D13	Evaluate logistics methods to reduce environmental impact.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D14	Analyze data to identify or resolve operational problems.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D15	Analyze shipping information to make routing decisions.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D16	Analyze traffic data.
+4.A.2.a.4	4.A.2.a.4.I07	4.A.2.a.4.I07.D17	Analyze energy usage data.
+4.A.2.a.4	4.A.2.a.4.I08	4.A.2.a.4.I08.D01	Identify implications for cases from legal precedents or other legal information.
+4.A.2.a.4	4.A.2.a.4.I09	4.A.2.a.4.I09.D01	Appraise environmental impact of regulations or policies.
+4.A.2.a.4	4.A.2.a.4.I09	4.A.2.a.4.I09.D02	Analyze environmental regulations to ensure organizational compliance.
+4.A.2.a.4	4.A.2.a.4.I09	4.A.2.a.4.I09.D03	Analyze impact of legal or regulatory changes.
+4.A.2.a.4	4.A.2.a.4.I09	4.A.2.a.4.I09.D04	Evaluate applicable laws and regulations to determine impact on organizational activities.
+4.A.2.a.4	4.A.2.a.4.I10	4.A.2.a.4.I10.D01	Analyze laboratory specimens to detect abnormalities or other problems.
+4.A.2.a.4	4.A.2.a.4.I10	4.A.2.a.4.I10.D02	Analyze forensic evidence to solve crimes.
+4.A.2.a.4	4.A.2.a.4.I10	4.A.2.a.4.I10.D03	Analyze crime scene evidence.
+4.A.2.a.4	4.A.2.a.4.I10	4.A.2.a.4.I10.D04	Analyze laboratory findings.
+4.A.2.a.4	4.A.2.a.4.I10	4.A.2.a.4.I10.D05	Analyze biological samples.
+4.A.2.a.4	4.A.2.a.4.I10	4.A.2.a.4.I10.D06	Analyze chemical compounds or substances.
+4.A.2.a.4	4.A.2.a.4.I11	4.A.2.a.4.I11.D01	Analyze budgetary or accounting data.
+4.A.2.a.4	4.A.2.a.4.I11	4.A.2.a.4.I11.D02	Analyze financial information.
+4.A.2.a.4	4.A.2.a.4.I11	4.A.2.a.4.I11.D03	Apply mathematical models of financial or business conditions.
+4.A.2.a.4	4.A.2.a.4.I11	4.A.2.a.4.I11.D04	Analyze business or financial data.
+4.A.2.a.4	4.A.2.a.4.I11	4.A.2.a.4.I11.D05	Analyze financial records to improve budgeting or planning.
+4.A.2.a.4	4.A.2.a.4.I11	4.A.2.a.4.I11.D06	Analyze financial records or reports to determine state of operations.
+4.A.2.a.4	4.A.2.a.4.I11	4.A.2.a.4.I11.D07	Analyze financial records to improve efficiency.
+4.A.2.a.4	4.A.2.a.4.I12	4.A.2.a.4.I12.D01	Conduct quantitative failure analyses of operational data.
+4.A.2.a.4	4.A.2.a.4.I12	4.A.2.a.4.I12.D02	Analyze security of systems, network, or data.
+4.A.2.a.4	4.A.2.a.4.I12	4.A.2.a.4.I12.D03	Interpret design or operational test results.
+4.A.2.a.4	4.A.2.a.4.I12	4.A.2.a.4.I12.D04	Analyze test or validation data.
+4.A.2.a.4	4.A.2.a.4.I12	4.A.2.a.4.I12.D05	Analyze test or performance data to assess equipment operation.
+4.A.2.b.1	4.A.2.b.1.I01	4.A.2.b.1.I01.D01	Estimate costs of products, services, or materials.
+4.A.2.b.1	4.A.2.b.1.I01	4.A.2.b.1.I01.D02	Determine the value of goods or services.
+4.A.2.b.1	4.A.2.b.1.I01	4.A.2.b.1.I01.D03	Estimate costs or terms of sales.
+4.A.2.b.1	4.A.2.b.1.I01	4.A.2.b.1.I01.D04	Determine prices for menu items.
+4.A.2.b.1	4.A.2.b.1.I01	4.A.2.b.1.I01.D05	Calculate shipping costs.
+4.A.2.b.1	4.A.2.b.1.I01	4.A.2.b.1.I01.D06	Estimate costs of goods or services.
+4.A.2.b.1	4.A.2.b.1.I01	4.A.2.b.1.I01.D07	Calculate costs of goods or services.
+4.A.2.b.1	4.A.2.b.1.I02	4.A.2.b.1.I02.D01	Determine causes of operational problems or failures.
+4.A.2.b.1	4.A.2.b.1.I02	4.A.2.b.1.I02.D02	Troubleshoot equipment or systems operation problems.
+4.A.2.b.1	4.A.2.b.1.I02	4.A.2.b.1.I02.D03	Diagnose equipment malfunctions.
+4.A.2.b.1	4.A.2.b.1.I03	4.A.2.b.1.I03.D01	Authorize construction activities.
+4.A.2.b.1	4.A.2.b.1.I03	4.A.2.b.1.I03.D02	Authorize financial actions.
+4.A.2.b.1	4.A.2.b.1.I03	4.A.2.b.1.I03.D03	Authorize payments to settle legal disputes.
+4.A.2.b.1	4.A.2.b.1.I03	4.A.2.b.1.I03.D04	Approve expenditures.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D01	Determine metal or plastic production methods.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D02	Determine appropriate locations for operations or installations.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D03	Determine operational methods.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D04	Determine operational procedures.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D05	Determine methods to minimize environmental impact of activities.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D06	Determine food production methods.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D07	Determine forestry techniques or methods.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D08	Determine construction project layouts.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D09	Determine production equipment settings.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D10	Determine appropriate methods for data analysis.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D11	Determine protocols for medical procedures.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D12	Choose optimal transportation routes or speeds.
+4.A.2.b.1	4.A.2.b.1.I04	4.A.2.b.1.I04.D13	Determine technical requirements of productions or projects.
+4.A.2.b.1	4.A.2.b.1.I05	4.A.2.b.1.I05.D01	Make decisions in legal cases.
+4.A.2.b.1	4.A.2.b.1.I05	4.A.2.b.1.I05.D02	Rule on admissibility of legal proceedings.
+4.A.2.b.1	4.A.2.b.1.I06	4.A.2.b.1.I06.D01	Diagnose dental conditions.
+4.A.2.b.1	4.A.2.b.1.I06	4.A.2.b.1.I06.D02	Diagnose medical conditions.
+4.A.2.b.1	4.A.2.b.1.I06	4.A.2.b.1.I06.D03	Diagnose neural or psychological disorders.
+4.A.2.b.1	4.A.2.b.1.I07	4.A.2.b.1.I07.D01	Edit written materials.
+4.A.2.b.1	4.A.2.b.1.I07	4.A.2.b.1.I07.D02	Edit documents.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D01	Estimate technical or resource requirements for development or production projects.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D02	Identify information technology project resource requirements.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D03	Estimate labor requirements.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D04	Calculate specific material, equipment, or labor requirements for production.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D05	Determine resource needs.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D06	Estimate labor or resource requirements for forestry, fishing, or agricultural operations.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D07	Estimate supplies, ingredients, or staff requirements for food preparation activities.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D08	Estimate cost or material requirements.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D09	Estimate material requirements for production.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D10	Estimate time requirements for development or production projects.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D11	Determine types of equipment, tools, or materials needed for jobs.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D12	Estimate materials requirements for projects.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D13	Calculate requirements for equipment installation or repair projects.
+4.A.2.b.1	4.A.2.b.1.I08	4.A.2.b.1.I08.D14	Estimate construction project labor requirements.
+4.A.2.b.1	4.A.2.b.1.I09	4.A.2.b.1.I09.D01	Implement organizational process or policy changes.
+4.A.2.b.1	4.A.2.b.1.I09	4.A.2.b.1.I09.D02	Implement transportation changes to reduce environmental impact.
+4.A.2.b.1	4.A.2.b.1.I09	4.A.2.b.1.I09.D03	Apply new technologies to improve work processes.
+4.A.2.b.1	4.A.2.b.1.I09	4.A.2.b.1.I09.D04	Implement advertising or marketing initiatives.
+4.A.2.b.1	4.A.2.b.1.I09	4.A.2.b.1.I09.D05	Implement financial decisions.
+4.A.2.b.1	4.A.2.b.1.I09	4.A.2.b.1.I09.D06	Implement design or process improvements.
+4.A.2.b.1	4.A.2.b.1.I10	4.A.2.b.1.I10.D01	Select tools, equipment, or technologies for use in operations or projects.
+4.A.2.b.1	4.A.2.b.1.I10	4.A.2.b.1.I10.D02	Select project materials.
+4.A.2.b.1	4.A.2.b.1.I10	4.A.2.b.1.I10.D03	Select materials or props.
+4.A.2.b.1	4.A.2.b.1.I10	4.A.2.b.1.I10.D04	Select equipment, materials, or supplies for cleaning or maintenance activities.
+4.A.2.b.1	4.A.2.b.1.I10	4.A.2.b.1.I10.D05	Select production input materials.
+4.A.2.b.1	4.A.2.b.1.I10	4.A.2.b.1.I10.D06	Select production equipment according to product specifications.
+4.A.2.b.1	4.A.2.b.1.I10	4.A.2.b.1.I10.D07	Select construction materials.
+4.A.2.b.1	4.A.2.b.1.I10	4.A.2.b.1.I10.D08	Select medical equipment for addressing patient needs.
+4.A.2.b.1	4.A.2.b.1.I10	4.A.2.b.1.I10.D09	Select construction equipment.
+4.A.2.b.1	4.A.2.b.1.I10	4.A.2.b.1.I10.D10	Select educational materials or equipment.
+4.A.2.b.1	4.A.2.b.1.I10	4.A.2.b.1.I10.D11	Select resources needed to accomplish tasks.
+4.A.2.b.1	4.A.2.b.1.I11	4.A.2.b.1.I11.D01	Edit audio or video recordings.
+4.A.2.b.1	4.A.2.b.1.I11	4.A.2.b.1.I11.D02	Mix sound inputs.
+4.A.2.b.2	4.A.2.b.2.I01	4.A.2.b.2.I01.D01	Develop treatment plans for patients or clients.
+4.A.2.b.2	4.A.2.b.2.I01	4.A.2.b.2.I01.D02	Develop medical treatment plans.
+4.A.2.b.2	4.A.2.b.2.I01	4.A.2.b.2.I01.D03	Develop exercise or conditioning programs.
+4.A.2.b.2	4.A.2.b.2.I01	4.A.2.b.2.I01.D04	Develop patient therapy programs.
+4.A.2.b.2	4.A.2.b.2.I01	4.A.2.b.2.I01.D05	Modify treatment plans to accommodate client needs.
+4.A.2.b.2	4.A.2.b.2.I01	4.A.2.b.2.I01.D06	Develop treatment plans that use non-medical therapies.
+4.A.2.b.2	4.A.2.b.2.I01	4.A.2.b.2.I01.D07	Establish treatment goals.
+4.A.2.b.2	4.A.2.b.2.I02	4.A.2.b.2.I02.D01	Develop software or computer applications.
+4.A.2.b.2	4.A.2.b.2.I02	4.A.2.b.2.I02.D02	Develop computer or information systems.
+4.A.2.b.2	4.A.2.b.2.I02	4.A.2.b.2.I02.D03	Design computer modeling or simulation programs.
+4.A.2.b.2	4.A.2.b.2.I02	4.A.2.b.2.I02.D04	Develop computer or online applications.
+4.A.2.b.2	4.A.2.b.2.I02	4.A.2.b.2.I02.D05	Design integrated computer systems.
+4.A.2.b.2	4.A.2.b.2.I02	4.A.2.b.2.I02.D06	Develop software or applications for scientific or technical use.
+4.A.2.b.2	4.A.2.b.2.I02	4.A.2.b.2.I02.D07	Modify software programs to improve performance.
+4.A.2.b.2	4.A.2.b.2.I02	4.A.2.b.2.I02.D08	Design websites or web applications.
+4.A.2.b.2	4.A.2.b.2.I02	4.A.2.b.2.I02.D09	Design video game features or details.
+4.A.2.b.2	4.A.2.b.2.I02	4.A.2.b.2.I02.D10	Design software applications.
+4.A.2.b.2	4.A.2.b.2.I02	4.A.2.b.2.I02.D11	Design healthcare-related software applications.
+4.A.2.b.2	4.A.2.b.2.I02	4.A.2.b.2.I02.D12	Apply information technology to solve business or other applied problems.
+4.A.2.b.2	4.A.2.b.2.I03	4.A.2.b.2.I03.D01	Develop business or market strategies.
+4.A.2.b.2	4.A.2.b.2.I03	4.A.2.b.2.I03.D02	Develop marketing plans or strategies for environmental initiatives.
+4.A.2.b.2	4.A.2.b.2.I03	4.A.2.b.2.I03.D03	Develop marketing plans or strategies.
+4.A.2.b.2	4.A.2.b.2.I03	4.A.2.b.2.I03.D04	Develop promotional strategies for religious organizations.
+4.A.2.b.2	4.A.2.b.2.I03	4.A.2.b.2.I03.D05	Develop promotional strategies or plans.
+4.A.2.b.2	4.A.2.b.2.I04	4.A.2.b.2.I04.D01	Create new recipes or food presentations.
+4.A.2.b.2	4.A.2.b.2.I04	4.A.2.b.2.I04.D02	Plan menu options.
+4.A.2.b.2	4.A.2.b.2.I05	4.A.2.b.2.I05.D01	Develop healthcare quality and safety procedures.
+4.A.2.b.2	4.A.2.b.2.I05	4.A.2.b.2.I05.D02	Develop safety standards, policies, or procedures.
+4.A.2.b.2	4.A.2.b.2.I05	4.A.2.b.2.I05.D03	Establish rules or policies governing student behavior.
+4.A.2.b.2	4.A.2.b.2.I05	4.A.2.b.2.I05.D04	Develop fire safety or prevention programs or plans.
+4.A.2.b.2	4.A.2.b.2.I06	4.A.2.b.2.I06.D01	Develop database parameters or specifications.
+4.A.2.b.2	4.A.2.b.2.I06	4.A.2.b.2.I06.D02	Develop technical or scientific databases.
+4.A.2.b.2	4.A.2.b.2.I06	4.A.2.b.2.I06.D03	Develop library or archival databases.
+4.A.2.b.2	4.A.2.b.2.I06	4.A.2.b.2.I06.D04	Create databases to store electronic data.
+4.A.2.b.2	4.A.2.b.2.I07	4.A.2.b.2.I07.D01	Determine design criteria or specifications.
+4.A.2.b.2	4.A.2.b.2.I07	4.A.2.b.2.I07.D02	Develop specifications for new products or processes.
+4.A.2.b.2	4.A.2.b.2.I07	4.A.2.b.2.I07.D03	Develop specifications or procedures for website development or maintenance.
+4.A.2.b.2	4.A.2.b.2.I07	4.A.2.b.2.I07.D04	Develop technical specifications for systems or equipment.
+4.A.2.b.2	4.A.2.b.2.I07	4.A.2.b.2.I07.D05	Develop specifications for computer network operation.
+4.A.2.b.2	4.A.2.b.2.I07	4.A.2.b.2.I07.D06	Determine operational criteria or specifications.
+4.A.2.b.2	4.A.2.b.2.I07	4.A.2.b.2.I07.D07	Develop performance metrics or standards related to information technology.
+4.A.2.b.2	4.A.2.b.2.I08	4.A.2.b.2.I08.D01	Plan natural resources conservation or restoration programs.
+4.A.2.b.2	4.A.2.b.2.I08	4.A.2.b.2.I08.D02	Develop environmental remediation or protection plans.
+4.A.2.b.2	4.A.2.b.2.I08	4.A.2.b.2.I08.D03	Develop environmental sustainability plans or projects.
+4.A.2.b.2	4.A.2.b.2.I08	4.A.2.b.2.I08.D04	Develop plans to manage natural or renewable resources.
+4.A.2.b.2	4.A.2.b.2.I09	4.A.2.b.2.I09.D01	Develop financial plans for clients.
+4.A.2.b.2	4.A.2.b.2.I09	4.A.2.b.2.I09.D02	Develop financial or business plans.
+4.A.2.b.2	4.A.2.b.2.I10	4.A.2.b.2.I10.D01	Develop health assessment methods or programs.
+4.A.2.b.2	4.A.2.b.2.I10	4.A.2.b.2.I10.D02	Develop tools to diagnose or assess needs.
+4.A.2.b.2	4.A.2.b.2.I11	4.A.2.b.2.I11.D01	Plan facility layouts or designs.
+4.A.2.b.2	4.A.2.b.2.I11	4.A.2.b.2.I11.D02	Incorporate green features into the design of structures or facilities.
+4.A.2.b.2	4.A.2.b.2.I11	4.A.2.b.2.I11.D03	Design civil structures or systems.
+4.A.2.b.2	4.A.2.b.2.I11	4.A.2.b.2.I11.D04	Design structures or facilities.
+4.A.2.b.2	4.A.2.b.2.I11	4.A.2.b.2.I11.D05	Design furniture.
+4.A.2.b.2	4.A.2.b.2.I12	4.A.2.b.2.I12.D01	Develop promotional materials.
+4.A.2.b.2	4.A.2.b.2.I12	4.A.2.b.2.I12.D02	Create marketing materials.
+4.A.2.b.2	4.A.2.b.2.I12	4.A.2.b.2.I12.D03	Develop content for sales presentations or other materials.
+4.A.2.b.2	4.A.2.b.2.I13	4.A.2.b.2.I13.D01	Design templates or patterns.
+4.A.2.b.2	4.A.2.b.2.I13	4.A.2.b.2.I13.D02	Design materials for industrial or commercial applications.
+4.A.2.b.2	4.A.2.b.2.I13	4.A.2.b.2.I13.D03	Design micro- or nano-scale materials, devices, or systems.
+4.A.2.b.2	4.A.2.b.2.I13	4.A.2.b.2.I13.D04	Design medical devices or appliances.
+4.A.2.b.2	4.A.2.b.2.I14	4.A.2.b.2.I14.D01	Design industrial processing systems.
+4.A.2.b.2	4.A.2.b.2.I14	4.A.2.b.2.I14.D02	Develop equipment or component configurations.
+4.A.2.b.2	4.A.2.b.2.I14	4.A.2.b.2.I14.D03	Design industrial equipment.
+4.A.2.b.2	4.A.2.b.2.I14	4.A.2.b.2.I14.D04	Design energy production or management equipment or systems.
+4.A.2.b.2	4.A.2.b.2.I14	4.A.2.b.2.I14.D05	Design tools, fixtures, or other devices for production equipment.
+4.A.2.b.2	4.A.2.b.2.I14	4.A.2.b.2.I14.D06	Design control systems for mechanical or other equipment.
+4.A.2.b.2	4.A.2.b.2.I15	4.A.2.b.2.I15.D01	Establish work standards.
+4.A.2.b.2	4.A.2.b.2.I15	4.A.2.b.2.I15.D02	Design psychological or educational treatment procedures or programs.
+4.A.2.b.2	4.A.2.b.2.I15	4.A.2.b.2.I15.D03	Develop instructional objectives.
+4.A.2.b.2	4.A.2.b.2.I15	4.A.2.b.2.I15.D04	Plan experiential learning activities.
+4.A.2.b.2	4.A.2.b.2.I15	4.A.2.b.2.I15.D05	Establish operational policies.
+4.A.2.b.2	4.A.2.b.2.I15	4.A.2.b.2.I15.D06	Plan educational activities.
+4.A.2.b.2	4.A.2.b.2.I15	4.A.2.b.2.I15.D07	Develop strategies or programs for students with special needs.
+4.A.2.b.2	4.A.2.b.2.I15	4.A.2.b.2.I15.D08	Develop educational programs.
+4.A.2.b.2	4.A.2.b.2.I15	4.A.2.b.2.I15.D09	Develop educational or training programs.
+4.A.2.b.2	4.A.2.b.2.I15	4.A.2.b.2.I15.D10	Develop educational goals, standards, policies, or procedures.
+4.A.2.b.2	4.A.2.b.2.I15	4.A.2.b.2.I15.D11	Develop educational policies.
+4.A.2.b.2	4.A.2.b.2.I16	4.A.2.b.2.I16.D01	Design water conservation systems.
+4.A.2.b.2	4.A.2.b.2.I16	4.A.2.b.2.I16.D02	Apply knowledge or research findings to address environmental problems.
+4.A.2.b.2	4.A.2.b.2.I16	4.A.2.b.2.I16.D03	Protect wildlife or natural areas.
+4.A.2.b.2	4.A.2.b.2.I16	4.A.2.b.2.I16.D04	Design environmental control systems.
+4.A.2.b.2	4.A.2.b.2.I16	4.A.2.b.2.I16.D05	Design energy-efficient vehicles or vehicle components.
+4.A.2.b.2	4.A.2.b.2.I16	4.A.2.b.2.I16.D06	Design alternative energy systems.
+4.A.2.b.2	4.A.2.b.2.I16	4.A.2.b.2.I16.D07	Design systems to reduce harmful emissions.
+4.A.2.b.2	4.A.2.b.2.I16	4.A.2.b.2.I16.D08	Design energy-efficient equipment or systems.
+4.A.2.b.2	4.A.2.b.2.I17	4.A.2.b.2.I17.D01	Plan programs to address community mental wellness needs.
+4.A.2.b.2	4.A.2.b.2.I17	4.A.2.b.2.I17.D02	Plan programs to address community health issues.
+4.A.2.b.2	4.A.2.b.2.I17	4.A.2.b.2.I17.D03	Design public or employee health programs.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D01	Prepare drawings or diagrams of products or services.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D02	Prepare production storyboards.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D03	Create graphical representations of civil structures.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D04	Create images of data, locations, or products.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D05	Create electrical schematics.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D06	Create graphical representations of energy production systems.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D07	Create construction or installation diagrams.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D08	Create schematic drawings for electronics.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D09	Design layout of art or product exhibits, displays, or promotional materials.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D10	Create diagrams or blueprints for workpieces or products.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D11	Prepare maps.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D12	Design layouts for print publications.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D13	Develop diagrams or flow charts of system operation.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D14	Prepare graphics or other visual representations of information.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D15	Draw detailed or technical illustrations.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D16	Create graphical representations of structures or landscapes.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D17	Create computer-generated graphics or animation.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D18	Create graphical representations of mechanical equipment.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D19	Create maps.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D20	Create images or other visual displays.
+4.A.2.b.2	4.A.2.b.2.I18	4.A.2.b.2.I18.D21	Create graphical representations of industrial production systems.
+4.A.2.b.2	4.A.2.b.2.I19	4.A.2.b.2.I19.D01	Develop emergency procedures.
+4.A.2.b.2	4.A.2.b.2.I19	4.A.2.b.2.I19.D02	Maintain contingency plans for disaster recovery.
+4.A.2.b.2	4.A.2.b.2.I19	4.A.2.b.2.I19.D03	Develop contingency plans to deal with organizational emergencies.
+4.A.2.b.2	4.A.2.b.2.I19	4.A.2.b.2.I19.D04	Develop emergency response plans or procedures.
+4.A.2.b.2	4.A.2.b.2.I20	4.A.2.b.2.I20.D01	Develop operating strategies, plans, or procedures for green or sustainable operations.
+4.A.2.b.2	4.A.2.b.2.I20	4.A.2.b.2.I20.D02	Develop sustainable business strategies or practices.
+4.A.2.b.2	4.A.2.b.2.I20	4.A.2.b.2.I20.D03	Develop sustainable organizational policies or practices.
+4.A.2.b.2	4.A.2.b.2.I20	4.A.2.b.2.I20.D04	Develop sustainable industrial or development methods.
+4.A.2.b.2	4.A.2.b.2.I20	4.A.2.b.2.I20.D05	Develop operational methods or processes that use green materials or emphasize sustainability.
+4.A.2.b.2	4.A.2.b.2.I21	4.A.2.b.2.I21.D01	Create models of engineering designs or methods.
+4.A.2.b.2	4.A.2.b.2.I21	4.A.2.b.2.I21.D02	Develop models of information or communications systems.
+4.A.2.b.2	4.A.2.b.2.I21	4.A.2.b.2.I21.D03	Create physical models or prototypes.
+4.A.2.b.2	4.A.2.b.2.I22	4.A.2.b.2.I22.D01	Analyze information obtained from news sources.
+4.A.2.b.2	4.A.2.b.2.I22	4.A.2.b.2.I22.D02	Determine presentation subjects or content.
+4.A.2.b.2	4.A.2.b.2.I23	4.A.2.b.2.I23.D01	Devise research or testing protocols.
+4.A.2.b.2	4.A.2.b.2.I23	4.A.2.b.2.I23.D02	Develop biological research methods.
+4.A.2.b.2	4.A.2.b.2.I23	4.A.2.b.2.I23.D03	Develop methods of social or economic research.
+4.A.2.b.2	4.A.2.b.2.I23	4.A.2.b.2.I23.D04	Design research studies to obtain scientific information.
+4.A.2.b.2	4.A.2.b.2.I23	4.A.2.b.2.I23.D05	Plan biological research.
+4.A.2.b.2	4.A.2.b.2.I23	4.A.2.b.2.I23.D06	Plan environmental research.
+4.A.2.b.2	4.A.2.b.2.I23	4.A.2.b.2.I23.D07	Develop environmental research methods.
+4.A.2.b.2	4.A.2.b.2.I23	4.A.2.b.2.I23.D08	Plan social sciences research.
+4.A.2.b.2	4.A.2.b.2.I24	4.A.2.b.2.I24.D01	Design electromechanical equipment or systems.
+4.A.2.b.2	4.A.2.b.2.I24	4.A.2.b.2.I24.D02	Design electrical equipment or systems.
+4.A.2.b.2	4.A.2.b.2.I24	4.A.2.b.2.I24.D03	Design electronic or computer equipment or instrumentation.
+4.A.2.b.2	4.A.2.b.2.I25	4.A.2.b.2.I25.D01	Create musical compositions, arrangements or scores.
+4.A.2.b.2	4.A.2.b.2.I25	4.A.2.b.2.I25.D02	Design costumes or cosmetic effects for characters.
+4.A.2.b.2	4.A.2.b.2.I25	4.A.2.b.2.I25.D03	Choreograph dances.
+4.A.2.b.2	4.A.2.b.2.I25	4.A.2.b.2.I25.D04	Design jewelry or decorative objects.
+4.A.2.b.2	4.A.2.b.2.I25	4.A.2.b.2.I25.D05	Develop artistic or design concepts for decoration, exhibition, or commercial purposes.
+4.A.2.b.2	4.A.2.b.2.I26	4.A.2.b.2.I26.D01	Develop theories or models of physical phenomena.
+4.A.2.b.2	4.A.2.b.2.I26	4.A.2.b.2.I26.D02	Develop mathematical models of environmental conditions.
+4.A.2.b.2	4.A.2.b.2.I26	4.A.2.b.2.I26.D03	Develop scientific or mathematical models.
+4.A.2.b.2	4.A.2.b.2.I26	4.A.2.b.2.I26.D04	Develop theories or models of social phenomena.
+4.A.2.b.2	4.A.2.b.2.I27	4.A.2.b.2.I27.D01	Develop program goals or plans.
+4.A.2.b.2	4.A.2.b.2.I27	4.A.2.b.2.I27.D02	Develop organizational goals or objectives.
+4.A.2.b.2	4.A.2.b.2.I27	4.A.2.b.2.I27.D03	Develop plans for programs or services.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D01	Review professional literature to maintain professional knowledge.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D02	Maintain professional social services knowledge.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D03	Stay informed about current developments in field of specialization.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D04	Attend events to develop professional knowledge.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D05	Maintain current knowledge related to work activities.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D06	Update knowledge of legal or regulatory environments.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D07	Update knowledge about emerging industry or technology trends.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D08	Maintain knowledge of current developments in area of expertise.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D09	Attend conferences or workshops to maintain professional knowledge.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D10	Research topics in area of expertise.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D11	Update job related knowledge or skills.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D12	Maintain medical or professional knowledge.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D13	Conduct research to inform art, designs, or other work.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D14	Attend training to learn new skills or update knowledge.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D15	Maintain knowledge of laws or regulations.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D16	Maintain professional knowledge or certifications.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D17	Maintain knowledge of business operations.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D18	Attend training sessions or professional meetings to develop or maintain professional knowledge.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D19	Attend educational events to update medical knowledge.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D20	Update technical knowledge.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D21	Update professional knowledge.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D22	Study product information to acquire professional knowledge.
+4.A.2.b.3	4.A.2.b.3.I01	4.A.2.b.3.I01.D23	Review laws or regulations to maintain professional knowledge.
+4.A.2.b.4	4.A.2.b.4.I01	4.A.2.b.4.I01.D01	Develop organizational policies or programs.
+4.A.2.b.4	4.A.2.b.4.I01	4.A.2.b.4.I01.D02	Develop operating strategies, plans, or procedures.
+4.A.2.b.4	4.A.2.b.4.I01	4.A.2.b.4.I01.D03	Establish organizational guidelines or policies.
+4.A.2.b.4	4.A.2.b.4.I01	4.A.2.b.4.I01.D04	Develop organizational methods or procedures.
+4.A.2.b.4	4.A.2.b.4.I01	4.A.2.b.4.I01.D05	Establish business management methods.
+4.A.2.b.4	4.A.2.b.4.I01	4.A.2.b.4.I01.D06	Determine pricing or monetary policies.
+4.A.2.b.4	4.A.2.b.4.I02	4.A.2.b.4.I02.D01	Draft legislation or regulations.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D01	Develop procedures for data management.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D02	Establish nursing policies or standards.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D03	Develop information communication procedures.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D04	Develop business or financial information systems.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D05	Develop policies or procedures for archives, museums or libraries.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D06	Develop financial analysis methods.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D07	Establish standards for medical care.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D08	Develop guidelines for system implementation.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D09	Develop computer or information security policies or procedures.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D10	Develop data analysis or data management procedures.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D11	Develop technical processes to improve the efficiency of biofuel production.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D12	Develop new or advanced products or production methods.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D13	Develop procedures to evaluate organizational activities.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D14	Develop technical methods or processes.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D15	Develop testing routines or procedures.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D16	Develop procedures for data entry or processing.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D17	Establish standards for products, processes, or procedures.
+4.A.2.b.4	4.A.2.b.4.I03	4.A.2.b.4.I03.D18	Develop agricultural methods.
+4.A.2.b.5	4.A.2.b.5.I01	4.A.2.b.5.I01.D01	Arrange facility schedules.
+4.A.2.b.5	4.A.2.b.5.I01	4.A.2.b.5.I01.D02	Schedule dining reservations.
+4.A.2.b.5	4.A.2.b.5.I01	4.A.2.b.5.I01.D03	Schedule medical facility use.
+4.A.2.b.5	4.A.2.b.5.I01	4.A.2.b.5.I01.D04	Schedule activities or facility use.
+4.A.2.b.5	4.A.2.b.5.I02	4.A.2.b.5.I02.D01	Schedule product or material transportation.
+4.A.2.b.5	4.A.2.b.5.I02	4.A.2.b.5.I02.D02	Arrange maintenance activities.
+4.A.2.b.5	4.A.2.b.5.I02	4.A.2.b.5.I02.D03	Schedule instructional activities.
+4.A.2.b.5	4.A.2.b.5.I02	4.A.2.b.5.I02.D04	Schedule equipment maintenance.
+4.A.2.b.5	4.A.2.b.5.I02	4.A.2.b.5.I02.D05	Schedule agricultural or forestry work.
+4.A.2.b.5	4.A.2.b.5.I02	4.A.2.b.5.I02.D06	Schedule repair, installation or maintenance activities.
+4.A.2.b.5	4.A.2.b.5.I02	4.A.2.b.5.I02.D07	Schedule operational activities.
+4.A.2.b.5	4.A.2.b.5.I03	4.A.2.b.5.I03.D01	Schedule appointments.
+4.A.2.b.5	4.A.2.b.5.I03	4.A.2.b.5.I03.D02	Schedule patient procedures or appointments.
+4.A.2.b.5	4.A.2.b.5.I03	4.A.2.b.5.I03.D03	Schedule appointments with prospective customers.
+4.A.2.b.6	4.A.2.b.6.I01	4.A.2.b.6.I01.D01	Plan special events.
+4.A.2.b.6	4.A.2.b.6.I01	4.A.2.b.6.I01.D02	Plan conferences, programs, or special events.
+4.A.2.b.6	4.A.2.b.6.I01	4.A.2.b.6.I01.D04	Plan implementation or promotion of recycling programs.
+4.A.2.b.6	4.A.2.b.6.I01	4.A.2.b.6.I01.D05	Plan community programs or activities for the general public.
+4.A.2.b.6	4.A.2.b.6.I02	4.A.2.b.6.I02.D01	Plan layout of construction, installation, or repairs.
+4.A.2.b.6	4.A.2.b.6.I02	4.A.2.b.6.I02.D02	Plan work procedures.
+4.A.2.b.6	4.A.2.b.6.I02	4.A.2.b.6.I02.D03	Plan work operations.
+4.A.2.b.6	4.A.2.b.6.I02	4.A.2.b.6.I02.D04	Plan flight operations.
+4.A.2.b.6	4.A.2.b.6.I02	4.A.2.b.6.I02.D05	Adjust routes or speeds as necessary.
+4.A.2.b.6	4.A.2.b.6.I02	4.A.2.b.6.I02.D06	Plan trapping or hunting activities.
+4.A.2.b.6	4.A.2.b.6.I02	4.A.2.b.6.I02.D07	Prepare detailed work plans.
+4.A.2.b.6	4.A.2.b.6.I02	4.A.2.b.6.I02.D08	Develop detailed project plans.
+4.A.2.b.6	4.A.2.b.6.I02	4.A.2.b.6.I02.D09	Plan production or operational procedures or sequences.
+4.A.3.a.1	4.A.3.a.1.I01	4.A.3.a.1.I01.D01	Prepare compounds or solutions to be used for repairs.
+4.A.3.a.1	4.A.3.a.1.I01	4.A.3.a.1.I01.D02	Mix ingredients to create specific finishes.
+4.A.3.a.1	4.A.3.a.1.I01	4.A.3.a.1.I01.D03	Mix ingredients.
+4.A.3.a.1	4.A.3.a.1.I01	4.A.3.a.1.I01.D04	Mix substances or compounds needed for work activities.
+4.A.3.a.1	4.A.3.a.1.I01	4.A.3.a.1.I01.D05	Prepare chemicals for work application.
+4.A.3.a.1	4.A.3.a.1.I01	4.A.3.a.1.I01.D06	Prepare materials or solutions for animal or plant use.
+4.A.3.a.1	4.A.3.a.1.I01	4.A.3.a.1.I01.D07	Prepare medications or medical solutions.
+4.A.3.a.1	4.A.3.a.1.I01	4.A.3.a.1.I01.D08	Mix substances to create chemical solutions.
+4.A.3.a.1	4.A.3.a.1.I02	4.A.3.a.1.I02.D01	Operate firefighting equipment.
+4.A.3.a.1	4.A.3.a.1.I02	4.A.3.a.1.I02.D02	Protect property from fire or water damage.
+4.A.3.a.1	4.A.3.a.1.I02	4.A.3.a.1.I02.D03	Perform forest firefighting activities.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D01	Clean vessels or marine equipment.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D02	Clean food preparation areas, facilities, or equipment.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D03	Clean furniture or fixtures.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D04	Clean equipment or supplies.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D05	Clean work areas.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D06	Clean facilities or equipment.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D07	Clean patient rooms or patient treatment rooms.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D08	Sterilize food cooking or processing equipment.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D09	Clean facilities or work areas.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D10	Maintain clean work areas.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D11	Clean building walls or flooring.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D12	Clean facilities or sites.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D13	Clean work sites.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D14	Clean machinery or equipment.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D15	Clean tools or equipment.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D16	Clean equipment, parts, or tools to repair or maintain them in good working order.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D17	Decontaminate equipment or sites to remove hazardous or toxic substances.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D18	Perform housekeeping duties.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D19	Clean equipment or facilities.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D20	Clean surfaces in preparation for work activities.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D21	Clean production equipment.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D23	Clean food service areas.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D24	Remove snow.
+4.A.3.a.1	4.A.3.a.1.I03	4.A.3.a.1.I03.D25	Clean vehicles or vehicle components.
+4.A.3.a.1	4.A.3.a.1.I04	4.A.3.a.1.I04.D01	Protect structures or surfaces near work areas to avoid damage.
+4.A.3.a.1	4.A.3.a.1.I04	4.A.3.a.1.I04.D02	Apply protective coverings to objects or surfaces near work areas.
+4.A.3.a.1	4.A.3.a.1.I05	4.A.3.a.1.I05.D01	Dispose of biomedical waste in accordance with standards.
+4.A.3.a.1	4.A.3.a.1.I05	4.A.3.a.1.I05.D02	Dispose of hazardous materials.
+4.A.3.a.1	4.A.3.a.1.I05	4.A.3.a.1.I05.D03	Remove debris from work sites.
+4.A.3.a.1	4.A.3.a.1.I05	4.A.3.a.1.I05.D04	Remove trash.
+4.A.3.a.1	4.A.3.a.1.I05	4.A.3.a.1.I05.D05	Remove worn, damaged or outdated materials from work areas.
+4.A.3.a.1	4.A.3.a.1.I05	4.A.3.a.1.I05.D06	Remove debris or vegetation from work sites.
+4.A.3.a.1	4.A.3.a.1.I05	4.A.3.a.1.I05.D07	Dispose of trash or waste materials.
+4.A.3.a.1	4.A.3.a.1.I05	4.A.3.a.1.I05.D08	Remove excess materials from finished construction projects.
+4.A.3.a.1	4.A.3.a.1.I05	4.A.3.a.1.I05.D09	Remove debris or damaged materials.
+4.A.3.a.1	4.A.3.a.1.I06	4.A.3.a.1.I06.D01	Load shipments, belongings, or materials.
+4.A.3.a.1	4.A.3.a.1.I06	4.A.3.a.1.I06.D02	Load materials into equipment for processing.
+4.A.3.a.1	4.A.3.a.1.I06	4.A.3.a.1.I06.D03	Load or unload materials used in construction or extraction.
+4.A.3.a.1	4.A.3.a.1.I06	4.A.3.a.1.I06.D04	Place materials into molds.
+4.A.3.a.1	4.A.3.a.1.I06	4.A.3.a.1.I06.D05	Load materials into construction equipment.
+4.A.3.a.1	4.A.3.a.1.I06	4.A.3.a.1.I06.D06	Load materials or equipment.
+4.A.3.a.1	4.A.3.a.1.I06	4.A.3.a.1.I06.D07	Load agricultural or forestry products for shipment.
+4.A.3.a.1	4.A.3.a.1.I06	4.A.3.a.1.I06.D08	Stack finished items for further processing or shipment.
+4.A.3.a.1	4.A.3.a.1.I06	4.A.3.a.1.I06.D09	Secure cargo.
+4.A.3.a.1	4.A.3.a.1.I06	4.A.3.a.1.I06.D10	Load materials into production equipment.
+4.A.3.a.1	4.A.3.a.1.I06	4.A.3.a.1.I06.D11	Unload materials or equipment.
+4.A.3.a.1	4.A.3.a.1.I06	4.A.3.a.1.I06.D12	Load items into ovens or furnaces.
+4.A.3.a.1	4.A.3.a.1.I07	4.A.3.a.1.I07.D01	Dig holes or trenches.
+4.A.3.a.1	4.A.3.a.1.I07	4.A.3.a.1.I07.D02	Prepare surfaces for finishing.
+4.A.3.a.1	4.A.3.a.1.I07	4.A.3.a.1.I07.D03	Pour materials into or on designated areas.
+4.A.3.a.1	4.A.3.a.1.I07	4.A.3.a.1.I07.D04	Shovel materials.
+4.A.3.a.1	4.A.3.a.1.I07	4.A.3.a.1.I07.D05	Spread sand, dirt or other loose materials onto surfaces.
+4.A.3.a.1	4.A.3.a.1.I07	4.A.3.a.1.I07.D06	Apply adhesives to construction materials.
+4.A.3.a.1	4.A.3.a.1.I07	4.A.3.a.1.I07.D07	Assist skilled construction or extraction personnel.
+4.A.3.a.1	4.A.3.a.1.I07	4.A.3.a.1.I07.D08	Compact materials to create level bases.
+4.A.3.a.1	4.A.3.a.1.I07	4.A.3.a.1.I07.D09	Spread concrete or other aggregate mixtures.
+4.A.3.a.1	4.A.3.a.1.I07	4.A.3.a.1.I07.D10	Finish concrete surfaces.
+4.A.3.a.1	4.A.3.a.1.I08	4.A.3.a.1.I08.D01	Operate garment treatment equipment.
+4.A.3.a.1	4.A.3.a.1.I08	4.A.3.a.1.I08.D02	Clean fabrics or apparel.
+4.A.3.a.1	4.A.3.a.1.I08	4.A.3.a.1.I08.D03	Clean tableware.
+4.A.3.a.1	4.A.3.a.1.I08	4.A.3.a.1.I08.D04	Apply water or solutions to fabrics or apparel.
+4.A.3.a.1	4.A.3.a.1.I08	4.A.3.a.1.I08.D05	Clean workpieces or finished products.
+4.A.3.a.1	4.A.3.a.1.I08	4.A.3.a.1.I08.D06	Clean objects.
+4.A.3.a.1	4.A.3.a.1.I08	4.A.3.a.1.I08.D07	Clean materials to prepare them for production.
+4.A.3.a.1	4.A.3.a.1.I09	4.A.3.a.1.I09.D01	Sterilize medical equipment or instruments.
+4.A.3.a.1	4.A.3.a.1.I09	4.A.3.a.1.I09.D02	Clean medical equipment.
+4.A.3.a.1	4.A.3.a.1.I09	4.A.3.a.1.I09.D03	Clean medical equipment or facilities.
+4.A.3.a.1	4.A.3.a.1.I10	4.A.3.a.1.I10.D01	Transport biological or other medical materials.
+4.A.3.a.1	4.A.3.a.1.I10	4.A.3.a.1.I10.D02	Move equipment, supplies or food to required locations.
+4.A.3.a.1	4.A.3.a.1.I10	4.A.3.a.1.I10.D03	Transport animals, crops, or equipment.
+4.A.3.a.1	4.A.3.a.1.I10	4.A.3.a.1.I10.D04	Move materials, equipment, or supplies.
+4.A.3.a.1	4.A.3.a.1.I10	4.A.3.a.1.I10.D05	Deliver items.
+4.A.3.a.1	4.A.3.a.1.I10	4.A.3.a.1.I10.D06	Move large objects using heavy equipment.
+4.A.3.a.1	4.A.3.a.1.I10	4.A.3.a.1.I10.D07	Handle caskets.
+4.A.3.a.1	4.A.3.a.1.I10	4.A.3.a.1.I10.D08	Move furniture.
+4.A.3.a.1	4.A.3.a.1.I10	4.A.3.a.1.I10.D09	Handle luggage or other possessions for patrons.
+4.A.3.a.1	4.A.3.a.1.I10	4.A.3.a.1.I10.D10	Move construction or extraction materials to locations where they are needed.
+4.A.3.a.1	4.A.3.a.1.I10	4.A.3.a.1.I10.D11	Move products, materials, or equipment between work areas.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D01	Use weapons or physical force to maintain security.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D02	Block physical access to restricted areas.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D03	Provide security escorts for officials, jury members, or other individuals.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D04	Detain suspects or witnesses.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D05	Maintain public order or security.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D06	Guard facilities.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D07	Maintain security.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D08	Apprehend criminal suspects.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D09	Confiscate prohibited or dangerous items.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D10	Enforce rules or regulations.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D11	Search individuals for illegal or dangerous items.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D12	Prevent unauthorized individuals from entering restricted areas.
+4.A.3.a.1	4.A.3.a.1.I11	4.A.3.a.1.I11.D13	Maintain safety.
+4.A.3.a.1	4.A.3.a.1.I12	4.A.3.a.1.I12.D01	Guide patrons on tours.
+4.A.3.a.1	4.A.3.a.1.I12	4.A.3.a.1.I12.D02	Provide escort or transportation.
+4.A.3.a.1	4.A.3.a.1.I12	4.A.3.a.1.I12.D03	Usher patrons to seats or exits.
+4.A.3.a.1	4.A.3.a.1.I12	4.A.3.a.1.I12.D04	Accompany patients or clients on outings to provide assistance.
+4.A.3.a.1	4.A.3.a.1.I12	4.A.3.a.1.I12.D05	Escort prisoners to courtrooms, prisons, or other facilities.
+4.A.3.a.1	4.A.3.a.1.I12	4.A.3.a.1.I12.D06	Accompany individuals or groups to activities.
+4.A.3.a.1	4.A.3.a.1.I13	4.A.3.a.1.I13.D01	Transport clients to appointments.
+4.A.3.a.1	4.A.3.a.1.I13	4.A.3.a.1.I13.D02	Move patients to or from treatment areas.
+4.A.3.a.1	4.A.3.a.1.I14	4.A.3.a.1.I14.D01	Climb ladders or vehicles to perform duties.
+4.A.3.a.1	4.A.3.a.1.I14	4.A.3.a.1.I14.D02	Climb equipment or structures to access work areas.
+4.A.3.a.1	4.A.3.a.1.I15	4.A.3.a.1.I15.D01	Arrange tables or dining areas.
+4.A.3.a.1	4.A.3.a.1.I15	4.A.3.a.1.I15.D02	Serve food or beverages.
+4.A.3.a.1	4.A.3.a.1.I15	4.A.3.a.1.I15.D03	Collect dirty dishes or other tableware.
+4.A.3.a.1	4.A.3.a.1.I16	4.A.3.a.1.I16.D01	Participate in athletic events.
+4.A.3.a.1	4.A.3.a.1.I16	4.A.3.a.1.I16.D02	Participate in physical training to maintain fitness.
+4.A.3.a.1	4.A.3.a.1.I16	4.A.3.a.1.I16.D03	Practice athletic or artistic skills.
+4.A.3.a.1	4.A.3.a.1.I17	4.A.3.a.1.I17.D01	Harvest agricultural products.
+4.A.3.a.1	4.A.3.a.1.I17	4.A.3.a.1.I17.D02	Perform manual agricultural, aquacultural, or horticultural tasks.
+4.A.3.a.1	4.A.3.a.1.I17	4.A.3.a.1.I17.D03	Cultivate lawns, turf, or gardens.
+4.A.3.a.1	4.A.3.a.1.I17	4.A.3.a.1.I17.D04	Prepare land for agricultural use.
+4.A.3.a.1	4.A.3.a.1.I17	4.A.3.a.1.I17.D05	Plant greenery to improve landscape appearance.
+4.A.3.a.1	4.A.3.a.1.I17	4.A.3.a.1.I17.D06	Plant crops, trees, or other plants.
+4.A.3.a.1	4.A.3.a.1.I17	4.A.3.a.1.I17.D07	Cultivate land.
+4.A.3.a.1	4.A.3.a.1.I17	4.A.3.a.1.I17.D08	Irrigate lawns, trees, or plants.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D01	Install carpet or flooring.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D02	Install insulation in equipment or structures.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D03	Install masonry materials.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D04	Assemble structural components.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D05	Install fencing or other barriers.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D06	Install metal structural components.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D07	Install structural foundations.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D08	Assemble temporary equipment or structures.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D09	Build agricultural structures.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D10	Install safety or support equipment.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D11	Install trim or paneling.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D12	Assemble metal structures.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D13	Install building fixtures.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D14	Install doors or windows.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D15	Install roofing materials.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D16	Construct exhibits or parts of exhibits.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D17	Install wooden structural components.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D18	Install equipment to protect or support trees.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D19	Install hardware or other interior fixtures.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D20	Install green structural components, equipment or systems.
+4.A.3.a.2	4.A.3.a.2.I01	4.A.3.a.2.I01.D21	Install prefabricated or manufactured structures.
+4.A.3.a.2	4.A.3.a.2.I02	4.A.3.a.2.I02.D01	Collect samples for analysis or testing.
+4.A.3.a.2	4.A.3.a.2.I02	4.A.3.a.2.I02.D02	Collect samples of raw materials or finished products.
+4.A.3.a.2	4.A.3.a.2.I02	4.A.3.a.2.I02.D03	Collect samples of materials or products for testing.
+4.A.3.a.2	4.A.3.a.2.I03	4.A.3.a.2.I03.D01	Cut cooked or raw foods.
+4.A.3.a.2	4.A.3.a.2.I03	4.A.3.a.2.I03.D02	Prepare foods for cooking or serving.
+4.A.3.a.2	4.A.3.a.2.I03	4.A.3.a.2.I03.D03	Prepare meat products for sale or consumption.
+4.A.3.a.2	4.A.3.a.2.I03	4.A.3.a.2.I03.D04	Add garnishes to food.
+4.A.3.a.2	4.A.3.a.2.I03	4.A.3.a.2.I03.D05	Assist chefs or caterers with food or drink preparation.
+4.A.3.a.2	4.A.3.a.2.I03	4.A.3.a.2.I03.D06	Prepare hot or cold beverages.
+4.A.3.a.2	4.A.3.a.2.I03	4.A.3.a.2.I03.D07	Cook foods.
+4.A.3.a.2	4.A.3.a.2.I03	4.A.3.a.2.I03.D08	Arrange food for serving.
+4.A.3.a.2	4.A.3.a.2.I03	4.A.3.a.2.I03.D09	Prepare breads or doughs.
+4.A.3.a.2	4.A.3.a.2.I03	4.A.3.a.2.I03.D10	Cut meat products.
+4.A.3.a.2	4.A.3.a.2.I03	4.A.3.a.2.I03.D11	Prepare foods or meals.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D01	Install parts, assemblies, or attachments in transportation or material handling equipment.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D02	Assemble equipment or components.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D03	Reassemble equipment after repair.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D04	Assemble precision electronics or optical equipment.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D05	Assemble machine tools, parts, or fixtures.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D06	Assemble electromechanical or hydraulic systems.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D07	Install vehicle parts or accessories.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D08	Install machine or equipment replacement parts.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D09	Bolt objects into place.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D10	Assemble products or production equipment.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D11	Assemble electrical or electronic equipment.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D12	Assemble mechanical components or machine parts.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D13	Install gauges or controls.
+4.A.3.a.2	4.A.3.a.2.I04	4.A.3.a.2.I04.D14	Assemble electrical components, subsystems, or systems.
+4.A.3.a.2	4.A.3.a.2.I05	4.A.3.a.2.I05.D01	Sew clothing or other articles.
+4.A.3.a.2	4.A.3.a.2.I05	4.A.3.a.2.I05.D02	Sew materials.
+4.A.3.a.2	4.A.3.a.2.I05	4.A.3.a.2.I05.D03	Repair textiles or apparel.
+4.A.3.a.2	4.A.3.a.2.I05	4.A.3.a.2.I05.D04	Operate sewing equipment.
+4.A.3.a.2	4.A.3.a.2.I06	4.A.3.a.2.I06.D01	Feed materials or products into or through equipment.
+4.A.3.a.2	4.A.3.a.2.I06	4.A.3.a.2.I06.D02	Mount attachments or tools onto production equipment.
+4.A.3.a.2	4.A.3.a.2.I06	4.A.3.a.2.I06.D03	Mount materials or workpieces onto production equipment.
+4.A.3.a.2	4.A.3.a.2.I06	4.A.3.a.2.I06.D04	Maneuver workpieces in equipment during production.
+4.A.3.a.2	4.A.3.a.2.I06	4.A.3.a.2.I06.D05	Adjust fabrics or other materials during garment production.
+4.A.3.a.2	4.A.3.a.2.I06	4.A.3.a.2.I06.D06	Position raw materials on processing or production equipment.
+4.A.3.a.2	4.A.3.a.2.I07	4.A.3.a.2.I07.D01	Reshape metal workpieces to established specifications.
+4.A.3.a.2	4.A.3.a.2.I07	4.A.3.a.2.I07.D02	Shape clay or dough to create products.
+4.A.3.a.2	4.A.3.a.2.I07	4.A.3.a.2.I07.D03	Shape glass or similar materials.
+4.A.3.a.2	4.A.3.a.2.I07	4.A.3.a.2.I07.D04	Reshape small metal components for precision assembly.
+4.A.3.a.2	4.A.3.a.2.I07	4.A.3.a.2.I07.D05	Shape metal workpieces with hammers or other small hand tools.
+4.A.3.a.2	4.A.3.a.2.I07	4.A.3.a.2.I07.D06	Shape surfaces or edges of wood workpieces.
+4.A.3.a.2	4.A.3.a.2.I08	4.A.3.a.2.I08.D01	Arrange artwork, products, or props.
+4.A.3.a.2	4.A.3.a.2.I08	4.A.3.a.2.I08.D02	Set up merchandise displays.
+4.A.3.a.2	4.A.3.a.2.I08	4.A.3.a.2.I08.D03	Prepare materials for preservation, storage, or display.
+4.A.3.a.2	4.A.3.a.2.I08	4.A.3.a.2.I08.D04	Decorate indoor or outdoor spaces.
+4.A.3.a.2	4.A.3.a.2.I08	4.A.3.a.2.I08.D05	Arrange items for use or display.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D01	Adjust tuning or functioning of musical instruments.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D02	Adjust equipment controls to regulate gas flow.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D03	Adjust equipment controls to regulate flow of production materials or products.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D04	Calibrate scientific or technical equipment.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D05	Adjust equipment to ensure optimal performance.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D06	Calibrate equipment to specifications.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D07	Adjust temperature controls of ovens or other heating equipment.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D08	Set equipment controls to meet cutting specifications.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D09	Adjust settings or positions of medical equipment.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D10	Adjust office equipment to ensure proper operation.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D11	Adjust the tension of nuts or bolts.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D12	Adjust equipment controls to regulate coolant flow.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D13	Adjust equipment controls to regulate flow of water, cleaning solutions, or other liquids.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D14	Adjust flow of electricity to tools or production equipment.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D15	Adjust vehicle components according to specifications.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D16	Control power supply connections.
+4.A.3.a.2	4.A.3.a.2.I09	4.A.3.a.2.I09.D17	Adjust building climate control systems.
+4.A.3.a.2	4.A.3.a.2.I10	4.A.3.a.2.I10.D01	Train animals.
+4.A.3.a.2	4.A.3.a.2.I11	4.A.3.a.2.I11.D01	Prepare medical supplies or equipment for use.
+4.A.3.a.2	4.A.3.a.2.I11	4.A.3.a.2.I11.D02	Prepare medical instruments or equipment for use.
+4.A.3.a.2	4.A.3.a.2.I11	4.A.3.a.2.I11.D03	Prepare patient treatment areas for use.
+4.A.3.a.2	4.A.3.a.2.I12	4.A.3.a.2.I12.D01	Cut openings in existing structures.
+4.A.3.a.2	4.A.3.a.2.I12	4.A.3.a.2.I12.D02	Trim excess material from workpieces.
+4.A.3.a.2	4.A.3.a.2.I12	4.A.3.a.2.I12.D03	Cut materials according to specifications or needs.
+4.A.3.a.2	4.A.3.a.2.I12	4.A.3.a.2.I12.D04	Cut industrial materials in preparation for fabrication or processing.
+4.A.3.a.2	4.A.3.a.2.I12	4.A.3.a.2.I12.D05	Cut tile, stone, or other masonry materials.
+4.A.3.a.2	4.A.3.a.2.I12	4.A.3.a.2.I12.D06	Cut metal components for installation.
+4.A.3.a.2	4.A.3.a.2.I12	4.A.3.a.2.I12.D07	Cut wood components for installation.
+4.A.3.a.2	4.A.3.a.2.I12	4.A.3.a.2.I12.D08	Cut fabrics.
+4.A.3.a.2	4.A.3.a.2.I12	4.A.3.a.2.I12.D09	Trim excess material from installations.
+4.A.3.a.2	4.A.3.a.2.I12	4.A.3.a.2.I12.D10	Cut glass.
+4.A.3.a.2	4.A.3.a.2.I12	4.A.3.a.2.I12.D11	Cut carpet, vinyl or other flexible materials.
+4.A.3.a.2	4.A.3.a.2.I13	4.A.3.a.2.I13.D01	Prepare explosives for detonation.
+4.A.3.a.2	4.A.3.a.2.I13	4.A.3.a.2.I13.D02	Immerse objects or workpieces in cleaning or coating solutions.
+4.A.3.a.2	4.A.3.a.2.I13	4.A.3.a.2.I13.D03	Prepare excavation or extraction sites for commissioning or decommissioning.
+4.A.3.a.2	4.A.3.a.2.I13	4.A.3.a.2.I13.D04	Prepare hazardous waste for processing or disposal.
+4.A.3.a.2	4.A.3.a.2.I13	4.A.3.a.2.I13.D05	Heat material or workpieces to prepare for or complete production.
+4.A.3.a.2	4.A.3.a.2.I13	4.A.3.a.2.I13.D06	Melt metal, plastic, or other materials to prepare for production.
+4.A.3.a.2	4.A.3.a.2.I13	4.A.3.a.2.I13.D07	Prepare fabrics or materials for processing or production.
+4.A.3.a.2	4.A.3.a.2.I13	4.A.3.a.2.I13.D08	Prepare biological feedstock for physical, chemical, or biological processing.
+4.A.3.a.2	4.A.3.a.2.I13	4.A.3.a.2.I13.D09	Prepare materials for processing.
+4.A.3.a.2	4.A.3.a.2.I13	4.A.3.a.2.I13.D10	Skim impurities from molten metal.
+4.A.3.a.2	4.A.3.a.2.I13	4.A.3.a.2.I13.D11	Ignite fuel to activate heating equipment.
+4.A.3.a.2	4.A.3.a.2.I14	4.A.3.a.2.I14.D01	Cut trees or logs.
+4.A.3.a.2	4.A.3.a.2.I14	4.A.3.a.2.I14.D02	Trim trees or other vegetation.
+4.A.3.a.2	4.A.3.a.2.I15	4.A.3.a.2.I15.D01	Grind parts to required dimensions.
+4.A.3.a.2	4.A.3.a.2.I15	4.A.3.a.2.I15.D02	Remove dents from equipment, materials, tools or structures.
+4.A.3.a.2	4.A.3.a.2.I15	4.A.3.a.2.I15.D03	Smooth surfaces of objects or equipment.
+4.A.3.a.2	4.A.3.a.2.I15	4.A.3.a.2.I15.D04	Polish materials, workpieces, or finished products.
+4.A.3.a.2	4.A.3.a.2.I15	4.A.3.a.2.I15.D05	Smooth metal surfaces or edges.
+4.A.3.a.2	4.A.3.a.2.I15	4.A.3.a.2.I15.D06	Smooth surfaces with abrasive materials or tools.
+4.A.3.a.2	4.A.3.a.2.I16	4.A.3.a.2.I16.D01	Install energy-efficient heating, ventilation, or air conditioning (HVAC) equipment.
+4.A.3.a.2	4.A.3.a.2.I16	4.A.3.a.2.I16.D02	Install solar energy systems.
+4.A.3.a.2	4.A.3.a.2.I16	4.A.3.a.2.I16.D03	Install heating, ventilation, or air conditioning (HVAC) equipment.
+4.A.3.a.2	4.A.3.a.2.I17	4.A.3.a.2.I17.D01	Cast molds of patient anatomies to create medical or dental devices.
+4.A.3.a.2	4.A.3.a.2.I17	4.A.3.a.2.I17.D02	Make patient-assistive devices or device models.
+4.A.3.a.2	4.A.3.a.2.I17	4.A.3.a.2.I17.D03	Fabricate medical devices.
+4.A.3.a.2	4.A.3.a.2.I17	4.A.3.a.2.I17.D04	Construct customized assistive medical or dental devices.
+4.A.3.a.2	4.A.3.a.2.I18	4.A.3.a.2.I18.D01	Direct vehicle traffic.
+4.A.3.a.2	4.A.3.a.2.I19	4.A.3.a.2.I19.D01	Remove parts or components from vehicles.
+4.A.3.a.2	4.A.3.a.2.I19	4.A.3.a.2.I19.D02	Disassemble equipment for maintenance or repair.
+4.A.3.a.2	4.A.3.a.2.I19	4.A.3.a.2.I19.D03	Disassemble equipment to inspect for deficiencies.
+4.A.3.a.2	4.A.3.a.2.I19	4.A.3.a.2.I19.D04	Remove accessories, tools, or other parts from equipment.
+4.A.3.a.2	4.A.3.a.2.I19	4.A.3.a.2.I19.D05	Dismantle equipment or temporary structures.
+4.A.3.a.2	4.A.3.a.2.I19	4.A.3.a.2.I19.D06	Remove parts or components from equipment.
+4.A.3.a.2	4.A.3.a.2.I19	4.A.3.a.2.I19.D07	Dismantle heavy equipment or machinery.
+4.A.3.a.2	4.A.3.a.2.I19	4.A.3.a.2.I19.D08	Disable door locks.
+4.A.3.a.2	4.A.3.a.2.I20	4.A.3.a.2.I20.D01	Install electrical components, equipment, or systems.
+4.A.3.a.2	4.A.3.a.2.I20	4.A.3.a.2.I20.D02	Install drilling equipment.
+4.A.3.a.2	4.A.3.a.2.I20	4.A.3.a.2.I20.D03	Install audio or communications equipment.
+4.A.3.a.2	4.A.3.a.2.I20	4.A.3.a.2.I20.D04	Install production equipment or systems.
+4.A.3.a.2	4.A.3.a.2.I20	4.A.3.a.2.I20.D05	Install instrumentation or electronic equipment or systems.
+4.A.3.a.2	4.A.3.a.2.I20	4.A.3.a.2.I20.D06	Install metering equipment.
+4.A.3.a.2	4.A.3.a.2.I20	4.A.3.a.2.I20.D07	Install home appliances.
+4.A.3.a.2	4.A.3.a.2.I21	4.A.3.a.2.I21.D01	Treat nails by shaping, decorating, or augmenting.
+4.A.3.a.2	4.A.3.a.2.I21	4.A.3.a.2.I21.D02	Apply cleansing or conditioning agents to client hair, scalp, or skin.
+4.A.3.a.2	4.A.3.a.2.I21	4.A.3.a.2.I21.D03	Apply solutions to hair for therapeutic or cosmetic purposes.
+4.A.3.a.2	4.A.3.a.2.I21	4.A.3.a.2.I21.D04	Apply makeup to alter or enhance appearance.
+4.A.3.a.2	4.A.3.a.2.I22	4.A.3.a.2.I22.D01	Adjust position of molds during processing.
+4.A.3.a.2	4.A.3.a.2.I22	4.A.3.a.2.I22.D02	Position safety or support equipment.
+4.A.3.a.2	4.A.3.a.2.I22	4.A.3.a.2.I22.D03	Position animal trapping or capture equipment.
+4.A.3.a.2	4.A.3.a.2.I22	4.A.3.a.2.I22.D04	Position construction forms or molds.
+4.A.3.a.2	4.A.3.a.2.I22	4.A.3.a.2.I22.D05	Position construction or extraction equipment.
+4.A.3.a.2	4.A.3.a.2.I22	4.A.3.a.2.I22.D06	Position equipment using hand tools, power tools, or heavy equipment.
+4.A.3.a.2	4.A.3.a.2.I22	4.A.3.a.2.I22.D07	Position patterns on equipment, materials, or workpieces.
+4.A.3.a.2	4.A.3.a.2.I22	4.A.3.a.2.I22.D08	Level machines or equipment.
+4.A.3.a.2	4.A.3.a.2.I22	4.A.3.a.2.I22.D09	Position containers to receive materials or workpieces.
+4.A.3.a.2	4.A.3.a.2.I22	4.A.3.a.2.I22.D10	Position material handling equipment.
+4.A.3.a.2	4.A.3.a.2.I22	4.A.3.a.2.I22.D11	Position hand tools.
+4.A.3.a.2	4.A.3.a.2.I23	4.A.3.a.2.I23.D01	Secure watercraft to docks, wharves or other vessels.
+4.A.3.a.2	4.A.3.a.2.I24	4.A.3.a.2.I24.D01	Adjust prostheses or other assistive devices.
+4.A.3.a.2	4.A.3.a.2.I24	4.A.3.a.2.I24.D02	Adjust dental devices or appliances to ensure fit.
+4.A.3.a.2	4.A.3.a.2.I25	4.A.3.a.2.I25.D01	Engrave designs, text, or other markings onto materials, workpieces, or products.
+4.A.3.a.2	4.A.3.a.2.I26	4.A.3.a.2.I26.D01	Embalm corpses.
+4.A.3.a.2	4.A.3.a.2.I27	4.A.3.a.2.I27.D01	Fabricate devices or components.
+4.A.3.a.2	4.A.3.a.2.I27	4.A.3.a.2.I27.D02	Fabricate parts or components.
+4.A.3.a.2	4.A.3.a.2.I27	4.A.3.a.2.I27.D03	Fabricate products or components using machine tools.
+4.A.3.a.2	4.A.3.a.2.I28	4.A.3.a.2.I28.D01	Attach decorative or functional accessories to products.
+4.A.3.a.2	4.A.3.a.2.I28	4.A.3.a.2.I28.D02	Construct distinctive physical objects for artistic, functional, or commercial purposes.
+4.A.3.a.2	4.A.3.a.2.I29	4.A.3.a.2.I29.D01	Slaughter animals.
+4.A.3.a.2	4.A.3.a.2.I29	4.A.3.a.2.I29.D02	Remove skin or other body parts from animals.
+4.A.3.a.2	4.A.3.a.2.I29	4.A.3.a.2.I29.D03	Process animal carcasses.
+4.A.3.a.2	4.A.3.a.2.I30	4.A.3.a.2.I30.D01	Drill holes in earth or rock.
+4.A.3.a.2	4.A.3.a.2.I30	4.A.3.a.2.I30.D02	Drill holes in construction materials.
+4.A.3.a.2	4.A.3.a.2.I30	4.A.3.a.2.I30.D03	Drill holes in parts, equipment, or materials.
+4.A.3.a.2	4.A.3.a.2.I31	4.A.3.a.2.I31.D01	Groom wigs or hairpieces.
+4.A.3.a.2	4.A.3.a.2.I31	4.A.3.a.2.I31.D02	Trim client hair.
+4.A.3.a.2	4.A.3.a.2.I32	4.A.3.a.2.I32.D01	Set up classroom materials or equipment.
+4.A.3.a.2	4.A.3.a.2.I32	4.A.3.a.2.I32.D02	Arrange childcare or educational settings to ensure physical safety of children.
+4.A.3.a.2	4.A.3.a.2.I32	4.A.3.a.2.I32.D03	Display student work.
+4.A.3.a.2	4.A.3.a.2.I33	4.A.3.a.2.I33.D01	Treat facilities to eliminate pests.
+4.A.3.a.2	4.A.3.a.2.I33	4.A.3.a.2.I33.D02	Paint surfaces or equipment.
+4.A.3.a.2	4.A.3.a.2.I33	4.A.3.a.2.I33.D03	Apply paint to surfaces.
+4.A.3.a.2	4.A.3.a.2.I33	4.A.3.a.2.I33.D04	Refinish wood or metal surfaces.
+4.A.3.a.2	4.A.3.a.2.I33	4.A.3.a.2.I33.D05	Apply chemical solutions to plants to protect against disease or insects or to enhance growth.
+4.A.3.a.2	4.A.3.a.2.I33	4.A.3.a.2.I33.D06	Apply protective or decorative finishes to workpieces or products.
+4.A.3.a.2	4.A.3.a.2.I33	4.A.3.a.2.I33.D07	Treat greenery or surfaces with protective substances.
+4.A.3.a.2	4.A.3.a.2.I33	4.A.3.a.2.I33.D08	Apply solutions to production equipment.
+4.A.3.a.2	4.A.3.a.2.I33	4.A.3.a.2.I33.D09	Apply sealants or other protective coatings.
+4.A.3.a.2	4.A.3.a.2.I34	4.A.3.a.2.I34.D01	Connect hoses to equipment or machinery.
+4.A.3.a.2	4.A.3.a.2.I34	4.A.3.a.2.I34.D02	Rewire electrical or electronic systems.
+4.A.3.a.2	4.A.3.a.2.I34	4.A.3.a.2.I34.D03	Connect hoses to equipment or piping.
+4.A.3.a.2	4.A.3.a.2.I34	4.A.3.a.2.I34.D04	Lay cables to connect equipment.
+4.A.3.a.2	4.A.3.a.2.I34	4.A.3.a.2.I34.D05	Thread wire or cable through ducts or conduits.
+4.A.3.a.2	4.A.3.a.2.I34	4.A.3.a.2.I34.D06	Run wiring to connect equipment.
+4.A.3.a.2	4.A.3.a.2.I34	4.A.3.a.2.I34.D07	Connect electrical components or equipment.
+4.A.3.a.2	4.A.3.a.2.I34	4.A.3.a.2.I34.D08	Connect supply lines to production equipment or tools.
+4.A.3.a.2	4.A.3.a.2.I34	4.A.3.a.2.I34.D09	Connect cables or electrical lines.
+4.A.3.a.2	4.A.3.a.2.I35	4.A.3.a.2.I35.D01	Solder parts or workpieces.
+4.A.3.a.2	4.A.3.a.2.I35	4.A.3.a.2.I35.D02	Weld metal components.
+4.A.3.a.2	4.A.3.a.2.I35	4.A.3.a.2.I35.D03	Solder parts or connections between parts.
+4.A.3.a.2	4.A.3.a.2.I35	4.A.3.a.2.I35.D04	Braze metal parts or components.
+4.A.3.a.2	4.A.3.a.2.I35	4.A.3.a.2.I35.D05	Operate welding equipment.
+4.A.3.a.2	4.A.3.a.2.I35	4.A.3.a.2.I35.D06	Rivet metal components.
+4.A.3.a.2	4.A.3.a.2.I36	4.A.3.a.2.I36.D01	Build models, patterns, or templates.
+4.A.3.a.2	4.A.3.a.2.I36	4.A.3.a.2.I36.D02	Assemble garments or textile products.
+4.A.3.a.2	4.A.3.a.2.I36	4.A.3.a.2.I36.D03	Build production molds.
+4.A.3.a.2	4.A.3.a.2.I36	4.A.3.a.2.I36.D04	Assemble wood products.
+4.A.3.a.2	4.A.3.a.2.I36	4.A.3.a.2.I36.D05	Build construction forms or molds.
+4.A.3.a.2	4.A.3.a.2.I36	4.A.3.a.2.I36.D06	Assemble tires.
+4.A.3.a.2	4.A.3.a.2.I36	4.A.3.a.2.I36.D07	Construct patterns, templates, or other work aids.
+4.A.3.a.2	4.A.3.a.2.I36	4.A.3.a.2.I36.D08	Assemble metal or plastic parts or products.
+4.A.3.a.2	4.A.3.a.2.I37	4.A.3.a.2.I37.D01	Stock products or parts.
+4.A.3.a.2	4.A.3.a.2.I37	4.A.3.a.2.I37.D02	Stock medical or patient care supplies.
+4.A.3.a.2	4.A.3.a.2.I37	4.A.3.a.2.I37.D03	Store records or related materials.
+4.A.3.a.2	4.A.3.a.2.I37	4.A.3.a.2.I37.D04	Store supplies or goods in kitchens or storage areas.
+4.A.3.a.2	4.A.3.a.2.I37	4.A.3.a.2.I37.D05	Stock serving stations or dining areas with food or supplies.
+4.A.3.a.2	4.A.3.a.2.I37	4.A.3.a.2.I37.D06	Stock supplies or merchandise.
+4.A.3.a.2	4.A.3.a.2.I37	4.A.3.a.2.I37.D07	Store items.
+4.A.3.a.2	4.A.3.a.2.I38	4.A.3.a.2.I38.D01	Collect biological specimens from patients.
+4.A.3.a.2	4.A.3.a.2.I38	4.A.3.a.2.I38.D02	Collect biological specimens.
+4.A.3.a.2	4.A.3.a.2.I38	4.A.3.a.2.I38.D03	Collect geographical or geological field data.
+4.A.3.a.2	4.A.3.a.2.I38	4.A.3.a.2.I38.D04	Collect geological samples.
+4.A.3.a.2	4.A.3.a.2.I38	4.A.3.a.2.I38.D05	Collect environmental data or samples.
+4.A.3.a.2	4.A.3.a.2.I39	4.A.3.a.2.I39.D01	Apply mortar.
+4.A.3.a.2	4.A.3.a.2.I39	4.A.3.a.2.I39.D02	Seal gaps or cracks to prevent leakage or moisture intrusion.
+4.A.3.a.2	4.A.3.a.2.I39	4.A.3.a.2.I39.D03	Fill cracks, imperfections, or holes in products or workpieces.
+4.A.3.a.2	4.A.3.a.2.I39	4.A.3.a.2.I39.D04	Apply material to fill gaps in surfaces.
+4.A.3.a.2	4.A.3.a.2.I40	4.A.3.a.2.I40.D01	Apply parting agents or other solutions to molds.
+4.A.3.a.2	4.A.3.a.2.I40	4.A.3.a.2.I40.D02	Remove workpieces from molds.
+4.A.3.a.2	4.A.3.a.2.I40	4.A.3.a.2.I40.D03	Remove products or workpieces from production equipment.
+4.A.3.a.2	4.A.3.a.2.I41	4.A.3.a.2.I41.D01	Align equipment or machinery.
+4.A.3.a.2	4.A.3.a.2.I41	4.A.3.a.2.I41.D02	Lay out parts to prepare for assembly.
+4.A.3.a.2	4.A.3.a.2.I41	4.A.3.a.2.I41.D03	Position structural components.
+4.A.3.a.2	4.A.3.a.2.I41	4.A.3.a.2.I41.D04	Align parts or workpieces to ensure proper assembly.
+4.A.3.a.2	4.A.3.a.2.I41	4.A.3.a.2.I41.D05	Mark reference points on construction materials.
+4.A.3.a.2	4.A.3.a.2.I41	4.A.3.a.2.I41.D06	Lay out work according to specifications.
+4.A.3.a.2	4.A.3.a.2.I41	4.A.3.a.2.I41.D07	Align masonry materials.
+4.A.3.a.2	4.A.3.a.2.I41	4.A.3.a.2.I41.D08	Draw guide lines or markings on materials or workpieces using patterns or other references.
+4.A.3.a.2	4.A.3.a.2.I42	4.A.3.a.2.I42.D01	Package agricultural products for shipment or further processing.
+4.A.3.a.2	4.A.3.a.2.I42	4.A.3.a.2.I42.D02	Package products for storage or shipment.
+4.A.3.a.2	4.A.3.a.2.I42	4.A.3.a.2.I42.D03	Package food or supplies.
+4.A.3.a.2	4.A.3.a.2.I42	4.A.3.a.2.I42.D04	Package materials for transport.
+4.A.3.a.2	4.A.3.a.2.I42	4.A.3.a.2.I42.D05	Package materials or products.
+4.A.3.a.2	4.A.3.a.2.I42	4.A.3.a.2.I42.D06	Package objects for shipping.
+4.A.3.a.2	4.A.3.a.2.I43	4.A.3.a.2.I43.D01	Install green plumbing or water handling systems.
+4.A.3.a.2	4.A.3.a.2.I43	4.A.3.a.2.I43.D02	Install piping for installation or maintenance activities.
+4.A.3.a.2	4.A.3.a.2.I43	4.A.3.a.2.I43.D03	Install plumbing or piping.
+4.A.3.a.2	4.A.3.a.2.I44	4.A.3.a.2.I44.D01	Locate animals for fishing or hunting purposes.
+4.A.3.a.2	4.A.3.a.2.I44	4.A.3.a.2.I44.D02	Capture or kill animals.
+4.A.3.a.2	4.A.3.a.2.I45	4.A.3.a.2.I45.D01	Apply decorative masonry finishes.
+4.A.3.a.2	4.A.3.a.2.I45	4.A.3.a.2.I45.D02	Apply finishes to artwork, crafts, or displays.
+4.A.3.a.2	4.A.3.a.2.I45	4.A.3.a.2.I45.D03	Apply decorative or textured finishes or coverings.
+4.A.3.a.2	4.A.3.a.2.I45	4.A.3.a.2.I45.D04	Apply decorative coloring to photographs or printed materials.
+4.A.3.a.2	4.A.3.a.2.I46	4.A.3.a.2.I46.D01	Install equipment attachments or components.
+4.A.3.a.2	4.A.3.a.2.I46	4.A.3.a.2.I46.D02	Set up material handling gear or equipment, such as rigging, packaging, or temporary structures.
+4.A.3.a.2	4.A.3.a.2.I46	4.A.3.a.2.I46.D03	Attach rigging to objects so they can be moved.
+4.A.3.a.2	4.A.3.a.2.I46	4.A.3.a.2.I46.D04	Prepare film for distribution or use.
+4.A.3.a.2	4.A.3.a.2.I46	4.A.3.a.2.I46.D05	Set equipment guides, stops, spacers, or other fixtures.
+4.A.3.a.2	4.A.3.a.2.I46	4.A.3.a.2.I46.D06	Set up still or video cameras or related equipment.
+4.A.3.a.2	4.A.3.a.2.I46	4.A.3.a.2.I46.D07	Prepare hoses or water supplies to fight fires.
+4.A.3.a.2	4.A.3.a.2.I46	4.A.3.a.2.I46.D08	Install mechanical components in production equipment.
+4.A.3.a.2	4.A.3.a.2.I46	4.A.3.a.2.I46.D09	Attach equipment extensions or accessories.
+4.A.3.a.2	4.A.3.a.2.I46	4.A.3.a.2.I46.D10	Set up laboratory or field equipment.
+4.A.3.a.2	4.A.3.a.2.I46	4.A.3.a.2.I46.D11	Set up mechanical equipment.
+4.A.3.a.2	4.A.3.a.2.I46	4.A.3.a.2.I46.D12	Set up production or processing equipment.
+4.A.3.a.2	4.A.3.a.2.I47	4.A.3.a.2.I47.D01	Cultivate micro-organisms for study, testing, or medical preparations.
+4.A.3.a.2	4.A.3.a.2.I47	4.A.3.a.2.I47.D02	Prepare biological specimens for laboratory analysis.
+4.A.3.a.2	4.A.3.a.2.I47	4.A.3.a.2.I47.D03	Prepare biological samples for testing or analysis.
+4.A.3.a.2	4.A.3.a.2.I47	4.A.3.a.2.I47.D04	Prepare compounds or solutions for products or testing.
+4.A.3.a.2	4.A.3.a.2.I47	4.A.3.a.2.I47.D05	Prepare products for testing.
+4.A.3.a.3	4.A.3.a.3.I01	4.A.3.a.3.I01.D01	Operate office equipment.
+4.A.3.a.3	4.A.3.a.3.I02	4.A.3.a.3.I02.D01	Operate pumping systems or equipment.
+4.A.3.a.3	4.A.3.a.3.I02	4.A.3.a.3.I02.D02	Operate pumps or compressors.
+4.A.3.a.3	4.A.3.a.3.I02	4.A.3.a.3.I02.D03	Control pumps or pumping equipment.
+4.A.3.a.3	4.A.3.a.3.I03	4.A.3.a.3.I03.D01	Operate drilling equipment.
+4.A.3.a.3	4.A.3.a.3.I03	4.A.3.a.3.I03.D02	Operate heavy-duty construction or installation equipment.
+4.A.3.a.3	4.A.3.a.3.I03	4.A.3.a.3.I03.D03	Operate mining equipment.
+4.A.3.a.3	4.A.3.a.3.I03	4.A.3.a.3.I03.D04	Operate excavation equipment.
+4.A.3.a.3	4.A.3.a.3.I03	4.A.3.a.3.I03.D05	Break up rock, asphalt, or concrete.
+4.A.3.a.3	4.A.3.a.3.I03	4.A.3.a.3.I03.D06	Operate road-surfacing equipment.
+4.A.3.a.3	4.A.3.a.3.I03	4.A.3.a.3.I03.D07	Operate equipment or vehicles to clear construction sites or move materials.
+4.A.3.a.3	4.A.3.a.3.I03	4.A.3.a.3.I03.D08	Operate detonation equipment.
+4.A.3.a.3	4.A.3.a.3.I04	4.A.3.a.3.I04.D01	Process x-rays or other medical images.
+4.A.3.a.3	4.A.3.a.3.I04	4.A.3.a.3.I04.D02	Create advanced digital images of patients using computer imaging systems.
+4.A.3.a.3	4.A.3.a.3.I04	4.A.3.a.3.I04.D03	Operate diagnostic or therapeutic medical instruments or equipment.
+4.A.3.a.3	4.A.3.a.3.I04	4.A.3.a.3.I04.D04	Operate diagnostic imaging equipment.
+4.A.3.a.3	4.A.3.a.3.I04	4.A.3.a.3.I04.D05	Operate medical equipment.
+4.A.3.a.3	4.A.3.a.3.I05	4.A.3.a.3.I05.D01	Operate control consoles for sound, lighting or video.
+4.A.3.a.3	4.A.3.a.3.I05	4.A.3.a.3.I05.D02	Operate surveillance equipment to detect suspicious or illegal activities.
+4.A.3.a.3	4.A.3.a.3.I05	4.A.3.a.3.I05.D03	Operate audiovisual equipment.
+4.A.3.a.3	4.A.3.a.3.I05	4.A.3.a.3.I05.D04	Operate still or video cameras or related equipment.
+4.A.3.a.3	4.A.3.a.3.I05	4.A.3.a.3.I05.D05	Operate audio-visual equipment.
+4.A.3.a.3	4.A.3.a.3.I05	4.A.3.a.3.I05.D06	Operate audio recording equipment.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D01	Operate chemical processing or water treatment systems or equipment.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D02	Operate painting or coating equipment.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D03	Operate recycling equipment.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D04	Operate packing or other material processing equipment.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D05	Smooth garments with irons, presses, or steamers.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D06	Operate cooking, baking, or other food preparation equipment.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D07	Operate heating or drying equipment.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D08	Operate mixing equipment.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D09	Operate conveyors or other industrial material moving equipment.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D10	Operate photographic developing or print production equipment.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D11	Operate equipment to print images or bind printed images together.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D12	Operate metal or plastic forming equipment.
+4.A.3.a.3	4.A.3.a.3.I06	4.A.3.a.3.I06.D13	Operate industrial equipment.
+4.A.3.a.3	4.A.3.a.3.I07	4.A.3.a.3.I07.D01	Operate energy production equipment.
+4.A.3.a.3	4.A.3.a.3.I07	4.A.3.a.3.I07.D02	Operate natural gas generation equipment.
+4.A.3.a.3	4.A.3.a.3.I07	4.A.3.a.3.I07.D03	Operate biomass or biofuel production equipment.
+4.A.3.a.3	4.A.3.a.3.I07	4.A.3.a.3.I07.D04	Operate green energy production equipment.
+4.A.3.a.3	4.A.3.a.3.I07	4.A.3.a.3.I07.D05	Operate energy distribution equipment.
+4.A.3.a.3	4.A.3.a.3.I07	4.A.3.a.3.I07.D06	Operate natural gas distribution equipment.
+4.A.3.a.3	4.A.3.a.3.I08	4.A.3.a.3.I08.D01	Operate forklifts or other loaders.
+4.A.3.a.3	4.A.3.a.3.I08	4.A.3.a.3.I08.D02	Lift materials or workpieces using cranes or other lifting equipment.
+4.A.3.a.3	4.A.3.a.3.I08	4.A.3.a.3.I08.D03	Operate cranes, hoists, or other moving or lifting equipment.
+4.A.3.a.3	4.A.3.a.3.I09	4.A.3.a.3.I09.D01	Operate laboratory or field equipment.
+4.A.3.a.3	4.A.3.a.3.I09	4.A.3.a.3.I09.D02	Operate precision equipment to control microscopic or nanoscopic processes.
+4.A.3.a.3	4.A.3.a.3.I09	4.A.3.a.3.I09.D03	Operate laboratory equipment to analyze medical samples.
+4.A.3.a.3	4.A.3.a.3.I10	4.A.3.a.3.I10.D01	Operate communications equipment or systems.
+4.A.3.a.3	4.A.3.a.3.I10	4.A.3.a.3.I10.D02	Operate communications, transmissions, or broadcasting equipment.
+4.A.3.a.3	4.A.3.a.3.I11	4.A.3.a.3.I11.D01	Operate irrigation systems.
+4.A.3.a.3	4.A.3.a.3.I11	4.A.3.a.3.I11.D02	Operate forestry equipment.
+4.A.3.a.3	4.A.3.a.3.I11	4.A.3.a.3.I11.D03	Operate grounds maintenance equipment.
+4.A.3.a.3	4.A.3.a.3.I11	4.A.3.a.3.I11.D04	Operate farming equipment.
+4.A.3.a.3	4.A.3.a.3.I12	4.A.3.a.3.I12.D01	Operate grinding equipment.
+4.A.3.a.3	4.A.3.a.3.I12	4.A.3.a.3.I12.D02	Operate cutting equipment.
+4.A.3.a.3	4.A.3.a.3.I12	4.A.3.a.3.I12.D03	Operate woodworking equipment.
+4.A.3.a.3	4.A.3.a.3.I12	4.A.3.a.3.I12.D04	Operate textile cutting or production equipment.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D01	Operate ships or other watercraft.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D02	Navigate water vessels.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D03	Drive vehicles to transport individuals or equipment.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D04	Follow safety procedures for vehicle operation.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D05	Travel to work sites to perform installation, repair or maintenance work.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D06	Operate vehicles or material-moving equipment.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D07	Operate transportation equipment to demonstrate function or malfunction.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D08	Control equipment that regulates vehicle traffic.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D09	Drive vehicles to transport patrons.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D10	Drive trucks or truck-mounted equipment.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D11	Pilot aircraft.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D12	Drive trucks or other vehicles to or at work sites.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D13	Operate locomotives or other rail vehicles.
+4.A.3.a.4	4.A.3.a.4.I01	4.A.3.a.4.I01.D14	Drive passenger vehicles.
+4.A.3.b.1	4.A.3.b.1.I01	4.A.3.b.1.I01.D01	Enter commands, instructions, or specifications into equipment.
+4.A.3.b.1	4.A.3.b.1.I01	4.A.3.b.1.I01.D02	Program equipment to perform production tasks.
+4.A.3.b.1	4.A.3.b.1.I01	4.A.3.b.1.I01.D03	Write computer programming code.
+4.A.3.b.1	4.A.3.b.1.I01	4.A.3.b.1.I01.D04	Program robotic equipment.
+4.A.3.b.1	4.A.3.b.1.I02	4.A.3.b.1.I02.D01	Implement security measures for computer or information systems.
+4.A.3.b.1	4.A.3.b.1.I02	4.A.3.b.1.I02.D02	Create electronic data backup to prevent loss of information.
+4.A.3.b.1	4.A.3.b.1.I03	4.A.3.b.1.I03.D01	Install computer software.
+4.A.3.b.1	4.A.3.b.1.I03	4.A.3.b.1.I03.D02	Install computer hardware.
+4.A.3.b.1	4.A.3.b.1.I03	4.A.3.b.1.I03.D03	Install programs onto computer or computer-controlled equipment.
+4.A.3.b.1	4.A.3.b.1.I03	4.A.3.b.1.I03.D04	Configure computer networks.
+4.A.3.b.1	4.A.3.b.1.I04	4.A.3.b.1.I04.D01	Resolve computer network problems.
+4.A.3.b.1	4.A.3.b.1.I04	4.A.3.b.1.I04.D02	Troubleshoot issues with computer applications or systems.
+4.A.3.b.1	4.A.3.b.1.I04	4.A.3.b.1.I04.D03	Resolve computer software problems.
+4.A.3.b.1	4.A.3.b.1.I05	4.A.3.b.1.I05.D01	Operate computers or computerized equipment.
+4.A.3.b.1	4.A.3.b.1.I05	4.A.3.b.1.I05.D02	Operate computer systems.
+4.A.3.b.1	4.A.3.b.1.I06	4.A.3.b.1.I06.D01	Load digital images onto computers or websites.
+4.A.3.b.1	4.A.3.b.1.I06	4.A.3.b.1.I06.D02	Operate digital imaging equipment.
+4.A.3.b.1	4.A.3.b.1.I06	4.A.3.b.1.I06.D03	Enter patient or treatment data into computers.
+4.A.3.b.1	4.A.3.b.1.I06	4.A.3.b.1.I06.D04	Update website content.
+4.A.3.b.1	4.A.3.b.1.I06	4.A.3.b.1.I06.D05	Update computer database information.
+4.A.3.b.1	4.A.3.b.1.I06	4.A.3.b.1.I06.D06	Enter information into databases or software programs.
+4.A.3.b.1	4.A.3.b.1.I06	4.A.3.b.1.I06.D07	Prepare data for analysis.
+4.A.3.b.1	4.A.3.b.1.I06	4.A.3.b.1.I06.D08	Code data or other information.
+4.A.3.b.1	4.A.3.b.1.I06	4.A.3.b.1.I06.D09	Download data.
+4.A.3.b.1	4.A.3.b.1.I06	4.A.3.b.1.I06.D10	Enter codes or other information into computers.
+4.A.3.b.1	4.A.3.b.1.I06	4.A.3.b.1.I06.D11	Convert data among multiple digital or analog formats.
+4.A.3.b.1	4.A.3.b.1.I06	4.A.3.b.1.I06.D12	Format digital documents, data, or images.
+4.A.3.b.4	4.A.3.b.4.I01	4.A.3.b.4.I01.D01	Maintain facilities.
+4.A.3.b.4	4.A.3.b.4.I01	4.A.3.b.4.I01.D02	Perform basic equipment maintenance.
+4.A.3.b.4	4.A.3.b.4.I01	4.A.3.b.4.I01.D03	Maintain plumbing structures or fixtures.
+4.A.3.b.4	4.A.3.b.4.I01	4.A.3.b.4.I01.D04	Repair structural components.
+4.A.3.b.4	4.A.3.b.4.I01	4.A.3.b.4.I01.D05	Repair pipes to stop leaking.
+4.A.3.b.4	4.A.3.b.4.I01	4.A.3.b.4.I01.D06	Service heating, ventilation or air-conditioning (HVAC) systems or components.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D01	Maintain mechanical equipment.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D02	Maintain production or processing equipment.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D03	Maintain equipment or systems to ensure proper functioning.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D04	Maintain office equipment in proper operating condition.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D05	Maintain sustainable energy production equipment.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D06	Maintain forestry, hunting, or agricultural equipment.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D07	Lubricate equipment to allow proper functioning.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D08	Maintain drilling equipment.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D09	Clear equipment jams.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D10	Maintain extraction or excavation equipment.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D11	Maintain green energy production plant equipment.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D12	Apply lubricants or coolants to workpieces.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D13	Perform manual service or maintenance tasks.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D14	Maintain construction tools or equipment.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D15	Maintain fire fighting tools or equipment.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D16	Maintain work equipment or machinery.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D17	Lubricate production equipment.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D18	Maintain electromechanical equipment.
+4.A.3.b.4	4.A.3.b.4.I02	4.A.3.b.4.I02.D19	Sharpen cutting or grinding tools.
+4.A.3.b.4	4.A.3.b.4.I03	4.A.3.b.4.I03.D01	Repair electrical circuits or wiring.
+4.A.3.b.4	4.A.3.b.4.I03	4.A.3.b.4.I03.D02	Repair electrical equipment.
+4.A.3.b.4	4.A.3.b.4.I03	4.A.3.b.4.I03.D03	Repair electronic equipment.
+4.A.3.b.4	4.A.3.b.4.I03	4.A.3.b.4.I03.D04	Repair electrical components.
+4.A.3.b.4	4.A.3.b.4.I04	4.A.3.b.4.I04.D01	Maintain computer hardware.
+4.A.3.b.4	4.A.3.b.4.I04	4.A.3.b.4.I04.D02	Maintain computer networks to enhance performance and user access.
+4.A.3.b.4	4.A.3.b.4.I04	4.A.3.b.4.I04.D03	Maintain recording or broadcasting equipment.
+4.A.3.b.4	4.A.3.b.4.I04	4.A.3.b.4.I04.D04	Maintain electronic equipment.
+4.A.3.b.4	4.A.3.b.4.I04	4.A.3.b.4.I04.D05	Maintain laboratory or technical equipment.
+4.A.3.b.4	4.A.3.b.4.I04	4.A.3.b.4.I04.D06	Maintain computer equipment or software.
+4.A.3.b.4	4.A.3.b.4.I04	4.A.3.b.4.I04.D07	Maintain test equipment.
+4.A.3.b.4	4.A.3.b.4.I05	4.A.3.b.4.I05.D01	Repair furniture or upholstery.
+4.A.3.b.4	4.A.3.b.4.I05	4.A.3.b.4.I05.D02	Repair templates, patterns, or molds.
+4.A.3.b.4	4.A.3.b.4.I05	4.A.3.b.4.I05.D03	Repair precision devices or workpieces.
+4.A.3.b.4	4.A.3.b.4.I05	4.A.3.b.4.I05.D04	Repair parts or assemblies.
+4.A.3.b.4	4.A.3.b.4.I05	4.A.3.b.4.I05.D05	Repair books or other printed material.
+4.A.3.b.4	4.A.3.b.4.I06	4.A.3.b.4.I06.D01	Replace worn equipment components.
+4.A.3.b.4	4.A.3.b.4.I06	4.A.3.b.4.I06.D02	Repair green energy equipment or systems.
+4.A.3.b.4	4.A.3.b.4.I06	4.A.3.b.4.I06.D03	Replace worn, damaged, or defective mechanical parts.
+4.A.3.b.4	4.A.3.b.4.I06	4.A.3.b.4.I06.D04	Repair production equipment or tools.
+4.A.3.b.4	4.A.3.b.4.I06	4.A.3.b.4.I06.D05	Repair worn, damaged, or defective mechanical parts.
+4.A.3.b.4	4.A.3.b.4.I06	4.A.3.b.4.I06.D06	Repair mechanical equipment.
+4.A.3.b.4	4.A.3.b.4.I07	4.A.3.b.4.I07.D01	Repair defective engines or engine components.
+4.A.3.b.4	4.A.3.b.4.I07	4.A.3.b.4.I07.D02	Replace vehicle glass.
+4.A.3.b.4	4.A.3.b.4.I07	4.A.3.b.4.I07.D03	Repair tires.
+4.A.3.b.4	4.A.3.b.4.I07	4.A.3.b.4.I07.D04	Repair non-engine automotive or vehicle components.
+4.A.3.b.4	4.A.3.b.4.I07	4.A.3.b.4.I07.D05	Rebuild parts or components.
+4.A.3.b.4	4.A.3.b.4.I08	4.A.3.b.4.I08.D01	Service green vehicles to make repairs or maintain good working order.
+4.A.3.b.4	4.A.3.b.4.I08	4.A.3.b.4.I08.D02	Maintain vehicles in good working condition.
+4.A.3.b.4	4.A.3.b.4.I08	4.A.3.b.4.I08.D03	Maintain watercraft engines or machinery.
+4.A.3.b.4	4.A.3.b.4.I08	4.A.3.b.4.I08.D04	Maintain locomotives or other rail equipment in good working condition.
+4.A.3.b.4	4.A.3.b.4.I08	4.A.3.b.4.I08.D05	Service vehicles to maintain functionality.
+4.A.3.b.4	4.A.3.b.4.I08	4.A.3.b.4.I08.D06	Maintain material moving equipment in good working condition.
+4.A.3.b.4	4.A.3.b.4.I09	4.A.3.b.4.I09.D01	Maintain medical equipment or instruments.
+4.A.3.b.4	4.A.3.b.4.I09	4.A.3.b.4.I09.D02	Maintain medical laboratory equipment.
+4.A.3.b.4	4.A.3.b.4.I09	4.A.3.b.4.I09.D03	Repair medical or dental assistive devices.
+4.A.3.b.4	4.A.3.b.4.I09	4.A.3.b.4.I09.D04	Repair medical facility equipment.
+4.A.3.b.6	4.A.3.b.6.I01	4.A.3.b.6.I01.D01	Prepare financial documents.
+4.A.3.b.6	4.A.3.b.6.I01	4.A.3.b.6.I01.D02	Prepare financial documents, reports, or budgets.
+4.A.3.b.6	4.A.3.b.6.I02	4.A.3.b.6.I02.D01	Prepare written decisions for legal proceedings.
+4.A.3.b.6	4.A.3.b.6.I02	4.A.3.b.6.I02.D02	Prepare documentation of legal proceedings.
+4.A.3.b.6	4.A.3.b.6.I02	4.A.3.b.6.I02.D03	Record information about legal matters.
+4.A.3.b.6	4.A.3.b.6.I02	4.A.3.b.6.I02.D04	Record information about suspects or criminals.
+4.A.3.b.6	4.A.3.b.6.I02	4.A.3.b.6.I02.D05	Record information from legal proceedings.
+4.A.3.b.6	4.A.3.b.6.I02	4.A.3.b.6.I02.D06	Prepare investigation or incident reports.
+4.A.3.b.6	4.A.3.b.6.I02	4.A.3.b.6.I02.D07	Document information related to legal proceedings.
+4.A.3.b.6	4.A.3.b.6.I02	4.A.3.b.6.I02.D08	Record information about suspicious objects.
+4.A.3.b.6	4.A.3.b.6.I03	4.A.3.b.6.I03.D01	Present research results to others.
+4.A.3.b.6	4.A.3.b.6.I03	4.A.3.b.6.I03.D02	Prepare research or technical reports.
+4.A.3.b.6	4.A.3.b.6.I03	4.A.3.b.6.I03.D03	Prepare research reports.
+4.A.3.b.6	4.A.3.b.6.I03	4.A.3.b.6.I03.D04	Prepare scientific or technical reports or presentations.
+4.A.3.b.6	4.A.3.b.6.I03	4.A.3.b.6.I03.D05	Prepare analytical reports.
+4.A.3.b.6	4.A.3.b.6.I03	4.A.3.b.6.I03.D06	Write reports or evaluations.
+4.A.3.b.6	4.A.3.b.6.I03	4.A.3.b.6.I03.D07	Prepare research or technical reports on environmental issues.
+4.A.3.b.6	4.A.3.b.6.I03	4.A.3.b.6.I03.D08	Prepare technical or operational reports.
+4.A.3.b.6	4.A.3.b.6.I03	4.A.3.b.6.I03.D09	Prepare technical reports for internal use.
+4.A.3.b.6	4.A.3.b.6.I03	4.A.3.b.6.I03.D10	Present medical research reports.
+4.A.3.b.6	4.A.3.b.6.I04	4.A.3.b.6.I04.D01	Record information about environmental conditions.
+4.A.3.b.6	4.A.3.b.6.I05	4.A.3.b.6.I05.D01	Record images needed to address work issues.
+4.A.3.b.6	4.A.3.b.6.I05	4.A.3.b.6.I05.D02	Record crime or accident scene evidence with video or still cameras.
+4.A.3.b.6	4.A.3.b.6.I05	4.A.3.b.6.I05.D03	Document events or evidence, using photographic or audiovisual equipment.
+4.A.3.b.6	4.A.3.b.6.I06	4.A.3.b.6.I06.D01	Prepare official health documents or records.
+4.A.3.b.6	4.A.3.b.6.I06	4.A.3.b.6.I06.D02	Document client health or progress.
+4.A.3.b.6	4.A.3.b.6.I06	4.A.3.b.6.I06.D03	Prepare medical reports or documents.
+4.A.3.b.6	4.A.3.b.6.I06	4.A.3.b.6.I06.D04	Prepare reports summarizing patient diagnostic or care activities.
+4.A.3.b.6	4.A.3.b.6.I07	4.A.3.b.6.I07.D01	Develop proposals for current or prospective customers.
+4.A.3.b.6	4.A.3.b.6.I07	4.A.3.b.6.I07.D02	Write grant proposals.
+4.A.3.b.6	4.A.3.b.6.I07	4.A.3.b.6.I07.D03	Prepare proposal documents.
+4.A.3.b.6	4.A.3.b.6.I07	4.A.3.b.6.I07.D04	Prepare proposals or grant applications to obtain project funding.
+4.A.3.b.6	4.A.3.b.6.I07	4.A.3.b.6.I07.D05	Prepare proposal documents or grant applications.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D01	Record details of deliveries or shipments.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D02	Document operational procedures.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D03	Record operational or production data.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D04	Maintain operational records for green energy processes or other environmentally-sustainable activities.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D05	Maintain operational records.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D06	Maintain client information or service records.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D07	Maintain inventory records.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D08	Record agricultural or forestry inventory data.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D09	Maintain records, documents, or other files.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D10	Maintain personnel records.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D11	Document operational activities.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D12	Maintain student records.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D13	Record information about parts, materials or repair procedures.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D14	Maintain data in information systems or databases.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D15	Maintain records of customer accounts.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D16	Transcribe spoken or written information.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D17	Document work hours or activities.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D18	Record research or operational data.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D19	Record operational details of travel.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D20	Record shipping information.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D21	Maintain operational records or records systems.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D22	Record service or repair activities.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D23	Maintain social services program records.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D24	Maintain repair or maintenance records.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D25	Maintain call records.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D26	Record personnel information.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D27	Record operational or environmental data.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D28	Maintain logs of production activities.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D29	Record information from meetings or other formal proceedings.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D30	Document organizational or operational procedures.
+4.A.3.b.6	4.A.3.b.6.I08	4.A.3.b.6.I08.D31	Record production information.
+4.A.3.b.6	4.A.3.b.6.I09	4.A.3.b.6.I09.D01	Prepare procedural documents.
+4.A.3.b.6	4.A.3.b.6.I09	4.A.3.b.6.I09.D02	Document technical design details.
+4.A.3.b.6	4.A.3.b.6.I09	4.A.3.b.6.I09.D03	Document network-related activities or tasks.
+4.A.3.b.6	4.A.3.b.6.I09	4.A.3.b.6.I09.D04	Document technical specifications or requirements.
+4.A.3.b.6	4.A.3.b.6.I09	4.A.3.b.6.I09.D05	Document design or development procedures.
+4.A.3.b.6	4.A.3.b.6.I09	4.A.3.b.6.I09.D06	Document test results.
+4.A.3.b.6	4.A.3.b.6.I09	4.A.3.b.6.I09.D07	Document design or operational test results.
+4.A.3.b.6	4.A.3.b.6.I10	4.A.3.b.6.I10.D01	Record sales or transactions data.
+4.A.3.b.6	4.A.3.b.6.I10	4.A.3.b.6.I10.D02	Maintain records of sales or other business transactions.
+4.A.3.b.6	4.A.3.b.6.I10	4.A.3.b.6.I10.D03	Maintain financial or account records.
+4.A.3.b.6	4.A.3.b.6.I11	4.A.3.b.6.I11.D01	Maintain client records.
+4.A.3.b.6	4.A.3.b.6.I11	4.A.3.b.6.I11.D02	Maintain medical facility records.
+4.A.3.b.6	4.A.3.b.6.I11	4.A.3.b.6.I11.D03	Record vital statistics or other health information.
+4.A.3.b.6	4.A.3.b.6.I11	4.A.3.b.6.I11.D04	Record patient medical histories.
+4.A.3.b.6	4.A.3.b.6.I11	4.A.3.b.6.I11.D05	Maintain medical records.
+4.A.3.b.6	4.A.3.b.6.I12	4.A.3.b.6.I12.D01	Document lesson plans.
+4.A.3.b.6	4.A.3.b.6.I12	4.A.3.b.6.I12.D02	Organize informational materials.
+4.A.3.b.6	4.A.3.b.6.I12	4.A.3.b.6.I12.D03	Create technology-based learning materials.
+4.A.3.b.6	4.A.3.b.6.I12	4.A.3.b.6.I12.D04	Modify teaching methods or materials to accommodate student needs.
+4.A.3.b.6	4.A.3.b.6.I12	4.A.3.b.6.I12.D05	Write informational material.
+4.A.3.b.6	4.A.3.b.6.I12	4.A.3.b.6.I12.D06	Prepare healthcare training materials.
+4.A.3.b.6	4.A.3.b.6.I12	4.A.3.b.6.I12.D07	Prepare informational or reference materials.
+4.A.3.b.6	4.A.3.b.6.I12	4.A.3.b.6.I12.D08	Prepare instruction manuals.
+4.A.3.b.6	4.A.3.b.6.I12	4.A.3.b.6.I12.D09	Develop instructional materials.
+4.A.3.b.6	4.A.3.b.6.I12	4.A.3.b.6.I12.D10	Develop training materials.
+4.A.3.b.6	4.A.3.b.6.I13	4.A.3.b.6.I13.D01	Prepare sales or other contracts.
+4.A.3.b.6	4.A.3.b.6.I13	4.A.3.b.6.I13.D02	Prepare contracts or other transaction documents.
+4.A.3.b.6	4.A.3.b.6.I13	4.A.3.b.6.I13.D03	Prepare documentation for permits or licenses.
+4.A.3.b.6	4.A.3.b.6.I13	4.A.3.b.6.I13.D04	Prepare forms or applications.
+4.A.3.b.6	4.A.3.b.6.I13	4.A.3.b.6.I13.D05	Prepare documentation for contracts, transactions, or regulatory compliance.
+4.A.3.b.6	4.A.3.b.6.I13	4.A.3.b.6.I13.D06	Prepare contracts, disclosures, or applications.
+4.A.3.b.6	4.A.3.b.6.I14	4.A.3.b.6.I14.D01	Prepare legal or investigatory documentation.
+4.A.3.b.6	4.A.3.b.6.I14	4.A.3.b.6.I14.D02	Prepare reports related to compliance matters.
+4.A.3.b.6	4.A.3.b.6.I14	4.A.3.b.6.I14.D03	Maintain the order of legal documents.
+4.A.3.b.6	4.A.3.b.6.I14	4.A.3.b.6.I14.D04	Maintain regulatory or compliance documentation.
+4.A.3.b.6	4.A.3.b.6.I14	4.A.3.b.6.I14.D05	Prepare regulatory or compliance documentation.
+4.A.3.b.6	4.A.3.b.6.I14	4.A.3.b.6.I14.D06	Prepare information or documentation related to legal or regulatory matters.
+4.A.3.b.6	4.A.3.b.6.I14	4.A.3.b.6.I14.D07	Complete documentation required by programs or regulations.
+4.A.3.b.6	4.A.3.b.6.I14	4.A.3.b.6.I14.D08	Document legal or regulatory information.
+4.A.3.b.6	4.A.3.b.6.I14	4.A.3.b.6.I14.D09	Prepare legal documents.
+4.A.3.b.6	4.A.3.b.6.I15	4.A.3.b.6.I15.D01	Prepare operational reports or records.
+4.A.3.b.6	4.A.3.b.6.I15	4.A.3.b.6.I15.D02	Prepare reports detailing student activities or performance.
+4.A.3.b.6	4.A.3.b.6.I15	4.A.3.b.6.I15.D03	Prepare accident or incident reports.
+4.A.3.b.6	4.A.3.b.6.I15	4.A.3.b.6.I15.D04	Prepare operational reports.
+4.A.3.b.6	4.A.3.b.6.I15	4.A.3.b.6.I15.D05	Write operational reports.
+4.A.3.b.6	4.A.3.b.6.I15	4.A.3.b.6.I15.D06	Prepare operational progress or status reports.
+4.A.3.b.6	4.A.3.b.6.I16	4.A.3.b.6.I16.D01	Write articles, books or other original materials in area of expertise.
+4.A.3.b.6	4.A.3.b.6.I16	4.A.3.b.6.I16.D02	Write material for artistic or entertainment purposes.
+4.A.3.b.6	4.A.3.b.6.I16	4.A.3.b.6.I16.D03	Write advertising or promotional material.
+4.A.4.a.1	4.A.4.a.1.I01	4.A.4.a.1.I01.D01	Present work to clients for approval.
+4.A.4.a.1	4.A.4.a.1.I01	4.A.4.a.1.I01.D02	Explain use of products or services.
+4.A.4.a.1	4.A.4.a.1.I01	4.A.4.a.1.I01.D03	Discuss goods or services information with customers or patrons.
+4.A.4.a.1	4.A.4.a.1.I01	4.A.4.a.1.I01.D04	Explain engineering drawings, specifications, or other technical information.
+4.A.4.a.1	4.A.4.a.1.I01	4.A.4.a.1.I01.D05	Explain technical product or service information to customers.
+4.A.4.a.1	4.A.4.a.1.I01	4.A.4.a.1.I01.D06	Provide information about landscaping services or costs.
+4.A.4.a.1	4.A.4.a.1.I02	4.A.4.a.1.I02.D01	Inform others about laws or regulations.
+4.A.4.a.1	4.A.4.a.1.I02	4.A.4.a.1.I02.D02	Inform the public about policies, services or procedures.
+4.A.4.a.1	4.A.4.a.1.I02	4.A.4.a.1.I02.D03	Communicate organizational policies and procedures.
+4.A.4.a.1	4.A.4.a.1.I02	4.A.4.a.1.I02.D04	Explain regulations, policies, or procedures.
+4.A.4.a.1	4.A.4.a.1.I02	4.A.4.a.1.I02.D05	Communicate organizational information to customers or other stakeholders.
+4.A.4.a.1	4.A.4.a.1.I02	4.A.4.a.1.I02.D06	Communicate with clients about products, procedures, and policies.
+4.A.4.a.1	4.A.4.a.1.I03	4.A.4.a.1.I03.D01	Translate information for others.
+4.A.4.a.1	4.A.4.a.1.I03	4.A.4.a.1.I03.D02	Interpret cultural or religious information for others.
+4.A.4.a.1	4.A.4.a.1.I04	4.A.4.a.1.I04.D01	Educate clients on financial planning topics.
+4.A.4.a.1	4.A.4.a.1.I04	4.A.4.a.1.I04.D02	Interpret financial information for others.
+4.A.4.a.1	4.A.4.a.1.I04	4.A.4.a.1.I04.D03	Explain financial information to customers.
+4.A.4.a.1	4.A.4.a.1.I05	4.A.4.a.1.I05.D01	Communicate detailed medical information to patients or family members.
+4.A.4.a.1	4.A.4.a.1.I05	4.A.4.a.1.I05.D02	Confer with family members to discuss client treatment plans or progress.
+4.A.4.a.1	4.A.4.a.1.I05	4.A.4.a.1.I05.D03	Confer with clients to discuss treatment plans or progress.
+4.A.4.a.1	4.A.4.a.1.I05	4.A.4.a.1.I05.D04	Explain technical medical information to patients.
+4.A.4.a.1	4.A.4.a.1.I05	4.A.4.a.1.I05.D05	Explain medical procedures or test results to patients or family members.
+4.A.4.a.2	4.A.4.a.2.I01	4.A.4.a.2.I01.D01	Communicate with the public on environmental issues.
+4.A.4.a.2	4.A.4.a.2.I01	4.A.4.a.2.I01.D02	Communicate green energy production information.
+4.A.4.a.2	4.A.4.a.2.I01	4.A.4.a.2.I01.D03	Communicate results of environmental research.
+4.A.4.a.2	4.A.4.a.2.I02	4.A.4.a.2.I02.D01	Collaborate on research activities with scientists or technical specialists.
+4.A.4.a.2	4.A.4.a.2.I02	4.A.4.a.2.I02.D02	Assist other educational professionals with projects or research.
+4.A.4.a.2	4.A.4.a.2.I02	4.A.4.a.2.I02.D03	Assist engineers or scientists with research.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D01	Communicate with other workers to coordinate activities.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D02	Provide information to coworkers.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D03	Confer with coworkers to coordinate maintenance or cleaning activities.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D04	Meet with coworkers to communicate work orders or plans.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D05	Discuss problems or issues with supervisors.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D06	Communicate with others to coordinate vehicle movement.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D07	Discuss performance, complaints, or violations with supervisors.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D08	Communicate with other construction or extraction personnel to discuss project details.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D09	Liaise between departments or other groups to improve function or communication.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D10	Report information to managers or other personnel.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D11	Relay information between personnel.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D12	Communicate with coworkers to coordinate installations or repairs.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D13	Confer with managers to make operational decisions.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D14	Confer with organizational members to accomplish work activities.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D15	Confer with coworkers to coordinate work activities.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D16	Communicate with others to coordinate material handling or movement.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D17	Communicate dining or order details to kitchen personnel.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D18	Confer with others to conduct or arrange operational activities.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D19	Receive information or instructions for performing work assignments.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D20	Exchange information with colleagues.
+4.A.4.a.2	4.A.4.a.2.I03	4.A.4.a.2.I03.D21	Communicate safety or hazard information to others.
+4.A.4.a.2	4.A.4.a.2.I04	4.A.4.a.2.I04.D01	Confer with others to resolve production problems or equipment malfunctions.
+4.A.4.a.2	4.A.4.a.2.I04	4.A.4.a.2.I04.D02	Confer with other personnel to resolve design or operational problems.
+4.A.4.a.2	4.A.4.a.2.I04	4.A.4.a.2.I04.D03	Collaborate with others to resolve information technology issues.
+4.A.4.a.2	4.A.4.a.2.I04	4.A.4.a.2.I04.D04	Communicate with management or other staff to resolve problems.
+4.A.4.a.2	4.A.4.a.2.I04	4.A.4.a.2.I04.D05	Collaborate with technical specialists to resolve design or development problems.
+4.A.4.a.2	4.A.4.a.2.I04	4.A.4.a.2.I04.D06	Confer with coworkers to resolve equipment problems.
+4.A.4.a.2	4.A.4.a.2.I05	4.A.4.a.2.I05.D01	Inform medical professionals regarding patient conditions and care.
+4.A.4.a.2	4.A.4.a.2.I05	4.A.4.a.2.I05.D02	Confer with other professionals to plan patient care.
+4.A.4.a.2	4.A.4.a.2.I05	4.A.4.a.2.I05.D03	Collaborate with other professionals to assess client needs or plan treatments.
+4.A.4.a.2	4.A.4.a.2.I05	4.A.4.a.2.I05.D04	Communicate test or assessment results to medical professionals.
+4.A.4.a.2	4.A.4.a.2.I05	4.A.4.a.2.I05.D05	Collaborate with healthcare professionals to plan or provide treatment.
+4.A.4.a.2	4.A.4.a.2.I05	4.A.4.a.2.I05.D06	Communicate patient status to other health practitioners.
+4.A.4.a.2	4.A.4.a.2.I06	4.A.4.a.2.I06.D01	Collaborate with others in marketing activities.
+4.A.4.a.2	4.A.4.a.2.I06	4.A.4.a.2.I06.D02	Collaborate with others to develop or implement marketing strategies.
+4.A.4.a.2	4.A.4.a.2.I06	4.A.4.a.2.I06.D03	Confer with personnel to coordinate business operations.
+4.A.4.a.2	4.A.4.a.2.I06	4.A.4.a.2.I06.D04	Share sales-related or market information with colleagues.
+4.A.4.a.2	4.A.4.a.2.I06	4.A.4.a.2.I06.D05	Discuss business strategies, practices, or policies with managers.
+4.A.4.a.2	4.A.4.a.2.I07	4.A.4.a.2.I07.D01	Collaborate with other professionals to develop education or assistance programs.
+4.A.4.a.2	4.A.4.a.2.I07	4.A.4.a.2.I07.D02	Collaborate with other agencies and institutions to coordinate educational matters.
+4.A.4.a.2	4.A.4.a.2.I07	4.A.4.a.2.I07.D03	Collaborate with other teaching professionals to develop educational programs.
+4.A.4.a.2	4.A.4.a.2.I08	4.A.4.a.2.I08.D01	Communicate situation details to appropriate personnel.
+4.A.4.a.2	4.A.4.a.2.I08	4.A.4.a.2.I08.D02	Notify others of equipment repair or maintenance needs.
+4.A.4.a.2	4.A.4.a.2.I08	4.A.4.a.2.I08.D03	Request emergency personnel.
+4.A.4.a.2	4.A.4.a.2.I08	4.A.4.a.2.I08.D04	Notify others of equipment problems.
+4.A.4.a.2	4.A.4.a.2.I08	4.A.4.a.2.I08.D05	Report vehicle or equipment malfunctions.
+4.A.4.a.2	4.A.4.a.2.I08	4.A.4.a.2.I08.D06	Relay information about incidents or emergencies to personnel using phones or two-way radios.
+4.A.4.a.2	4.A.4.a.2.I08	4.A.4.a.2.I08.D07	Notify others of emergencies, problems, or hazards.
+4.A.4.a.2	4.A.4.a.2.I08	4.A.4.a.2.I08.D08	Report maintenance or equipment problems to appropriate personnel.
+4.A.4.a.2	4.A.4.a.2.I08	4.A.4.a.2.I08.D09	Warn individuals about rule violations or safety concerns.
+4.A.4.a.2	4.A.4.a.2.I09	4.A.4.a.2.I09.D01	Collaborate with others to determine production details.
+4.A.4.a.2	4.A.4.a.2.I09	4.A.4.a.2.I09.D02	Discuss production content and progress with others.
+4.A.4.a.2	4.A.4.a.2.I09	4.A.4.a.2.I09.D03	Confer with technical personnel to prepare designs or operational plans.
+4.A.4.a.2	4.A.4.a.2.I09	4.A.4.a.2.I09.D04	Collaborate with others to develop or refine designs.
+4.A.4.a.2	4.A.4.a.2.I09	4.A.4.a.2.I09.D05	Collaborate with others to determine technical details of productions.
+4.A.4.a.2	4.A.4.a.2.I09	4.A.4.a.2.I09.D06	Discuss design or technical features of products or services with technical personnel.
+4.A.4.a.2	4.A.4.a.2.I09	4.A.4.a.2.I09.D07	Collaborate with others to determine design specifications or details.
+4.A.4.a.2	4.A.4.a.2.I09	4.A.4.a.2.I09.D08	Consult with others regarding safe or healthy equipment or facilities.
+4.A.4.a.2	4.A.4.a.2.I09	4.A.4.a.2.I09.D09	Communicate project information to others.
+4.A.4.a.2	4.A.4.a.2.I10	4.A.4.a.2.I10.D01	Signal others to coordinate vehicle movement.
+4.A.4.a.2	4.A.4.a.2.I10	4.A.4.a.2.I10.D02	Signal others to coordinate work activities.
+4.A.4.a.2	4.A.4.a.2.I10	4.A.4.a.2.I10.D03	Signal equipment operators to indicate proper equipment positioning.
+4.A.4.a.2	4.A.4.a.2.I11	4.A.4.a.2.I11.D01	Communicate with government agencies.
+4.A.4.a.2	4.A.4.a.2.I11	4.A.4.a.2.I11.D02	Communicate technical information to suppliers, contractors, or regulatory agencies.
+4.A.4.a.2	4.A.4.a.2.I11	4.A.4.a.2.I11.D03	Collaborate with outside groups to develop programs or projects.
+4.A.4.a.2	4.A.4.a.2.I11	4.A.4.a.2.I11.D04	Coordinate with external parties to exchange information.
+4.A.4.a.2	4.A.4.a.2.I11	4.A.4.a.2.I11.D05	Collaborate with law enforcement or security agencies to share information.
+4.A.4.a.2	4.A.4.a.2.I11	4.A.4.a.2.I11.D06	Coordinate operational activities with external stakeholders.
+4.A.4.a.2	4.A.4.a.2.I11	4.A.4.a.2.I11.D07	Coordinate activities with suppliers, contractors, clients, or other departments.
+4.A.4.a.2	4.A.4.a.2.I11	4.A.4.a.2.I11.D08	Confer with others about financial matters.
+4.A.4.a.2	4.A.4.a.2.I11	4.A.4.a.2.I11.D09	Represent the organization in external relations.
+4.A.4.a.2	4.A.4.a.2.I11	4.A.4.a.2.I11.D10	Collaborate with law enforcement or security agencies to respond to incidents.
+4.A.4.a.2	4.A.4.a.2.I12	4.A.4.a.2.I12.D01	Meet with individuals involved in legal processes to provide information and clarify issues.
+4.A.4.a.2	4.A.4.a.2.I12	4.A.4.a.2.I12.D02	Confer with court staff to clarify information.
+4.A.4.a.2	4.A.4.a.2.I13	4.A.4.a.2.I13.D01	Discuss service options or needs with clients.
+4.A.4.a.2	4.A.4.a.2.I13	4.A.4.a.2.I13.D02	Confer with clients to exchange information.
+4.A.4.a.2	4.A.4.a.2.I13	4.A.4.a.2.I13.D03	Confer with clients to determine needs.
+4.A.4.a.2	4.A.4.a.2.I13	4.A.4.a.2.I13.D04	Confer with customers or users to assess problems.
+4.A.4.a.2	4.A.4.a.2.I13	4.A.4.a.2.I13.D05	Confer with customers or designers to determine order specifications.
+4.A.4.a.2	4.A.4.a.2.I13	4.A.4.a.2.I13.D06	Discuss designs or plans with clients.
+4.A.4.a.3	4.A.4.a.3.I01	4.A.4.a.3.I01.D01	Testify at legal or legislative proceedings.
+4.A.4.a.3	4.A.4.a.3.I01	4.A.4.a.3.I01.D02	Represent the interests of clients in legal proceedings.
+4.A.4.a.3	4.A.4.a.3.I02	4.A.4.a.3.I02.D01	Communicate health and wellness information to the public.
+4.A.4.a.3	4.A.4.a.3.I02	4.A.4.a.3.I02.D02	Present sustainable products or services information to the public.
+4.A.4.a.3	4.A.4.a.3.I02	4.A.4.a.3.I02.D03	Present information to the public.
+4.A.4.a.3	4.A.4.a.3.I02	4.A.4.a.3.I02.D04	Provide educational information to the public.
+4.A.4.a.3	4.A.4.a.3.I02	4.A.4.a.3.I02.D05	Provide technical information or assistance to public.
+4.A.4.a.3	4.A.4.a.3.I02	4.A.4.a.3.I02.D06	Explain project details to the general public.
+4.A.4.a.3	4.A.4.a.3.I02	4.A.4.a.3.I02.D07	Report news to the public.
+4.A.4.a.3	4.A.4.a.3.I02	4.A.4.a.3.I02.D08	Provide information to the general public.
+4.A.4.a.3	4.A.4.a.3.I02	4.A.4.a.3.I02.D09	Present social services program information to the public.
+4.A.4.a.3	4.A.4.a.3.I02	4.A.4.a.3.I02.D10	Inform viewers, listeners, or audiences.
+4.A.4.a.3	4.A.4.a.3.I03	4.A.4.a.3.I03.D01	Present food or beverage information or menus to customers.
+4.A.4.a.3	4.A.4.a.3.I03	4.A.4.a.3.I03.D02	Present business-related information to audiences.
+4.A.4.a.3	4.A.4.a.3.I03	4.A.4.a.3.I03.D03	Provide attraction or event information to patrons.
+4.A.4.a.3	4.A.4.a.3.I03	4.A.4.a.3.I03.D04	Discuss account status or activity with customers or patrons.
+4.A.4.a.3	4.A.4.a.3.I03	4.A.4.a.3.I03.D05	Provide customer service to clients or users.
+4.A.4.a.3	4.A.4.a.3.I03	4.A.4.a.3.I03.D06	Inform individuals or organizations of status or findings.
+4.A.4.a.3	4.A.4.a.3.I03	4.A.4.a.3.I03.D07	Provide notifications to customers or patrons.
+4.A.4.a.3	4.A.4.a.3.I03	4.A.4.a.3.I03.D08	Provide customers with general information or assistance.
+4.A.4.a.3	4.A.4.a.3.I03	4.A.4.a.3.I03.D09	Provide basic information to guests, visitors, or clients.
+4.A.4.a.3	4.A.4.a.3.I03	4.A.4.a.3.I03.D10	Provide patrons with directions to locales or attractions.
+4.A.4.a.3	4.A.4.a.3.I03	4.A.4.a.3.I03.D11	Answer telephones to direct calls or provide information.
+4.A.4.a.3	4.A.4.a.3.I03	4.A.4.a.3.I03.D12	Provide transportation information to passengers or customers.
+4.A.4.a.4	4.A.4.a.4.I01	4.A.4.a.4.I01.D01	Develop collaborative relationships between departments or with external organizations.
+4.A.4.a.4	4.A.4.a.4.I01	4.A.4.a.4.I01.D02	Develop business relationships.
+4.A.4.a.4	4.A.4.a.4.I01	4.A.4.a.4.I01.D03	Develop working relationships with others to facilitate program activities.
+4.A.4.a.4	4.A.4.a.4.I01	4.A.4.a.4.I01.D04	Establish interpersonal business relationships to facilitate work activities.
+4.A.4.a.4	4.A.4.a.4.I01	4.A.4.a.4.I01.D05	Develop professional relationships or networks.
+4.A.4.a.5	4.A.4.a.5.I01	4.A.4.a.5.I01.D01	Refer customers to appropriate personnel.
+4.A.4.a.5	4.A.4.a.5.I01	4.A.4.a.5.I01.D02	Refer patients to other healthcare practitioners or health resources.
+4.A.4.a.5	4.A.4.a.5.I01	4.A.4.a.5.I01.D03	Help clients get needed services or resources.
+4.A.4.a.5	4.A.4.a.5.I01	4.A.4.a.5.I01.D04	Arrange physical or mental health services for clients.
+4.A.4.a.5	4.A.4.a.5.I01	4.A.4.a.5.I01.D05	Refer individuals to educational or work programs.
+4.A.4.a.5	4.A.4.a.5.I01	4.A.4.a.5.I01.D06	Refer clients to community or social service programs.
+4.A.4.a.5	4.A.4.a.5.I02	4.A.4.a.5.I02.D01	Treat patients using psychological therapies.
+4.A.4.a.5	4.A.4.a.5.I02	4.A.4.a.5.I02.D02	Implement therapeutic programs to improve patient functioning.
+4.A.4.a.5	4.A.4.a.5.I02	4.A.4.a.5.I02.D03	Administer therapy treatments to patients using hands or physical treatment aids.
+4.A.4.a.5	4.A.4.a.5.I02	4.A.4.a.5.I02.D04	Administer therapeutic massages.
+4.A.4.a.5	4.A.4.a.5.I02	4.A.4.a.5.I02.D05	Treat patients using physical therapy techniques.
+4.A.4.a.5	4.A.4.a.5.I03	4.A.4.a.5.I03.D01	Give medications or immunizations.
+4.A.4.a.5	4.A.4.a.5.I03	4.A.4.a.5.I03.D02	Administer basic health care or medical treatments.
+4.A.4.a.5	4.A.4.a.5.I03	4.A.4.a.5.I03.D03	Administer anesthetics or sedatives to control pain.
+4.A.4.a.5	4.A.4.a.5.I03	4.A.4.a.5.I03.D04	Care for women during pregnancy and childbirth.
+4.A.4.a.5	4.A.4.a.5.I03	4.A.4.a.5.I03.D05	Provide basic health care services.
+4.A.4.a.5	4.A.4.a.5.I03	4.A.4.a.5.I03.D06	Administer non-intravenous medications.
+4.A.4.a.5	4.A.4.a.5.I03	4.A.4.a.5.I03.D07	Immunize patients.
+4.A.4.a.5	4.A.4.a.5.I03	4.A.4.a.5.I03.D08	Administer intravenous medications.
+4.A.4.a.5	4.A.4.a.5.I03	4.A.4.a.5.I03.D09	Administer blood or other fluids intravenously.
+4.A.4.a.5	4.A.4.a.5.I03	4.A.4.a.5.I03.D10	Administer medical substances for imaging or other procedures.
+4.A.4.a.5	4.A.4.a.5.I03	4.A.4.a.5.I03.D11	Apply bandages, dressings, or splints.
+4.A.4.a.5	4.A.4.a.5.I04	4.A.4.a.5.I04.D01	Care for plants or animals.
+4.A.4.a.5	4.A.4.a.5.I04	4.A.4.a.5.I04.D02	Care for animals.
+4.A.4.a.5	4.A.4.a.5.I04	4.A.4.a.5.I04.D03	Perform animal breeding procedures.
+4.A.4.a.5	4.A.4.a.5.I04	4.A.4.a.5.I04.D04	Provide care for animals.
+4.A.4.a.5	4.A.4.a.5.I05	4.A.4.a.5.I05.D01	Rescue people from hazardous situations.
+4.A.4.a.5	4.A.4.a.5.I05	4.A.4.a.5.I05.D02	Respond to emergencies to provide assistance.
+4.A.4.a.5	4.A.4.a.5.I05	4.A.4.a.5.I05.D03	Respond to transportation emergencies.
+4.A.4.a.5	4.A.4.a.5.I05	4.A.4.a.5.I05.D04	Assist others during emergencies.
+4.A.4.a.5	4.A.4.a.5.I06	4.A.4.a.5.I06.D01	Fit eyeglasses, contact lenses, or other vision aids.
+4.A.4.a.5	4.A.4.a.5.I06	4.A.4.a.5.I06.D02	Fit patients for assistive devices.
+4.A.4.a.5	4.A.4.a.5.I07	4.A.4.a.5.I07.D01	Provide first aid or rescue assistance in emergencies.
+4.A.4.a.5	4.A.4.a.5.I07	4.A.4.a.5.I07.D02	Administer first aid.
+4.A.4.a.5	4.A.4.a.5.I07	4.A.4.a.5.I07.D03	Treat medical emergencies.
+4.A.4.a.5	4.A.4.a.5.I07	4.A.4.a.5.I07.D04	Implement advanced life support techniques.
+4.A.4.a.5	4.A.4.a.5.I08	4.A.4.a.5.I08.D01	Assist individuals with paperwork.
+4.A.4.a.5	4.A.4.a.5.I09	4.A.4.a.5.I09.D01	Feed patients.
+4.A.4.a.5	4.A.4.a.5.I09	4.A.4.a.5.I09.D02	Assist patients with hygiene or daily living activities.
+4.A.4.a.5	4.A.4.a.5.I09	4.A.4.a.5.I09.D03	Assist clients in handling details of daily life.
+4.A.4.a.5	4.A.4.a.5.I09	4.A.4.a.5.I09.D04	Develop daily schedules for children or families.
+4.A.4.a.5	4.A.4.a.5.I09	4.A.4.a.5.I09.D05	Assist students with special educational needs.
+4.A.4.a.5	4.A.4.a.5.I09	4.A.4.a.5.I09.D06	Assist disabled or incapacitated individuals.
+4.A.4.a.5	4.A.4.a.5.I09	4.A.4.a.5.I09.D07	Assist individuals with special needs.
+4.A.4.a.5	4.A.4.a.5.I09	4.A.4.a.5.I09.D08	Provide for basic needs of children.
+4.A.4.a.5	4.A.4.a.5.I09	4.A.4.a.5.I09.D09	Assist patients with daily activities.
+4.A.4.a.5	4.A.4.a.5.I10	4.A.4.a.5.I10.D01	Assist motorists or pedestrians.
+4.A.4.a.5	4.A.4.a.5.I10	4.A.4.a.5.I10.D02	Greet customers, patrons, or visitors.
+4.A.4.a.5	4.A.4.a.5.I10	4.A.4.a.5.I10.D03	Assist customers to ensure comfort or safety.
+4.A.4.a.5	4.A.4.a.5.I10	4.A.4.a.5.I10.D04	Assist patrons with entering or exiting vehicles or other forms of transportation.
+4.A.4.a.5	4.A.4.a.5.I10	4.A.4.a.5.I10.D05	Make travel, accommodations, or entertainment arrangements for others.
+4.A.4.a.5	4.A.4.a.5.I10	4.A.4.a.5.I10.D06	Assist passengers during vehicle boarding.
+4.A.4.a.5	4.A.4.a.5.I10	4.A.4.a.5.I10.D07	Help patrons use library or archival resources.
+4.A.4.a.5	4.A.4.a.5.I10	4.A.4.a.5.I10.D08	Assist customers with seating arrangements.
+4.A.4.a.5	4.A.4.a.5.I10	4.A.4.a.5.I10.D09	Arrange services or reservations for patrons.
+4.A.4.a.5	4.A.4.a.5.I10	4.A.4.a.5.I10.D10	Assist customers with product selection.
+4.A.4.a.5	4.A.4.a.5.I11	4.A.4.a.5.I11.D01	Assist practitioners to perform medical procedures.
+4.A.4.a.5	4.A.4.a.5.I11	4.A.4.a.5.I11.D02	Hold patients to ensure proper positioning or safety.
+4.A.4.a.5	4.A.4.a.5.I11	4.A.4.a.5.I11.D03	Adjust positions of patients on beds or tables.
+4.A.4.a.5	4.A.4.a.5.I11	4.A.4.a.5.I11.D04	Position patients for treatment or examination.
+4.A.4.a.5	4.A.4.a.5.I11	4.A.4.a.5.I11.D05	Assist healthcare practitioners during examinations or treatments.
+4.A.4.a.5	4.A.4.a.5.I11	4.A.4.a.5.I11.D06	Assist healthcare practitioners during surgery.
+4.A.4.a.5	4.A.4.a.5.I11	4.A.4.a.5.I11.D07	Prepare patients physically for medical procedures.
+4.A.4.a.5	4.A.4.a.5.I11	4.A.4.a.5.I11.D08	Maintain sterile operative fields.
+4.A.4.a.5	4.A.4.a.5.I12	4.A.4.a.5.I12.D01	Care for patients with mental illnesses.
+4.A.4.a.5	4.A.4.a.5.I12	4.A.4.a.5.I12.D02	Treat acute illnesses, infections, or injuries.
+4.A.4.a.5	4.A.4.a.5.I12	4.A.4.a.5.I12.D03	Operate on patients to treat conditions.
+4.A.4.a.5	4.A.4.a.5.I12	4.A.4.a.5.I12.D04	Treat dental problems or diseases.
+4.A.4.a.5	4.A.4.a.5.I12	4.A.4.a.5.I12.D05	Treat animal injuries or illnesses.
+4.A.4.a.5	4.A.4.a.5.I12	4.A.4.a.5.I12.D06	Administer cancer treatments.
+4.A.4.a.5	4.A.4.a.5.I12	4.A.4.a.5.I12.D07	Treat chronic diseases or disorders.
+4.A.4.a.5	4.A.4.a.5.I12	4.A.4.a.5.I12.D08	Treat patients using alternative medical procedures.
+4.A.4.a.6	4.A.4.a.6.I01	4.A.4.a.6.I01.D01	Advocate for individual or community needs.
+4.A.4.a.6	4.A.4.a.6.I02	4.A.4.a.6.I02.D01	Merchandise healthcare products or services.
+4.A.4.a.6	4.A.4.a.6.I02	4.A.4.a.6.I02.D02	Sell agricultural products.
+4.A.4.a.6	4.A.4.a.6.I02	4.A.4.a.6.I02.D03	Customize financial products or services to meet customer needs.
+4.A.4.a.6	4.A.4.a.6.I02	4.A.4.a.6.I02.D04	Contract real estate to clients.
+4.A.4.a.6	4.A.4.a.6.I02	4.A.4.a.6.I02.D05	Sell products or services.
+4.A.4.a.6	4.A.4.a.6.I02	4.A.4.a.6.I02.D06	Customize energy products or services to meet customer needs.
+4.A.4.a.6	4.A.4.a.6.I03	4.A.4.a.6.I03.D01	Perform marketing activities.
+4.A.4.a.6	4.A.4.a.6.I03	4.A.4.a.6.I03.D02	Demonstrate products to consumers.
+4.A.4.a.6	4.A.4.a.6.I03	4.A.4.a.6.I03.D03	Promote environmental sustainability or conservation initiatives.
+4.A.4.a.6	4.A.4.a.6.I03	4.A.4.a.6.I03.D04	Market products, services, or events.
+4.A.4.a.6	4.A.4.a.6.I03	4.A.4.a.6.I03.D05	Contact current or potential customers to promote products or services.
+4.A.4.a.6	4.A.4.a.6.I03	4.A.4.a.6.I03.D06	Promote educational institutions or programs.
+4.A.4.a.6	4.A.4.a.6.I03	4.A.4.a.6.I03.D07	Deliver promotional presentations to current or prospective customers.
+4.A.4.a.6	4.A.4.a.6.I03	4.A.4.a.6.I03.D08	Promote agricultural or hunting activities.
+4.A.4.a.6	4.A.4.a.6.I03	4.A.4.a.6.I03.D09	Distribute promotional literature or samples to customers.
+4.A.4.a.6	4.A.4.a.6.I03	4.A.4.a.6.I03.D10	Promote products, activities, or organizations.
+4.A.4.a.6	4.A.4.a.6.I03	4.A.4.a.6.I03.D11	Model cosmetics, clothing, or accessories.
+4.A.4.a.6	4.A.4.a.6.I03	4.A.4.a.6.I03.D12	Promote products, services, or programs.
+4.A.4.a.7	4.A.4.a.7.I01	4.A.4.a.7.I01.D01	Resolve interpersonal conflicts.
+4.A.4.a.7	4.A.4.a.7.I01	4.A.4.a.7.I01.D02	Arbitrate disputes between parties to resolve legal conflicts.
+4.A.4.a.7	4.A.4.a.7.I01	4.A.4.a.7.I01.D03	Mediate disputes.
+4.A.4.a.7	4.A.4.a.7.I02	4.A.4.a.7.I02.D01	Negotiate sales or lease agreements for products or services.
+4.A.4.a.7	4.A.4.a.7.I02	4.A.4.a.7.I02.D02	Arrange collective bargaining agreements.
+4.A.4.a.7	4.A.4.a.7.I02	4.A.4.a.7.I02.D03	Negotiate labor disputes.
+4.A.4.a.7	4.A.4.a.7.I02	4.A.4.a.7.I02.D04	Negotiate contracts for transportation, distribution, or logistics services.
+4.A.4.a.7	4.A.4.a.7.I02	4.A.4.a.7.I02.D05	Negotiate purchases or contracts.
+4.A.4.a.7	4.A.4.a.7.I02	4.A.4.a.7.I02.D06	Negotiate financial arrangements.
+4.A.4.a.7	4.A.4.a.7.I02	4.A.4.a.7.I02.D07	Negotiate prices or other sales terms.
+4.A.4.a.7	4.A.4.a.7.I02	4.A.4.a.7.I02.D08	Negotiate contracts for environmental remediation, green energy, or renewable resources.
+4.A.4.a.7	4.A.4.a.7.I02	4.A.4.a.7.I02.D09	Negotiate agreements to resolve disputes.
+4.A.4.a.7	4.A.4.a.7.I02	4.A.4.a.7.I02.D10	Negotiate contracts with clients or service providers.
+4.A.4.a.7	4.A.4.a.7.I02	4.A.4.a.7.I02.D11	Negotiate project specifications.
+4.A.4.a.7	4.A.4.a.7.I02	4.A.4.a.7.I02.D12	Negotiate for services.
+4.A.4.a.7	4.A.4.a.7.I03	4.A.4.a.7.I03.D01	Resolve employee or contractor problems.
+4.A.4.a.7	4.A.4.a.7.I03	4.A.4.a.7.I03.D02	Resolve operational performance problems.
+4.A.4.a.7	4.A.4.a.7.I03	4.A.4.a.7.I03.D03	Resolve personnel problems.
+4.A.4.a.7	4.A.4.a.7.I03	4.A.4.a.7.I03.D04	Resolve issues affecting transportation operations.
+4.A.4.a.8	4.A.4.a.8.I01	4.A.4.a.8.I01.D01	Audition for roles.
+4.A.4.a.8	4.A.4.a.8.I01	4.A.4.a.8.I01.D02	Perform for recordings.
+4.A.4.a.8	4.A.4.a.8.I01	4.A.4.a.8.I01.D03	Perform music for the public.
+4.A.4.a.8	4.A.4.a.8.I01	4.A.4.a.8.I01.D04	Collaborate with others to prepare or perform artistic productions.
+4.A.4.a.8	4.A.4.a.8.I01	4.A.4.a.8.I01.D05	Entertain public with comedic or dramatic performances.
+4.A.4.a.8	4.A.4.a.8.I01	4.A.4.a.8.I01.D06	Perform dances.
+4.A.4.a.8	4.A.4.a.8.I02	4.A.4.a.8.I02.D01	Operate gaming equipment.
+4.A.4.a.8	4.A.4.a.8.I02	4.A.4.a.8.I02.D02	Conduct amusement or gaming activities.
+4.A.4.a.8	4.A.4.a.8.I03	4.A.4.a.8.I03.D01	Respond to customer problems or complaints.
+4.A.4.a.8	4.A.4.a.8.I03	4.A.4.a.8.I03.D02	Respond to customer inquiries.
+4.A.4.a.8	4.A.4.a.8.I03	4.A.4.a.8.I03.D03	Answer customer questions about goods or services.
+4.A.4.a.8	4.A.4.a.8.I03	4.A.4.a.8.I03.D04	Communicate with customers to resolve complaints or ensure satisfaction.
+4.A.4.a.8	4.A.4.a.8.I03	4.A.4.a.8.I03.D05	Resolve customer complaints or problems.
+4.A.4.a.8	4.A.4.a.8.I03	4.A.4.a.8.I03.D06	Correspond with customers to answer questions or resolve complaints.
+4.A.4.b.3	4.A.4.b.3.I01	4.A.4.b.3.I01.D01	Teach basic living or other adaptive skills to patients or caregivers.
+4.A.4.b.3	4.A.4.b.3.I01	4.A.4.b.3.I01.D02	Teach life skills or strategies to clients or their families.
+4.A.4.b.3	4.A.4.b.3.I01	4.A.4.b.3.I01.D03	Teach daily living skills or behaviors.
+4.A.4.b.3	4.A.4.b.3.I01	4.A.4.b.3.I01.D04	Teach life skills.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D01	Teach vocational courses.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D02	Teach classes in area of specialization.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D03	Teach social science courses at the college level.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D04	Lead classes or community events.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D05	Guide class discussions.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D06	Apply multiple teaching methods.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D07	Teach online courses.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D08	Instruct college students in social sciences or humanities disciplines.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D09	Instruct college students in physical or life sciences.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D10	Tutor students who need extra assistance.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D11	Teach humanities courses at the college level.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D12	Teach physical science or mathematics courses at the college level.
+4.A.4.b.3	4.A.4.b.3.I02	4.A.4.b.3.I02.D13	Read to students.
+4.A.4.b.3	4.A.4.b.3.I03	4.A.4.b.3.I03.D01	Educate the public about fire safety or prevention.
+4.A.4.b.3	4.A.4.b.3.I03	4.A.4.b.3.I03.D02	Teach safety standards or environmental compliance methods.
+4.A.4.b.3	4.A.4.b.3.I03	4.A.4.b.3.I03.D03	Provide safety training.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D01	Train personnel to enhance job skills.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D02	Train personnel on proper operational procedures.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D03	Train others in operational procedures.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D04	Train personnel.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D05	Train sales personnel.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D06	Instruct staff in work policies or procedures.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D07	Train others on performance techniques.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D08	Train staff members.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D09	Train workers in farming, forestry, or hunting techniques.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D10	Train food preparation or food service personnel.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D11	Train employees on environmental awareness, conservation, or safety topics.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D12	Train personnel in organizational or compliance procedures.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D13	Train construction or extraction personnel.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D14	Train employees in proper work procedures.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D15	Train personnel in technical or scientific procedures.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D16	Conduct employee training programs.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D17	Train personnel on managerial topics.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D18	Train others on work processes.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D19	Train transportation or material moving personnel.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D20	Train service staff.
+4.A.4.b.3	4.A.4.b.3.I04	4.A.4.b.3.I04.D21	Train staff members in social services skills.
+4.A.4.b.3	4.A.4.b.3.I05	4.A.4.b.3.I05.D01	Instruct workers to use equipment or perform technical procedures.
+4.A.4.b.3	4.A.4.b.3.I05	4.A.4.b.3.I05.D02	Instruct patients in the use of assistive equipment.
+4.A.4.b.3	4.A.4.b.3.I05	4.A.4.b.3.I05.D03	Teach others to use computer equipment or hardware.
+4.A.4.b.3	4.A.4.b.3.I05	4.A.4.b.3.I05.D04	Train others in computer interface or software use.
+4.A.4.b.3	4.A.4.b.3.I05	4.A.4.b.3.I05.D05	Teach others to use technology or equipment.
+4.A.4.b.3	4.A.4.b.3.I05	4.A.4.b.3.I05.D06	Demonstrate activity techniques or equipment use.
+4.A.4.b.3	4.A.4.b.3.I05	4.A.4.b.3.I05.D07	Train customers in the use of products.
+4.A.4.b.3	4.A.4.b.3.I06	4.A.4.b.3.I06.D01	Teach exercise or fitness techniques.
+4.A.4.b.3	4.A.4.b.3.I06	4.A.4.b.3.I06.D02	Engage patients in exercises or activities.
+4.A.4.b.3	4.A.4.b.3.I06	4.A.4.b.3.I06.D03	Teach physical education.
+4.A.4.b.3	4.A.4.b.3.I06	4.A.4.b.3.I06.D04	Teach medical procedures or medical equipment use to patients.
+4.A.4.b.3	4.A.4.b.3.I06	4.A.4.b.3.I06.D05	Train patients, family members, or caregivers in techniques for managing disabilities or illnesses.
+4.A.4.b.3	4.A.4.b.3.I06	4.A.4.b.3.I06.D06	Conduct health or safety training programs.
+4.A.4.b.3	4.A.4.b.3.I06	4.A.4.b.3.I06.D07	Teach health or hygiene practices.
+4.A.4.b.3	4.A.4.b.3.I06	4.A.4.b.3.I06.D08	Train medical providers.
+4.A.4.b.3	4.A.4.b.3.I06	4.A.4.b.3.I06.D09	Teach health management classes.
+4.A.4.b.3	4.A.4.b.3.I06	4.A.4.b.3.I06.D10	Teach medical procedures to healthcare personnel.
+4.A.4.b.3	4.A.4.b.3.I06	4.A.4.b.3.I06.D11	Train caregivers or other non-medical personnel.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D01	Supervise maintenance workers.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D02	Supervise engineering or other technical personnel.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D03	Supervise trainees.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D04	Supervise service workers.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D05	Supervise production or support personnel.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D06	Direct activities of subordinates.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D07	Supervise information technology personnel.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D08	Supervise clerical or administrative personnel.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D09	Supervise activities of other legal personnel.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D10	Supervise scientific or technical personnel.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D11	Supervise medical support personnel.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D12	Supervise workers providing client or patient services.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D13	Supervise employees.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D14	Supervise patient care personnel.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D15	Supervise technical medical personnel.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D16	Supervise sales or support personnel.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D17	Supervise laboratory work.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D18	Supervise student research or internship work.
+4.A.4.b.4	4.A.4.b.4.I01	4.A.4.b.4.I01.D19	Supervise workers performing environmentally sustainable activities.
+4.A.4.b.4	4.A.4.b.4.I02	4.A.4.b.4.I02.D01	Serve on institutional or departmental committees.
+4.A.4.b.4	4.A.4.b.4.I03	4.A.4.b.4.I03.D01	Manage content of broadcasts or presentations.
+4.A.4.b.4	4.A.4.b.4.I03	4.A.4.b.4.I03.D02	Direct productions or performances.
+4.A.4.b.4	4.A.4.b.4.I03	4.A.4.b.4.I03.D03	Coordinate musical rehearsals or performances.
+4.A.4.b.4	4.A.4.b.4.I03	4.A.4.b.4.I03.D04	Coordinate athletic or sporting events or activities.
+4.A.4.b.4	4.A.4.b.4.I03	4.A.4.b.4.I03.D05	Coordinate artistic activities.
+4.A.4.b.4	4.A.4.b.4.I04	4.A.4.b.4.I04.D01	Coordinate forestry or agricultural activities.
+4.A.4.b.4	4.A.4.b.4.I04	4.A.4.b.4.I04.D02	Manage agricultural or forestry operations.
+4.A.4.b.4	4.A.4.b.4.I04	4.A.4.b.4.I04.D03	Direct activities of agricultural, forestry, or fishery employees.
+4.A.4.b.4	4.A.4.b.4.I05	4.A.4.b.4.I05.D01	Supervise inmate activities.
+4.A.4.b.4	4.A.4.b.4.I05	4.A.4.b.4.I05.D02	Count prison inmates or personnel.
+4.A.4.b.4	4.A.4.b.4.I06	4.A.4.b.4.I06.D01	Direct surveying activities.
+4.A.4.b.4	4.A.4.b.4.I06	4.A.4.b.4.I06.D02	Direct technical activities or operations.
+4.A.4.b.4	4.A.4.b.4.I06	4.A.4.b.4.I06.D03	Coordinate design activities.
+4.A.4.b.4	4.A.4.b.4.I06	4.A.4.b.4.I06.D04	Coordinate software or hardware installation.
+4.A.4.b.4	4.A.4.b.4.I06	4.A.4.b.4.I06.D05	Direct scientific activities.
+4.A.4.b.4	4.A.4.b.4.I06	4.A.4.b.4.I06.D06	Direct natural resources management or conservation programs.
+4.A.4.b.4	4.A.4.b.4.I06	4.A.4.b.4.I06.D07	Manage information technology projects or system activities.
+4.A.4.b.4	4.A.4.b.4.I06	4.A.4.b.4.I06.D08	Manage scientific or technical project resources.
+4.A.4.b.4	4.A.4.b.4.I06	4.A.4.b.4.I06.D09	Direct medical science or healthcare programs.
+4.A.4.b.4	4.A.4.b.4.I06	4.A.4.b.4.I06.D10	Direct design or development activities.
+4.A.4.b.4	4.A.4.b.4.I06	4.A.4.b.4.I06.D11	Coordinate cross-disciplinary research programs.
+4.A.4.b.4	4.A.4.b.4.I07	4.A.4.b.4.I07.D01	Coordinate training activities.
+4.A.4.b.4	4.A.4.b.4.I07	4.A.4.b.4.I07.D02	Coordinate personnel recruitment activities.
+4.A.4.b.4	4.A.4.b.4.I07	4.A.4.b.4.I07.D03	Direct employee training programs.
+4.A.4.b.4	4.A.4.b.4.I07	4.A.4.b.4.I07.D04	Manage human resources activities.
+4.A.4.b.4	4.A.4.b.4.I08	4.A.4.b.4.I08.D01	Direct quality control activities.
+4.A.4.b.4	4.A.4.b.4.I08	4.A.4.b.4.I08.D02	Coordinate flight control or management activities.
+4.A.4.b.4	4.A.4.b.4.I08	4.A.4.b.4.I08.D03	Manage control system activities in organizations.
+4.A.4.b.4	4.A.4.b.4.I09	4.A.4.b.4.I09.D01	Manage budgets for personal services operations.
+4.A.4.b.4	4.A.4.b.4.I09	4.A.4.b.4.I09.D02	Direct financial operations.
+4.A.4.b.4	4.A.4.b.4.I09	4.A.4.b.4.I09.D03	Direct fundraising or financing activities.
+4.A.4.b.4	4.A.4.b.4.I09	4.A.4.b.4.I09.D04	Prepare operational budgets.
+4.A.4.b.4	4.A.4.b.4.I09	4.A.4.b.4.I09.D05	Manage organizational or project budgets.
+4.A.4.b.4	4.A.4.b.4.I09	4.A.4.b.4.I09.D06	Manage financial activities of the organization.
+4.A.4.b.4	4.A.4.b.4.I09	4.A.4.b.4.I09.D07	Manage budgets for appropriate resource allocation.
+4.A.4.b.4	4.A.4.b.4.I09	4.A.4.b.4.I09.D08	Manage organizational or program finances.
+4.A.4.b.4	4.A.4.b.4.I09	4.A.4.b.4.I09.D09	Prepare operational budgets for green energy or other green operations.
+4.A.4.b.4	4.A.4.b.4.I09	4.A.4.b.4.I09.D10	Prepare project budgets.
+4.A.4.b.4	4.A.4.b.4.I10	4.A.4.b.4.I10.D01	Direct natural resources extraction projects.
+4.A.4.b.4	4.A.4.b.4.I10	4.A.4.b.4.I10.D02	Direct construction or extraction personnel.
+4.A.4.b.4	4.A.4.b.4.I10	4.A.4.b.4.I10.D03	Direct construction activities.
+4.A.4.b.4	4.A.4.b.4.I10	4.A.4.b.4.I10.D04	Direct installation activities.
+4.A.4.b.4	4.A.4.b.4.I10	4.A.4.b.4.I10.D05	Coordinate construction project activities.
+4.A.4.b.4	4.A.4.b.4.I10	4.A.4.b.4.I10.D06	Coordinate construction or installation activities.
+4.A.4.b.4	4.A.4.b.4.I10	4.A.4.b.4.I10.D07	Manage construction activities.
+4.A.4.b.4	4.A.4.b.4.I11	4.A.4.b.4.I11.D01	Organize recreational activities or events.
+4.A.4.b.4	4.A.4.b.4.I11	4.A.4.b.4.I11.D02	Coordinate student extracurricular activities.
+4.A.4.b.4	4.A.4.b.4.I11	4.A.4.b.4.I11.D03	Coordinate special events or programs.
+4.A.4.b.4	4.A.4.b.4.I11	4.A.4.b.4.I11.D04	Host events.
+4.A.4.b.4	4.A.4.b.4.I11	4.A.4.b.4.I11.D05	Organize special events.
+4.A.4.b.4	4.A.4.b.4.I11	4.A.4.b.4.I11.D06	Manage outreach activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D01	Direct operational or production activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D02	Direct environmental development activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D03	Direct sales, marketing, or customer service activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D04	Direct equipment maintenance or repair activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D05	Coordinate sales campaigns.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D06	Direct funeral or mortuary activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D07	Manage environmental sustainability projects.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D08	Oversee business processes.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D09	Coordinate logistics or other business operations.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D10	Direct green energy production operations.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D11	Manage guest services.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D12	Manage operations, research, or logistics projects.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D13	Coordinate activities of food service staff.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D14	Direct operations of correctional facilities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D15	Coordinate timing of food production activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D16	Coordinate shipping activities with external parties.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D17	Direct administrative or support services.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D18	Manage operations of artistic or entertainment departments or organizations.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D19	Coordinate activities of production personnel.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D20	Coordinate logistics for productions or events.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D21	Direct maintenance or repair activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D22	Manage food service operations or parts of operations.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D23	Direct healthcare delivery programs.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D24	Direct industrial production activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D25	Direct maintenance and repair activities in green energy production facilities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D26	Direct energy production or management activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D27	Direct facility maintenance or repair activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D28	Manage clerical or administrative activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D29	Arrange delivery of goods or services.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D30	Direct passenger or freight transport activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D31	Direct material handling or moving activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D32	Coordinate project activities with other personnel or departments.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D33	Direct department activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D34	Coordinate reporting or editing activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D35	Manage preparation of special meals or diets.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D36	Coordinate resource procurement activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D37	Coordinate operational activities.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D38	Manage healthcare operations.
+4.A.4.b.4	4.A.4.b.4.I12	4.A.4.b.4.I12.D39	Direct organizational operations, projects, or services.
+4.A.4.b.4	4.A.4.b.4.I13	4.A.4.b.4.I13.D01	Plan employee work schedules.
+4.A.4.b.4	4.A.4.b.4.I13	4.A.4.b.4.I13.D02	Prepare staff schedules or work assignments.
+4.A.4.b.4	4.A.4.b.4.I13	4.A.4.b.4.I13.D03	Prepare activity or work schedules.
+4.A.4.b.4	4.A.4.b.4.I13	4.A.4.b.4.I13.D04	Prepare employee work schedules.
+4.A.4.b.4	4.A.4.b.4.I13	4.A.4.b.4.I13.D05	Assign class work to students.
+4.A.4.b.4	4.A.4.b.4.I13	4.A.4.b.4.I13.D06	Assign duties or work schedules to employees.
+4.A.4.b.4	4.A.4.b.4.I14	4.A.4.b.4.I14.D01	Coordinate regulatory documentation activities.
+4.A.4.b.4	4.A.4.b.4.I14	4.A.4.b.4.I14.D02	Coordinate safety or regulatory compliance activities.
+4.A.4.b.4	4.A.4.b.4.I14	4.A.4.b.4.I14.D03	Manage documentation to ensure organization or accuracy.
+4.A.4.b.4	4.A.4.b.4.I15	4.A.4.b.4.I15.D01	Direct emergency management activities.
+4.A.4.b.4	4.A.4.b.4.I15	4.A.4.b.4.I15.D02	Manage organizational security activities.
+4.A.4.b.4	4.A.4.b.4.I15	4.A.4.b.4.I15.D03	Direct fire fighting or prevention activities.
+4.A.4.b.4	4.A.4.b.4.I15	4.A.4.b.4.I15.D04	Coordinate enforcement of laws or regulations.
+4.A.4.b.4	4.A.4.b.4.I15	4.A.4.b.4.I15.D05	Direct security operations.
+4.A.4.b.4	4.A.4.b.4.I16	4.A.4.b.4.I16.D01	Direct criminal investigations.
+4.A.4.b.4	4.A.4.b.4.I16	4.A.4.b.4.I16.D02	Direct law enforcement activities.
+4.A.4.b.4	4.A.4.b.4.I16	4.A.4.b.4.I16.D03	Coordinate legal schedules or activities.
+4.A.4.b.4	4.A.4.b.4.I16	4.A.4.b.4.I16.D04	Direct courtroom activities or procedures.
+4.A.4.b.5	4.A.4.b.5.I01	4.A.4.b.5.I01.D01	Coach others.
+4.A.4.b.5	4.A.4.b.5.I02	4.A.4.b.5.I02.D01	Encourage patients during therapeutic activities.
+4.A.4.b.5	4.A.4.b.5.I02	4.A.4.b.5.I02.D02	Visit individuals in their homes to provide support or information.
+4.A.4.b.5	4.A.4.b.5.I02	4.A.4.b.5.I02.D03	Encourage students.
+4.A.4.b.5	4.A.4.b.5.I02	4.A.4.b.5.I02.D04	Interact with patients to build rapport or provide emotional support.
+4.A.4.b.5	4.A.4.b.5.I02	4.A.4.b.5.I02.D05	Support the professional development of others.
+4.A.4.b.5	4.A.4.b.5.I02	4.A.4.b.5.I02.D06	Encourage patients or clients to develop life skills.
+4.A.4.b.6	4.A.4.b.6.I01	4.A.4.b.6.I01.D01	Provide health and wellness advice to patients, program participants, or caregivers.
+4.A.4.b.6	4.A.4.b.6.I01	4.A.4.b.6.I01.D02	Advise patients on preventive care techniques.
+4.A.4.b.6	4.A.4.b.6.I01	4.A.4.b.6.I01.D03	Provide medical or cosmetic advice for clients.
+4.A.4.b.6	4.A.4.b.6.I01	4.A.4.b.6.I01.D04	Advise patients on effects of health conditions or treatments.
+4.A.4.b.6	4.A.4.b.6.I01	4.A.4.b.6.I01.D05	Advise patients on healthcare system processes.
+4.A.4.b.6	4.A.4.b.6.I02	4.A.4.b.6.I02.D01	Recommend types of assistive devices.
+4.A.4.b.6	4.A.4.b.6.I02	4.A.4.b.6.I02.D02	Advise customers on technical or procedural issues.
+4.A.4.b.6	4.A.4.b.6.I02	4.A.4.b.6.I02.D03	Advise customers on the use of products or services.
+4.A.4.b.6	4.A.4.b.6.I02	4.A.4.b.6.I02.D04	Recommend products or services to customers.
+4.A.4.b.6	4.A.4.b.6.I03	4.A.4.b.6.I03.D01	Advise others about environmental management or conservation.
+4.A.4.b.6	4.A.4.b.6.I03	4.A.4.b.6.I03.D02	Advise others regarding green practices or environmental concerns.
+4.A.4.b.6	4.A.4.b.6.I03	4.A.4.b.6.I03.D03	Advise others on green energy or related technologies.
+4.A.4.b.6	4.A.4.b.6.I03	4.A.4.b.6.I03.D04	Advise others about land management or conservation.
+4.A.4.b.6	4.A.4.b.6.I04	4.A.4.b.6.I04.D01	Provide technical guidance to other personnel.
+4.A.4.b.6	4.A.4.b.6.I04	4.A.4.b.6.I04.D02	Provide technical support for software maintenance or use.
+4.A.4.b.6	4.A.4.b.6.I04	4.A.4.b.6.I04.D03	Provide recommendations to others about computer hardware.
+4.A.4.b.6	4.A.4.b.6.I04	4.A.4.b.6.I04.D04	Advise others on the development or use of new technologies.
+4.A.4.b.6	4.A.4.b.6.I04	4.A.4.b.6.I04.D05	Provide technical support for computer network issues.
+4.A.4.b.6	4.A.4.b.6.I04	4.A.4.b.6.I04.D06	Recommend changes to improve computer or information systems.
+4.A.4.b.6	4.A.4.b.6.I05	4.A.4.b.6.I05.D01	Advise others on farming or forestry operations, regulations, or equipment.
+4.A.4.b.6	4.A.4.b.6.I05	4.A.4.b.6.I05.D02	Advise others on logistics topics.
+4.A.4.b.6	4.A.4.b.6.I05	4.A.4.b.6.I05.D03	Recommend personnel decisions or human resources activities.
+4.A.4.b.6	4.A.4.b.6.I05	4.A.4.b.6.I05.D04	Recommend packing or shipping methods.
+4.A.4.b.6	4.A.4.b.6.I05	4.A.4.b.6.I05.D05	Advise others on analytical techniques.
+4.A.4.b.6	4.A.4.b.6.I05	4.A.4.b.6.I05.D06	Advise others on issues related to repairs, installation, or equipment design.
+4.A.4.b.6	4.A.4.b.6.I05	4.A.4.b.6.I05.D07	Recommend organizational process or policy changes.
+4.A.4.b.6	4.A.4.b.6.I05	4.A.4.b.6.I05.D08	Advise others on human resources topics.
+4.A.4.b.6	4.A.4.b.6.I05	4.A.4.b.6.I05.D09	Recommend technical design or process changes to improve efficiency, quality, or performance.
+4.A.4.b.6	4.A.4.b.6.I05	4.A.4.b.6.I05.D10	Advise others on business or operational matters.
+4.A.4.b.6	4.A.4.b.6.I05	4.A.4.b.6.I05.D11	Advise others on ways to improve processes or products.
+4.A.4.b.6	4.A.4.b.6.I05	4.A.4.b.6.I05.D12	Recommend changes or corrective procedures.
+4.A.4.b.6	4.A.4.b.6.I06	4.A.4.b.6.I06.D01	Advise medical personnel regarding healthcare issues.
+4.A.4.b.6	4.A.4.b.6.I06	4.A.4.b.6.I06.D02	Advise communities or institutions regarding health or safety issues.
+4.A.4.b.6	4.A.4.b.6.I06	4.A.4.b.6.I06.D03	Advise clients or community groups on health issues.
+4.A.4.b.6	4.A.4.b.6.I06	4.A.4.b.6.I06.D04	Advise athletes, coaches, or trainers on exercise regimens, nutrition, or equipment use.
+4.A.4.b.6	4.A.4.b.6.I06	4.A.4.b.6.I06.D05	Advise others on healthcare matters.
+4.A.4.b.6	4.A.4.b.6.I07	4.A.4.b.6.I07.D01	Advise others on social or educational issues.
+4.A.4.b.6	4.A.4.b.6.I07	4.A.4.b.6.I07.D02	Advise students on academic or career matters.
+4.A.4.b.6	4.A.4.b.6.I07	4.A.4.b.6.I07.D03	Discuss child development and behavior with parents or guardians.
+4.A.4.b.6	4.A.4.b.6.I07	4.A.4.b.6.I07.D04	Counsel clients regarding educational or vocational issues.
+4.A.4.b.6	4.A.4.b.6.I07	4.A.4.b.6.I07.D05	Advise educators on curricula, instructional methods, or policies.
+4.A.4.b.6	4.A.4.b.6.I07	4.A.4.b.6.I07.D06	Advise others on career or personal development.
+4.A.4.b.6	4.A.4.b.6.I07	4.A.4.b.6.I07.D07	Advise others on educational matters.
+4.A.4.b.6	4.A.4.b.6.I07	4.A.4.b.6.I07.D08	Discuss student progress with parents or guardians.
+4.A.4.b.6	4.A.4.b.6.I08	4.A.4.b.6.I08.D01	Provide legal advice to clients.
+4.A.4.b.6	4.A.4.b.6.I08	4.A.4.b.6.I08.D02	Advise others on matters of public policy.
+4.A.4.b.6	4.A.4.b.6.I08	4.A.4.b.6.I08.D03	Recommend legal actions.
+4.A.4.b.6	4.A.4.b.6.I08	4.A.4.b.6.I08.D04	Advise others on legal or regulatory compliance matters.
+4.A.4.b.6	4.A.4.b.6.I09	4.A.4.b.6.I09.D01	Advise others on management of emergencies or hazardous situations or materials.
+4.A.4.b.6	4.A.4.b.6.I09	4.A.4.b.6.I09.D02	Recommend improvements to increase safety or reduce risks.
+4.A.4.b.6	4.A.4.b.6.I09	4.A.4.b.6.I09.D03	Advise others on health and safety issues.
+4.A.4.b.6	4.A.4.b.6.I10	4.A.4.b.6.I10.D01	Intervene in crisis situations to assist clients.
+4.A.4.b.6	4.A.4.b.6.I10	4.A.4.b.6.I10.D02	Counsel clients or patients with substance abuse issues.
+4.A.4.b.6	4.A.4.b.6.I10	4.A.4.b.6.I10.D03	Provide counsel, comfort, or encouragement to individuals or families.
+4.A.4.b.6	4.A.4.b.6.I10	4.A.4.b.6.I10.D04	Counsel clients regarding interpersonal issues.
+4.A.4.b.6	4.A.4.b.6.I10	4.A.4.b.6.I10.D05	Counsel family members of clients or patients.
+4.A.4.b.6	4.A.4.b.6.I10	4.A.4.b.6.I10.D06	Counsel clients on mental health or personal achievement.
+4.A.4.b.6	4.A.4.b.6.I10	4.A.4.b.6.I10.D07	Counsel clients or patients regarding personal issues.
+4.A.4.b.6	4.A.4.b.6.I11	4.A.4.b.6.I11.D01	Advise real estate clients.
+4.A.4.b.6	4.A.4.b.6.I11	4.A.4.b.6.I11.D02	Recommend investments to clients.
+4.A.4.b.6	4.A.4.b.6.I11	4.A.4.b.6.I11.D03	Advise others on financial matters.
+4.A.4.c.1	4.A.4.c.1.I01	4.A.4.c.1.I01.D01	Classify materials according to standard systems.
+4.A.4.c.1	4.A.4.c.1.I01	4.A.4.c.1.I01.D02	File documents or records.
+4.A.4.c.1	4.A.4.c.1.I01	4.A.4.c.1.I01.D03	Process healthcare paperwork.
+4.A.4.c.1	4.A.4.c.1.I01	4.A.4.c.1.I01.D04	Prepare business correspondence.
+4.A.4.c.1	4.A.4.c.1.I01	4.A.4.c.1.I01.D05	Perform student enrollment or registration activities.
+4.A.4.c.1	4.A.4.c.1.I01	4.A.4.c.1.I01.D06	Perform clerical work in medical settings.
+4.A.4.c.1	4.A.4.c.1.I01	4.A.4.c.1.I01.D07	Type documents.
+4.A.4.c.1	4.A.4.c.1.I01	4.A.4.c.1.I01.D08	Process library materials.
+4.A.4.c.1	4.A.4.c.1.I01	4.A.4.c.1.I01.D09	Prepare administrative documents.
+4.A.4.c.1	4.A.4.c.1.I01	4.A.4.c.1.I01.D10	Perform administrative or clerical tasks.
+4.A.4.c.1	4.A.4.c.1.I02	4.A.4.c.1.I02.D01	Administer oaths to court participants.
+4.A.4.c.1	4.A.4.c.1.I02	4.A.4.c.1.I02.D02	Serve court ordered documents.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D01	Operate cash registers.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D02	Submit financial applications.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D03	Process medical billing information.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D04	Execute sales or other financial transactions.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D05	Issue money, credit, or vouchers.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D06	Process customer bills or payments.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D07	Pay charges, fees, or taxes.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D08	Arrange insurance coverage.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D09	Take customer orders.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D10	Take product orders from customers.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D11	Process sales or other transactions.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D12	Disburse funds from clients accounts to creditors.
+4.A.4.c.1	4.A.4.c.1.I03	4.A.4.c.1.I03.D13	Conduct gaming transactions.
+4.A.4.c.1	4.A.4.c.1.I04	4.A.4.c.1.I04.D01	Issue permits or other legal documents.
+4.A.4.c.1	4.A.4.c.1.I04	4.A.4.c.1.I04.D02	Issue documentation or identification to customers or employees.
+4.A.4.c.1	4.A.4.c.1.I04	4.A.4.c.1.I04.D03	Issue warnings or citations.
+4.A.4.c.1	4.A.4.c.1.I04	4.A.4.c.1.I04.D04	Issue certificates or licenses.
+4.A.4.c.1	4.A.4.c.1.I05	4.A.4.c.1.I05.D01	Receive shipments.
+4.A.4.c.1	4.A.4.c.1.I05	4.A.4.c.1.I05.D02	Prepare outgoing mail.
+4.A.4.c.1	4.A.4.c.1.I05	4.A.4.c.1.I05.D03	Send information, materials or documentation.
+4.A.4.c.1	4.A.4.c.1.I05	4.A.4.c.1.I05.D04	Route mail to correct destinations.
+4.A.4.c.1	4.A.4.c.1.I05	4.A.4.c.1.I05.D05	Prepare outgoing shipments.
+4.A.4.c.1	4.A.4.c.1.I06	4.A.4.c.1.I06.D01	Process forensic or legal evidence in accordance with procedures.
+4.A.4.c.2	4.A.4.c.2.I01	4.A.4.c.2.I01.D01	Audition or interview potential performers or staff members.
+4.A.4.c.2	4.A.4.c.2.I01	4.A.4.c.2.I01.D02	Conduct eligibility or selection interviews.
+4.A.4.c.2	4.A.4.c.2.I01	4.A.4.c.2.I01.D03	Hire personnel.
+4.A.4.c.2	4.A.4.c.2.I01	4.A.4.c.2.I01.D04	Participate in staffing decisions.
+4.A.4.c.2	4.A.4.c.2.I01	4.A.4.c.2.I01.D05	Recruit personnel.
+4.A.4.c.2	4.A.4.c.2.I01	4.A.4.c.2.I01.D06	Select staff, team members, or performers.
+4.A.4.c.2	4.A.4.c.2.I01	4.A.4.c.2.I01.D07	Hire farming, fishing or forestry workers.
+4.A.4.c.2	4.A.4.c.2.I01	4.A.4.c.2.I01.D08	Administer personnel recruitment or hiring activities.
+4.A.4.c.2	4.A.4.c.2.I02	4.A.4.c.2.I02.D01	Perform human resources activities.
+4.A.4.c.2	4.A.4.c.2.I02	4.A.4.c.2.I02.D02	Administer compensation or benefits programs.
+4.A.4.c.2	4.A.4.c.2.I02	4.A.4.c.2.I02.D03	Administer standardized physical or psychological tests.
+4.A.4.c.3	4.A.4.c.3.I01	4.A.4.c.3.I01.D01	Maintain food, beverage, or equipment inventories.
+4.A.4.c.3	4.A.4.c.3.I01	4.A.4.c.3.I01.D02	Maintain inventory of medical supplies or equipment.
+4.A.4.c.3	4.A.4.c.3.I01	4.A.4.c.3.I01.D03	Manage inventories of products or organizational resources.
+4.A.4.c.3	4.A.4.c.3.I01	4.A.4.c.3.I01.D04	Maintain supply or equipment inventories.
+4.A.4.c.3	4.A.4.c.3.I01	4.A.4.c.3.I01.D05	Maintain inventories of materials, equipment, or products.
+4.A.4.c.3	4.A.4.c.3.I01	4.A.4.c.3.I01.D06	Maintain the inventory of equipment.
+4.A.4.c.3	4.A.4.c.3.I02	4.A.4.c.3.I02.D01	Order medical diagnostic or clinical tests.
+4.A.4.c.3	4.A.4.c.3.I03	4.A.4.c.3.I03.D01	Distribute instructional or library materials.
+4.A.4.c.3	4.A.4.c.3.I03	4.A.4.c.3.I03.D02	Allocate physical resources within organizations.
+4.A.4.c.3	4.A.4.c.3.I03	4.A.4.c.3.I03.D03	Distribute materials to employees or customers.
+4.A.4.c.3	4.A.4.c.3.I03	4.A.4.c.3.I03.D04	Assign resources or facilities to patrons or employees.
+4.A.4.c.3	4.A.4.c.3.I03	4.A.4.c.3.I03.D05	Distribute resources to patrons or employees.
+4.A.4.c.3	4.A.4.c.3.I03	4.A.4.c.3.I03.D06	Provide educational materials to community members.
+4.A.4.c.3	4.A.4.c.3.I03	4.A.4.c.3.I03.D07	Distribute incoming mail.
+4.A.4.c.3	4.A.4.c.3.I03	4.A.4.c.3.I03.D08	Distribute supplies to workers.
+4.A.4.c.3	4.A.4.c.3.I04	4.A.4.c.3.I04.D01	Collect deposits, payments or fees.
+4.A.4.c.3	4.A.4.c.3.I04	4.A.4.c.3.I04.D02	Collect fares or payment from customers.
+4.A.4.c.3	4.A.4.c.3.I04	4.A.4.c.3.I04.D03	Collect payments for goods or services.
+4.A.4.c.3	4.A.4.c.3.I05	4.A.4.c.3.I05.D01	Order materials, supplies, or equipment.
+4.A.4.c.3	4.A.4.c.3.I05	4.A.4.c.3.I05.D02	Order instructional or library materials or equipment.
+4.A.4.c.3	4.A.4.c.3.I05	4.A.4.c.3.I05.D03	Purchase materials, equipment, or other resources.
+4.A.4.c.3	4.A.4.c.3.I05	4.A.4.c.3.I05.D04	Purchase stocks of merchandise or supplies.
+4.A.4.c.3	4.A.4.c.3.I05	4.A.4.c.3.I05.D05	Order construction or extraction materials or equipment.
+4.A.4.c.3	4.A.4.c.3.I05	4.A.4.c.3.I05.D06	Purchase products or services.
+4.A.4.c.3	4.A.4.c.3.I05	4.A.4.c.3.I05.D07	Order medical supplies or equipment.
+4.A.4.c.3	4.A.4.c.3.I05	4.A.4.c.3.I05.D08	Acquire supplies or equipment.
+4.A.4.c.3	4.A.4.c.3.I06	4.A.4.c.3.I06.D01	Prescribe treatments or therapies.
+4.A.4.c.3	4.A.4.c.3.I06	4.A.4.c.3.I06.D02	Control prescription refills or authorizations.
+4.A.4.c.3	4.A.4.c.3.I06	4.A.4.c.3.I06.D03	Prescribe medications.
+4.A.4.c.3	4.A.4.c.3.I06	4.A.4.c.3.I06.D04	Prescribe assistive medical devices or related treatments.
+4.A.4.c.3	4.A.4.c.3.I07	4.A.4.c.3.I07.D01	Monitor availability of equipment or supplies.
+4.A.4.c.3	4.A.4.c.3.I07	4.A.4.c.3.I07.D02	Inventory materials or equipment.
+4.A.4.c.3	4.A.4.c.3.I07	4.A.4.c.3.I07.D03	Inventory medical supplies or equipment.
+4.A.4.c.3	4.A.4.c.3.I07	4.A.4.c.3.I07.D04	Monitor inventories of products or materials.
+4.A.4.c.3	4.A.4.c.3.I07	4.A.4.c.3.I07.D05	Monitor resources.
