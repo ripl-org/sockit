@@ -34,3 +34,7 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+
+test/vtt
+test/descs
+test/sockit*.json
