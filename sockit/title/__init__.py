@@ -80,10 +80,18 @@ def clean(title):
     suffix, _, prefix = title.partition(" to ")
     title = f"{prefix} {suffix}".strip()
 
+    title_list = title.split()
     # Get rid of levels
-    if len(title.split()) > 1:
-        if any(item in title.split()[:-1] for item in levels):
-            title = " ".join([word for word in title.split()[:-1] if word not in levels] + [title.split()[-1]])
+    if len(title_list) > 1:
+        if any(item in title_list[:-1] for item in levels):
+            title_list = [word for word in title.split()[:-1] if word not in levels] + [title.split()[-1]]
+
+    # Check for "noun, adjective"-formatted titles        
+    if len(title_list) > 1:
+        if title_list[0] in get_nouns():
+            title_list = title_list[1:] + [title_list[0]]
+
+    title = " ".join(title_list)
 
     return title
 

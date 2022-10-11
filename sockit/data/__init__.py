@@ -127,6 +127,18 @@ def get_managers():
     return DATA['managers']
 
 
+def get_nouns():
+    """
+    Lazy-load the nouns list from package data.
+    """
+    global DATA
+    if "nouns" not in DATA:
+        Log(__name__, "load_nouns").info("loading nouns")
+        with resources.path(DATA_MODULE, 'nouns_edited.txt') as f:
+            DATA['nouns'] = [item.strip() for item in open(f).readlines()]
+    return DATA['nouns']   
+
+
 def get_titles():
     """
     Lazy-load the titles prefix tree from package data.
