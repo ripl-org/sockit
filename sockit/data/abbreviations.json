@@ -2,5 +2,6 @@
   "lead": "leader",
   "mgr": "manager",
   "rep": "representative",
-  "vet": "veterinarian"
+  "vet": "veterinarian",
+  "ops": "operations"
 }

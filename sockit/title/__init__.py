@@ -88,8 +88,9 @@ def clean(title):
 
     # Check for "noun, adjective"-formatted titles        
     if len(title_list) > 1:
-        if title_list[0] in get_nouns():
-            title_list = title_list[1:] + [title_list[0]]
+        if title_list[-1] not in get_nouns():
+            if title_list[0] in get_nouns():
+                title_list = title_list[1:] + [title_list[0]]
 
     title = " ".join(title_list)
 
