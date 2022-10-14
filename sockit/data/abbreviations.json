@@ -3,5 +3,6 @@
   "mgr": "manager",
   "rep": "representative",
   "vet": "veterinarian",
-  "ops": "operations"
+  "ops": "operations",
+  "pharm": "pharmacy"
 }

@@ -1490,7 +1490,6 @@ ombudsman
 oncologist
 opaquer
 opener
-operations
 operator
 ophthalmologist
 optician
