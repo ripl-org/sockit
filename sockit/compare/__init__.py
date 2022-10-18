@@ -91,7 +91,7 @@ def compare_job_and_soc(
     elif distance == 'cosine':
         distance_calc = spatial.distance.cosine(job_topic_vec, soc_topic_vec)
 
-    del parsed_resume['SkillVector']
+    del parsed_job['SkillVector']
 
     return {
         'comparison_type' : 'job_soc',
