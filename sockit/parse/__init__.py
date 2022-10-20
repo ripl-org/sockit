@@ -276,7 +276,7 @@ def parse_resume(filename, extension):
             segments.get("skills", [])
         ))
 
-    sv = SkillVector(skill_dictionary={}, skill_list=matches.get("Skills", []))
+    sv = SkillVector(skill_dictionary={}, skill_list=matches.get("skills", []))
     matches['SkillVector'] = sv
     return matches
 
@@ -288,8 +288,8 @@ def parse_job_posting(filename, extension):
     load_word_trie('nonskills')
     load_word_trie('skills')
     results = {
-        'NonSkills': [],
-        'Skills': {}
+        'nonskills': [],
+        'skills': {}
     }
 
     lines = extract(filename, extension)
@@ -300,12 +300,12 @@ def parse_job_posting(filename, extension):
         line = clean(line.strip())
         nonskills = SOC_TRIES['nonskills'].search(line)
         if nonskills:
-            results['NonSkills'] += nonskills
+            results['nonskills'] += nonskills
         else:
             for skill in SOC_TRIES['skills'].search(line):
-                results["Skills"][skill] = results["Skills"].get(skill, 0) + 1
-    results['NonSkills'] = list(sorted(set(results['NonSkills'])))
-    sv = SkillVector(skill_dictionary = results['Skills'], skill_list = [])
+                results["skills"][skill] = results["skills"].get(skill, 0) + 1
+    results['nonskills'] = list(sorted(set(results['nonskills'])))
+    sv = SkillVector(skill_dictionary = results['skills'], skill_list = [])
     results['SkillVector'] = sv
     # Find closest SOC
     results["Occupations"] = sv.rank_socs(n=10)
