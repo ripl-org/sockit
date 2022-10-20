@@ -49,12 +49,9 @@ def compare_resume_and_soc(
     distance = 'manhattan'
 ):
     parsed_resume = parse_resume(resume_filepath, resume_ext)
-    print(parsed_resume["SkillVector"])
 
     resume_topic_vec = parsed_resume['SkillVector'].scale_to_topic_models()
-    print(resume_topic_vec)
     soc_topic_vec = get_soc_matrix_row(soc_code)
-    print(soc_topic_vec)
 
     if distance == 'euclidean':
         distance_calc = spatial.distance.euclidean(resume_topic_vec, soc_topic_vec)
@@ -91,7 +88,7 @@ def compare_job_and_soc(
     elif distance == 'cosine':
         distance_calc = spatial.distance.cosine(job_topic_vec, soc_topic_vec)
 
-    del parsed_resume['SkillVector']
+    del parsed_job['SkillVector']
 
     return {
         'comparison_type' : 'job_soc',
