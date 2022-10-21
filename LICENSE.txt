@@ -34,7 +34,7 @@ Russ DE, et al. 2016. Computer-based coding of free-text job descriptions to
 efficiently identify occupations in epidemiological studies. Occup. Environ.
 Med. 73(6): 417-424. https://doi.org/10.1136/oemed-2015-103152
 
-This software includes information from the O*NET 26.2 Database by the U.S.
+This software includes information from the O*NET 27.0 Database by the U.S.
 Department of Labor, Employment and Training Administration ("USDOL/ETA").
 Used under the CC BY 4.0 license. O*NET® is a trademark of USDOL/ETA. Innovative
 Policy Lab has modified some of this information. USDOL/ETA has not approved,
@@ -43,7 +43,7 @@ Database licensing, please see: https://www.onetcenter.org/license_db.html
 
 This software includes information from the 2018 SOC Direct Match Title File,
 published in the public domain by the U.S. Bureau of Labor Statistics. For more
-information, please see: https://www.bls.gov/soc/2018/home.htm 
+information, please see: https://www.bls.gov/soc/2018/home.htm
 
 INNOVATIVE POLICY LAB DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
 INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR ANY
