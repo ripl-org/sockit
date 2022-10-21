@@ -215,7 +215,7 @@ def _parse_experience(lines):
             "years": _find_years(line),
             "dates": _find_year_months(line)
         }
-        if "present" in line or "current" in line:
+        if ("present" in line or "current" in line) and ("presented" not in line):
             match["current"] = True
         matches.append(match)
     # Guess at whether job dates precede titles, in which case the
