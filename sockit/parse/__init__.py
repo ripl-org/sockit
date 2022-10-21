@@ -209,7 +209,7 @@ def parse_experience(lines):
             "years": find_years(line),
             "dates": find_year_months(line)
         }
-        if "present" in line or "current" in line:
+        if ("present" in line or "current" in line) and ("presented" not in line):
             # match["years"].append(MAX_YEAR)
             # match["dates"].append(time.strftime("%Y-%m"))
             match["current"] = True
