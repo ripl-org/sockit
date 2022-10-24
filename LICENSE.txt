@@ -20,7 +20,10 @@ resources, and research outputs are provided "as is." Innovative Policy Lab
 and NASWA make no warranties, express or implied, as to the work or products
 of work, including any express or implied warranties of non-infringement,
 ownership, merchantability, or fitness for a particular purpose of the data,
-research, or any invention or product.
+research, or any invention or product. The National Labor Exchange (NLx)
+Data Trust bears no responsibility for the analyses or interpretations of the
+data presented here. The opinions expressed herein, including any implications
+for policy, are those of the author and not of the NLx Data Trust members.
 
 This software includes summary statistics that were derived from Innovative
 Policy Lab's use of the Standardized Occupation Coding for Computer-assisted
@@ -38,7 +41,7 @@ This software includes information from the O*NET 27.0 Database by the U.S.
 Department of Labor, Employment and Training Administration ("USDOL/ETA").
 Used under the CC BY 4.0 license. O*NET® is a trademark of USDOL/ETA. Innovative
 Policy Lab has modified some of this information. USDOL/ETA has not approved,
-endorsed, or tested these modifications. For more information on O*NET 26.2
+endorsed, or tested these modifications. For more information on O*NET 27.0
 Database licensing, please see: https://www.onetcenter.org/license_db.html
 
 This software includes information from the 2018 SOC Direct Match Title File,
