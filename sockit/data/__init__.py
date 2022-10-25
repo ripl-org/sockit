@@ -21,11 +21,11 @@ def get_index(name):
     if name not in names:
         Log(__name__, "get_index").error(f"unknown index '{name}'")
         return None
-    key = f"sockit.data.indices.{name}"
+    key = f"sockit.data.index_{name}"
     if key not in DATA:
         Log(__name__, "get_lookup").debug(f"loading lookup '{name}'")
         DATA[key] = {"id": {}, "value": {}}
-        with resources.open_text("sockit.data.indices", f"{name}s.csv") as f:
+        with resources.open_text("sockit.data", f"index_{name}s.csv") as f:
             for row in csv.DictReader(f):
                 DATA[key]["id"][int(row[f"{name}_id"])] = row[name]
                 DATA[key]["value"][row[name]] = int(row[f"{name}_id"])
@@ -46,10 +46,10 @@ def get_lookup(name):
     if name not in names:
         Log(__name__, "get_lookup").error(f"unknown lookup '{name}'")
         return None
-    key = f"sockit.data.lookups.{name}"
+    key = f"sockit.data.lookup_{name}"
     if key not in DATA:
         Log(__name__, "get_lookup").debug(f"loading lookup '{name}'")
-        with resources.open_text("sockit.data.lookups", f"{name}.json") as f:
+        with resources.open_text("sockit.data", f"lookup_{name}.json") as f:
             DATA[key] = json.load(f)
     return DATA[key]
 
@@ -62,10 +62,10 @@ def get_set(name):
     names = frozenset((
         "job_title_nouns"
     ))
-    key = f"sockit.data.sets.{name}"
+    key = f"sockit.data.set_{name}"
     if key not in DATA:
         Log(__name__, "get_set").debug(f"loading set '{name}'")
-        with resources.path("sockit.data.sets", f"{name}.txt") as f:
+        with resources.path("sockit.data", f"set_{name}.txt") as f:
             DATA[key] = frozenset(item.strip() for item in open(f).readlines())
     return DATA[key]   
 
@@ -89,10 +89,10 @@ def get_skill_idf_vector():
     Lazy-load the skill IDF vector from package data.
     """
     global DATA
-    key = "sockit.data.skill_idf_vector"
+    key = "sockit.data.vector_skill_idf"
     if key not in DATA:
         Log(__name__, "get_skill_idf_vector").debug("loading skill IDF vector")
-        with resources.path("sockit.data", "skill_idf_vector.txt") as f:
+        with resources.path("sockit.data", "vector_skill_idf.txt") as f:
             DATA[key] = np.loadtxt(f)
     return DATA[key]
 
@@ -116,10 +116,10 @@ def get_soc_skill_matrix():
     Lazy-load the SOC-skill matrix from package data.
     """
     global DATA
-    key = "sockit.data.soc_skill_matrix"
+    key = "sockit.data.matrix_soc_skill"
     if key not in DATA:
         Log(__name__, "get_soc_skill_matrix").debug("loading SOC-skill matrix")
-        with resources.path("sockit.data", "soc_skill_matrix.txt") as f:
+        with resources.path("sockit.data", "matrix_soc_skill.txt") as f:
             DATA[key] = np.loadtxt(f) * 1e-6
     return DATA[key]
 
@@ -149,9 +149,9 @@ def get_trie(name):
     if name not in names:
         Log(__name__, "get_trie").error(f"unknown trie '{name}'")
         return None
-    key = f"sockit.data.tries.{name}"
+    key = f"sockit.data.trie_{name}"
     if key not in DATA:
         Log(__name__, "get_trie").debug(f"loading trie '{name}'")
-        with resources.path("sockit.data.tries", f"{name}.json") as f:
+        with resources.path("sockit.data", f"trie_{name}.json") as f:
             DATA[key] = WordTrie().from_json(f)
     return DATA[key]
