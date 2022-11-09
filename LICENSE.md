@@ -40,7 +40,7 @@ SOCcer is available in the following publication:
 
 Russ DE, et al. 2016. Computer-based coding of free-text job descriptions to efficiently identify occupations in epidemiological studies. Occup. Environ. Med. 73(6): 417-424. https://doi.org/10.1136/oemed-2015-103152
 
-This software includes information from the O\*NET 27.0 Database by the U.S. Department of Labor, Employment and Training Administration ("USDOL/ETA").  Used under the CC BY 4.0 license.  O\*NET® is a trademark of USDOL/ETA.  RIPL has modified some of this information.  USDOL/ETA has not approved, endorsed, or tested these modifications.  For more information on O*NET 27.0 Database licensing, please see: https://www.onetcenter.org/license_db.html
+This software includes information from the O\*NET 27.0 Database by the U.S. Department of Labor, Employment and Training Administration ("USDOL/ETA").  Used under the CC BY 4.0 license.  O\*NET® is a trademark of USDOL/ETA.  RIPL has modified some of this information.  USDOL/ETA has not approved, endorsed, or tested these modifications.  For more information on O\*NET 27.0 Database licensing, please see: https://www.onetcenter.org/license_db.html
 
 This software includes information from the 2018 SOC Direct Match Title File, published in the public domain by the U.S. Bureau of Labor Statistics.  For more information, please see: https://www.bls.gov/soc/2018/home.htm
 
