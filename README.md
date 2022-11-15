@@ -38,7 +38,7 @@ Copyright 2022 Innovative Policy Lab d/b/a Research Improving People's Lives
 ("RIPL"), Providence, RI. All Rights Reserved.
 
 *Sockit* is freely available for non-commercial use under the license provided
-in [LICENSE.md](https://github.com/ripl-org/sockit-data/blob/main/LICENSE.md).
+in [LICENSE.md](https://github.com/ripl-org/sockit/blob/main/LICENSE.md).
 Please contact [connect@ripl.org](mailto:connect@ripl.org) to inquire about
 commercial use.
 
