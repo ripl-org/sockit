@@ -9,10 +9,15 @@ It is developed by [Research Improving People's Lives](https://www.ripl.org)
 * [Hawai'i Career Acceleration Navigator](https://hican.hawaii.gov)
 * [Career Compass RI](https://recommendations.backtoworkri.com)
 
-You can **test out** *sockit* (without installing it) using a web-hosted version at
+You can **test out** *sockit* (without installing it) using a web-hosted
+version at:
 [https://research.ripl.org/#/sockit](https://research.ripl.org/#/sockit).
 
-**Documentation and examples** can be found in the GitHub [wiki](https://github.com/ripl-org/sockit/wiki).
+**Documentation and examples** can be found in the GitHub
+[wiki](https://github.com/ripl-org/sockit/wiki).
+
+The occupuational models that come prepackaged with *sockit* are built with
+the [sockit-data](https://github.com/ripl-org/sockit-data/) tool.
 
 ## Installation
 
@@ -29,8 +34,11 @@ repository:
 
 ## License
 
-*Sockit* is freely available for non-commercial use under the license provided in
-[LICENSE.txt](https://github.com/ripl-org/sockit/blob/main/LICENSE.txt).
+Copyright 2022 Innovative Policy Lab d/b/a Research Improving People's Lives
+("RIPL"), Providence, RI. All Rights Reserved.
+
+*Sockit* is freely available for non-commercial use under the license provided
+in [LICENSE.md](https://github.com/ripl-org/sockit-data/blob/main/LICENSE.md).
 Please contact [connect@ripl.org](mailto:connect@ripl.org) to inquire about
 commercial use.
 
