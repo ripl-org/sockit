@@ -1,31 +1,29 @@
-#STANDARD LIBRARIES
-import time
-from collections import defaultdict
-from itertools import chain
+"""
+Parse Module
 
-#THIRD PARTY LIBRARIES
+Parses skills, occupations, experience, and education from resumes
+and skills and occupations from job postings.
+"""
+
 import chardet
 import docx2txt
+import time
+from collections import defaultdict
 from html2text import HTML2Text
+from itertools import chain
 from PyPDF2 import PdfReader
-
+from sockit import title
 from sockit.asciitrans import *
-from sockit.data import *
+from sockit.data import get_lookup, get_soc_title, get_trie
+from sockit.log import Log
 from sockit.re import *
 from sockit.skillvector import SkillVector
 
 MIN_YEAR = 1940
 MAX_YEAR = int(time.strftime("%Y"))
 
-HTML_PARSER = HTML2Text()
-HTML_PARSER.ignore_links = True
-HTML_PARSER.ignore_anchors = True
-HTML_PARSER.ignore_images = True
-HTML_PARSER.ignore_emphasis = True
-HTML_PARSER.ignore_tables = True
 
-
-def split_sentences(text):
+def _split_sentences(text):
     """
     Require at least two letters/numbers before a period
     to avoid splitting on acronyms/abbreviations.
@@ -33,7 +31,7 @@ def split_sentences(text):
     return re_newline.sub("\\1\n", text.strip()).split("\n")
 
 
-def find_years(text):
+def _find_years(text):
     """
     Find all years that fall within the range [MIN_YEAR, MAX_YEAR].
     """
@@ -43,7 +41,7 @@ def find_years(text):
     ))
 
 
-def find_year_months(text):
+def _find_year_months(text):
     """
     Find all year-months, searching over multiple formats.
     """
@@ -53,7 +51,7 @@ def find_year_months(text):
     return sorted(year_months)
 
 
-def clean(text):
+def _clean(text):
     """
     Convert some puncuation to spaces, and return alpha-numeric
     characters, spaces and periods.
@@ -61,7 +59,7 @@ def clean(text):
     return re_alphanum.sub("", re_punct.sub(" ", text.lower())).strip()
 
 
-def decode_ascii(text):
+def _decode_ascii(text):
     """
     Automatically detect the encoding of a byte string with chardet,
     decode the string, transliterate non-ASCII characters, and return
@@ -72,52 +70,61 @@ def decode_ascii(text):
     return text.decode(encoding, errors="ignore").translate(asciitrans)
 
 
-def pdf_bytes(filename):
+def _pdf_bytes(filename):
     """
     Extract a byte string from a PDF document using the PyPDF library
     """
     reader = PdfReader(filename)
     num_pages = len(reader.pages)
-    return bytes(' '.join([
+    return bytes(" ".join([
         reader.pages[x].extract_text() for x in range(num_pages)
-    ]), 'utf-8')
+    ]), "utf8")
 
 
-def html_bytes(filename):
+def _html_bytes(filename):
     """
     Extract a byte string from an HTML document using html2text
     """
-    text = open(filename).read()
-    return bytes(HTML_PARSER.handle(text), "utf-8")
+    parser = HTML2Text()
+    parser.ignore_links = True
+    parser.ignore_anchors = True
+    parser.ignore_images = True
+    parser.ignore_emphasis = True
+    parser.ignore_tables = True
+    text = open(filename, "rb").read()
+    return bytes(parser.handle(_decode_ascii(text)), "utf8")
 
 
-def extract(filename, extension):
+def _extract(filename, extension=None):
     """
     Extract ASCII text from a PDF, doc, docx, or text file
     (based on the extension) and return as a list of lines.
     """
-    extension = extension.split(".")[-1]
+    if extension is None:
+        extension = filename.rpartition(".")[2]
     if extension == "pdf":
-        text = pdf_bytes(filename)
+        text = _pdf_bytes(filename)
     elif extension == "docx":
         text = docx2txt.process(filename).encode("utf8")
-    elif extension == 'html':
-        text = html_bytes(filename)
+    elif extension == "htm" or extension == "html":
+        text = _html_bytes(filename)
     else:
+        if extension != "txt":
+            Log(__name__, "_extract").warn(f"treating unknown file extension '{extension}' as text file")
         with open(filename, "rb") as f:
             text = f.read()
-    return decode_ascii(text).splitlines()
+    return _decode_ascii(text).splitlines()
 
 
-def segment(lines):
+def _segment(lines):
     """
     Identify resume section headers and segment lines by section.
     """
-    load_data('headers')
+    headers = get_lookup("resume_headers")
     segments = defaultdict(list)
     current = "contact"
     for line in lines:
-        line = clean(line)
+        line = _clean(line)
         if line:
             # Test if the line begins with a one or two word section header
             header = line.replace(".", "").split()
@@ -125,14 +132,14 @@ def segment(lines):
             if len(header) > 2:
                 header = []
             # Try two-word phrase first
-            if len(header) > 1 and header[0] + " " + header[1] in DATA['headers']:
-                current = DATA['headers'][header[0] + " " + header[1]]
+            if len(header) > 1 and header[0] + " " + header[1] in headers:
+                current = headers[header[0] + " " + header[1]]
                 # Keep text that follows the header
                 if len(header) > 2:
                     segments[current].append(header[2])
             # Try single words next
-            elif header and header[0] in DATA['headers']:
-                current = DATA['headers'][header[0]]
+            elif header and header[0] in headers:
+                current = headers[header[0]]
                 # Keep text that follows the header
                 if len(header) > 1:
                     segments[current].append(" ".join(header[1:]))
@@ -142,7 +149,7 @@ def segment(lines):
     return segments
 
 
-def parse_contact(lines):
+def _parse_contact(lines):
     """
     Parse the contact section for zipcodes.
     """
@@ -154,21 +161,21 @@ def parse_contact(lines):
     }
 
 
-def parse_education(lines):
+def _parse_education(lines):
     """
     Parse the education section for degrees, years, schools, and field of study.
     """
-    load_word_trie('degrees')
-    load_word_trie('schools')
-    load_word_trie('fields_of_study')
+    degrees_trie = get_trie("degrees")
+    schools_trie = get_trie("schools")
+    fields_trie = get_trie("fields_of_study")
 
     matches = []
     for line in lines:
         matches.append({
-            "degrees": SOC_TRIES['degrees'].search(line),
-            "years": find_years(line),
-            "schools":  SOC_TRIES['schools'].search(re_alpha.sub("", line)),
-            "fields_of_study" :  SOC_TRIES['fields_of_study'].search(line)
+            "degrees": degrees_trie.search(line),
+            "years": _find_years(line),
+            "schools":  schools_trie.search(re_alpha.sub("", line)),
+            "fields_of_study" :  fields_trie.search(line)
         })
     # Guess at whether degrees precede years/school, in which case the
     # search for degrees should go in reverse
@@ -195,23 +202,20 @@ def parse_education(lines):
     }
 
 
-def parse_experience(lines):
+def _parse_experience(lines):
     """
     Parse the experience section for job titles and date ranges.
     """
-    load_word_trie('socs')
-
+    title_trie = get_trie("alternative_titles")
     matches = []
     for line in lines:
         line = line.replace(".", "")
         match = {
-            "socs": SOC_TRIES['socs'].search(line, return_nodes=True),
-            "years": find_years(line),
-            "dates": find_year_months(line)
+            "socs": title_trie.search(line, return_nodes=True),
+            "years": _find_years(line),
+            "dates": _find_year_months(line)
         }
-        if "present" in line or "current" in line:
-            # match["years"].append(MAX_YEAR)
-            # match["dates"].append(time.strftime("%Y-%m"))
+        if ("present" in line or "current" in line) and ("presented" not in line):
             match["current"] = True
         matches.append(match)
     # Guess at whether job dates precede titles, in which case the
@@ -241,72 +245,78 @@ def parse_experience(lines):
     }
 
 
-def parse_skills(experience_lines, skill_lines):
+def _parse_skills(experience_lines, skill_lines):
     """
     Parse the experience or skills section for RIPL-edited skills.
     """
-    load_word_trie('skills')
+    skills_trie = get_trie("skills")
     skills = []
     for line in chain(experience_lines, skill_lines):
         line = line.replace(".", "")
-        skills += SOC_TRIES['skills'].search(line)
+        skills += skills_trie.search(line)
     return {"Skills": skills}
 
 
-def parse_resume(filename, extension):
+def parse_resume(filename, extension=None):
     """
     Parse a resume file.
     """
-    lines = extract(filename, extension)
-    segments = segment(lines)
-    matches = {}
+    lines = _extract(filename, extension)
+    segments = _segment(lines)
+    results = {}
 
     if "contact" in segments:
-        matches.update(parse_contact(segments["contact"]))
+        results.update(_parse_contact(segments["contact"]))
 
     if "education" in segments:
-        matches.update(parse_education(segments["education"]))
+        results.update(_parse_education(segments["education"]))
 
     if "experience" in segments:
-        matches.update(parse_experience(segments["experience"]))
+        results.update(_parse_experience(segments["experience"]))
 
     if "experience" in segments or "skills" in segments:
-        matches.update(parse_skills(
+        results.update(_parse_skills(
             segments.get("experience", []),
             segments.get("skills", [])
         ))
 
-    sv = SkillVector(skill_dictionary={}, skill_list=matches.get("Skills", []))
-    matches['SkillVector'] = sv
-    return matches
+    results['SkillVector'] = SkillVector(skill_list=results.get("Skills", []))
+
+    # Find closest SOC
+    results["Occupations"] = results["SkillVector"].rank_socs(n=10)
+
+    return results
 
 
-def parse_job_posting(filename, extension):
+def parse_job_posting(filename, extension=None):
     """
     Parse a job posting description.
     """
-    load_word_trie('nonskills')
-    load_word_trie('skills')
+    nonskills_trie = get_trie("nonskills")
+    skills_trie = get_trie("skills")
+
     results = {
-        'NonSkills': [],
-        'Skills': {}
+        "NonSkills": [],
+        "Skills": {}
     }
 
-    lines = extract(filename, extension)
+    lines = _extract(filename, extension)
     if len(lines) == 1:
-        lines = split_sentences(lines[0])
+        lines = _split_sentences(lines[0])
 
     for line in lines:
-        line = clean(line.strip())
-        nonskills = SOC_TRIES['nonskills'].search(line)
+        line = _clean(line.strip())
+        nonskills = nonskills_trie.search(line)
         if nonskills:
-            results['NonSkills'] += nonskills
+            results["NonSkills"] += nonskills
         else:
-            for skill in SOC_TRIES['skills'].search(line):
+            for skill in skills_trie.search(line):
                 results["Skills"][skill] = results["Skills"].get(skill, 0) + 1
-    results['NonSkills'] = list(sorted(set(results['NonSkills'])))
-    sv = SkillVector(skill_dictionary = results['Skills'], skill_list = [])
-    results['SkillVector'] = sv
+
+    results["NonSkills"] = list(sorted(set(results["NonSkills"])))
+    results["SkillVector"] = SkillVector(skill_dictionary=results["Skills"])
+
     # Find closest SOC
-    results["Occupations"] = sv.rank_socs(n=10)
+    results["Occupations"] = results["SkillVector"].rank_socs(n=10)
+
     return results

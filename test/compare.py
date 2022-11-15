@@ -13,6 +13,7 @@ titles = json.load(
             "..",
             "sockit",
             "data",
+            "lookups",
             "soc_titles.json"
         )
     )

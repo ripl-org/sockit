@@ -1,13 +1,12 @@
 """
-Sockit: assign probabilistic Standard Occupational Classification (SOC)
-codes to free-text job titles
+Title Module
 
-https://github.com/ripl-org/sockit
+Assigns probabilistic Standard Occupational Classification (SOC)
+codes to free-text job titles.
 """
 
 import re
 from sockit.log import Log
-
 from sockit.data import *
 
 
@@ -80,10 +79,20 @@ def clean(title):
     suffix, _, prefix = title.partition(" to ")
     title = f"{prefix} {suffix}".strip()
 
+    title_list = title.split()
     # Get rid of levels
-    if len(title.split()) > 1:
-        if any(item in title.split()[:-1] for item in levels):
-            title = " ".join([word for word in title.split()[:-1] if word not in levels] + [title.split()[-1]])
+    if len(title_list) > 1:
+        if any(item in title_list[:-1] for item in levels):
+            title_list = [word for word in title.split()[:-1] if word not in levels] + [title.split()[-1]]
+
+    # Check for "noun, adjective"-formatted titles
+    nouns = get_set("job_title_nouns")
+    if len(title_list) > 1:
+        if title_list[-1] not in nouns:
+            if title_list[0] in nouns:
+                title_list = title_list[1:] + [title_list[0]]
+
+    title = " ".join(title_list)
 
     return title
 
@@ -94,21 +103,21 @@ def search(title):
     for matching titles and assign SOC probabilities.
     """
     debug = Log(__name__, "search").debug
-    abbreviations = get_abbreviations()
-    acronyms = get_acronyms()
+    abbreviations = get_lookup("abbreviations")
+    acronyms = get_lookup("acronyms")
     words = title.split()[::-1]
     for i, word in enumerate(words):
         if word in acronyms:
-            debug("found exact acronym match:", word)
+            debug("found job title acronym match:", word)
             return {acronyms[word]: 1}
         if word in abbreviations:
             words[i] = abbreviations[word]
-    # Try manager titles first
-    for result in get_managers().search(words, return_nodes=True):
-        debug("found exact manager title match:", " ".join(result[0]))
+    # Try override titles first
+    for result in get_trie("job_titles_override").search(words, return_nodes=True):
+        debug("found job title override match:", " ".join(result[0]))
         return result[1]
-    for result in get_titles().search(words, return_nodes=True):
-        debug("found title match:", " ".join(result[0]))
+    for result in get_trie("job_titles").search(words, return_nodes=True):
+        debug("found job title match:", " ".join(result[0]))
         return result[1]
     return {}
 

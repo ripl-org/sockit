@@ -34,3 +34,11 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+
+#Test data
+test/vtt
+test/descs
+test/sockit*.json
+
+# Synthesized data
+validation/jobs/
