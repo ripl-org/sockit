@@ -19,6 +19,18 @@ version at:
 The occupuational models that come prepackaged with *sockit* are built with
 the [sockit-data](https://github.com/ripl-org/sockit-data/) tool.
 
+## License
+
+Copyright 2022 Innovative Policy Lab d/b/a Research Improving People's Lives
+("RIPL"), Providence, RI. All Rights Reserved.
+
+Your use of the Software License along with any related Documentation, Data,
+etc. is governed by the terms and conditions which are available here:
+[LICENSE.md](https://github.com/ripl-org/sockit/blob/main/LICENSE.md)
+
+Please contact [connect@ripl.org](mailto:connect@ripl.org) to inquire about
+commercial use.
+
 ## Installation
 
 Requires Python 3.8 or later.
@@ -31,16 +43,6 @@ To install a **development version** from the current directory of the git
 repository:
 
     pip install -e .
-
-## License
-
-Copyright 2022 Innovative Policy Lab d/b/a Research Improving People's Lives
-("RIPL"), Providence, RI. All Rights Reserved.
-
-*Sockit* is freely available for non-commercial use under the license provided
-in [LICENSE.md](https://github.com/ripl-org/sockit/blob/main/LICENSE.md).
-Please contact [connect@ripl.org](mailto:connect@ripl.org) to inquire about
-commercial use.
 
 ## Contributors
 
