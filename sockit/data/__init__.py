@@ -5,187 +5,190 @@ from importlib import resources
 from sockit.log import Log
 from wordtrie import WordTrie
 
-DATA_MODULE = 'sockit.data'
 
-SOC_TRIES = {}
 DATA = {}
 
-def create_mapping():
-    global DATA
-    if 'skill_mapping' in DATA:
-        return DATA['skill_mapping']
 
-    Log(__name__, "get_skill_mapping").info("loading skill mapping")
-    mapping = {}
-    with resources.open_text(DATA_MODULE, 'skills.csv') as f:
-        csvfile = csv.DictReader(f)
-        for row in csvfile:
-            mapping[int(row['skill_id'])] = row['skill']
-    DATA['skill_mapping'] = mapping
-    return mapping
-
-
-def create_soc_mapping():
-    global DATA
-    if 'soc_mapping' not in DATA:
-        Log(__name__, "get_soc_mapping").info("loading soc mapping")
-        mapping = {}
-        with resources.open_text(DATA_MODULE, "socs.csv") as f:
-            csvfile = csv.DictReader(f)
-            for row in csvfile:
-                mapping[row['soc']] = int(row['soc_id'])
-        DATA['soc_mapping'] = mapping
-    return DATA['soc_mapping']
-
-
-def create_idf_vector():
-    global DATA
-    if 'idf_vector' not in DATA:
-        Log(__name__, "get_idf_vector").info("loading idf vector")
-        with resources.open_text(DATA_MODULE, 'skill_idf_vector.txt') as file:
-            DATA['idf_vector'] = np.loadtxt(file) * 1e-3
-    return np.array(DATA['idf_vector'])
-
-
-def create_soc_topic_matrix():
-    global DATA
-    if 'soc_topic' not in DATA:
-        Log(__name__, "get_soc_topic_matrix").info("loading soc topic matrix")
-        with resources.path(DATA_MODULE, 'soc_topic_matrix.txt') as file:
-            DATA['soc_topic'] = np.loadtxt(file) * 1e-6
-    return DATA['soc_topic']
-
-
-def create_topic_skill_matrix():
-    global DATA
-    if 'topic_skill' not in DATA:
-        Log(__name__, "get_skill_topic_matrix").info("loading topic skill matrix")
-        with resources.path(DATA_MODULE, 'topic_skill_matrix.txt') as file:
-            DATA['topic_skill'] = np.loadtxt(file) * 1e-6
-    return DATA['topic_skill']
-
-
-def load_word_trie(name):
-    global SOC_TRIES
-    word_trie_mapping = {
-        'degrees' : 'degrees.json',
-        'schools' : 'schools.json',
-        'socs' : 'socs.json',
-        'skills' : 'skills.json',
-        'nonskills' : 'nonskills.json',
-        'fields_of_study' : 'fields_of_study.json',
-        'titles' : 'job_titles.json'
-    }
-    if name not in SOC_TRIES:
-        with resources.path(DATA_MODULE, word_trie_mapping[name]) as file:
-            SOC_TRIES[name] = WordTrie().from_json(file)
-
-
-def load_data(name):
-    global DATA
-    data_mapping = {
-        'headers' : 'resume_headers.json'
-    }
-    if name not in DATA:
-        with open(resources.path(DATA_MODULE, data_mapping[name])) as file:
-            DATA[name] = json.load(file)
-
-
-def get_abbreviations():
+def get_index(name):
     """
-    Lazy-load the abbreviations dictionary from package data.
+    Lazy-load an index from package data.
     """
     global DATA
-    if "abbreviations" not in DATA:
-        Log(__name__, "load_abbreviations").info("loading abbreviations")
-        with resources.open_text(DATA_MODULE, 'abbreviations.json') as f:
-            DATA['abbreviations'] = json.load(f)
-    return DATA['abbreviations']
+    names = frozenset((
+        "skill",
+        "soc",
+        "soc4"
+    ))
+    if name not in names:
+        Log(__name__, "get_index").error(f"unknown index '{name}'")
+        return None
+    key = f"sockit.data.index_{name}"
+    if key not in DATA:
+        Log(__name__, "get_lookup").debug(f"loading lookup '{name}'")
+        DATA[key] = {"id": {}, "value": {}}
+        with resources.open_text("sockit.data", f"index_{name}s.csv") as f:
+            for row in csv.DictReader(f):
+                DATA[key]["id"][int(row[f"{name}_id"])] = row[name]
+                DATA[key]["value"][row[name]] = int(row[f"{name}_id"])
+    return DATA[key]
 
 
-def get_acronyms():
+def get_lookup(name):
     """
-    Lazy-load the acronyms dictionary from package data.
-    """
-    global DATA
-    if "acronyms" not in DATA:
-        Log(__name__, "load_acronyms").info("loading acronyms")
-        with resources.open_text(DATA_MODULE, 'acronyms.json') as f:
-            DATA['acronyms'] = json.load(f)
-    return DATA['acronyms']
-
-
-def get_managers():
-    """
-    Lazy-load the managers prefix tree from package data.
-    """
-    global DATA
-    if "managers" not in DATA:
-        Log(__name__, "load_managers").info("loading managers")
-        with resources.path(DATA_MODULE, 'managers_trie.json') as f:
-            DATA['managers'] = WordTrie().from_json(f)
-    return DATA['managers']
-
-
-def get_nouns():
-    """
-    Lazy-load the nouns list from package data.
+    Lazy-load a lookup table from package data.
     """
     global DATA
-    if "nouns" not in DATA:
-        Log(__name__, "load_nouns").info("loading nouns")
-        with resources.path(DATA_MODULE, 'nouns_edited.txt') as f:
-            DATA['nouns'] = [item.strip() for item in open(f).readlines()]
-    return DATA['nouns']   
+    names = frozenset((
+        "abbreviations",
+        "acronyms",
+        "resume_headers",
+        "soc_titles",
+        "soc4_titles"
+    ))
+    if name not in names:
+        Log(__name__, "get_lookup").error(f"unknown lookup '{name}'")
+        return None
+    key = f"sockit.data.lookup_{name}"
+    if key not in DATA:
+        Log(__name__, "get_lookup").debug(f"loading lookup '{name}'")
+        with resources.open_text("sockit.data", f"lookup_{name}.json") as f:
+            DATA[key] = json.load(f)
+    return DATA[key]
 
 
-def get_titles():
+def get_set(name):
     """
-    Lazy-load the titles prefix tree from package data.
+    Lazy-load a set from package data.
     """
     global DATA
-    if "titles" not in DATA:
-        Log(__name__, "load_titles").info("loading titles")
-        with resources.path(DATA_MODULE, 'titles_trie.json') as f:
-            DATA['titles'] = WordTrie().from_json(f)
-    return DATA['titles']
+    names = frozenset((
+        "job_title_nouns"
+    ))
+    key = f"sockit.data.set_{name}"
+    if key not in DATA:
+        Log(__name__, "get_set").debug(f"loading set '{name}'")
+        with resources.path("sockit.data", f"set_{name}.txt") as f:
+            DATA[key] = frozenset(item.strip() for item in open(f).readlines())
+    return DATA[key]   
+
+
+def get_skill(j):
+    """
+    Get the skill keyword associated with column j in the SOC-skill matrix.
+    """
+    return get_index("skill")["id"][i]
+
+
+def get_skill_id(skill):
+    """
+    Get the column ID associated with `skill` in the SOC-skill matrix.
+    """
+    return get_index("skill")["value"][skill]
+
+
+def get_skill_idf_vector():
+    """
+    Lazy-load the skill IDF vector from package data.
+    """
+    global DATA
+    key = "sockit.data.vector_skill_idf"
+    if key not in DATA:
+        Log(__name__, "get_skill_idf_vector").debug("loading skill IDF vector")
+        with resources.path("sockit.data", "vector_skill_idf.txt") as f:
+            DATA[key] = np.loadtxt(f)
+    return DATA[key]
 
 
 def get_soc(i):
     """
-    Get the SOC code associated with index i in the SOC/topic matrix.
+    Get the SOC code associated with row i in the SOC-skill matrix.
+    """
+    return get_index("soc")["id"][i]
+
+
+def get_soc4(i):
+    """
+    Get the 4-digit SOC code associated with outcome i in the 4-digit SOC prediction model.
+    """
+    return get_index("soc4")["id"][i]
+
+
+def get_soc_id(soc):
+    """
+    Get the row ID associated with `soc` in the SOC-skill matrix.
+    """
+    return get_index("soc")["value"][str(soc)]
+
+
+def get_soc4_id(soc4):
+    """
+    Get the outcome ID associated with `soc4` in the 4-digit SOC prediction model.
+    """
+    return get_index("soc4")["value"][str(soc4)]
+
+
+def get_soc4_model():
+    """
+    Lazy-load the 4-digit SOC code prediction model from package data.
     """
     global DATA
-    if "socs" not in DATA:
-        Log(__name__, "get_soc").info("loading SOC codes")
-        with resources.open_text(DATA_MODULE, 'socs.csv') as f:
-            DATA["socs"] = [row["soc"] for row in csv.DictReader(f)]
-    return DATA["socs"][i]
+    key = "sockit.data.model_soc4"
+    if key not in DATA:
+        Log(__name__, "get_soc4_model").debug("loading 4-digit SOC prediction model")
+        import lightgbm as lgb
+        with resources.path("sockit.data", "model_soc4.txt") as f:
+            DATA[key] = lgb.Booster(model_file=f)
+    return DATA[key]
+
+
+def get_soc_skill_matrix():
+    """
+    Lazy-load the SOC-skill matrix from package data.
+    """
+    global DATA
+    key = "sockit.data.matrix_soc_skill"
+    if key not in DATA:
+        Log(__name__, "get_soc_skill_matrix").debug("loading SOC-skill matrix")
+        with resources.path("sockit.data", "matrix_soc_skill.txt") as f:
+            DATA[key] = np.loadtxt(f) * 1e-6
+    return DATA[key]
 
 
 def get_soc_title(soc):
     """
     Lazy-load SOC titles and lookup the title for a SOC code.
     """
+    return get_lookup("soc_titles")[str(soc)]
+
+
+def get_soc4_title(soc4):
+    """
+    Lazy-load SOC titles and lookup the title for a 4-digit SOC code.
+    """
+    return get_lookup("soc4_titles")[str(soc4)]
+
+
+def get_trie(name):
+    """
+    Lazy-load a trie (prefix tree) from package data.
+    """
     global DATA
-    if "soc_titles" not in DATA:
-        Log(__name__, "load_soc_titles").info("loading soc titles")
-        with resources.open_text(DATA_MODULE, 'soc_titles.json') as f:
-            DATA['soc_titles'] = json.load(f)
-    return DATA['soc_titles'][soc]
-
-
-def get_soc_matrix_row(soc):
-    global DATA
-    mapping = create_soc_mapping()
-    if str(soc) not in mapping.keys():
-        raise Exception(f'{soc} is an invalid SOC code')
-    
-    if 'soc_topic_matrix' not in DATA:
-        Log(__name__, "load_soc_matrix").info("loading soc topic matrix")
-        with resources.path(DATA_MODULE, "soc_topic_matrix.txt") as f:
-            soc_topic = np.loadtxt(f)  * 1e-6
-            DATA['soc_topic_matrix'] = soc_topic
-
-    return DATA['soc_topic_matrix'][mapping[str(soc)],:].reshape(1,50)
-
+    names = frozenset((
+        "alternative_titles",
+        "degrees",
+        "fields_of_study",
+        "job_titles",
+        "job_titles_override",
+        "nonskills",
+        "schools",
+        "skills"
+    ))
+    if name not in names:
+        Log(__name__, "get_trie").error(f"unknown trie '{name}'")
+        return None
+    key = f"sockit.data.trie_{name}"
+    if key not in DATA:
+        Log(__name__, "get_trie").debug(f"loading trie '{name}'")
+        with resources.path("sockit.data", f"trie_{name}.json") as f:
+            DATA[key] = WordTrie().from_json(f)
+    return DATA[key]

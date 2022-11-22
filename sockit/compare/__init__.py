@@ -1,101 +1,83 @@
-#THIRD PARTY LIBRARIES
-from scipy import spatial
+"""
+Compare Module
 
-#CUSTOM FILES
-from sockit.asciitrans import *
-from sockit.re import *
-from sockit.data import *
-from sockit.parse import *
+Compares occupational similarity among pairs of job postings,
+resumes, and/or Standard Occupational Classification (SOC) codes.
+"""
+
+import numpy as np
+from scipy import spatial
+from sockit.data import get_soc_id, get_soc_skill_matrix, get_soc_title
+from sockit.log import Log
+from sockit.parse import parse_job_posting, parse_resume
 from sockit.skillvector import SkillVector
 
-def compare_resume_and_description(
-    resume_filepath,
-    resume_ext,
-    description_filepath,
-    description_ext,
-    distance = 'manhattan'
-):
+
+def _kl(p, q):
+    return np.sum(p * np.nan_to_num(np.log(p / q), True, 0, 0, 0))
+
+
+def compare(source1, type1, source2, type2, similarity="cosine"):
     """ 
-    Find the similarity score between two SOC codes
+    Calculate a similarity score between two sources of type "job", "resume", or "soc".
     """
-    parsed_resume = parse_resume(resume_filepath, resume_ext)
-    parsed_desc = parse_job_posting(description_filepath, description_ext)
+    error = Log(__name__, "compare").error
 
-    resume_topic_vec = parsed_resume['SkillVector'].scale_to_topic_models()
-    desc_topic_vec = parsed_desc['SkillVector'].scale_to_topic_models()
+    # Parse source 1
+    if type1 == "job":
+        parsed1 = parse_job_posting(source1)
+        v1 = parsed1["SkillVector"].to_tfidf_array()
+        del parsed1["SkillVector"]
+    elif type1 == "resume":
+        parsed1 = parse_resume(source1)
+        v1 = parsed1["SkillVector"].to_tfidf_array()
+        del parsed1["SkillVector"]
+    elif type1 == "soc":
+        parsed1 = {
+            "soc": source1,
+            "soc_title": get_soc_title(source1)
+        }
+        v1 = get_soc_skill_matrix()[get_soc_id(source1),:]
+    else:
+        error(f"unknown type1 value '{type1}'")
+        return {}
 
-    if distance == 'euclidean':
-        distance_calc = spatial.distance.euclidean(resume_topic_vec, desc_topic_vec)
-    elif distance == 'manhattan':
-        distance_calc = spatial.distance.cityblock(resume_topic_vec, desc_topic_vec)
-    elif distance == 'cosine':
-        distance_calc = spatial.distance.cosine(resume_topic_vec, desc_topic_vec)
+    # Parse source 2
+    if type2 == "job":
+        parsed2 = parse_job_posting(source2)
+        v2 = parsed2["SkillVector"].to_tfidf_array()
+        del parsed2["SkillVector"]
+    elif type2 == "resume":
+        parsed2 = parse_resume(source2)
+        v2 = parsed2["SkillVector"].to_tfidf_array()
+        del parsed2["SkillVector"]
+    elif type2 == "soc":
+        parsed2 = {
+            "soc": source2,
+            "soc_title": get_soc_title(source2)
+        }
+        v2 = get_soc_skill_matrix()[get_soc_id(source2),:]
+    else:
+        error(f"unknown type2 value '{type2}'")
+        return {}
 
-    del parsed_resume['SkillVector']
-    del parsed_desc['SkillVector']
-
-    return {
-        'comparison_type' : 'resume_job',
-        'distance' : distance_calc,
-        'resume' : parsed_resume,
-        'job' : parsed_desc
-    }
-
-
-def compare_resume_and_soc(
-    resume_filepath,
-    resume_ext,
-    soc_code,
-    distance = 'manhattan'
-):
-    parsed_resume = parse_resume(resume_filepath, resume_ext)
-    print(parsed_resume["SkillVector"])
-
-    resume_topic_vec = parsed_resume['SkillVector'].scale_to_topic_models()
-    print(resume_topic_vec)
-    soc_topic_vec = get_soc_matrix_row(soc_code)
-    print(soc_topic_vec)
-
-    if distance == 'euclidean':
-        distance_calc = spatial.distance.euclidean(resume_topic_vec, soc_topic_vec)
-    elif distance == 'manhattan':
-        distance_calc = spatial.distance.cityblock(resume_topic_vec, soc_topic_vec)
-        distance_calc = np.absolute(resume_topic_vec - soc_topic_vec).sum()
-    elif distance == 'cosine':
-        distance_calc = spatial.distance.cosine(resume_topic_vec, soc_topic_vec)
-
-    del parsed_resume['SkillVector']
-
-    return {
-        'comparison_type' : 'resume_soc',
-        'distance' : distance_calc,
-        'resume' : parsed_resume,
-        'soc' : soc_code
-    }
-
-def compare_job_and_soc(
-    job_filepath,
-    job_ext,
-    soc_code,
-    distance = 'manhattan'
-):
-    parsed_job = parse_job_posting(job_filepath, job_ext)
-
-    job_topic_vec = parsed_job['SkillVector'].scale_to_topic_models()
-    soc_topic_vec = get_soc_matrix_row(soc_code)
-
-    if distance == 'euclidean':
-        distance_calc = spatial.distance.euclidean(job_topic_vec, soc_topic_vec)
-    elif distance == 'manhattan':
-        distance_calc = spatial.distance.cityblock(job_topic_vec, soc_topic_vec)
-    elif distance == 'cosine':
-        distance_calc = spatial.distance.cosine(job_topic_vec, soc_topic_vec)
-
-    del parsed_job['SkillVector']
+    # Calculate similarity score
+    if similarity == "cosine":
+        d = spatial.distance.cosine(v1, v2)
+    elif similarity == "euclidean":
+        d = spatial.distance.euclidean(v1, v2)
+    elif similarity == "manhattan":
+        d = spatial.distance.cityblock(v1, v2)
+    elif similarity == "kl":
+        d = _kl(v1, v2)
+    else:
+        error(f"unknown similarity measure '{similarity}'")
+        return {}
 
     return {
-        'comparison_type' : 'job_soc',
-        'distance' : distance_calc,
-        'job' : parsed_job,
-        'soc' : soc_code
+        "comparison_type"   : f"{type1}-{type2}",
+        "similarity_method" : similarity,
+        "similarity_score"  : 1 - d,
+        "source1"           : parsed1,
+        "source2"           : parsed2
     }

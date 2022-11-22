@@ -753,14 +753,14 @@
     "title":"assistant director",
     "SOC6":[],
     "SOC3":[],
-    "SOC2":[]
+    "SOC2":["11"]
   },
   {
     "id":109,
     "title":"assistant manager",
     "SOC6":[],
     "SOC3":[],
-    "SOC2":[]
+    "SOC2":["11"]
   },
   {
     "id":110,
@@ -774,6 +774,104 @@
     "title":"board of directors",
     "SOC6":[],
     "SOC3":[],
-    "SOC2":[]
+    "SOC2":["11"]
+  },
+  {
+    "id":112,
+    "title":"director, child care center",
+    "SOC6":["11-9151"],
+    "SOC3":["119"],
+    "SOC2":["11"]
+  },
+  {
+    "id":113,
+    "title":"hospital billing revenue cycle manager",
+    "SOC6":[],
+    "SOC3":[],
+    "SOC2":["11"]
+  },
+  {
+    "id":114,
+    "title":"network engineer manager",
+    "SOC6":["15-1244"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":115,
+    "title":"mgr/sr. mgr, neo product master data",
+    "SOC6":["15-1244"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":116,
+    "title":"child watch associate",
+    "SOC6":["39-9011"],
+    "SOC3":["399"],
+    "SOC2":["39"]
+  },
+  {
+    "id":117,
+    "title":"polysomnographic technician/technologist",
+    "SOC6":["29-2099","29-2034"],
+    "SOC3":["292"],
+    "SOC2":["29"]
+  },
+  {
+    "id":118,
+    "title":"medical imaging tech",
+    "SOC6":["29-2099","29-2034"],
+    "SOC3":["292"],
+    "SOC2":["29"]
+  },
+  {
+    "id":119,
+    "title":"cybersecurity subject matter expert",
+    "SOC6":["15-1211","15-1212","15-1241","15-1221","15-1299"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":120,
+    "title":"data interface specialist",
+    "SOC6":["15-1243","15-1242","15-1251","15-1299"],
+    "SOC3":["151"],
+    "SOC2":["15"]
+  },
+  {
+    "id":121,
+    "title":"sr manager, therapy area and product",
+    "SOC6":["11-2021","11-2022"],
+    "SOC3":["112"],
+    "SOC2":["11"]
+  },
+  {
+    "id":122,
+    "title":"learning experience developer",
+    "SOC6":["15-1255","15-1254","15-1252","25-3099"],
+    "SOC3":["151","253"],
+    "SOC2":["15","25"]
+  },
+  {
+    "id":123,
+    "title":"cyber e&o underwriting manager",
+    "SOC6":["13-2053","11-3031"],
+    "SOC3":["132","113"],
+    "SOC2":["13","11"]
+  },
+  {
+    "id":124,
+    "title":"director - sales analytics",
+    "SOC6":["11-2022"],
+    "SOC3":["112"],
+    "SOC2":["11"]
+  },
+  {
+    "id":125,
+    "title":"echo tech registered lead",
+    "SOC6":["29-2099","29-2034"],
+    "SOC3":["292"],
+    "SOC2":["29"]
   }
 ]
