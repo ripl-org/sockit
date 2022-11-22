@@ -1,6 +1,9 @@
 import numpy as np
 from scipy import spatial
-from sockit.data import get_index, get_skill_idf_vector, get_soc, get_soc_skill_matrix, get_soc_title
+from sockit.data import (
+    get_index, get_skill_idf_vector,
+    get_soc, get_soc4, get_soc4_model, get_soc_skill_matrix,
+    get_soc_title, get_soc4_title)
 
 
 class SkillVector:
@@ -112,4 +115,17 @@ class SkillVector:
                 "similarity_score"  : 1 - d[i]
             }
             for i in np.argsort(d)[:n]
+        ]
+
+    def predict_socs(self, n=1):
+        x = self.to_array()
+        model = get_soc4_model()
+        p = model.predict(x.reshape(1, len(x)), num_iteration=model.best_iteration)[0]
+        return [
+            {
+                "soc4"        : get_soc4(i),
+                "soc4_title"  : get_soc4_title(get_soc4(i)),
+                "probability" : p[i]
+            }
+            for i in np.argsort(p)[::-1][:n]
         ]

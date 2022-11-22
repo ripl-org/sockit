@@ -16,7 +16,8 @@ def get_index(name):
     global DATA
     names = frozenset((
         "skill",
-        "soc"
+        "soc",
+        "soc4"
     ))
     if name not in names:
         Log(__name__, "get_index").error(f"unknown index '{name}'")
@@ -41,7 +42,8 @@ def get_lookup(name):
         "abbreviations",
         "acronyms",
         "resume_headers",
-        "soc_titles"
+        "soc_titles",
+        "soc4_titles"
     ))
     if name not in names:
         Log(__name__, "get_lookup").error(f"unknown lookup '{name}'")
@@ -104,11 +106,39 @@ def get_soc(i):
     return get_index("soc")["id"][i]
 
 
+def get_soc4(i):
+    """
+    Get the 4-digit SOC code associated with outcome i in the 4-digit SOC prediction model.
+    """
+    return get_index("soc4")["id"][i]
+
+
 def get_soc_id(soc):
     """
     Get the row ID associated with `soc` in the SOC-skill matrix.
     """
     return get_index("soc")["value"][str(soc)]
+
+
+def get_soc4_id(soc4):
+    """
+    Get the outcome ID associated with `soc4` in the 4-digit SOC prediction model.
+    """
+    return get_index("soc4")["value"][str(soc4)]
+
+
+def get_soc4_model():
+    """
+    Lazy-load the 4-digit SOC code prediction model from package data.
+    """
+    global DATA
+    key = "sockit.data.model_soc4"
+    if key not in DATA:
+        Log(__name__, "get_soc4_model").debug("loading 4-digit SOC prediction model")
+        import lightgbm as lgb
+        with resources.path("sockit.data", "model_soc4.txt") as f:
+            DATA[key] = lgb.Booster(model_file=f)
+    return DATA[key]
 
 
 def get_soc_skill_matrix():
@@ -129,6 +159,13 @@ def get_soc_title(soc):
     Lazy-load SOC titles and lookup the title for a SOC code.
     """
     return get_lookup("soc_titles")[str(soc)]
+
+
+def get_soc4_title(soc4):
+    """
+    Lazy-load SOC titles and lookup the title for a 4-digit SOC code.
+    """
+    return get_lookup("soc4_titles")[str(soc4)]
 
 
 def get_trie(name):
