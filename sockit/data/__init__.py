@@ -137,7 +137,7 @@ def get_soc4_model():
         Log(__name__, "get_soc4_model").debug("loading 4-digit SOC prediction model")
         import lightgbm as lgb
         with resources.path("sockit.data", "model_soc4.txt") as f:
-            DATA[key] = lgb.Booster(model_file=f)
+            DATA[key] = lgb.Booster(model_str=open(f).read())
     return DATA[key]
 
 
