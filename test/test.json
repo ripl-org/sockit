@@ -873,5 +873,12 @@
     "SOC6":["29-2099","29-2034"],
     "SOC3":["292"],
     "SOC2":["29"]
+  },
+  {
+    "id":126,
+    "title":"Cisco Certified Network Professional (CCNP)",
+    "SOC6":["15-1244"],
+    "SOC3":["151"],
+    "SOC2":["15"]
   }
 ]
