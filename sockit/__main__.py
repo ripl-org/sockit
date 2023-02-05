@@ -38,7 +38,7 @@ def run_parse(args):
             if args.type == "resume":
                 result = sockit.parse.parse_resume(filepath)
             elif args.type == "job":
-                result = sockit.parse.parse_job_posting(filepath)
+                result = sockit.parse.parse_job_posting(filepath, prediction=args.prediction)
             else:
                 Log(__name__, "run_parse").error(f"unknown type '{args.type}'")
                 return
@@ -181,6 +181,12 @@ def main():
         "--output",
         default="-",
         help="output file (default: stdout) containing a JSON record per line",
+    )
+    parse.add_argument(
+        "-p",
+        "--prediction",
+        action="store_true",
+        help="predict occupations from the description [False] (requires the lightgbm package)"
     )
 
 

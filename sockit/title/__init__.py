@@ -55,6 +55,21 @@ def clean(title):
     "Teacher for Special Needs" to "special needs teacher"
     "Assistant to the CEO" to "the ceo assistant"
     """
+    # Check for acronyms in parentheses
+    # Check if there are parentheses
+    paren_pos = title.find("(")
+    # Then, check if in parentheses is just one "word"
+    if paren_pos != -1:
+        parenthetical = re_tokenize.split(title[paren_pos+1:])[0]
+        # If so, load acronyms
+        if len(parenthetical.split()) == 1:
+            acronyms = get_lookup("acronyms")
+            # Check if that one "word" is in the acronym list
+            clean_paren = re_alpha.sub(" ", parenthetical).lower()
+            if clean_paren in acronyms:
+                # If so, directly return the acronym
+                return clean_paren
+
     # Split on anything that's not a letter, comma or &
     # Grab the first token
     tokens = re_tokenize.split(title)

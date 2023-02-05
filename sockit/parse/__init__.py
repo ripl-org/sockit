@@ -288,7 +288,7 @@ def parse_resume(filename, extension=None):
     return results
 
 
-def parse_job_posting(filename, extension=None):
+def parse_job_posting(filename, extension=None, prediction=False):
     """
     Parse a job posting description.
     """
@@ -318,5 +318,7 @@ def parse_job_posting(filename, extension=None):
 
     # Find closest SOC
     results["Occupations"] = results["SkillVector"].rank_socs(n=10)
+    if prediction:
+        results["PredictedOccupations"] = results["SkillVector"].predict_socs(n=3)
 
     return results
