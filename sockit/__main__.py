@@ -232,8 +232,10 @@ def main():
     else:
         logging.basicConfig(level=logging.INFO)
 
-    args.run(args)
-
+    if hasattr(args, "run"):
+        args.run(args)
+    else:
+        parser.print_help()
 
 if __name__ == "__main__":
     main()
