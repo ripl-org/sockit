@@ -11,6 +11,7 @@ titles = json.load(
         os.path.join(
             os.path.abspath(os.path.dirname(sys.argv[0])),
             "..",
+            "..",
             "sockit",
             "data",
             "lookup_soc_titles.json"

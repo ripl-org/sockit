@@ -1,0 +1,1017 @@
+id,onet_id,job_title
+1,43-4131.00,SBA Loan Associate
+2,43-4131.00,Credit Analyst
+3,19-1042.00,"Scientist, Lead Discovery"
+4,49-9071.00,Maintenance Director
+5,17-2112.00,Engineer I
+6,19-1042.00,Senior Research Scientist
+7,29-1215.00,Family Physician
+8,43-4131.00,Mortgate Underwriter
+9,17-2112.00,Solar Electrical Project Engineer 2021
+10,43-4131.00,Loan Delivery Specialist
+11,19-1042.00,Medical Affairs Scientist
+12,43-4131.00,Loan Originator Assistant
+13,49-9071.00,Commissioning Technician I
+14,17-2112.00,Mechanical Engineer
+15,43-4131.00,Closing Processor III
+16,49-9071.00,Facilities
+17,49-9071.00,Maintenance Technician
+18,49-9071.00,Facilities Maintenance Technician
+19,49-9011.00,Equipment and Process Technician
+20,49-9071.00,Maintenance Electrician
+21,49-9011.00,Field Technician
+22,49-9071.00,Maintenance Technician
+23,47-2073.00,Field Operations Engineer III
+24,17-2112.00,Inside Plant (ISP) Engineer I
+25,49-9011.00,Instrument Technician
+26,49-9071.00,Measurement Technician
+27,47-2073.00,Refinery Operator
+28,17-2112.00,G&P Project Engineer II
+29,43-4131.00,Real Estate Processor
+30,17-2112.00,"Director, Process Engineering"
+31,49-9011.00,HVAC Technician
+32,49-9071.00,Mechanic III
+33,47-2073.00,Operating Engineer
+34,17-2112.00,Chief Plant Engineer
+35,19-1042.00,Medical Laboratory Scientist
+36,49-9011.00,Field Service Technician
+37,49-9071.00,Maintenance TEchnician
+38,47-2073.00,Operations Technician
+39,17-2112.00,Process Improvement Engineer
+40,29-1215.00,Primary Care Physician
+41,49-9011.00,Generator Service Technician
+42,49-9071.00,Maintenance Tech III
+43,47-2073.00,Operations Engineer
+44,17-2112.00,Mechanical Engineer
+45,19-1042.00,Biomedical Research Scientist
+46,49-9011.00,Boiler Technician
+47,49-9071.00,Maintenance
+48,47-2073.00,Bulk Plant Operator
+49,17-2112.00,Process Engineer
+50,19-1042.00,"Scientist (III), Microbiology"
+51,49-9011.00,Control Technician
+52,49-9071.00,"Lead Tech, Maintenance"
+53,47-2073.00,Laser Operator
+54,17-2112.00,Senior Process Engineer
+55,19-1042.00,Research Scientist
+56,49-9011.00,Repair Design Technician
+57,49-9071.00,Industrial Equipment Technician
+58,17-2112.00,Mechanical Design Engineer
+59,49-9011.00,Associate Equipment Service Technician
+60,49-9071.00,Facilities Maintenance Technician
+61,17-2112.00,Implementation Electro-Mechanical Equipment Automation Engineer
+62,19-1042.00,Senior Researcher – Oncology
+63,29-1215.00,Family Medicine Physician
+64,49-9071.00,Maintenance Technician
+65,17-2112.00,Industrial Engineer
+66,43-4131.00,Loan Management Analyst
+67,47-2073.00,"Sr. Operator, Production SS"
+68,49-9011.00,Lead Truck Technician
+69,47-2073.00,Terminal Operator I
+70,49-9071.00,Manufacturing Sustaining Technician
+71,17-2112.00,Mechanical Product Engineer
+72,49-9011.00,Custom Service Technician
+73,49-9011.00,Field Service Technician
+74,49-9071.00,Maintenance Technician
+75,47-2073.00,Manufacturing/Production Operator
+76,17-2112.00,Sr Industrial Engineer
+77,19-1042.00,Clinical Research Laboratory Scientist
+78,49-9011.00,Data Center Facilities Technician
+79,17-2112.00,Manufacturing Engineer
+80,49-9011.00,Services Technician
+81,49-9071.00,Distribution Center Maintenance Technician
+82,47-2073.00,Machine Operator
+83,17-2112.00,Lead Construction & Engineering
+84,49-9071.00,Maintenance Technician 1
+85,17-2112.00,Industrial Engineers
+86,49-9071.00,Maintenance Mechanic
+87,43-4131.00,Commercial Loan Administrator - Closing
+88,49-9011.00,Marine Field Service Technician 2
+89,49-9071.00,Mechanical Technician I
+90,47-2073.00,Heavy Equipment Operator
+91,17-2112.00,Industrial Engineers
+92,49-9011.00,Installation & Service Technician
+93,49-9071.00,Facilities Mechanical Technician
+94,17-2112.00,Facilities Mechanical Engineer
+95,49-9011.00,Diesel Service Technician
+96,49-9071.00,Lead Maintenance Technician
+97,17-2112.00,Industrial Engineer
+98,49-9011.00,Tooling Technician II
+99,49-9071.00,Senior Maintenance Technician
+100,47-2073.00,EVG Equipment Operator
+101,17-2112.00,Quality Engineer
+102,49-9011.00,Ground Service Equipment Technician
+103,49-9071.00,Facilities Maintenance Technician
+104,49-9011.00,Installation and Repair Technician
+105,49-9071.00,Central Office Technician
+106,17-2112.00,Industrial Engineers
+107,49-9071.00,Mechanical Technician
+108,47-2073.00,Associate Manufacturing Operator
+109,17-2112.00,Staff Quality Engineer
+110,19-1042.00,Clinical Scientist
+111,49-9071.00,Production Maintenance Technician
+112,29-1215.00,Physician
+113,49-9071.00,Maintenance Technician
+114,47-2073.00,Pharmacy Operations Machine Operator
+115,29-1215.00,Family Practice Physician
+116,49-9011.00,Desktop Systems Installer
+117,47-2073.00,Entry Level Equipment & Tool Engineer
+118,17-2112.00,Mid Level Industrial Engineer
+119,43-4131.00,Mortgage Loan Processor 4
+120,49-9011.00,Service Technician 2
+121,47-2073.00,Operator
+122,17-2112.00,Industrial Engineers
+123,49-9011.00,Facilities Services Technician
+124,47-2073.00,ESL Processing Operator
+125,17-2112.00,"Civil Engineer, Facilities"
+126,49-9011.00,Field Service Technician
+127,47-2073.00,Equipment Operator
+128,47-2073.00,Machine Operator
+129,47-2073.00,CNC Machine Operator
+130,47-2073.00,Forklift Driver
+131,47-2073.00,Machine Operator
+132,43-4131.00,Investments Bank Loan Analyst
+133,47-2073.00,Warehouse Operator III
+134,19-1042.00,"Principal Research Scientist, Precision Medicine-Oncology"
+135,47-2073.00,Forklift Operator
+136,47-2073.00,Forklift Operator
+137,43-4131.00,Loan Servicing Specialist IV
+138,43-4131.00,Loan Servicing Admin I
+139,19-1042.00,Clinical Scientist
+140,43-4131.00,"Associate, Loan Operations Closer"
+141,19-1042.00,PhD Scientist/Bioengineer
+142,29-1215.00,Primary Care Physician
+143,19-1042.00,Medical Imaging Scientists (Nuclear Medicine)
+144,43-4131.00,Mortgage Loan Processor/Closer
+145,15-1252.00,Software Engineer
+146,15-1252.00,Senior Software Development Engineer in Test
+147,15-1252.00,"Software Engineer, Full Stack - Growth Team (Remote)"
+148,15-1232.00,"Manager, IT Operations"
+149,15-1232.00,IT Support Specialist
+150,15-1252.00,Android Engineer
+151,15-1211.00,Internal IT Systems Engineer
+152,15-1252.00,Software Developer - Point of Sale Solutions
+153,15-1252.00,Java Developer
+154,15-1252.00,Remote PHP Developer
+155,15-1252.00,"Software Developer, Analystics Solutions"
+156,15-1252.00,Software Engineer
+157,15-1252.00,"Application Engineer, Salesforce"
+158,15-1252.00,Product Designer
+159,15-1252.00,"Software Engineer, Digital Retail"
+160,15-1252.00,"JavaScript Engineer, Consumer"
+161,15-1252.00,Backend Engineer
+162,15-1254.00,Front End engineer
+163,15-1252.00,Platform Engineer
+164,15-1211.00,Computer Systems Analyst
+165,15-1232.00,Computer Systems Specialist
+166,15-1211.00,High-Performance Computer Systems (HPCS) Analyst-Junior
+167,15-1252.00,Jr. Software Developer
+168,15-1254.00,Web Design Art Director
+169,15-1252.00,Cloud Integration Developer
+170,15-1252.00,Software Engineer in Test (SET)
+171,15-1232.00,IT Data & Integrations Director
+172,15-1211.00,IT Systems Analyst / Senior
+173,15-1211.00,Mobile Application Developer
+174,15-1252.00,Developer-Information Technology
+175,15-1252.00,Director – IT Application Development
+176,15-1254.00,Senior Infrastructure Architect – Cybersecurity & Digital Risk
+177,15-1252.00,Network Performance & Analytics Engineer
+178,15-1211.00,Linux Systems Administrator
+179,15-1252.00,Engineer IV
+180,15-1254.00,Cloud Security Architect
+181,15-1252.00,AWS Infrastructure Engineer
+182,15-1254.00,IT Architect I-Network Cloud
+183,15-1232.00,IT Manager - Solution Delivery
+184,15-1252.00,Adv IT Developer
+185,15-1232.00,IT Technician
+186,15-1232.00,Specialist - IT SCADA
+187,15-1252.00,"Architect, AI Infrastructure"
+188,15-1252.00,"Firmware Engineer (Features / Embedded Systems / Product Software), Bachelors (Meraki)"
+189,15-1252.00,Network Architect VPN Cloud Data Center
+190,15-1252.00,Software Architect Fellow
+191,15-1252.00,INFORMATION & DATA ARCHITECT
+192,15-1252.00,SOFTWARE ENGINEER I
+193,13-2011.00,"Director, Accounting"
+194,43-4051.00,Client Support Specialist
+195,13-2011.00,Accounting Assistant
+196,43-3031.00,Credit and Collection Analyst
+197,13-2011.00,Revenue Accountant
+198,43-1011.00,Workplace Services Manager
+199,43-4051.00,Customer Service Associate
+200,43-4051.00,Customer Success Manager
+201,19-3032.00,"Director, Organizational Development"
+202,43-4051.00,Customer Support Representative
+203,11-3031.00,"Manager, Strategic Finance"
+204,13-2011.00,"Senior Accountant, Technical Accounting & SEC Reporting"
+205,15-1242.00,Network and Security Admin
+206,11-3121.00,Human Resource Systems Manager
+207,15-2051.01,Senior IT Business Systems Analyst
+208,11-3121.00,HR Communications and Program Manager
+209,15-2041.00,"Senior Analyst, BI / Visualizations"
+210,15-2051.01,Digital Analytics Consultant (Remote - USA)
+211,15-2051.01,Data Analyst
+212,15-2051.01,Data Operations Analyst
+213,15-1243.01,DATA WAREHOUSE ARCHITECT
+214,15-2051.01,DATA VISUALIZATION ANALYST
+215,15-1242.00,SENIOR SYSTEMS ADMINISTRATOR
+216,11-3121.00,Senior HR Business Partner
+217,15-1242.00,Systems Administrator II
+218,11-3121.00,HR/Facilities Admin
+219,15-2051.01,Sr. Business Analyst
+220,11-3121.00,People Operations Manager
+221,15-2051.01,Sr. Marketing Data Analyst
+222,15-1243.01,Lead Data Architect
+223,15-2051.01,Analytics Engineer (Intermediate/Sr. Level) - ASO
+224,15-1243.01,Data Manager
+225,15-1243.01,Data Engineer
+226,15-1243.01,Software Engineer - Data Infrastructure
+227,15-2041.00,Principal Machine Learning Scientist
+228,15-1242.00,Senior OBIEE Administrator
+229,15-2051.01,Business Analyst
+230,11-3121.00,"People Director, Medium Segment"
+231,15-2041.00,Data Scientist
+232,15-1243.01,Lead Data Engineer
+233,11-3121.00,Head of Human Resources
+234,15-2051.01,Sr Business Intelligence Analyst
+235,15-1243.01,Senior Solutions Architect
+236,15-2051.01,Data Intelligence Analyst
+237,15-2041.00,Senior Data Scientist
+238,15-1243.01,Technical Solutions Manager
+239,15-1243.01,Cloud Engineer
+240,11-3121.00,Human Resources Manager
+241,15-1243.01,Systems Engineer / Developer
+242,15-2051.01,Senior Business Analyst
+243,15-1243.01,SOLUTION ARCHITECT
+244,15-2051.01,KRONOS BUSINESS ANALYST
+245,11-3121.00,"Director, Human Resources"
+246,15-1243.01,Solution Architect
+247,15-2051.01,Lead Business Analyst
+248,15-1243.01,Cloud Integration Developer
+249,15-2051.01,Business Analyst
+250,15-1243.01,"Software Architect - ""Enterprise SaaS built on Rails"""
+251,15-1243.01,Systems Engineer
+252,15-2041.00,Senior Data Scientist
+253,15-2051.01,Senior Data Analyst
+254,15-2051.01,"Analyst, Business Analytics"
+255,11-3121.00,Human Resources Business Partner
+256,15-2051.01,Fair and Responsible Banking Data Analyst
+257,15-1243.01,Sr. Network Cloud Engineer
+258,15-1243.01,Data Platform Architect
+259,15-2051.01,Senior Business Analyst
+260,15-1243.01,Data Engineer
+261,15-1243.01,Data Engineer
+262,15-2051.01,Business Analytics Lead
+263,15-1242.00,Junior Database Reliability Engineer
+264,15-2041.00,"Associate Director, Statistical Programming"
+265,11-3121.00,"Sr Manager, Human Resources Business Partner, Medical Affairs"
+266,15-2051.01,Sr Business Analyst - R&D Systems
+267,15-2041.00,Senior Quantitative Behavioral Scientist
+268,11-3121.00,"Sr. Manager, HR Business Partner"
+269,15-2041.00,Data Scientist
+270,15-1243.01,Data Engineer
+271,15-1243.01,Big Data Architect
+272,11-3121.00,PEOPLE RELATIONS MANAGER
+273,15-2041.00,Predictive Analytics
+274,15-1242.00,Database Engineer
+275,15-2041.00,Data Scientist
+276,15-2051.01,"Senior Analyst, Pricing Strategy & Analytics"
+277,15-2051.01,BI Analyst
+278,11-3121.00,Senior HR Business Partner
+279,15-2051.01,Power BI Architect
+280,15-1243.01,"SENIOR ARCHITECT, DATA ENGINEERING"
+281,15-2041.00,DATA SCIENCE CONSULTANT
+282,15-1243.01,Solution Architect
+283,15-2041.00,Data Scientist
+284,15-1243.01,Solution Architect
+285,15-2041.00,Senior Data Analyst
+286,15-2051.01,Business Intelligence Analyst
+287,15-1242.00,Senior Systems Administrator
+288,11-3121.00,"Director, HR Business Partner"
+289,15-1243.01,"Strategy and Analytics, Analytics Engineer II"
+290,15-2041.00,Director of Data Science (Skills Platform)
+291,15-1243.01,Junior Infrastructure Engineer
+292,15-1242.00,Database Administrator
+293,15-2041.00,"Data Analyst / Senior Data Analyst – Impact Analytics, Remote"
+294,15-2041.00,Data Scientist - Computational Biology
+295,15-2041.00,Reporting Data Analyst (Remote)
+296,15-1243.01,Cloud Solution Architect
+297,15-2051.01,Business  Analyst - Pricing Automation
+298,15-1242.00,Database Admin
+299,15-1243.01,Solution Architect
+300,15-2051.01,Business Analyst
+301,15-2041.00,Senior Data Scientist
+302,11-3121.00,Human Resources Business Partner
+303,15-1242.00,Senior Oracle Database Administrator/Developer
+304,11-3121.00,"Manager, HR Strategy"
+305,15-2041.00,Senior Data Analyst
+306,15-2051.01,Sr. Business Analyst
+307,15-1243.01,"Senior Manager, Solutions Architect"
+308,15-1242.00,"System Administrator Tech Lead, IT Solutions"
+309,15-1243.01,"Industry Solutions Architect, Cloud Manufacturing, Industrial and Transportation"
+310,11-3121.00,HR Business Partner
+311,15-2041.00,Data Scientist Technical Lead
+312,15-2051.01,"Business Analyst, Google TV"
+313,11-3121.00,HR Business Partner- SR HR Business Partner
+314,15-1242.00,Systems Administrator I - 10am - 6pm
+315,15-2051.01,Business Analyst I
+316,15-2041.00,Data Scientist
+317,15-1243.01,Solution Architect - Accounting Systems
+318,15-2051.01,Business Analyst
+319,15-2051.01,Business Operations Analyst
+320,15-2041.00,Sr Data Scientist
+321,15-1243.01,"Senior Data Warehousing – Business Intelligence Solution Development Engineer, Electric Insurance Company"
+322,15-2051.01,"Analyst/Senior Analyst, Division Finance"
+323,15-2041.00,"Data Scientist/Senior Data Scientist, IT Operations Research and Advanced Analytics"
+324,11-3121.00,HR BU Leader
+325,15-1243.01,Cloud Security Architect
+326,15-2041.00,Data Scientist
+327,15-1242.00,System Administrator (TS/SCI + Full Scope Poly)
+328,15-2051.01,"Business Analyst – Raleigh, NC"
+329,15-2051.01,SENIOR BUSINESS ANALYST
+330,15-2041.00,DATA SCIENTIST
+331,11-3121.00,DISTRICT HR MANAGER
+332,15-2051.01,BUSINESS INTELLIGENCE ANALYST
+333,15-1243.01,BI SOLUTION ARCHITECT
+334,15-2041.00,DATA SCIENTIST II
+335,11-3121.00,HUMAN RESOURCES MANAGER
+336,15-2041.00,AI/ML Scientist
+337,15-1243.01,Solution Architect
+338,15-1242.00,SAP BASIS Administrator
+339,15-2051.01,Business Analyst
+340,11-3121.00,"People HR Partner - IT, Arizona Innovation Center"
+341,15-2051.01,"Business Analyst, CCO"
+342,15-2041.00,Senior Data Scientist
+343,11-3121.00,"Senior Director, HR Program Strategy & Solutions"
+344,11-3121.00,Human Resource Manager
+345,15-1243.01,Solution Architect H&W
+346,15-1242.00,Distribution Systems Administrator/Support
+347,15-2051.01,Business Analyst - Trust Accounting
+348,11-3121.00,HR Director
+349,15-2051.01,Consumer Data Analyst
+350,15-1243.01,Lead Solution Architect
+351,15-1242.00,Oracle Database Administrator
+352,15-2041.00,R&D Scientist
+353,15-2041.00,Senior Data Scientist
+354,15-1243.01,IT Solution Engineer- Sales and Marketing
+355,15-1243.01,Solution Architect
+356,15-2041.00,Data Scientist
+357,15-2051.01,Data Analyst
+358,15-1243.01,"HR Business Partner - Microfluidics, Technology and Operations (MTO), Imaging and Printing"
+359,11-3121.00,Solution Architect
+360,15-1243.01,People Business Partner
+361,15-2041.00,Business Systems Analyst
+362,15-2051.01,Cloud Solutions Architect
+363,15-1242.00,"AI/ML - Research Scientist, Health AI"
+364,11-3121.00,Lab Systems Administrator
+365,15-1243.01,"IT Sr. Architect, Well"
+366,15-2051.01,Energy Markets Analyst
+367,11-3121.00,"Manager, HR Data - Organization Management"
+368,15-2051.01,"Business Analyst, Workday Core HR Solutions"
+369,15-2041.00,"Associate Director, Biostatistics"
+370,15-2051.01,Lead Business Analyst
+371,15-2041.00,Senior Statistician
+372,15-1243.01,"Digital Technology Architect, Pharma"
+373,15-2051.01,Business Analyst III
+374,15-1242.00,Database Administrator I
+375,15-2041.00,Data Scientist
+376,11-3121.00,Human Resources Business Partner Senior (IngenioRx)
+377,11-3121.00,Strategic Payroll Senior Manager- Work from home
+378,15-2051.01,Business Analyst (VBA Developer)
+379,15-2041.00,Data Scientist - Digital and Service Operations (Work from home) - Evernorth
+380,15-1243.01,Solutions Architect
+381,15-2041.00,Data Scientist
+382,15-2051.01,Business Intelligence Developer
+383,15-2041.00,"Principle Data Scientist, Advanced Analytics"
+384,15-1243.01,Data Solutions Analyst
+385,15-2051.01,"Senior Business Analyst, Financial Engineering"
+386,15-1243.01,Senior Cloud Security Architect
+387,15-1243.01,Lead Solution Architect
+388,15-2051.01,"Sr. Business Analyst, Business Affairs"
+389,11-3121.00,"Manager, HR Business Partner"
+390,15-1243.01,DevSecOps Solutions Architect
+391,15-2041.00,Data Scientist - Recommender Systems
+392,15-2051.01,"Analyst, Business Performance Improvement"
+393,11-3121.00,Human Resources Manager
+394,15-1243.01,Solution Architect
+395,15-2041.00,Sr. Data Scientist
+396,15-2051.01,"Analyst, Business Support & Analytics"
+397,15-1242.00,Sr Database Administrator
+398,11-3121.00,"Manager, Human Resources"
+399,15-2041.00,Data Scientist
+400,15-1242.00,Sr. MS SQL Server Database Administrator
+401,11-3121.00,"Director, HR Business Partner"
+402,15-1243.01,Cyber Security Solutions Engineer/Architect
+403,15-2041.00,Senior AI/ML Scientist
+404,15-1242.00,Senior Systems Administrator I
+405,11-3121.00,Human Resources Partner
+406,11-3121.00,"Manager, Human Resources (HR Solutions)"
+407,15-1243.01,"Solution Architect, Global Marketing Technologies, Social Engagement"
+408,15-1242.00,Sr. Systems Administrator
+409,11-3121.00,Sr HR Business Partner
+410,15-1242.00,DB2 Mainframe Database Administrator
+411,11-3121.00,Human Resources Business Partner- Corporate Technology
+412,15-1242.00,Oracle Database Administrator
+413,11-3121.00,Human Resources Business Partner
+414,11-3121.00,"DIRECTOR, HR BUSINESS PARTNER, GLOBAL SPORTS MARKETING"
+415,11-3121.00,HR Manager
+416,11-3121.00,EXPERIENCED HUMAN RESOURCES BUSINESS PARTNER
+417,11-3121.00,"AVP, HR Business Partner"
+418,11-3121.00,HUMAN RESOURCES MANAGER
+419,11-3121.00,"Human Resources Manager - Decatur, IL"
+420,11-3121.00,"Dir, Human Resources"
+421,11-3121.00,Human Resources Business Partner
+422,11-3121.00,Human Resources Manager
+423,29-1141.00,Child Health/Vaccination Registered Nurse
+424,29-1171.00,Nurse Practitioner
+425,29-1171.00,Nurse Practitioner
+426,29-1171.00,Nurse Practitioner
+427,29-1171.00,Nurse Practitioner
+428,29-1171.00,"Nurse Practitioner, Physician Assistant"
+429,29-1171.00,Nurse Practitioner or Physician Assistant
+430,29-1171.00,Nurse Practitioner  (NP) / Physician Assistant (PA)
+431,31-1131.00,CNA II - Licensed in NC
+432,29-1141.00,RN - Endoscopy
+433,29-1141.00,RN for Remote Patient Monitoring Program
+434,29-1141.00,RN or LPN
+435,29-2011.00,Lab Medical Technologist PRN
+436,29-2011.00,Medical Technologist
+437,29-2011.00,Certified Medical Technologist III
+438,29-2011.00,Medical Technologist
+439,29-2012.00,Clinical Laboratory Assistant
+440,29-2011.00,Medical Technologist
+441,29-2012.00,Medical Laboratory Tech II
+442,29-2011.00,Medical Technologist - Cytogenetics
+443,29-2011.00,Medical Technologist MT
+444,29-2012.00,Lab Assistant
+445,29-2012.00,Laboratory Assistant/Phlebotomist
+446,29-2012.00,Laboratory Assistant
+447,29-1141.00,Registered Nurse Neuro Intensive Care Unit
+448,29-1141.00,Registered Nurse MSICU
+449,29-1141.00,OR RN PRN
+450,29-1141.00,Registered Nurse (RN) Renal Medicine
+451,29-1141.00,Registered Nurse (RN) Pedi Surgery (OR)
+452,29-1141.00,Registered Nurse - Universal Trauma Unit - PRN
+453,29-1141.00,Emergency Room Registered Nurse PRN
+454,29-1141.00,Registered Nurse (RN) - Day Surgery
+455,29-1141.00,Infusion Registered Nurse
+456,29-1141.00,Registered Nurse Operating Room
+457,29-1141.00,SeniorBridge Per Diem RN Care Manager
+458,31-1121.00,HHA/CNA
+459,29-1171.00,Field Nurse Practitioner or Physician Assistant - Your Home Advantage
+460,29-1171.00,Nurse Practitioner for Clinic
+461,29-1171.00,Nurse Practitioner - CenterWell - Kansas
+462,29-1171.00,Nurse Practitioner - Palliative Care
+463,29-1171.00,Nurse Practitioner - Part time - 30 hours - Evernorth - Washington DC
+464,29-1141.00,"Home Infusion Nurse, per Diem - Accredo"
+465,29-1141.00,Registered Nurse (Apache Junction)
+466,29-1171.00,"Nurse Practitioner HouseCalls - Douglas, Sarpy, NE"
+467,29-1171.00,"Nurse Practitioner, Long Term Care - New Haven, CT"
+468,29-1171.00,"Nurse Practitioner or Physician Assistant - WellMed - Mission, TX"
+469,29-1171.00,Nurse Practitioner
+470,29-1171.00,Nurse Practitioner-Psychiatry
+471,29-1171.00,Nurse Practitioner - Virtual
+472,15-1232.00,Help Desk Specialist
+473,15-1211.00,Application Security Analyst
+474,15-1232.00,Salesforce Support Specialist
+475,15-1254.00,Front End Developer
+476,15-1232.00,Tech Support
+477,15-1232.00,IT Systems Specialist
+478,15-1254.00,Senior Web Developer
+479,15-1254.00,Web Application Software Architect
+480,15-1232.00,Support Administrator
+481,15-1254.00,Web Developer
+482,15-1254.00,Front End Engineer
+483,15-1232.00,Technical Support Engineer
+484,15-1211.00,Application Support Technical Analyst
+485,15-1232.00,Service Desk Support Analyst
+486,15-1211.00,Applications Support Analyst III
+487,15-1254.00,Senior Web Developer
+488,15-1232.00,Application Support / Tier 3 Help Desk Analyst
+489,15-1254.00,Data Visualization / Front-End Developer
+490,15-1254.00,Web Applications Developer
+491,15-1232.00,IT Specialist I
+492,15-1211.00,Network Security Analyst II
+493,15-1232.00,Technical Support Engineer
+494,15-1254.00,Senior Frontend Engineer
+495,15-1232.00,IT Infrastructure & Support Specialist
+496,15-1211.00,Information Security Analyst
+497,15-1254.00,Senior Front End Engineer
+498,15-1232.00,HelpDesk Engineer
+499,15-1211.00,Application Support Analyst
+500,15-1232.00,IT Support Specialist
+501,15-1232.00,Support Specialist (Server Hardware)
+502,15-1232.00,IT Support Specialist
+503,15-1254.00,Front End Engineer
+504,15-1232.00,Technical Support Analyst I
+505,15-1232.00,"Senior Manager, IT Helpdesk"
+506,15-1211.00,Senior Information Security Analyst
+507,15-1232.00,IT Support Specialist
+508,15-1232.00,Tech Support Expert /Tier 4 Support
+509,15-1254.00,Senior Front End Engineer
+510,15-1232.00,Software Support
+511,15-1232.00,Desktop Support Tech
+512,15-1254.00,Senior Frontend Engineer
+513,15-1232.00,Senior IT Support Analyst
+514,15-1211.00,Salesforce Analyst/Developer
+515,15-1254.00,Web Services Engineer
+516,15-1252.00,Software Developer
+517,15-1232.00,Field Technical Support Representative
+518,15-1211.00,Systems Analyst
+519,15-1252.00,Software Developer
+520,15-1254.00,Web Developer
+521,15-1232.00,Associate Help Desk Support Specialist
+522,15-1211.00,Systems Analyst
+523,15-1211.00,IT Systems Analyst Lead
+524,15-1252.00,Software Engineer Lead
+525,15-1211.00,Business System Analyst II
+526,15-1252.00,Application Developer II
+527,15-1254.00,Web Developer
+528,15-1232.00,IT Support Technician
+529,15-1252.00,Software Developer - Investments Business
+530,15-1254.00,Web Producer
+531,15-1211.00,Information Technology Associate Analyst
+532,15-1254.00,eCom Senior Front End Engineer
+533,15-1211.00,Systems Analyst Sr
+534,15-1252.00,Senior Software Engineer - Backend
+535,15-1211.00,Systems Analyst
+536,15-1252.00,Software Development Engineer II
+537,15-1254.00,Web Developer
+538,15-1232.00,IT Support Manager
+539,15-1211.00,Systems Analyst
+540,15-1252.00,Sr Software Engineer
+541,15-1254.00,Sr Front End Developer
+542,15-1252.00,Associate Software Engineer
+543,15-1254.00,Senior Web Developer
+544,15-1211.00,Application Support Analyst
+545,15-1252.00,Full Stack Software Developer
+546,15-1254.00,.NET Web Analyst Developer
+547,15-1232.00,Technical Support Specialist
+548,15-1252.00,Software Development Engineer
+549,15-1254.00,Front-End Engineer
+550,15-1232.00,"Lead IT Support Specialist, Distribution Centers"
+551,15-1211.00,IT Security Operations Analyst I
+552,15-1252.00,Senior Software Developer
+553,15-1254.00,Developer - Front End
+554,15-1232.00,Desktop Support Analyst
+555,15-1252.00,Software Engineer - AMD Engineering
+556,15-1252.00,"Sr Engineer, Software Engineer - ETL"
+557,15-1232.00,Deskside Support Technician
+558,15-1252.00,Senior Software Engineer
+559,15-1254.00,Full Stack Web Developer
+560,15-1211.00,Computer Systems Analysts
+561,15-1252.00,Software Engineer
+562,15-1254.00,Senior Web Developer
+563,15-1232.00,IT Support Specialist
+564,15-1252.00,Staff Software Engineer
+565,15-1254.00,Web Solutions Engineer
+566,15-1252.00,Software Engineer
+567,15-1254.00,Web Developer
+568,15-1232.00,IT Field Support Specialist HT1
+569,15-1252.00,Senior Software Engineer
+570,15-1254.00,Sr Engineer - Target.com Web Team
+571,15-1254.00,Front-end Web Development - Cyber Security Engineer
+572,15-1211.00,Information Security Analyst
+573,15-1252.00,Software Engineer
+574,15-1254.00,Web Producer
+575,15-1232.00,Technical Support Specialist
+576,15-1211.00,"Systems Analyst, Professional"
+577,15-1211.00,SCA Computer Sys Analyst 3
+578,15-1254.00,Principal Angular Web Developer
+579,15-1232.00,GBSD Service Desk Support Technician
+580,15-1211.00,Systems Consultant
+581,15-1254.00,Front End Developer
+582,15-1232.00,"Technician, IT Support"
+583,15-1211.00,Systems Analyst
+584,15-1254.00,Web Application Developer
+585,15-1232.00,Infrastructure Technology Support Specialist
+586,15-1211.00,IT Systems Analyst
+587,15-1232.00,Desktop/End User Support Technician 3
+588,15-1211.00,Systems Analyst
+589,15-1211.00,PROGRAMMER ANALYST-2
+590,15-1254.00,SOFTWARE/WEB DEVELOPER
+591,15-1232.00,ASSOCIATE IT END USER SUPPORT SPECIALIST
+592,15-1254.00,FullStack Capital Markets Web Developer
+593,15-1211.00,Information Technology Analyst
+594,15-1211.00,Systems Analyst
+595,15-1254.00,.Net Web/UI Developer
+596,15-1232.00,ISTS Support Technician
+597,15-1254.00,Web Developer
+598,15-1232.00,IT Customer Support Analyst
+599,15-1254.00,Frontend Web Engineer
+600,15-1211.00,Computer Systems Analyst
+601,15-1254.00,Web Developer
+602,15-1232.00,Service Desk Technician
+603,15-1211.00,Sr. IT Analyst
+604,15-1254.00,FRONT-END DEVELOPER
+605,15-1254.00,Senior Web Specialist
+606,15-1232.00,Technical Support Associate
+607,15-1254.00,Sr. Front-End Engineer
+608,15-1232.00,"Capital Technical Support Specialist, III"
+609,15-1254.00,Senior Web Designer
+610,15-1211.00,Senior Systems Programming Analyst
+611,15-1254.00,Web Developer Specialist
+612,15-1211.00,Systems Analyst
+613,15-1211.00,Application Security Analyst
+614,15-1211.00,System Analyst
+615,15-1211.00,IT Security and Compliance Analyst
+616,15-1211.00,IT Security Business & Communications Analyst III
+617,15-1211.00,Sr. Services Analyst - IT
+618,15-1211.00,Applications Development Analyst 
+619,15-1211.00,Infrastructure Tech Analyst
+620,25-1081.00,Assistant Professor of Graphic Design
+621,25-1081.00,Assistant Professor of Art
+622,25-1081.00,Non-Tenure Track Faculty Position in the Butler School of Music
+623,25-1081.00,Non-Tenure Track Position in the School of Design and Creative Technologies
+624,25-1081.00,Adjunct-College of Fine Arts & Design-Theatre Arts
+625,25-1081.00,Adjunct Professor of Theatre (Costume Design)
+626,25-1081.00,Professor of Accounting
+627,25-1081.00,Assistant Professor in Applied Economics and Policy
+628,25-1081.00,"Instructor, Marketing"
+629,25-1081.00,Lecturer
+630,25-1081.00,Adjunct Faculty - Department of Business
+631,25-1081.00,Adjunct Faculty Teaching Positions
+632,25-1081.00,Assistant Professor - Advertising
+633,25-1081.00,Assistant or Associate Professor of Communication
+634,25-1081.00,Assistant Professor of the Practice in Esports Management
+635,25-1081.00,Visiting Professor of Communication
+636,25-1081.00,"Adjunct Faculty, Communication Disorders"
+637,25-1081.00,"Public Speaking, Adjunct Faculty"
+638,25-1081.00,Assistant Professor
+639,25-1081.00,"Educational Leadership, Assistant Professor"
+640,25-1081.00,Visiting Assistant Professor of Counselor Education
+641,25-1081.00,Assistant Professor of Practice
+642,25-1081.00,Associate/Full Professor in Health Administration
+643,25-1081.00,Clinical Assistant Professor in Occupational Therapy
+644,25-1081.00,"Assistant Professor (wot), Musculoskeletal Imaging"
+645,25-1081.00,Dental Assisting Instructor
+646,25-1081.00,Physical Therapy Adjunct
+647,25-1081.00,Residential Adjunct Professor in Exercise Science
+648,25-1081.00,Assistant/Associate Professor of Christian Theology
+649,25-1081.00,Assistant Professor - African American History
+650,25-1081.00,"Assistant Professor (Temporary), Africana Studies"
+651,25-1081.00,Assistant or Associate Teaching Professor
+652,25-1081.00,Adjunct Professors - Spanish and/or French Language
+653,25-1081.00,Adjunct Faculty Position - African-American Studies
+654,25-1081.00,Associate Professor and Director of the Master of Public Administration Program
+655,25-1081.00,Faculty Positions in Urban Planning
+656,25-1081.00,"Social Work, Associate/Assistant Professor"
+657,25-1081.00,"Instructor, Construction Management"
+658,25-1081.00,Adjunct Professor Architecture Engineering Technology CAD
+659,25-1081.00,"Adjunct Associate Professor, Paralegal/Legal Assistant Studies"
+660,25-1081.00,Assistant/Associate Professor of Biology
+661,25-1081.00,Tenure-Track Civil Engineering Faculty
+662,25-1081.00,NTT Assistant Professor of Instruction
+663,25-1081.00,Visiting Assistant Professor/Instructor
+664,25-1081.00,"Adjunct Instructor, Physics Instructor"
+665,25-1081.00,Adjunct Faculty for Computer Science
+666,25-1081.00,Assistant Professor of Psychology
+667,25-1081.00,Assistant Professor in Biological Anthropology
+668,25-1081.00,Instructional Faculty in Psychological Data Science
+669,25-1081.00,Visiting Assistant Professor in Sociology
+670,25-1081.00,"Adjunct, Psychology"
+671,25-1081.00,"Adjunct Faculty, Fall 2021 - School of Psychology"
+672,11-9033.00,Dean of Admissions 
+673,11-9033.00,Dean of Freshman College
+674,11-9033.00,"Dean, University Libraries"
+675,11-9033.00,Dean of the School of Architecture and Design
+676,11-9033.00,"Dean, School of Business"
+677,11-9033.00,Vice President of Finance
+678,11-9033.00,Vice President for Academic Affairs
+679,11-9033.00,Vice President for Enrollment Management
+680,11-9033.00,Vice President for Finance and Administration
+681,11-9033.00,Associate Vice President for University Communications
+682,11-9033.00,President
+683,11-9033.00,President
+684,11-9033.00,President
+685,11-9033.00,President
+686,11-9033.00,President
+687,11-9033.00,Provost and Vice President for Academic Affairs
+688,11-9033.00,Provost and Vice President for Academic Affairs
+689,11-9033.00,Provost and Executive Vice Chancellor for Academic Affairs
+690,11-9033.00,Provost
+691,11-9033.00,Associate Provost for Analytics and Institutional Research
+692,11-9033.00,Registrar
+693,11-9033.00,Registrar
+694,11-9033.00,Registrar
+695,11-9033.00,University Registrar
+696,11-9033.00,Associate Registrar
+697,11-9033.00,Executive Director of Communications
+698,11-9033.00,Director
+699,11-9033.00,Associate Director/Clinical Director
+700,11-9033.00,Director of Student Health or Medical Director
+701,11-9033.00,Director of Admissions
+702,21-1012.00,Academic Advisor
+703,21-1012.00,Academic Advisor
+704,21-1012.00,Academic Advisor
+705,21-1012.00,Academic Advisor
+706,21-1012.00,Academic Advisor
+707,21-1012.00,Academic Advisor
+708,21-1012.00,Academic Advisor
+709,21-1012.00,Academic Advisor
+710,21-1012.00,Academic Advisor
+711,21-1012.00,Academic Advisor
+712,21-1012.00,Admissions Counselor
+713,21-1012.00,Admissions Counselor
+714,21-1012.00,Admissions Counselor
+715,21-1012.00,Admissions Counselor
+716,21-1012.00,Admissions Counselor
+717,21-1012.00,Admissions Counselor
+718,21-1012.00,Admissions Counselor
+719,21-1012.00,Admissions Counselor
+720,21-1012.00,Admissions Counselor
+721,21-1012.00,Admissions Counselor
+722,21-1012.00,Career Counselor
+723,21-1012.00,Career Counselor I
+724,21-1012.00,Career Development Counselor
+725,21-1012.00,College and Career Counselor
+726,21-1012.00,Career and Academic Counselor
+727,21-1012.00,Career Counselor
+728,21-1012.00,Career Counselor 2
+729,21-1012.00,Counselor (Career/General)
+730,21-1012.00,Counselor
+731,21-1012.00,Counselor
+732,21-1012.00,Counselor
+733,21-1012.00,Counselor
+734,21-1012.00,Counselor
+735,21-1012.00,Counselor Part Time
+736,21-1012.00,Counselor
+737,21-1012.00,PT Counselor
+738,21-1012.00,Licensed Counselor
+739,21-1012.00,Staff Counselor
+740,21-1012.00,Student Services Coordinator
+741,21-1012.00,Coordinator of Student Disability Services
+742,21-1012.00,Student Financial Services Coordinator
+743,21-1012.00,Student Conduct Coordinator
+744,21-1012.00,International Student Services Advisor and Exchange Coordinator
+745,21-1012.00,Student Services Coordinator
+746,21-1012.00,Student Services Coordinator
+747,21-1012.00,"Coordinator II/III, Student Services"
+748,21-1012.00,Coordinator of Student Accessibility Services
+749,21-1012.00,Coordinator of TRIO - Student Support Services
+750,25-9042.00,Teaching Assistant
+751,25-9042.00,Clasroom Teaching Assistant
+752,25-9042.00,World Language Teaching Assistant
+753,25-9042.00,Summer Program Teaching Assistant
+754,25-9042.00,Teaching Assistant - Ceramics
+755,25-9042.00,Adjunct Faculty/Teaching Assistant | Digital Marketing Analyst
+756,25-9042.00,Head Learning Assistant
+757,25-9042.00,Writing Assistant
+758,25-9042.00,Mathematics Assistant
+759,25-9042.00,Lead Teacher/Planning Aide
+760,25-9042.00,Classroom Aide
+761,25-9042.00,"Instructional Aide 3, Part-time"
+762,25-9042.00,Early Childhood Classroom Assistant
+763,25-9042.00,Instructional Services Assistant II
+764,25-9042.00,Instructional Assistant - Music
+765,25-9042.00,Instructional Assistant - Mathematics
+766,25-9042.00,"Instructional Assistant 1, Part-Time"
+767,25-9042.00,Instructional Assistant - Fitness Center
+768,25-9042.00,Instructional Assistant / Math Lab
+769,25-9042.00,Health Education Assistant
+770,19-3032.00,"Consultant, Global DE&I Measurement & Insights"
+771,19-3032.00,"CVP, Planning Strategy & Consulting - Change Management"
+772,19-3032.00,"Sr. Manager, Organizational Development & Learning Strategy"
+773,19-3032.00,"(USA) Consultant II, Global Talent Management - Human Resources"
+774,19-3032.00,"Human Capital Management, Organizational Design Consultant, Associate-NY"
+775,19-3032.00,EAP Management Consultant
+776,19-3032.00,Organizational Effectiveness Advisor
+777,19-3032.00,"Consultant, Organizational Development"
+778,19-3032.00,"Organizational Development, Network Activation Lead"
+779,19-3032.00,"Associate Director, Organization Development and Transformation"
+780,19-3032.00,Organizational Design Analyst
+781,19-3032.00,"Consultant, Business Development"
+782,19-3032.00,"Senior Director, Organizational Development"
+783,19-3032.00,Organisational Development Consultant
+784,19-3032.00,Business Development Consultant
+785,19-3032.00,Learning & Talent Development Consultant
+786,43-1011.00,"SALES FLOOR DEPT SUPERVISOR- PRO SERVICES-BUILDING MATERIALS
+"
+787,43-1011.00,Maintenance Supervisor
+788,43-1011.00,Distribution Center Supervisor
+789,43-1011.00,"Manager, Operations"
+790,43-1011.00,EXECUTIVE OFFICE ADMINISTRATOR
+791,43-1011.00,"Manager - Annuity Product Applications
+"
+792,43-1011.00,Manager
+793,43-1011.00,Operations Supervisor
+794,43-1011.00,"Customer Marketing Manager
+"
+795,43-1011.00,Client Solutions Manager- Regional LATAM (Azure)
+796,43-1011.00,Manager I Care Center / Office Manager
+797,43-1011.00,Customer Service Manager
+798,43-1011.00,"Manager, Customer Service"
+799,43-3031.00,"Accounts Payable Associate
+"
+800,43-4051.00,Customer Service Specialist
+801,13-2011.00,General Ledger Accountant
+802,43-4051.00,Night Customer Service Representative
+803,43-4051.00,"Customer Service Representative - Tampa, FL- $500 Sign-on Bonus
+"
+804,43-4051.00,Customer Service Representative - Shopbop
+805,43-4051.00,Customer Service Representative
+806,43-1011.00,Customer Service Manager
+807,43-4051.00,Customer Service Representative
+808,43-4051.00,"Member Care Representative IV
+"
+809,43-1011.00,"Supervisor, Customer Success"
+810,43-4051.00,"Customer Experience Representative II
+"
+811,43-4051.00,Customer Experience Team Associate
+812,43-4051.00,Customer Service Support Representative
+813,43-1011.00,Business Office Manager
+814,43-4051.00,Workforce Solutions Associate
+815,43-1011.00,"Cust Service Center, Mgr 1 (Asst Mgr)
+"
+816,43-4051.00,"Virtual Customer Service Representative (Retention) AL, FL, GA, IL, IN, KY, LA, MI, MS, SC, TN
+"
+817,43-1011.00,"Store Manager - North Reading, MA
+"
+818,43-4051.00,"70181-LP Customer Service Associate
+"
+819,43-1011.00,"Customer Service Supervisor, CursScript SD"
+820,43-4051.00,Customer Service Representative
+821,43-4051.00,Customer Service Rep II
+822,13-2011.00,Accountant I
+823,13-2011.00,Accountant 1
+824,43-1011.00,Customer Service Lead - Night Auditor
+825,43-4051.00,Customer Service Representative
+826,43-1011.00,Customer Service Manager
+827,43-4051.00,Customer Service Clerk- Lobby Clerk
+828,11-3031.00,Finance Manager
+829,13-2011.00,Accountant  
+830,43-3031.00,"Payroll Specialist - Decatur, IL"
+831,43-1011.00,"Office Manager – Springfield, NJ
+"
+832,43-4051.00,"Provider Customer Service Representative – Remote – $750 Sign On Bonus For External Candidates
+"
+833,43-1011.00,Customer Contact Center Supervisor
+834,43-1011.00,Customer Service Manager-Support
+835,43-4051.00,Customer Service Representative- Textura
+836,43-1011.00,"Team Leader, Contact Center"
+837,43-4051.00,"Customer Service Representative, WLFC
+"
+838,43-4051.00,"Remote Customer Care Advocates needed for remote roles $20/hour. Launch your career!
+"
+839,43-4051.00,"Rep I, Customer Service Representative"
+840,43-4051.00,Customer Service Representative – Full Time
+841,43-1011.00,"Health Systems Operations Manager, Customer Support"
+842,43-4051.00,Customer Service Representative
+843,43-4051.00,Customer Assistance Representative
+844,43-4051.00,Customer Service Representative
+845,43-4051.00,Cargo Agent (Customer Service Agent) - LAX
+846,13-2011.00,STAFF ACCOUNTANT I COST / DECISION SUPPORT
+847,11-3031.00,"Finance Manager 2
+"
+848,13-2011.00,Accountant
+849,43-3031.00,CORPORATE ACCOUNTING SPECIALIST
+850,11-3031.00,"Finance Manager - National Product Supply Group
+"
+851,13-2011.00,Principal Accountant - Treasury
+852,11-3031.00,"Manager - Global Finance, Treasury Accounting
+"
+853,11-3031.00,Finance Manager - Loyalty
+854,13-2011.00,International Tax Accountant
+855,13-2011.00,Accountant/Financial Analyst
+856,13-2011.00,Lead Accountant
+857,11-3031.00,Manager-Finance Operations
+858,13-2011.00,Treasury Accountant
+859,13-2011.00,Accountant
+860,11-3031.00,"Manager, Receivables"
+861,13-2011.00,Tax Accountant
+862,43-3031.00,"Specialist, Intercompany Accounting"
+863,11-3031.00,"Manager, Finance"
+864,13-2011.00,Senior Accountant
+865,13-2011.00,"Reporting & Investment Accountant I
+"
+866,11-3031.00,Finance Manager
+867,13-2011.00,Accountant
+868,13-2011.00,Internal Audit Lead (Finance & Accounting)
+869,11-3031.00,"Manager 1, Finance"
+870,13-2011.00,Accountant
+871,13-2011.00,Sales & Use Tax Accountant
+872,13-2011.00,Accountant - Express Scripts
+873,11-3031.00,Finance Manager
+874,11-3031.00,"Manager, External Financial Reporting"
+875,13-2011.00,"Staff Accountant, ComEd
+"
+876,13-2011.00,Portfolio Accountant
+877,13-2011.00,Accountant I
+878,11-3031.00,Finance Manager - Controls & SOX Compliance
+879,13-2011.00,"Internal Auditor, GRC"
+880,43-3031.00,Accounting Clerk - Tax Department
+881,11-3031.00,Finance Manager – Telecommute
+882,43-3031.00,"Accounts Receivable Clerk – Tampa, FL
+"
+883,11-3031.00,Finance Manager
+884,11-3031.00,Financial Management
+885,11-3031.00,"Finance Manager, Server Fleet Operations"
+886,11-3031.00,Finance Manager
+887,43-3031.00,Accounts Receivable Associate
+888,11-3031.00,"Finance Manager, US Pharm Gross-to-Net
+"
+889,11-3031.00,Finance Manager
+890,11-3031.00,"Manager, Finance"
+891,43-3031.00,"Accounting Assistant- NAR
+"
+892,11-3031.00,"Financial Planning & Analysis Manager
+"
+893,11-3031.00,Commercial Finance Manager
+894,43-3031.00,Technical Accounting Specialist
+895,11-3031.00,"PGIM Finance - Manager, Planning & Analysis
+"
+896,11-3031.00,"Finance Manager, Chrome Browser"
+897,43-3031.00,"Billing Specialist, gCare
+"
+898,11-3031.00,Corporate Finance Manager
+899,43-3031.00,ACCOUNTS PAYABLE SPECIALIST
+900,11-3031.00,Quant Finance Manager
+901,43-3031.00,Sr Accounting Specialist
+902,11-3031.00,"M&A Finance, Sr Manager"
+903,11-3031.00,Finance Manager
+904,29-1215.00,Primary Care Clinic Physician
+905,31-1131.00,Certified Nursing Assistant (CNA)
+906,29-1141.00,RN - Hospice
+907,29-1141.00,Registered Nurse (RN) - Medical Surgical/ICU (Full Time)(Days)
+908,29-1141.00,RN
+909,31-1131.00,Registered Nursing Assistant-Spine
+910,31-1131.00,Certified Nurse CNA/Patient Care Assistant PCA (Med Surg) 619
+911,29-2012.00,MT or MLT (Laboratory Jefferson County) 622
+912,31-1121.00,Home Health Aide (Homecare) 526
+913,29-1171.00,"APRN/PA - Ryan Family Care (Ryan, OK) 580"
+914,29-1141.00,Staff RN
+915,31-1131.00,Nursing Assistant
+916,29-1141.00,MED-SURG RN - (Primarily Nights)
+917,31-1131.00,Comfort Care Certified Nursing Assistant (CNA)
+918,29-1141.00,Critical Care Registered Nurse (RN)
+919,31-1131.00,Patient Care Associate II
+920,29-1141.00,Registered Nurse
+921,29-2012.00,CLA
+922,29-1141.00,RN - VARIED UNITS: PRN
+923,29-1141.00,Registered Nurse RN PRN (7598)
+924,31-1131.00,Certified Nursing Assitant CNA (7605)
+925,29-1141.00,Registered Nurse- Emergency
+926,31-1131.00,Patient Care Assistant-Med Surg
+927,29-2011.00,Medical Technologist
+928,29-1141.00,RN FT Days Hamilton Primary Care Center Hamilton
+929,29-2011.00,Medical Technologist FT Variable Pathology Gilmore-Armory
+930,31-1131.00,"Certified Nursing Assistant, (PRN/varies)Nursing Home-Eupora"
+931,29-2012.00,Hospital Laboratory Technician II - Cytology Lab
+932,29-2011.00,Lead Medical Technologist - Registered
+933,19-1042.00,Medical Laboratory Scientist/Cert/UKHC
+934,29-2012.00,Clinical Lab Assistant - Cell Manipulation Core Facility
+935,19-1042.00,Medical Laboratory Scientist FT eve
+936,29-2012.00,Lab Assistant full time
+937,29-2011.00,Medical Technologist
+938,29-2012.00,MEDICAL LAB TECHNICIAN
+939,29-2011.00,"Medical Technologist, Lead FEATURED"
+940,19-1042.00,Clinical Lab Scientist (MT/CLS)
+941,19-1042.00,Clinical Laboratory Scientist
+942,29-2012.00,Lab Assistant
+943,29-2012.00,Medical Laboratory Technician
+944,29-2012.00,Medical Laboratory Technician $10000 sign on bonus
+945,29-2011.00,Reg Medical Technologist - Clinical Lab - Toxicology - FT
+946,29-2012.00,"Medical Lab Assistant (Non-Certified) - Georgetown Memorial Hospital (Georgetown, SC)"
+947,29-2012.00,Medical Laboratory Technician
+948,29-2011.00,Medical Technologist $10000 sign on
+949,19-1042.00,Clinical Lab Scientist - LGMC Lab - Full Time
+950,29-2011.00,Medical Technologist - Flex - Carilion Childrens - Tanglewood
+951,19-1042.00,"Scientist, Breast Cancer Genomics"
+952,29-2011.00,Clinical Lab Technologist - 1st shift
+953,29-2011.00,Medical Tech (Full-Time)
+954,29-1215.00,Family Practice Physician/Family Practice Physician with OB
+955,29-1171.00,Nurse Practitioner/Physician Assistant Hospitalist (Per Diem)
+956,29-1215.00,Physician - Venice Family Clinic
+957,29-1171.00,Nurse Practicioner/Physician Assistant
+958,29-1171.00,Nurse Practitioner - Specialty Practice - Hospitalist
+959,29-1171.00,Nurse Practitioner - Neurosurgery
+960,29-1215.00,Physician - Family Medicine (Elmwood Primary Care)
+961,29-1215.00,Physician - Family Medicine Clinic - Part Time
+962,29-1171.00,Nurse Practitioner - Family Medicine Clinic
+963,29-1171.00,Nurse Practitioner - Augusta Family Medicine
+964,31-1131.00,Nursing Assistant - CRMH Palliative Care (FT - BONUS ELIGIBLE)
+965,31-1131.00,"Health Care Technician, Med/Surg (FT Days)"
+966,31-1131.00,CNA - Rehab
+967,29-1141.00,Registered Nurse (RN) - Cardiology - Rockport
+968,31-1131.00,Certified Nursing Assistant (CNA) - Medical/Surgical
+969,31-1131.00,Villa - CNA
+970,31-1131.00,Unit/Patient Support Assistant (CNA)
+971,31-1131.00,CNA I or CNA II
+972,31-1131.00,Certified Nursing Assistant / Health Unit Coordinator INTERNAL
+973,31-1131.00,CNA I or CNA II
+974,29-2011.00,Lab Technologist- Harold Alfond Center for Cancer Care
+975,29-2011.00,Medical Technologist
+976,29-1171.00,"Family Nurse Practitioner - Cherry Hill, NJ Area Locations"
+977,29-1171.00,Nurse Practitioner - Primary Care Northern Tier Float
+978,29-1171.00,Registered Nurse Practitioner
+979,29-1141.00,Registered Nurse (RN)
+980,29-1171.00,Nurse Practitioner position in Lymphoma
+981,29-1171.00,NP - Nurse Practitioner - UAB Gastroenterology
+982,31-1121.00,Certified Home Health Aide - Hospice FT Days
+983,31-1121.00,Home Health Aide
+984,31-1121.00,Certified Home Health Aide (Per Diem)
+985,31-1121.00,Home Health Aide | Full Time | NEW STARTING PAY
+986,31-1121.00,$1500 Signing Bonus Home Health Aide
+987,31-1121.00,Home Health Aide - Home Health - New River Valley - Full Time
+988,31-1121.00,Home Health Aide
+989,31-1121.00,Home Health Aide
+990,29-2012.00,Medical Lab Technician/UKHC
