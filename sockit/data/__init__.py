@@ -169,7 +169,7 @@ def get_soc4_title(soc4):
     return get_lookup("soc4_titles")[str(soc4)]
 
 
-def get_embeddings():
+def get_soc_embeddings():
     """
     Get the pre-computed SOC code embeddings.
     """

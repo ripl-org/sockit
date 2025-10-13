@@ -6,6 +6,9 @@ codes to free-text job titles.
 """
 
 import re
+from operator import itemgetter
+from scipy import spatial
+from sentence_transformers import CrossEncoder, SentenceTransformer
 from sockit.log import Log
 from sockit.data import *
 
@@ -156,3 +159,51 @@ def batch_search(titles):
     """
     for title in titles:
         yield search(title)
+
+
+def embed(title):
+    """
+    Embed a job title using a Sequence Transformer model.
+    """
+    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2", revision="c9745ed")
+    return model.encode([title])[0]
+
+
+def nearest(embedding, k=10):
+    """
+    Returns the k nearest neighboring SOC codes in embedding space,
+    using cosine distance.
+    """
+    data = get_soc_embeddings()
+    distances = spatial.distance.cosine(data["embeddings"], embedding.reshape(1, -1)).reshape(-1)
+    results = [
+        {
+            "code": data["codes"][i],
+            "title": data["titles"][i],
+            "distance": distance,
+        }
+        for i, distance in enumerate(distances)
+    ]
+    results.sort(key=itemgetter("distance"))
+    return results[:k]
+
+
+def rerank(title, socs, threshold=0.5):
+    """
+    Rerank the nearest neighboring SOCs using a cross-encoder
+    Sequence Transformer model.
+    """
+    model = CrossEncoder("cross-encoder/ms-marco-MiniLM-L6-v2", revision="c5ee24c")
+    comparisons = [[title, soc["title"]] for soc in socs]
+    scores = model.predict(comparisons)
+    results = [
+        {
+            "code": socs[i]["code"],
+            "title": socs[i]["title"],
+            "score": score
+        }
+        for i, score in enumerate(scores)
+        if score >= threshold
+    ]
+    results.sort(key=itemgetter("score"), reverse=True)
+    return results
