@@ -2,6 +2,7 @@ import csv
 import json 
 import numpy as np
 from importlib import resources
+from numpy import asarray
 from sockit.log import Log
 from wordtrie import WordTrie
 
@@ -76,7 +77,7 @@ def get_skill(j):
     """
     Get the skill keyword associated with column j in the SOC-skill matrix.
     """
-    return get_index("skill")["id"][i]
+    return get_index("skill")["id"][j]
 
 
 def get_skill_id(skill):
@@ -166,6 +167,24 @@ def get_soc4_title(soc4):
     Lazy-load SOC titles and lookup the title for a 4-digit SOC code.
     """
     return get_lookup("soc4_titles")[str(soc4)]
+
+
+def get_soc_embeddings():
+    """
+    Get the pre-computed SOC code embeddings.
+    """
+    global DATA
+    key = "sockit.data.soc_embeddings"
+    if key not in DATA:
+        Log(__name__, "get_embeddings").debug("loading SOC embeddings")
+        with resources.path("sockit.data", "soc_embeddings.json") as f:
+            data = json.load(f)
+        DATA[key] = {
+            "embeddings": asarray(soc["embedding"] for soc in data),
+            "titles": [soc["title"] for soc in data],
+            "codes": [soc["soc"] for soc in data],
+        }
+    return DATA[key]
 
 
 def get_trie(name):

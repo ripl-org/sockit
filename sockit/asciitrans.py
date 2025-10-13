@@ -1,6 +1,7 @@
 """
 Translation table for transliteration of non-ASCII characters.
 """
+
 asciitrans = str.maketrans({
     u"\xc0": "A",
     u"\xc1": "A", # Remove accent mark over A
